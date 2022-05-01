@@ -3,7 +3,7 @@
 	group: "6717F1A631FB3B83"
 	order_index: 4
 	filename: "reliquary"
-	title: "Reliquary"
+	title: "圣遗物"
 	icon: {
 		id: "xreliquary:mercy_cross"
 		Count: 1b

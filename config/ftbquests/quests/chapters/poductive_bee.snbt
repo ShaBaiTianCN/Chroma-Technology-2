@@ -3,7 +3,7 @@
 	group: "6717F1A631FB3B83"
 	order_index: 3
 	filename: "poductive_bee"
-	title: "Productive bee"
+	title: "资源蜜蜂"
 	icon: "minecraft:honeycomb"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

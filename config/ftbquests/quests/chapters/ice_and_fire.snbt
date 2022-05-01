@@ -3,7 +3,7 @@
 	group: "6717F1A631FB3B83"
 	order_index: 2
 	filename: "ice_and_fire"
-	title: "Ice and Fire"
+	title: "冰火传说"
 	icon: "iceandfire:bestiary"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

@@ -3,7 +3,7 @@
 	group: "1D8552F8A45BF753"
 	order_index: 6
 	filename: "apotheosis"
-	title: "Apotheosis"
+	title: "神话"
 	icon: "apotheosis:boss_summoner"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

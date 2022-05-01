@@ -3,7 +3,7 @@
 	group: "247A2B0D60E02610"
 	order_index: 13
 	filename: "flux_networks"
-	title: "Flux Networks"
+	title: "通量网络"
 	icon: "fluxnetworks:admin_configurator"
 	default_quest_shape: "diamond"
 	default_hide_dependency_lines: false

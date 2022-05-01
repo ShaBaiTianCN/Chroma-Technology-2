@@ -3,7 +3,7 @@
 	group: "6717F1A631FB3B83"
 	order_index: 5
 	filename: "rats"
-	title: "Rats"
+	title: "老鼠"
 	icon: "rats:marbled_cheese_rat_head"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

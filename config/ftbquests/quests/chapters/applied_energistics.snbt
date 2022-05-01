@@ -3,7 +3,7 @@
 	group: "247A2B0D60E02610"
 	order_index: 14
 	filename: "applied_energistics"
-	title: "Applied Energistics"
+	title: "应用能源"
 	icon: "appliedenergistics2:controller"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

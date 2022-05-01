@@ -3,7 +3,7 @@
 	group: "247A2B0D60E02610"
 	order_index: 11
 	filename: "mekanism"
-	title: "Mekanism"
+	title: "通用机械"
 	icon: "mekanism:robit"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

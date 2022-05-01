@@ -3,7 +3,7 @@
 	group: "247A2B0D60E02610"
 	order_index: 9
 	filename: "big_reactors"
-	title: "Big Reactors"
+	title: "大型反应堆"
 	icon: "bigreactors:basic_reactorfuelrod"
 	default_quest_shape: "diamond"
 	default_hide_dependency_lines: false

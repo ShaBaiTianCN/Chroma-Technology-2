@@ -3,7 +3,7 @@
 	group: "247A2B0D60E02610"
 	order_index: 1
 	filename: "silent_mechanic"
-	title: "Silent Mechanic"
+	title: "寂静机械"
 	icon: "silents_mechanisms:stone_machine_frame"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

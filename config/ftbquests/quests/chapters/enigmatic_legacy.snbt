@@ -3,7 +3,7 @@
 	group: "674F2646E40CCF92"
 	order_index: 6
 	filename: "enigmatic_legacy"
-	title: "Enigmatic Legacy"
+	title: "神秘遗物"
 	icon: "enigmaticlegacy:cursed_ring"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

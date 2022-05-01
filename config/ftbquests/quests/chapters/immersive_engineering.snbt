@@ -3,7 +3,7 @@
 	group: "247A2B0D60E02610"
 	order_index: 0
 	filename: "immersive_engineering"
-	title: "Immersive Engineering"
+	title: "沉浸工程"
 	icon: "immersiveengineering:toolbox"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

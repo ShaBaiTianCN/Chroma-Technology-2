@@ -3,7 +3,7 @@
 	group: "247A2B0D60E02610"
 	order_index: 2
 	filename: "thermal_series"
-	title: "Thermal Series"
+	title: "热力系列"
 	icon: "thermal:wrench"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

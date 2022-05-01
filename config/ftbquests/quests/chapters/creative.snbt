@@ -3,7 +3,7 @@
 	group: "3D82B5A12B3D6336"
 	order_index: 2
 	filename: "creative"
-	title: "Creative"
+	title: "创造物品"
 	icon: "storagedrawers:creative_vending_upgrade"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

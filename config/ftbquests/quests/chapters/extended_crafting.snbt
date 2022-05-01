@@ -3,7 +3,7 @@
 	group: "3D82B5A12B3D6336"
 	order_index: 1
 	filename: "extended_crafting"
-	title: "Extended Crafting"
+	title: "合成拓展"
 	icon: "extendedcrafting:ultimate_singularity"
 	default_quest_shape: "diamond"
 	default_hide_dependency_lines: false

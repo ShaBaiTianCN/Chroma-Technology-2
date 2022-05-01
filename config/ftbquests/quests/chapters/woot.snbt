@@ -3,7 +3,7 @@
 	group: "02C811A04C8B1382"
 	order_index: 3
 	filename: "woot"
-	title: "Woot"
+	title: "生物工厂"
 	icon: {
 		id: "woot:intern"
 		Count: 1b

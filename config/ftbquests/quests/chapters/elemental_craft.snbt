@@ -3,7 +3,7 @@
 	group: "1D8552F8A45BF753"
 	order_index: 0
 	filename: "elemental_craft"
-	title: "Elemental craft"
+	title: "元素魔法"
 	icon: "elementalcraft:focus"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

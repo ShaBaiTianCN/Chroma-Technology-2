@@ -3,7 +3,7 @@
 	group: "247A2B0D60E02610"
 	order_index: 10
 	filename: "pneumaticraft"
-	title: "Pneumaticraft"
+	title: "气动工艺"
 	icon: "pneumaticcraft:pressure_chamber_wall"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

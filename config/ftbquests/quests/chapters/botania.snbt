@@ -3,7 +3,7 @@
 	group: "1D8552F8A45BF753"
 	order_index: 3
 	filename: "botania"
-	title: "Botania"
+	title: "植物魔法"
 	icon: {
 		id: "botania:dice"
 		Count: 1b

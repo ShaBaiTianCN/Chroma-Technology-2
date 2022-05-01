@@ -3,7 +3,7 @@
 	group: "02C811A04C8B1382"
 	order_index: 2
 	filename: "caged_mob"
-	title: "Caged Mob"
+	title: "笼中生物"
 	icon: "cagedmobs:mobcage"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

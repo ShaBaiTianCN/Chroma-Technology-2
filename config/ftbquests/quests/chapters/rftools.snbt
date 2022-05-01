@@ -3,7 +3,7 @@
 	group: "247A2B0D60E02610"
 	order_index: 4
 	filename: "rftools"
-	title: "RFTools"
+	title: "RF工具"
 	icon: "rftoolsbase:smartwrench"
 	default_quest_shape: "gear"
 	default_hide_dependency_lines: false

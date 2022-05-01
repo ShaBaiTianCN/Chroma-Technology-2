@@ -3,7 +3,7 @@
 	group: "247A2B0D60E02610"
 	order_index: 7
 	filename: "refined_storage"
-	title: "Refined Storage"
+	title: "精致存储"
 	icon: "refinedstorage:machine_casing"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

@@ -3,7 +3,7 @@
 	group: "6717F1A631FB3B83"
 	order_index: 7
 	filename: "sophisticated_backpacks"
-	title: "Sophisticated Backpacks"
+	title: "精妙背包"
 	icon: "sophisticatedbackpacks:backpack"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

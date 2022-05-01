@@ -3,7 +3,7 @@
 	group: "247A2B0D60E02610"
 	order_index: 16
 	filename: "solar_panels"
-	title: "Solar Flux Reborn"
+	title: "日光通量：重制版"
 	icon: "solarflux:sp_8"
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
