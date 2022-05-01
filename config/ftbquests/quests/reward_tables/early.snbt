@@ -1,7 +1,7 @@
 {
 	id: "38640C93E7726914"
 	order_index: 0
-	title: "Basic Loot Bag"
+	title: "基础战利品包"
 	icon: {
 		id: "inventorypets:pet_loot"
 		Count: 1b
