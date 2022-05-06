@@ -12,9 +12,9 @@
 			x: 1.5d
 			y: 0.0d
 			description: [
-				"The &7Compressed Iron Ingot&f is an Ingot from PneumaticCraft and is used in almost all of the mod's recipes."
+				"&7压缩铁锭&f是一种来自气动工艺的锭，用于几乎所有模组的配方中。"
 				""
-				"Use a &cTiny TnT&r of applied to make Compressed Iron."
+				"使用应用能源的&c迷你TNT&r来制作压缩铁锭。"
 			]
 			id: "3082CAF4D296AF61"
 			tasks: [{
@@ -31,7 +31,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			description: ["An &3Air Compressor&f is the foundation of PneumaticCraft. It is used to create compressed air from items that burn in a Furnace."]
+			description: ["&3空气压缩机&f是气动工艺的基础。它使用可以在熔炉中燃烧的物品来产生压缩空气。"]
 			dependencies: ["3082CAF4D296AF61"]
 			id: "11B20A34B2735148"
 			tasks: [{
@@ -46,7 +46,7 @@
 			}]
 		}
 		{
-			title: "Pressure Chamber"
+			title: "压力室"
 			icon: "pneumaticcraft:pressure_chamber_wall"
 			x: 6.0d
 			y: 0.0d
@@ -233,7 +233,7 @@
 			}]
 		}
 		{
-			title: "Assembly processing"
+			title: "组装加工"
 			icon: "pneumaticcraft:assembly_controller"
 			x: 9.0d
 			y: 1.5d
@@ -1092,7 +1092,7 @@
 			}]
 		}
 		{
-			title: "Refinery"
+			title: "精炼厂"
 			x: 3.5d
 			y: -2.5d
 			hide_dependency_lines: true

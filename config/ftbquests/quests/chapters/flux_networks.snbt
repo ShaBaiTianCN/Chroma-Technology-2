@@ -11,9 +11,9 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			subtitle: "The Main Component "
+			subtitle: "主要组件"
 			description: [
-				"The &8Flux Dust&r is the main component for the &6Flux Network&r mod"
+				"&8通量粉尘&r是&6通量网络&r模组的主要组件。"
 				""
 			]
 			id: "2FFB4745ADBDEC6C"
@@ -50,7 +50,7 @@
 		{
 			x: -1.0d
 			y: -1.0d
-			subtitle: "Flux Plug or Point"
+			subtitle: "通量核心"
 			dependencies: ["2FFB4745ADBDEC6C"]
 			id: "781ABC93569EB10F"
 			tasks: [{
@@ -67,11 +67,11 @@
 		{
 			x: 2.0d
 			y: 0.0d
-			subtitle: "Flux Wrench"
+			subtitle: "通量扳手"
 			description: [
-				"The &6Flux Configurator&r is made to copy/paste your desired network"
+				"&6能量网络配置器&r是用来复制/粘贴你想要的网络配置。"
 				""
-				"In order to do that : &5Sneak Right Click&r on the desired network to be copy and then &5right click&r to paste."
+				"为了做到这一点：你需要在你想要复制的网络上&5潜行右键&r，然后&5右键&r粘贴。"
 			]
 			dependencies: ["2FFB4745ADBDEC6C"]
 			id: "122750608EB9836B"
@@ -89,7 +89,7 @@
 		{
 			x: -2.0d
 			y: -2.0d
-			subtitle: "Insert Energy"
+			subtitle: "能源接入"
 			dependencies: [
 				"533AA3F7AEA92BC4"
 				"781ABC93569EB10F"
@@ -109,8 +109,8 @@
 		{
 			x: 1.0d
 			y: -1.0d
-			subtitle: "Wireless Charging"
-			description: ["The &4&lFlux Controller&r allows the player to charge items by using Wireless Energy. "]
+			subtitle: "无线充电"
+			description: ["&4&l能量网络控制器&r允许玩家使用无线能量为身上的物品充电。"]
 			dependencies: [
 				"2FFB4745ADBDEC6C"
 				"781ABC93569EB10F"
@@ -131,8 +131,8 @@
 		{
 			x: 2.0d
 			y: -2.0d
-			subtitle: "Energy Storage"
-			description: ["Can stock 1M FE"]
+			subtitle: "能量储存"
+			description: ["可储存1M FE"]
 			dependencies: ["533AA3F7AEA92BC4"]
 			id: "5637BF0D32315FD9"
 			tasks: [{
@@ -149,8 +149,8 @@
 		{
 			x: 1.0d
 			y: -3.5d
-			subtitle: "A middle storage for FE"
-			description: ["Can Stock 8M FE"]
+			subtitle: "一个中型FE存储器"
+			description: ["可储存8M FE"]
 			dependencies: ["5637BF0D32315FD9"]
 			id: "5ED54721304E941C"
 			tasks: [{
@@ -167,8 +167,8 @@
 		{
 			x: -1.0d
 			y: -3.5d
-			subtitle: "Bigger and better "
-			description: ["Can stock 128M FE"]
+			subtitle: "更大并且更好"
+			description: ["可储存128M FE"]
 			dependencies: ["5ED54721304E941C"]
 			id: "67AA5991FEF79890"
 			tasks: [{
@@ -185,7 +185,7 @@
 		{
 			x: -2.0d
 			y: 0.0d
-			subtitle: "Extract Energy"
+			subtitle: "提取能量"
 			dependencies: ["781ABC93569EB10F"]
 			id: "6C216DD3964FF801"
 			tasks: [{

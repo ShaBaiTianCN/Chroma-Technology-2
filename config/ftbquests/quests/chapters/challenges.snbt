@@ -9,12 +9,12 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "&8Grim Reaper"
+			title: "&8死神"
 			x: -0.5d
 			y: -2.5d
 			shape: "diamond"
-			subtitle: "The Undertaker will wait"
-			description: ["Survive death for &c100 hours&f !"]
+			subtitle: "送葬者会等着你的"
+			description: ["死里逃生&c100个小时&f！"]
 			id: "2F46EE4D9968FED6"
 			tasks: [{
 				id: "469FAB6DE28D8BD0"
@@ -57,12 +57,12 @@
 			]
 		}
 		{
-			title: "&cYou really like this modpack !"
+			title: "&c你真的喜欢这个整合包！"
 			x: 0.0d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "One More Time "
-			description: ["Play a total of &a500 hours&f to get this challenge !"]
+			subtitle: "再一次"
+			description: ["累计游玩&a500个小时&f即可完成此项挑战！"]
 			size: 2.5d
 			id: "5DE3A8731ECD43B9"
 			tasks: [{
@@ -93,12 +93,12 @@
 			]
 		}
 		{
-			title: "&bApplied is my Best Friend <3"
+			title: "&b应用能源是我的好朋友<3"
 			x: -2.0d
 			y: 2.0d
 			shape: "diamond"
-			subtitle: "Stocking stacks"
-			description: ["Add &a100,000,000 items&f in your AE2 system !"]
+			subtitle: "长袜堆栈"
+			description: ["在你的AE2系统中放入&a100,000,000个物品&f！"]
 			id: "60920DBC6BBB8054"
 			tasks: [{
 				id: "55E17045B12F2E94"
@@ -141,15 +141,15 @@
 			]
 		}
 		{
-			title: "&cHurt myself"
+			title: "&c自残"
 			x: 0.0d
 			y: -3.0d
 			shape: "diamond"
-			subtitle: "Raining blood"
+			subtitle: "血雨"
 			description: [
-				"This is not a game !"
+				"这不只是个游戏！"
 				""
-				"Take &41,000,000 points of damage&f !"
+				"受到&41,000,000点伤害&f！"
 			]
 			id: "1EF4D79EADB01AAA"
 			tasks: [{
@@ -180,12 +180,12 @@
 			]
 		}
 		{
-			title: "&dLightning Dragon Slayer"
+			title: "&d电龙杀手"
 			x: 2.5d
 			y: 0.5d
 			shape: "diamond"
-			subtitle: "Zeus Dragon"
-			description: ["Kill &d25 Lightning Dragons&f !"]
+			subtitle: "宙斯龙"
+			description: ["击杀&d25只电龙&f！"]
 			id: "3DDC6AC4C62254FB"
 			tasks: [{
 				id: "7F2A8D8BF4C9AFD9"
@@ -228,12 +228,12 @@
 			]
 		}
 		{
-			title: "&6Fire Dragon Slayer"
+			title: "&6火龙杀手"
 			x: 3.0d
 			y: 0.0d
 			shape: "diamond"
-			subtitle: "To HellFire !"
-			description: ["Kill &625 Fire Dragons&f !"]
+			subtitle: "地狱之火！"
+			description: ["击杀&625只冰龙&f！"]
 			id: "3E0A389067D6B414"
 			tasks: [{
 				id: "72020A014B56EC4B"
@@ -276,12 +276,12 @@
 			]
 		}
 		{
-			title: "&bIce Dragon Slayer"
+			title: "&b冰龙杀手"
 			x: 2.5d
 			y: -0.5d
 			shape: "diamond"
-			subtitle: "Ice bucket challenge 2.0"
-			description: ["Kill &b25 Ice Dragons&f !"]
+			subtitle: "冰桶挑战2.0"
+			description: ["击杀&b25只冰龙&f！"]
 			id: "044999A0F5B29F96"
 			tasks: [{
 				id: "7C8039E3FF598F2C"
@@ -324,12 +324,12 @@
 			]
 		}
 		{
-			title: "&7Berserker"
+			title: "&7狂暴战士"
 			x: 0.5d
 			y: -2.5d
 			shape: "diamond"
-			subtitle: "Amon Amarth"
-			description: ["Cause &c500,000 damage points&f !"]
+			subtitle: "厄运之山"
+			description: ["造成&c500,000点伤害&f！"]
 			id: "69492BADC1F15C05"
 			tasks: [{
 				id: "5C218C9463DE9E0F"
@@ -365,12 +365,12 @@
 			]
 		}
 		{
-			title: "&cMob Slayer !"
+			title: "&c生物杀手"
 			x: -0.5d
 			y: 2.5d
 			shape: "diamond"
-			subtitle: "Angel of Death"
-			description: ["Kill &c100,000 mobs&f !"]
+			subtitle: "死神"
+			description: ["击杀&c100,000只生物&f！"]
 			id: "77790259F36AA4FD"
 			tasks: [{
 				id: "39E2A537FF89EF1A"
@@ -406,15 +406,15 @@
 			]
 		}
 		{
-			title: "&dMake love !"
+			title: "&d交配"
 			x: 0.0d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "Green Peace Member"
+			subtitle: "绿色和平组织成员"
 			description: [
-				"Make love Not War !"
+				"交配而不是战争！"
 				""
-				"Bred &d1000 animals&f !"
+				"繁殖&d1000只动物&f！"
 			]
 			id: "591FCC81FE6297FD"
 			tasks: [{
@@ -450,12 +450,12 @@
 			]
 		}
 		{
-			title: "&aExplorer like Indiana Jones !"
+			title: "&a像是印第安纳·琼斯这样的探险家"
 			x: -2.5d
 			y: -0.5d
 			shape: "diamond"
-			subtitle: "Harisson Ford will be proud"
-			description: ["Travel &a10,000,000 blocks&f !"]
+			subtitle: "哈里森·福特会感到自豪的"
+			description: ["行走&a10,000,000格&f！"]
 			id: "71D623F3A9A7FD82"
 			tasks: [{
 				id: "73892CEC664BA6C0"
@@ -491,12 +491,12 @@
 			]
 		}
 		{
-			title: "&4ALT F4 &cPro Player"
+			title: "&4ALT F4&c大神"
 			x: -2.0d
 			y: -2.0d
 			shape: "diamond"
-			subtitle: "&c&kllllll &r&cRAGE QUIT &kllllll"
-			description: ["&cALT F4&f is not the best solution !"]
+			subtitle: "&c&kllllll&r&c强制退出&kllllll"
+			description: ["显然&cALT F4&f并不是最好的解决方法！"]
 			id: "3FD95D2F53A5D8D7"
 			tasks: [{
 				id: "68C53762959576CF"
@@ -526,15 +526,15 @@
 			]
 		}
 		{
-			title: "&2I am a kangaroo"
+			title: "&2我是袋鼠"
 			x: -3.0d
 			y: 0.0d
 			shape: "diamond"
-			subtitle: "Australia best kept secret"
+			subtitle: "澳大利亚最好保守秘密"
 			description: [
-				"Jump &350,000 times&f ! "
+				"跳跃&350,000次&f ！"
 				""
-				"Don't break your space bar !"
+				"不要弄坏你的空格键！"
 			]
 			id: "748257DE0DBCE2D2"
 			tasks: [{
@@ -565,12 +565,12 @@
 			]
 		}
 		{
-			title: "&5Power of Enchanting"
+			title: "&5附魔之力"
 			x: 2.0d
 			y: -2.0d
 			shape: "diamond"
 			subtitle: "&d&kdffffff&r&dC&ksd&r&dT&kfsd&r&d2&ksfsfjj"
-			description: ["Enchant &5500 items &f!"]
+			description: ["附魔&5500个物品&f！"]
 			id: "07B0BF77A8BBFE7F"
 			tasks: [{
 				id: "7D0B0934E60106FF"
@@ -614,12 +614,12 @@
 			]
 		}
 		{
-			title: "&9HOLD SNEAK !"
+			title: "&9保持潜行！"
 			x: -2.5d
 			y: 0.5d
 			shape: "diamond"
-			subtitle: "It doesn't grow trees"
-			description: ["Everyone twerk !"]
+			subtitle: "它并不促进植物生长"
+			description: ["一起来做电臀舞吧！"]
 			id: "56E8E6789F8F9EE0"
 			tasks: [{
 				id: "0C5DC3F689F2EDFC"
@@ -653,12 +653,12 @@
 			]
 		}
 		{
-			title: "&eDing Dong !"
+			title: "&e叮咚！"
 			x: 2.0d
 			y: 2.0d
 			shape: "diamond"
-			subtitle: "From whom the bells tolls !"
-			description: ["Toll the Villager's Bell a &e1000 times &f!"]
+			subtitle: "钟声从谁那里敲响？"
+			description: ["敲响&e1000次&f钟！"]
 			id: "49AAE355A693705F"
 			tasks: [{
 				id: "39782210838EF26A"
@@ -688,18 +688,18 @@
 			]
 		}
 		{
-			title: "&4My nightmare !"
+			title: "&4我的噩梦！"
 			x: 0.5d
 			y: 2.5d
 			shape: "diamond"
-			subtitle: "Wind of Change"
+			subtitle: "交易之风"
 			description: [
-				"Those Wandering Traders are everywhere !!! "
-				"Everytime they spawn in front of you !"
+				"流浪商人无处不在！！！"
+				"每一次他们都在你面前生成！"
 				""
-				"Kill &550 Wandering Trader &f!"
+				"杀死&550个流浪商人&f！"
 				""
-				"You now can seek for revenge ! "
+				"你现在可以复仇了！"
 			]
 			id: "6C6222B93169F02C"
 			tasks: [{

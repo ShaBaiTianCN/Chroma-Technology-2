@@ -11,8 +11,8 @@
 		{
 			x: -1.0d
 			y: 0.5d
-			subtitle: "Welcome in supernaturals"
-			description: ["The main book ok eidolon"]
+			subtitle: "欢迎来到超自然"
+			description: ["这本书很好，幻梦"]
 			id: "44402901837C9E7C"
 			tasks: [{
 				id: "15811A37A874AEFA"
@@ -26,10 +26,10 @@
 			}]
 		}
 		{
-			title: "Kill Zombie Brute"
+			title: "杀死僵尸暴君"
 			x: -2.0d
 			y: 2.0d
-			subtitle: "I'm not the hulk"
+			subtitle: "我不是浩克"
 			dependencies: ["44402901837C9E7C"]
 			id: "435B403091249EE4"
 			tasks: [{
@@ -47,13 +47,13 @@
 		{
 			x: 0.0d
 			y: 2.0d
-			subtitle: "After envy the wraith"
+			subtitle: "在嫉妒幽魂之后"
 			dependencies: ["44402901837C9E7C"]
 			id: "74FEF1ECEE7CED77"
 			tasks: [{
 				id: "49005E8C2976B840"
 				type: "kill"
-				title: "Kill Wraith"
+				title: "杀死幽魂"
 				entity: "eidolon:wraith"
 				value: 10L
 			}]
@@ -66,7 +66,7 @@
 		{
 			x: -1.0d
 			y: -1.0d
-			subtitle: "Not purer but pewter"
+			subtitle: "不是更纯而是锡"
 			dependencies: ["44402901837C9E7C"]
 			id: "42BA14D76ED7D256"
 			tasks: [{
@@ -83,8 +83,8 @@
 		{
 			x: -1.0d
 			y: -2.5d
-			subtitle: "The ingot one"
-			description: [""]
+			subtitle: "锭一个"
+			description: ["锡镴锭"]
 			dependencies: ["42BA14D76ED7D256"]
 			id: "0FDF771A75BD54BC"
 			tasks: [{
@@ -101,10 +101,10 @@
 		{
 			x: -3.0d
 			y: -1.5d
-			subtitle: "Your protection again wraith"
+			subtitle: "免受幽魂袭扰"
 			description: [
-				"Just burn bones, this material will block wraith or hostile entity."
-				"It's also a primary material for ritual."
+				"只要烧制骨头，这种材料就会阻挡幽灵或敌对实体。"
+				"它也是仪式的主要材料。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["44402901837C9E7C"]
@@ -124,11 +124,11 @@
 			icon: "eidolon:necrotic_focus"
 			x: -2.0d
 			y: -4.5d
-			subtitle: "Become a necrotic mage"
+			subtitle: "成为死灵法师"
 			description: [
-				"This will be all you need for ritual."
-				"The brazier need to be in all ritual, for starting the ritual you just need to ignit the brazier with a flint and steel."
-				"Sometines you will need the hand, sometimes you will need the focus and sometimes you will need both of it."
+				"这将是你所有需要的仪式。"
+				"火盆在所有仪式中都被需要，为了开始仪式，你只需要用打火石点燃火盆。"
+				"有时你需要用手，有时你需要专注，有时你需要两者兼而有之。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0FDF771A75BD54BC"]
@@ -160,10 +160,10 @@
 		{
 			x: -3.0d
 			y: -5.5d
-			subtitle: "A crystallyzed soul"
+			subtitle: "一个结晶的灵魂"
 			description: [
-				"You need to capture a wraith and do the ritual of crystallization"
-				"This material can be asked for craft or ritual"
+				"你需要抓到一个幽魂并进行结晶仪式"
+				"这些材料可以用来合成或仪式"
 			]
 			dependencies: ["3406BA4778BEE146"]
 			id: "2E0011FFB28B2DF3"
@@ -181,8 +181,8 @@
 		{
 			x: 1.0d
 			y: -1.5d
-			subtitle: "Sword of the devil"
-			description: ["Give wither damage and heal you"]
+			subtitle: "魔鬼之剑"
+			description: ["给予凋零伤害并治愈你"]
 			hide_dependency_lines: true
 			dependencies: ["190F15AD9C1E5119"]
 			id: "13DD47F4731A47A3"
@@ -206,8 +206,8 @@
 		{
 			x: 1.5d
 			y: -0.5d
-			subtitle: "Hearth of the devil"
-			description: ["Store the extra heal"]
+			subtitle: "魔鬼的健康"
+			description: ["储存额外生命"]
 			hide_dependency_lines: true
 			dependencies: ["190F15AD9C1E5119"]
 			id: "711EBDD04E850F21"
@@ -225,11 +225,11 @@
 		{
 			x: -1.0d
 			y: -4.5d
-			subtitle: "I'm a witch now"
+			subtitle: "我现在是女巫了"
 			description: [
-				"You need a heat source below and water in  the crucible"
-				"Some craft will need step so watchout and don't put everything directly"
-				"But be quick because you solution will disepear"
+				"坩埚下面需要一个热源，里面需要水"
+				"有些合成需要步骤，所以要当心，不要把所有东西都直接放进去"
+				"但是要快，因为你的溶液会消失"
 			]
 			hide_dependency_lines: true
 			dependencies: ["3406BA4778BEE146"]
@@ -246,11 +246,11 @@
 			}]
 		}
 		{
-			title: "Arcane Gold"
+			title: "秘金"
 			x: -1.0d
 			y: -5.5d
-			subtitle: "A new way of goldiness"
-			description: ["A two step craft, first you need to put 2 redstone and one  soul shard"]
+			subtitle: "金闪闪的新方式"
+			description: ["一个两道步骤的合成，首先你需要放两个红石和一个魂之碎片"]
 			dependencies: ["190F15AD9C1E5119"]
 			id: "38D913B229B4C3BA"
 			tasks: [{
@@ -268,8 +268,8 @@
 		{
 			x: -1.0d
 			y: -6.5d
-			subtitle: "Better but harder"
-			description: ["Notice for this one you need to right click the crucible 2 times for recipes."]
+			subtitle: "更好但更难"
+			description: ["注意，对于这个，你需要右击坩埚2次。"]
 			dependencies: ["190F15AD9C1E5119"]
 			id: "3CE203DAEAE124D4"
 			tasks: [{
@@ -284,11 +284,11 @@
 			}]
 		}
 		{
-			title: "Inlay"
+			title: "嵌材"
 			icon: "eidolon:pewter_inlay"
 			x: -3.5d
 			y: -0.5d
-			subtitle: "It's not a way"
+			subtitle: "这不是一种方式"
 			hide_dependency_lines: true
 			dependencies: ["0FDF771A75BD54BC"]
 			id: "4366C12FF103E7CE"
@@ -311,13 +311,13 @@
 			}]
 		}
 		{
-			title: "A new used"
+			title: "一种新运用"
 			x: -1.0d
 			y: 3.5d
-			subtitle: "A cheaper version"
+			subtitle: "更便宜的版本"
 			description: [
-				"For the apothecary stand you need to place it on the top of the crucible, this will allow you to use it without blaze"
-				"For the soul enchanter you will need soul shard not lapis, and you can apply multiple enchantment"
+				"对于药剂师酿造台，你需要把它放在坩埚的顶部，这样你就可以在没有火焰的情况下使用它"
+				"对于灵歌附魔台，你需要的是灵魂碎片而不是青金石，你可以应用多重附魔"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -353,10 +353,10 @@
 		{
 			x: 0.0d
 			y: -4.5d
-			subtitle: "Now i'm a Mage"
+			subtitle: "现在我是法师了"
 			description: [
 				""
-				"This crafting station as 4 more slots, and will craft item from eidolon"
+				"这个工作台将增加4个槽位，并将用来制作eidolon的物品"
 			]
 			hide_dependency_lines: true
 			dependencies: ["190F15AD9C1E5119"]
@@ -373,11 +373,11 @@
 			}]
 		}
 		{
-			title: "Warlock's stuff"
+			title: "术士的东西"
 			x: 1.0d
 			y: -5.5d
-			subtitle: "Warlock vibes"
-			description: ["When full set is applied it give some nice effect"]
+			subtitle: "术士的感觉"
+			description: ["当装备全套时，会有一些不错的效果"]
 			dependencies: ["29EB777C9A14B0F1"]
 			id: "331C2ED42C8E30A4"
 			tasks: [
@@ -422,14 +422,14 @@
 			}]
 		}
 		{
-			title: "Simple altar"
+			title: "简易祭坛"
 			icon: "eidolon:straw_effigy"
 			x: -1.0d
 			y: -9.0d
-			subtitle: "The theory of life"
+			subtitle: "生命理论"
 			description: [
-				"You need to place the idol on the table to make the ritual work"
-				"To upgrade the altar you will need some item to place on the table, refer to the book to Know what is the best for your altar"
+				"你需要把塑像放在桌子上，来让仪式开始"
+				"要升级祭坛，你需要一些物品放在桌子上，参考一下这本书，了解什么最适合你的祭坛"
 			]
 			hide_dependency_lines: true
 			dependencies: ["29EB777C9A14B0F1"]
@@ -454,12 +454,12 @@
 			}]
 		}
 		{
-			title: "Advanced altar"
+			title: "高级祭坛"
 			icon: "eidolon:unholy_effigy"
 			x: -1.0d
 			y: -10.0d
-			subtitle: "Now i know 42"
-			description: ["Like the normal one but now you can do better craft "]
+			subtitle: "现在我明白42了（终极答案）"
+			description: ["和普通的一样，但现在你可以做更好的合成了"]
 			dependencies: ["2B8A415AA6108395"]
 			id: "1E2529BB6F837FEE"
 			tasks: [
@@ -484,10 +484,10 @@
 		{
 			x: -2.0d
 			y: -8.5d
-			subtitle: "You choose wizely"
+			subtitle: "你的选择很明智"
 			description: [
-				"You will need the gaublet for sacrifice or for blood"
-				"This item will be placed on the altar"
+				"你需要这个高脚杯来献祭或献血"
+				"将这件物品放置在祭坛上"
 			]
 			dependencies: ["2B8A415AA6108395"]
 			id: "086E86B35DE76656"
@@ -503,12 +503,12 @@
 			}]
 		}
 		{
-			title: "Item For A Good Altar"
+			title: "优秀祭坛的道具"
 			icon: "minecraft:wither_skeleton_skull"
 			x: 0.0d
 			y: -8.5d
-			subtitle: "The Power of SATAN"
-			description: ["For a good altar you will need this item, obviously the wither rose must be placed in a flower pot"]
+			subtitle: "撒旦之力"
+			description: ["为了一个优秀的祭坛，你需要这个物品，很明显，凋零玫瑰必须放在花盆里"]
 			dependencies: ["2B8A415AA6108395"]
 			id: "6490CC6C5DF733B0"
 			tasks: [
@@ -535,7 +535,7 @@
 			}]
 		}
 		{
-			title: "Mystical Signs"
+			title: "神秘符文"
 			icon: {
 				id: "botania:cosmetic_questgiver_mark"
 				Count: 1b
@@ -544,22 +544,22 @@
 			x: -1.0d
 			y: -11.5d
 			shape: "diamond"
-			subtitle: "Sign of life"
+			subtitle: "生命符文"
 			description: [
-				"Now you are entering in the late game of eidolon, for the late game you will need to discover the mysticals signs."
-				"With those signs, by selecting it in the book, you can perform prayers. Some prayers will unlock mystical signs or will transform items."
+				"现在你进入了幻梦的后期，在后期中你需要发现神秘符文。"
+				"通过在书中选择这些符文，你就可以进行祈祷。一些祈祷会开启神秘符文或改变物品。"
 				""
-				"-For the first sign you will need to throw your book to a witch, this witch will regive you your book but with a new sign"
+				"-对于第一个符文，你需要把你的书扔给一个女巫，这个女巫会返还你的书,但书中有一个新的符文"
 				""
-				"-For the second Just throw the book to a cleric villager"
+				"-对于第二个，把书扔给一个牧师村民"
 				""
-				"-For the third you will need to pray twice with 3 wicked signs"
+				"-对于第三个，你需要用邪恶符文祈祷三次"
 				""
-				"-For the fourth sign you need to perform a new prayer but this time with the gaublet full of blood (kill a pig near the gaublet) and with the combination ( Wicked, Blood, Wicked )"
+				"-对于第四个符文，你需要执行一个新的祈祷，但这次是用充满血的高脚杯（在高脚杯附近杀死一头猪）和祈祷组合（邪恶，血液，邪恶）"
 				""
-				"-For the fifth and last sign, you'll need to unlock prayer by sacrifying a villager, to unlock this prayer you'll need to make an unholy symbol, fill the gaublet with blood and perform the prayer ( Wicked, Blood, Wicked )."
-				"Now you need to fill the gaublet with blood of villager, and perform the prayer ( Blood, Wicked, Blood, Soul )."
-				"And finally you will get the last sign"
+				"-对于第五个也是最后一个符文，你需要通过献祭村民来解锁祈祷，要解锁这个祈祷，你需要制作一个亵渎象征符，用鲜血填满高脚杯，然后执行祈祷（邪恶，鲜血，邪恶）。"
+				"现在，你需要用村民的鲜血填满高脚杯，并进行祈祷（鲜血、邪恶、鲜血、灵魂）。"
+				"最后你会得到最后的符文"
 			]
 			dependencies: ["2B8A415AA6108395"]
 			hide: false
@@ -568,7 +568,7 @@
 			tasks: [{
 				id: "295FCDF27D851B57"
 				type: "checkmark"
-				title: "The Sign"
+				title: "符文"
 			}]
 			rewards: [{
 				id: "4A4782B8C3763ADC"
@@ -579,8 +579,8 @@
 		{
 			x: -3.0d
 			y: -9.5d
-			subtitle: "Let's pact with the devil"
-			description: ["For this one you need to sing when looking a pewter inlay with the combination ( Wicked, soul, wicked, soul )"]
+			subtitle: "让我们和魔鬼契约"
+			description: ["对于这个，看着锡镴嵌材，祈祷（邪恶，灵魂，邪恶，灵魂）"]
 			dependencies: ["2B8A415AA6108395"]
 			id: "49E209C96E8B5FBD"
 			tasks: [{
@@ -597,8 +597,8 @@
 		{
 			x: 1.0d
 			y: -9.5d
-			subtitle: "I'm the new Reaper"
-			description: ["The reaper will permit you to loot soul shard on mob"]
+			subtitle: "我是新死神"
+			description: ["死神镰刀将允许你从怪物身上掠夺灵魂碎片"]
 			dependencies: ["2B8A415AA6108395"]
 			id: "0D4EA393B6895823"
 			tasks: [{

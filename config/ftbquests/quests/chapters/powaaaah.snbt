@@ -49,9 +49,9 @@
 			y: -1.5d
 			shape: "diamond"
 			description: [
-				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
+				"&b末影单元&f是一个用来将&6存储能量（FE）&f上传到玩家的&6末影网络&f的设备。"
 				""
-				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+				"如果一个频道有有效的电容空间并存有能量，你便可以在任意位置的&6末影单元&f中访问该频道并提取/存储能量。"
 			]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "61BCF2D3E927ABB7"
@@ -70,7 +70,7 @@
 			x: 16.0d
 			y: 0.5d
 			shape: "diamond"
-			description: ["&bThe Thermo Generator &fis a &6800FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["&b热力发电机（下界）&f是一个有&6800FE&f发电量的发电机，如果想要它工作，则需要把它&6放置在高温块/流体&f（比如熔岩）上，并接入冷却流体（比如水）。"]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "0C735A02F1B9234B"
 			tasks: [{
@@ -88,7 +88,7 @@
 			x: 17.5d
 			y: 0.0d
 			shape: "diamond"
-			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			description: ["&b玩家供电仪&f是一个用于给&6物品无限充电&f的设备。供电仪通电并放入已绑定玩家的&6绑定卡&f后可以给玩家物品栏内的所有物品充电，如果放入的是&6绑定卡（跨维度）&f则只要供电仪所在的区块加载便可以&6跨维度&f为玩家物品栏内的物品充电。"]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "65F721F25FF49B6A"
 			tasks: [{
@@ -106,7 +106,7 @@
 			x: 17.0d
 			y: -0.5d
 			shape: "diamond"
-			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			description: ["&b熔炉发电机&f是一个通过燃烧&6固体燃料&f（比如煤、木材）产生能量的&6FE发电机&f。"]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "793763A11F94E992"
 			tasks: [{
@@ -124,7 +124,7 @@
 			x: 17.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			description: ["&b能量漏斗&f可以充能面向端的&6可交互物品栏&f（如箱子）内的需要能量的物品。"]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "25F4D9591846BD3C"
 			tasks: [{
@@ -142,7 +142,7 @@
 			x: 16.0d
 			y: -1.5d
 			shape: "diamond"
-			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			description: ["&b能量单元&f是一个用来&6存储能量（FE）&f的设备。"]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "60E61FBF1824B1DD"
 			tasks: [{
@@ -160,7 +160,7 @@
 			x: 15.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			description: ["&b能量提取器&f能将物品内存有的能量提取到内部的缓存中，接入电缆能将内部能量转移出并再次使用。"]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "7514DA68510DE06E"
 			tasks: [{
@@ -178,7 +178,7 @@
 			x: 17.0d
 			y: 0.5d
 			shape: "diamond"
-			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			description: ["&b反应堆&f是一个使用&6晶质铀&f作为燃料的多方块&6FE发电机&f。"]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "468850F814BC9037"
 			tasks: [{
@@ -198,9 +198,9 @@
 			y: -0.5d
 			shape: "diamond"
 			description: [
-				"&bCables &fare used to &6transfer power &fbetween machines."
+				"&b能量线缆&f是在机器之前&6传输能量&f的电缆。"
 				""
-				"You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected."
+				"你可以通过使用配置模式下的&b扳手&f&6右键&f点击线缆来改变&6传输模式&f。"
 			]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "0E1D74749DDD0A54"
@@ -219,7 +219,7 @@
 			x: 16.0d
 			y: -0.5d
 			shape: "diamond"
-			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			description: ["&b岩浆发电机&f是一个通过消耗&6高温流体&f（比如岩浆）产生能量的&6FE发电机&f。"]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "1B39EF68A68E999E"
 			tasks: [{
@@ -237,7 +237,7 @@
 			x: 16.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			description: ["&b太阳能板&f是一个通过&6太阳照射&f产生能量的&6FE发电机&f。"]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "1996967F6BAAA6C9"
 			tasks: [{
@@ -256,9 +256,9 @@
 			y: -0.5d
 			shape: "diamond"
 			description: [
-				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
+				"&b末影道门&f将能量无线传输到附近的&6末影道门&f和&6末影网络中&f。"
 				""
-				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+				"它不像&6末影单元&f，你无法通过它升级频道容量。"
 			]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "1F2CDA1EFE61E3E1"
@@ -294,7 +294,7 @@
 			x: 16.5d
 			y: 0.0d
 			shape: "diamond"
-			description: ["The &bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			description: ["当&b电池&f在玩家物品栏中，可以为其他物品充能。你也可以通过&6shift右键&f电池打开&6末影网络的GUI&f，如果电池拥有能量，那它也将应用于末影网络。"]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "7E35FA60568C0C46"
 			tasks: [{
@@ -352,7 +352,7 @@
 			x: 10.0d
 			y: -1.5d
 			shape: "diamond"
-			description: ["&bThe Energy Cell &fits a block used to &6store energy (FE)&f."]
+			description: ["&b能量单元&f是一个用来&6存储能量（FE）&f的设备。"]
 			dependencies: ["0D8119105447C49D"]
 			id: "49102E7021F6BE09"
 			tasks: [{
@@ -371,9 +371,9 @@
 			y: -1.5d
 			shape: "diamond"
 			description: [
-				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
+				"&b末影单元&f是一个用来将&6存储能量（FE）&f上传到玩家的&6末影网络&f的设备。"
 				""
-				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+				"如果一个频道有有效的电容空间并存有能量，你便可以在任意位置的&6末影单元&f中访问该频道并提取/存储能量。"
 			]
 			dependencies: ["0D8119105447C49D"]
 			id: "15FB462C98FB4DAF"
@@ -393,9 +393,9 @@
 			y: -0.5d
 			shape: "diamond"
 			description: [
-				"&bCables &fare used to &6transfer power &fbetween machines."
+				"&b能量线缆&f是在机器之前&6传输能量&f的电缆。"
 				""
-				"You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected."
+				"你可以通过使用配置模式下的&b扳手&f&6右键&f点击线缆来改变&6传输模式&f。"
 			]
 			dependencies: ["0D8119105447C49D"]
 			id: "3594073246DD9232"
@@ -415,9 +415,9 @@
 			y: -0.5d
 			shape: "diamond"
 			description: [
-				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
+				"&b末影道门&f将能量无线传输到附近的&6末影道门&f和&6末影网络中&f。"
 				""
-				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+				"它不像&6末影单元&f，你无法通过它升级频道容量。"
 			]
 			dependencies: ["0D8119105447C49D"]
 			id: "67FD7AF0B9A296EE"
@@ -453,7 +453,7 @@
 			x: 11.0d
 			y: -0.5d
 			shape: "diamond"
-			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			description: ["&b熔炉发电机&f是一个通过燃烧&6固体燃料&f（比如煤、木材）产生能量的&6FE发电机&f。"]
 			dependencies: ["0D8119105447C49D"]
 			id: "21024B42C2C145B8"
 			tasks: [{
@@ -471,7 +471,7 @@
 			x: 10.0d
 			y: -0.5d
 			shape: "diamond"
-			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			description: ["&b岩浆发电机&f是一个通过消耗&6高温流体&f（比如岩浆）产生能量的&6FE发电机&f。"]
 			dependencies: ["0D8119105447C49D"]
 			id: "68FDEF4BC74CD547"
 			tasks: [{
@@ -489,7 +489,7 @@
 			x: 10.0d
 			y: 0.5d
 			shape: "diamond"
-			description: ["&bThe Thermo Generator &fis a &6200FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["&b热力发电机（下界）&f是一个有&6200FE&f发电量的发电机，如果想要它工作，则需要把它&6放置在高温块/流体&f（比如熔岩）上，并接入冷却流体（比如水）。"]
 			dependencies: ["0D8119105447C49D"]
 			id: "4BE021261B73FC6E"
 			tasks: [{
@@ -507,7 +507,7 @@
 			x: 10.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			description: ["&b太阳能板&f是一个通过&6太阳照射&f产生能量的&6FE发电机&f。"]
 			dependencies: ["0D8119105447C49D"]
 			id: "5C227F57DB77E6F1"
 			tasks: [{
@@ -525,7 +525,7 @@
 			x: 11.0d
 			y: 0.5d
 			shape: "diamond"
-			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			description: ["&b反应堆&f是一个使用&6晶质铀&f作为燃料的多方块&6FE发电机&f。"]
 			dependencies: ["0D8119105447C49D"]
 			id: "4EBA6DF65F76F53D"
 			tasks: [{
@@ -544,7 +544,7 @@
 			x: 11.5d
 			y: 0.0d
 			shape: "diamond"
-			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			description: ["&b玩家供电仪&f是一个用于给&6物品无限充电&f的设备。供电仪通电并放入已绑定玩家的&6绑定卡&f后可以给玩家物品栏内的所有物品充电，如果放入的是&6绑定卡（跨维度）&f则只要供电仪所在的区块加载便可以&6跨维度&f为玩家物品栏内的物品充电。"]
 			dependencies: ["0D8119105447C49D"]
 			id: "47AC91803E031490"
 			tasks: [{
@@ -562,7 +562,7 @@
 			x: 11.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			description: ["&b能量漏斗&f可以充能面向端的&6可交互物品栏&f（如箱子）内的需要能量的物品。"]
 			dependencies: ["0D8119105447C49D"]
 			id: "1F385AF36A90D7E8"
 			tasks: [{
@@ -580,7 +580,7 @@
 			x: 9.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			description: ["&b能量提取器&f能将物品内存有的能量提取到内部的缓存中，接入电缆能将内部能量转移出并再次使用。"]
 			dependencies: ["0D8119105447C49D"]
 			id: "2DF5F62E872C9D2E"
 			tasks: [{
@@ -598,7 +598,7 @@
 			x: 10.5d
 			y: 0.0d
 			shape: "diamond"
-			description: ["The &bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			description: ["当&b电池&f在玩家物品栏中，可以为其他物品充能。你也可以通过&6shift右键&f电池打开&6末影网络的GUI&f，如果电池拥有能量，那它也将应用于末影网络。"]
 			dependencies: ["0D8119105447C49D"]
 			id: "4DE8BDF69E22A6E1"
 			tasks: [{
@@ -620,7 +620,7 @@
 			x: 4.0d
 			y: -1.5d
 			shape: "diamond"
-			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			description: ["&b能量单元&f是一个用来&6存储能量（FE）&f的设备。"]
 			dependencies: ["0B7E73D585F86047"]
 			id: "5E95CF0FBB66D83E"
 			tasks: [{
@@ -639,9 +639,9 @@
 			y: -1.5d
 			shape: "diamond"
 			description: [
-				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
+				"&b末影单元&f是一个用来将&6存储能量（FE）&f上传到玩家的&6末影网络&f的设备。"
 				""
-				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+				"如果一个频道有有效的电容空间并存有能量，你便可以在任意位置的&6末影单元&f中访问该频道并提取/存储能量。"
 			]
 			dependencies: ["0B7E73D585F86047"]
 			id: "51B352951B724B6F"
@@ -661,9 +661,9 @@
 			y: -0.5d
 			shape: "diamond"
 			description: [
-				"&bCables &fare used to &6transfer power &fbetween machines."
+				"&b能量线缆&f是在机器之前&6传输能量&f的电缆。"
 				""
-				"You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected."
+				"你可以通过使用配置模式下的&b扳手&f&6右键&f点击线缆来改变&6传输模式&f。"
 			]
 			dependencies: ["0B7E73D585F86047"]
 			id: "5783E118C6674AB4"
@@ -683,9 +683,9 @@
 			y: -0.5d
 			shape: "diamond"
 			description: [
-				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
+				"&b末影道门&f将能量无线传输到附近的&6末影道门&f和&6末影网络中&f。"
 				""
-				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+				"它不像&6末影单元&f，你无法通过它升级频道容量。"
 			]
 			dependencies: ["0B7E73D585F86047"]
 			id: "0DCCA14ACC837419"
@@ -721,7 +721,7 @@
 			x: 5.0d
 			y: -0.5d
 			shape: "diamond"
-			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			description: ["&b熔炉发电机&f是一个通过燃烧&6固体燃料&f（比如煤、木材）产生能量的&6FE发电机&f。"]
 			dependencies: ["0B7E73D585F86047"]
 			id: "7B6C5CBA8F926BCB"
 			tasks: [{
@@ -739,7 +739,7 @@
 			x: 4.0d
 			y: -0.5d
 			shape: "diamond"
-			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			description: ["&b岩浆发电机&f是一个通过消耗&6高温流体&f（比如岩浆）产生能量的&6FE发电机&f。"]
 			dependencies: ["0B7E73D585F86047"]
 			id: "40CC078ECD314326"
 			tasks: [{
@@ -757,7 +757,7 @@
 			x: 4.0d
 			y: 0.5d
 			shape: "diamond"
-			description: ["&bThe Thermo Generator &fis a &690FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["&b热力发电机（下界）&f是一个有&690FE&f发电量的发电机，如果想要它工作，则需要把它&6放置在高温块/流体&f（比如熔岩）上，并接入冷却流体（比如水）。"]
 			dependencies: ["0B7E73D585F86047"]
 			id: "7B28138ACCC3798E"
 			tasks: [{
@@ -775,7 +775,7 @@
 			x: 4.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			description: ["&b太阳能板&f是一个通过&6太阳照射&f产生能量的&6FE发电机&f。"]
 			dependencies: ["0B7E73D585F86047"]
 			id: "4E0AB78C973A5D3F"
 			tasks: [{
@@ -793,7 +793,7 @@
 			x: 5.0d
 			y: 0.5d
 			shape: "diamond"
-			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			description: ["&b反应堆&f是一个使用&6晶质铀&f作为燃料的多方块&6FE发电机&f。"]
 			dependencies: ["0B7E73D585F86047"]
 			id: "7D219F512DE2CCEB"
 			tasks: [{
@@ -812,7 +812,7 @@
 			x: 5.5d
 			y: 0.0d
 			shape: "diamond"
-			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			description: ["&b玩家供电仪&f是一个用于给&6物品无限充电&f的设备。供电仪通电并放入已绑定玩家的&6绑定卡&f后可以给玩家物品栏内的所有物品充电，如果放入的是&6绑定卡（跨维度）&f则只要供电仪所在的区块加载便可以&6跨维度&f为玩家物品栏内的物品充电。"]
 			dependencies: ["0B7E73D585F86047"]
 			id: "6A0BE7E4775A7871"
 			tasks: [{
@@ -830,7 +830,7 @@
 			x: 5.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			description: ["&b能量漏斗&f可以充能面向端的&6可交互物品栏&f（如箱子）内的需要能量的物品。"]
 			dependencies: ["0B7E73D585F86047"]
 			id: "21EBBFDE7657F046"
 			tasks: [{
@@ -848,7 +848,7 @@
 			x: 3.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			description: ["&b能量提取器&f能将物品内存有的能量提取到内部的缓存中，接入电缆能将内部能量转移出并再次使用。"]
 			dependencies: ["0B7E73D585F86047"]
 			id: "4F4DBD43A8937937"
 			tasks: [{
@@ -866,7 +866,7 @@
 			x: 4.5d
 			y: 0.0d
 			shape: "diamond"
-			description: ["The &bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			description: ["当&b电池&f在玩家物品栏中，可以为其他物品充能。你也可以通过&6shift右键&f电池打开&6末影网络的GUI&f，如果电池拥有能量，那它也将应用于末影网络。"]
 			dependencies: ["0B7E73D585F86047"]
 			id: "22A55058EB92E930"
 			tasks: [{
@@ -924,7 +924,7 @@
 			x: 8.0d
 			y: -4.0d
 			shape: "diamond"
-			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			description: ["&b反应堆&f是一个使用&6晶质铀&f作为燃料的多方块&6FE发电机&f。"]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "567B6A9030415189"
 			tasks: [{
@@ -943,7 +943,7 @@
 			x: 7.0d
 			y: -6.0d
 			shape: "diamond"
-			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			description: ["&b能量单元&f是一个用来&6存储能量（FE）&f的设备。"]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "2C553105F13E165E"
 			tasks: [{
@@ -962,9 +962,9 @@
 			y: -6.0d
 			shape: "diamond"
 			description: [
-				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
+				"&b末影单元&f是一个用来将&6存储能量（FE）&f上传到玩家的&6末影网络&f的设备。"
 				""
-				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+				"如果一个频道有有效的电容空间并存有能量，你便可以在任意位置的&6末影单元&f中访问该频道并提取/存储能量。"
 			]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "52779B56C02D11D0"
@@ -984,9 +984,9 @@
 			y: -5.0d
 			shape: "diamond"
 			description: [
-				"&bCables &fare used to &6transfer power &fbetween machines."
+				"&b能量线缆&f是在机器之前&6传输能量&f的电缆。"
 				""
-				"You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected."
+				"你可以通过使用配置模式下的&b扳手&f&6右键&f点击线缆来改变&6传输模式&f。"
 			]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "29CC371CC8DE7BCA"
@@ -1006,9 +1006,9 @@
 			y: -5.0d
 			shape: "diamond"
 			description: [
-				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
+				"&b末影道门&f将能量无线传输到附近的&6末影道门&f和&6末影网络中&f。"
 				""
-				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+				"它不像&6末影单元&f，你无法通过它升级频道容量。"
 			]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "6AFADA1538648B24"
@@ -1044,7 +1044,7 @@
 			x: 8.0d
 			y: -5.0d
 			shape: "diamond"
-			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			description: ["&b熔炉发电机&f是一个通过燃烧&6固体燃料&f（比如煤、木材）产生能量的&6FE发电机&f。"]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "656DF0D5540D4302"
 			tasks: [{
@@ -1062,7 +1062,7 @@
 			x: 7.0d
 			y: -5.0d
 			shape: "diamond"
-			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			description: ["&b岩浆发电机&f是一个通过消耗&6高温流体&f（比如岩浆）产生能量的&6FE发电机&f。"]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "12C0DE643A09B665"
 			tasks: [{
@@ -1080,7 +1080,7 @@
 			x: 7.0d
 			y: -4.0d
 			shape: "diamond"
-			description: ["&bThe Thermo Generator &fis a &642FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["&b热力发电机（下界）&f是一个有&642FE&f发电量的发电机，如果想要它工作，则需要把它&6放置在高温块/流体&f（比如熔岩）上，并接入冷却流体（比如水）。"]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "19B48C1ACCB70A25"
 			tasks: [{
@@ -1098,7 +1098,7 @@
 			x: 7.5d
 			y: -5.5d
 			shape: "diamond"
-			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			description: ["&b太阳能板&f是一个通过&6太阳照射&f产生能量的&6FE发电机&f。"]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "5FDB44458CB44680"
 			tasks: [{
@@ -1116,7 +1116,7 @@
 			x: 7.5d
 			y: -4.5d
 			shape: "diamond"
-			description: ["The &bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			description: ["当&b电池&f在玩家物品栏中，可以为其他物品充能。你也可以通过&6shift右键&f电池打开&6末影网络的GUI&f，如果电池拥有能量，那它也将应用于末影网络。"]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "2832B9A6E1DDFE6E"
 			tasks: [{
@@ -1138,7 +1138,7 @@
 			x: 8.5d
 			y: -4.5d
 			shape: "diamond"
-			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			description: ["&b玩家供电仪&f是一个用于给&6物品无限充电&f的设备。供电仪通电并放入已绑定玩家的&6绑定卡&f后可以给玩家物品栏内的所有物品充电，如果放入的是&6绑定卡（跨维度）&f则只要供电仪所在的区块加载便可以&6跨维度&f为玩家物品栏内的物品充电。"]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "2F3BF0AFD6BDCEDF"
 			tasks: [{
@@ -1156,7 +1156,7 @@
 			x: 8.5d
 			y: -5.5d
 			shape: "diamond"
-			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			description: ["&b能量漏斗&f可以充能面向端的&6可交互物品栏&f（如箱子）内的需要能量的物品。"]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "12162E885FAAA002"
 			tasks: [{
@@ -1174,7 +1174,7 @@
 			x: 6.5d
 			y: -5.5d
 			shape: "diamond"
-			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			description: ["&b能量提取器&f能将物品内存有的能量提取到内部的缓存中，接入电缆能将内部能量转移出并再次使用。"]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "229E263360CA27F7"
 			tasks: [{
@@ -1264,7 +1264,7 @@
 			x: 13.0d
 			y: -6.0d
 			shape: "diamond"
-			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			description: ["&b能量单元&f是一个用来&6存储能量（FE）&f的设备。"]
 			dependencies: ["770CF5AB3E997837"]
 			id: "2F459D145C710BC5"
 			tasks: [{
@@ -1283,9 +1283,9 @@
 			y: -6.0d
 			shape: "diamond"
 			description: [
-				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
+				"&b末影单元&f是一个用来将&6存储能量（FE）&f上传到玩家的&6末影网络&f的设备。"
 				""
-				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+				"如果一个频道有有效的电容空间并存有能量，你便可以在任意位置的&6末影单元&f中访问该频道并提取/存储能量。"
 			]
 			dependencies: ["770CF5AB3E997837"]
 			id: "720C76E68E74C94B"
@@ -1305,9 +1305,9 @@
 			y: -5.0d
 			shape: "diamond"
 			description: [
-				"&bCables &fare used to &6transfer power &fbetween machines."
+				"&b能量线缆&f是在机器之前&6传输能量&f的电缆。"
 				""
-				"You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected."
+				"你可以通过使用配置模式下的&b扳手&f&6右键&f点击线缆来改变&6传输模式&f。"
 			]
 			dependencies: ["770CF5AB3E997837"]
 			id: "64D5A5F3617AC469"
@@ -1327,9 +1327,9 @@
 			y: -5.0d
 			shape: "diamond"
 			description: [
-				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
+				"&b末影道门&f将能量无线传输到附近的&6末影道门&f和&6末影网络中&f。"
 				""
-				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+				"它不像&6末影单元&f，你无法通过它升级频道容量。"
 			]
 			dependencies: ["770CF5AB3E997837"]
 			id: "379EB47D75413F2F"
@@ -1365,7 +1365,7 @@
 			x: 14.0d
 			y: -5.0d
 			shape: "diamond"
-			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			description: ["&b熔炉发电机&f是一个通过燃烧&6固体燃料&f（比如煤、木材）产生能量的&6FE发电机&f。"]
 			dependencies: ["770CF5AB3E997837"]
 			id: "690A299F7992BD66"
 			tasks: [{
@@ -1383,7 +1383,7 @@
 			x: 13.0d
 			y: -5.0d
 			shape: "diamond"
-			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			description: ["&b岩浆发电机&f是一个通过消耗&6高温流体&f（比如岩浆）产生能量的&6FE发电机&f。"]
 			dependencies: ["770CF5AB3E997837"]
 			id: "2B5532A22B3B7846"
 			tasks: [{
@@ -1401,7 +1401,7 @@
 			x: 13.0d
 			y: -4.0d
 			shape: "diamond"
-			description: ["&bThe Thermo Generator &fis a &618FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["&b热力发电机（下界）&f是一个有&618FE&f发电量的发电机，如果想要它工作，则需要把它&6放置在高温块/流体&f（比如熔岩）上，并接入冷却流体（比如水）。"]
 			dependencies: ["770CF5AB3E997837"]
 			id: "262D18C51054176B"
 			tasks: [{
@@ -1419,7 +1419,7 @@
 			x: 13.5d
 			y: -5.5d
 			shape: "diamond"
-			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			description: ["&b太阳能板&f是一个通过&6太阳照射&f产生能量的&6FE发电机&f。"]
 			dependencies: ["770CF5AB3E997837"]
 			id: "2E0DB02AA0F19B29"
 			tasks: [{
@@ -1437,7 +1437,7 @@
 			x: 14.0d
 			y: -4.0d
 			shape: "diamond"
-			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			description: ["&b反应堆&f是一个使用&6晶质铀&f作为燃料的多方块&6FE发电机&f。"]
 			dependencies: ["770CF5AB3E997837"]
 			id: "331F8049400EABBC"
 			tasks: [{
@@ -1456,7 +1456,7 @@
 			x: 14.5d
 			y: -4.5d
 			shape: "diamond"
-			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			description: ["&b玩家供电仪&f是一个用于给&6物品无限充电&f的设备。供电仪通电并放入已绑定玩家的&6绑定卡&f后可以给玩家物品栏内的所有物品充电，如果放入的是&6绑定卡（跨维度）&f则只要供电仪所在的区块加载便可以&6跨维度&f为玩家物品栏内的物品充电。"]
 			dependencies: ["770CF5AB3E997837"]
 			id: "5E9A3E4DFF5A6B81"
 			tasks: [{
@@ -1474,7 +1474,7 @@
 			x: 14.5d
 			y: -5.5d
 			shape: "diamond"
-			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			description: ["&b能量漏斗&f可以充能面向端的&6可交互物品栏&f（如箱子）内的需要能量的物品。"]
 			dependencies: ["770CF5AB3E997837"]
 			id: "625AAD771D33A007"
 			tasks: [{
@@ -1492,7 +1492,7 @@
 			x: 13.5d
 			y: -4.5d
 			shape: "diamond"
-			description: ["The &bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			description: ["当&b电池&f在玩家物品栏中，可以为其他物品充能。你也可以通过&6shift右键&f电池打开&6末影网络的GUI&f，如果电池拥有能量，那它也将应用于末影网络。"]
 			dependencies: ["770CF5AB3E997837"]
 			id: "5C74898D6E1D5539"
 			tasks: [{
@@ -1514,7 +1514,7 @@
 			x: 12.5d
 			y: -5.5d
 			shape: "diamond"
-			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			description: ["&b能量提取器&f能将物品内存有的能量提取到内部的缓存中，接入电缆能将内部能量转移出并再次使用。"]
 			dependencies: ["770CF5AB3E997837"]
 			id: "6361ED7007A6E846"
 			tasks: [{
@@ -1533,9 +1533,9 @@
 			y: -9.5d
 			shape: "diamond"
 			description: [
-				"&bThe Energizing Orb &fis a block used to energize items, require at least one &6Energizing Rod &fin range of 9X9 to work the energizing speed depends on amount of rods and the rod tier (I/O rate)."
+				"&b充能台&f是一个用来给物品充能的设备，需要在9*9范围内的&6充能棒&f给他充能，充能速度取决于充能棒的数量和充能棒的等级（I/O速率）。"
 				""
-				"The orb does not require energy but the rods must be placed on cables or any &6Forge Energy (FE) &fblock to work."
+				"充能台本身不需要能源，但充能棒必须放在线缆上或者任何&6能源方块&f上才能工作。"
 			]
 			dependencies: ["79B4D111A5BC35BA"]
 			size: 1.9d
@@ -1629,7 +1629,7 @@
 			x: 14.5d
 			y: -12.0d
 			shape: "diamond"
-			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			description: ["&b能量单元&f是一个用来&6存储能量（FE）&f的设备。"]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "3BD5E18D8BEE6E8B"
 			tasks: [{
@@ -1648,9 +1648,9 @@
 			y: -12.0d
 			shape: "diamond"
 			description: [
-				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
+				"&b末影单元&f是一个用来将&6存储能量（FE）&f上传到玩家的&6末影网络&f的设备。"
 				""
-				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+				"如果一个频道有有效的电容空间并存有能量，你便可以在任意位置的&6末影单元&f中访问该频道并提取/存储能量。"
 			]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "316B87C6CE78537C"
@@ -1670,9 +1670,9 @@
 			y: -11.0d
 			shape: "diamond"
 			description: [
-				"&bCables &fare used to &6transfer power &fbetween machines."
+				"&b能量线缆&f是在机器之前&6传输能量&f的电缆。"
 				""
-				"You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected."
+				"你可以通过使用配置模式下的&b扳手&f&6右键&f点击线缆来改变&6传输模式&f。"
 			]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "1FEC1980227E337C"
@@ -1692,9 +1692,9 @@
 			y: -11.0d
 			shape: "diamond"
 			description: [
-				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
+				"&b末影道门&f将能量无线传输到附近的&6末影道门&f和&6末影网络中&f。"
 				""
-				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+				"它不像&6末影单元&f，你无法通过它升级频道容量。"
 			]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "0E1196A46A6B8C55"
@@ -1730,7 +1730,7 @@
 			x: 15.5d
 			y: -11.0d
 			shape: "diamond"
-			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			description: ["&b熔炉发电机&f是一个通过燃烧&6固体燃料&f（比如煤、木材）产生能量的&6FE发电机&f。"]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "49FB94DEAE2C8852"
 			tasks: [{
@@ -1748,7 +1748,7 @@
 			x: 14.5d
 			y: -10.0d
 			shape: "diamond"
-			description: ["&bThe Thermo Generator &fis a &63FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["&b热力发电机（下界）&f是一个有&63FE&f发电量的发电机，如果想要它工作，则需要把它&6放置在高温块/流体&f（比如熔岩）上，并接入冷却流体（比如水）。"]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "2C2C120858F87BEE"
 			tasks: [{
@@ -1766,7 +1766,7 @@
 			x: 14.5d
 			y: -11.0d
 			shape: "diamond"
-			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			description: ["&b岩浆发电机&f是一个通过消耗&6高温流体&f（比如岩浆）产生能量的&6FE发电机&f。"]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "150759BA2EFB95E4"
 			tasks: [{
@@ -1784,7 +1784,7 @@
 			x: 15.0d
 			y: -11.5d
 			shape: "diamond"
-			description: ["&bThe Solar Panel &fis a &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			description: ["&b太阳能板&f是一个通过&6太阳照射&f产生能量的&6FE发电机&f。"]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "36F8633A912BB13C"
 			tasks: [{
@@ -1802,7 +1802,7 @@
 			x: 15.5d
 			y: -10.0d
 			shape: "diamond"
-			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			description: ["&b反应堆&f是一个使用&6晶质铀&f作为燃料的多方块&6FE发电机&f。"]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "4C58D006BCCC23F2"
 			tasks: [{
@@ -1821,7 +1821,7 @@
 			x: 16.0d
 			y: -10.5d
 			shape: "diamond"
-			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			description: ["&b玩家供电仪&f是一个用于给&6物品无限充电&f的设备。供电仪通电并放入已绑定玩家的&6绑定卡&f后可以给玩家物品栏内的所有物品充电，如果放入的是&6绑定卡（跨维度）&f则只要供电仪所在的区块加载便可以&6跨维度&f为玩家物品栏内的物品充电。"]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "23521AEE210883F4"
 			tasks: [{
@@ -1839,7 +1839,7 @@
 			x: 16.0d
 			y: -11.5d
 			shape: "diamond"
-			description: ["&bThe Energy Hopper &fis a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			description: ["&b能量漏斗&f可以充能面向端的&6可交互物品栏&f（如箱子）内的需要能量的物品。"]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "7585BEC961C8A9DC"
 			tasks: [{
@@ -1857,7 +1857,7 @@
 			x: 14.0d
 			y: -11.5d
 			shape: "diamond"
-			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			description: ["&b能量提取器&f能将物品内存有的能量提取到内部的缓存中，接入电缆能将内部能量转移出并再次使用。"]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "66B7AEA8F79D9C20"
 			tasks: [{
@@ -1875,7 +1875,7 @@
 			x: 15.0d
 			y: -10.5d
 			shape: "diamond"
-			description: ["The &bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			description: ["当&b电池&f在玩家物品栏中，可以为其他物品充能。你也可以通过&6shift右键&f电池打开&6末影网络的GUI&f，如果电池拥有能量，那它也将应用于末影网络。"]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "1A872B4EA72C7D99"
 			tasks: [{
@@ -1916,7 +1916,7 @@
 			x: 5.5d
 			y: -12.0d
 			shape: "diamond"
-			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			description: ["&b能量单元&f是一个用来&6存储能量（FE）&f的设备。"]
 			dependencies: ["24D6425171F874D0"]
 			id: "40C459C194730631"
 			tasks: [{
@@ -1935,9 +1935,9 @@
 			y: -12.0d
 			shape: "diamond"
 			description: [
-				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
+				"&b末影单元&f是一个用来将&6存储能量（FE）&f上传到玩家的&6末影网络&f的设备。"
 				""
-				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+				"如果一个频道有有效的电容空间并存有能量，你便可以在任意位置的&6末影单元&f中访问该频道并提取/存储能量。"
 			]
 			dependencies: ["24D6425171F874D0"]
 			id: "5CD43E5807FCDE6C"
@@ -1957,9 +1957,9 @@
 			y: -11.0d
 			shape: "diamond"
 			description: [
-				"&bCables &fare used to &6transfer power &fbetween machines."
+				"&b能量线缆&f是在机器之前&6传输能量&f的电缆。"
 				""
-				"You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected."
+				"你可以通过使用配置模式下的&b扳手&f&6右键&f点击线缆来改变&6传输模式&f。"
 			]
 			dependencies: ["24D6425171F874D0"]
 			id: "27C412ECFFF2775D"
@@ -1979,9 +1979,9 @@
 			y: -11.0d
 			shape: "diamond"
 			description: [
-				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
+				"&b末影道门&f将能量无线传输到附近的&6末影道门&f和&6末影网络中&f。"
 				""
-				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+				"它不像&6末影单元&f，你无法通过它升级频道容量。"
 			]
 			dependencies: ["24D6425171F874D0"]
 			id: "4B4BB05A570DA6AB"
@@ -2017,7 +2017,7 @@
 			x: 6.5d
 			y: -11.0d
 			shape: "diamond"
-			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			description: ["&b熔炉发电机&f是一个通过燃烧&6固体燃料&f（比如煤、木材）产生能量的&6FE发电机&f。"]
 			dependencies: ["24D6425171F874D0"]
 			id: "6A3D3782F3FC361E"
 			tasks: [{
@@ -2035,7 +2035,7 @@
 			x: 5.5d
 			y: -11.0d
 			shape: "diamond"
-			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			description: ["&b岩浆发电机&f是一个通过消耗&6高温流体&f（比如岩浆）产生能量的&6FE发电机&f。"]
 			dependencies: ["24D6425171F874D0"]
 			id: "30E173AD2389FCD0"
 			tasks: [{
@@ -2053,7 +2053,7 @@
 			x: 5.5d
 			y: -10.0d
 			shape: "diamond"
-			description: ["&bThe Thermo Generator &fis a &68FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["&b热力发电机（下界）&f是一个有&68FE&f发电量的发电机，如果想要它工作，则需要把它&6放置在高温块/流体&f（比如熔岩）上，并接入冷却流体（比如水）。"]
 			dependencies: ["24D6425171F874D0"]
 			id: "595A92180145FC7A"
 			tasks: [{
@@ -2071,7 +2071,7 @@
 			x: 6.0d
 			y: -11.5d
 			shape: "diamond"
-			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			description: ["&b太阳能板&f是一个通过&6太阳照射&f产生能量的&6FE发电机&f。"]
 			dependencies: ["24D6425171F874D0"]
 			id: "2B38CDC288333503"
 			tasks: [{
@@ -2089,7 +2089,7 @@
 			x: 6.5d
 			y: -10.0d
 			shape: "diamond"
-			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			description: ["&b反应堆&f是一个使用&6晶质铀&f作为燃料的多方块&6FE发电机&f。"]
 			dependencies: ["24D6425171F874D0"]
 			id: "014D5EDAEBF1874C"
 			tasks: [{
@@ -2108,7 +2108,7 @@
 			x: 7.0d
 			y: -10.5d
 			shape: "diamond"
-			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			description: ["&b玩家供电仪&f是一个用于给&6物品无限充电&f的设备。供电仪通电并放入已绑定玩家的&6绑定卡&f后可以给玩家物品栏内的所有物品充电，如果放入的是&6绑定卡（跨维度）&f则只要供电仪所在的区块加载便可以&6跨维度&f为玩家物品栏内的物品充电。"]
 			dependencies: ["24D6425171F874D0"]
 			id: "1CA4C40C697B350F"
 			tasks: [{
@@ -2126,7 +2126,7 @@
 			x: 7.0d
 			y: -11.5d
 			shape: "diamond"
-			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			description: ["&b能量漏斗&f可以充能面向端的&6可交互物品栏&f（如箱子）内的需要能量的物品。"]
 			dependencies: ["24D6425171F874D0"]
 			id: "23B3FD3F1D619ADC"
 			tasks: [{
@@ -2144,7 +2144,7 @@
 			x: 5.0d
 			y: -11.5d
 			shape: "diamond"
-			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			description: ["&b能量提取器&f能将物品内存有的能量提取到内部的缓存中，接入电缆能将内部能量转移出并再次使用。"]
 			dependencies: ["24D6425171F874D0"]
 			id: "49A2E36997C5D522"
 			tasks: [{
@@ -2183,7 +2183,7 @@
 			shape: "diamond"
 			description: [
 				""
-				"&bBattery &fcharge items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."
+				"当&b电池&f在玩家物品栏中，可以为其他物品充能。你也可以通过&6shift右键&f电池打开&6末影网络的GUI&f，如果电池拥有能量，那它也将应用于末影网络。"
 			]
 			dependencies: ["24D6425171F874D0"]
 			id: "1126289F882E697D"
@@ -2206,7 +2206,7 @@
 			x: 9.9d
 			y: -8.25d
 			shape: "diamond"
-			description: ["Throwing a &bCharged Snowball &fwill cause a &6bolt of lightning &fto spawn when hitting the ground or when it hits the mod, obtained by energizing a snowball."]
+			description: ["扔出一个&b带电雪球&f在落地时或命中生物时会召唤&6闪电&f（带电雪球通过雪球在充能台上充能获得）。"]
 			dependencies: ["4F653ADFAFAF8ABB"]
 			size: 1.1d
 			id: "73F3EDBEA043AFB0"
@@ -2279,13 +2279,13 @@
 			y: -14.3d
 			shape: "diamond"
 			description: [
-				"&bThe Wrench &fas 3 modes :"
+				"&b扳手&f拥有三种模式 :"
 				""
-				"&6Config Mode&f: used to change cables I/O configuration."
+				"&6配置模式&f: 用于改变线缆的输入输出配置。"
 				""
-				"&6Link Mode&f: used to link linkable blocks like energizing orb and rods."
+				"&6链接模式&f:用于链接可链接方块,例如充能台与充能棒。"
 				""
-				"&6Rotate Mode&f: used to rotate blocks horizontally."
+				"&6旋转模式&f: 用于水平旋转方块。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["6B1C6D60AA41FC32"]
@@ -2334,9 +2334,9 @@
 			y: -8.5d
 			shape: "hexagon"
 			description: [
-				"The &bBinding Card &f is used to &6link a player &fwith a &6Player Transmitter &fin the &6same dimension&f."
+				"&b绑定卡&f是用来放入&6玩家供电仪&f内为绑定玩家物品栏内的物品充能。"
 				""
-				"You need to link it with you before addind it to the player transmitter. &6Right-click &fit to bind."
+				"在将它放入玩家供电仪之前，你需要和它绑定，&6右键&f单击来绑定它。"
 			]
 			dependencies: ["2C00C50CA15DD756"]
 			id: "0E8BDDC1BACAB461"
@@ -2356,9 +2356,9 @@
 			y: -8.5d
 			shape: "hexagon"
 			description: [
-				"The &bDimensional Bind Card &f is used to link a &6player &fwith a &6Player Transmitter across dimensions&f."
+				"&b绑定卡（跨维度）&f用于跨维度连接&6玩家&f和&6玩家供电仪&f。"
 				""
-				"You need to link it with you before addind it to the player transmitter. &6Right-click &fit to bind."
+				"在将它放入玩家供电仪之前，你需要和它绑定，&6右键&f单击来绑定它。"
 			]
 			dependencies: ["0E8BDDC1BACAB461"]
 			id: "499A20382CC524F5"
@@ -2432,9 +2432,9 @@
 			y: -8.5d
 			shape: "hexagon"
 			description: [
-				"&bPlayer Aerial Pearl &fis used to craft the &6player transmitter&f."
+				"&b玩家天线珍珠&f是用来制作&6玩家供电仪&f的。"
 				""
-				"You can get it by &6using &fan &bAerial Pearl &fon a &6Zombie &for &6Husk&f."
+				"你可以通过对&6僵尸&f或&6尸壳&f使用&6天线珍珠&f来获得它"
 			]
 			dependencies: ["679EEA8ED654D878"]
 			id: "081A0799AB8AAF1D"

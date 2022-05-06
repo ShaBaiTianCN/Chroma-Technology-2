@@ -12,7 +12,7 @@
 			x: -1.5d
 			y: 0.0d
 			shape: "gear"
-			description: ["This dock can be placed down and be used as a chest if a Dank is stored inside it."]
+			description: ["这个坞可以放置下来，如果里面放了一个黑盒，那么它可以当作一个箱子。"]
 			id: "5FE9892938B2BA8A"
 			tasks: [{
 				id: "6FF9942CA722309B"
@@ -28,7 +28,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["This Dank has &69 slots &fand can store &6256 items&f."]
+			description: ["这个黑盒有&69个槽&f，可以存储&6256个物品&f。"]
 			id: "037E3020683BAEFC"
 			tasks: [{
 				id: "1AC51AD51B0FA5A2"
@@ -50,7 +50,7 @@
 		{
 			x: 0.0d
 			y: -1.5d
-			description: ["This Dank has &618 slots&f and can store &61024 items&f."]
+			description: ["这个黑盒有&618个槽&f，可以存储&61024个物品&f。"]
 			dependencies: ["037E3020683BAEFC"]
 			id: "05142224A89667F7"
 			tasks: [{
@@ -73,7 +73,7 @@
 		{
 			x: 0.0d
 			y: -3.0d
-			description: ["This Dank has &627 slots&f and can store &64096 items&f."]
+			description: ["这个黑盒有&627个槽&f，可以存储&64096个物品&f。"]
 			dependencies: ["05142224A89667F7"]
 			id: "702EE3ADD294A8DB"
 			tasks: [{
@@ -96,7 +96,7 @@
 		{
 			x: 2.0d
 			y: -3.0d
-			description: ["This Dank has &636 slots&f and can store &616384 items&f."]
+			description: ["这个黑盒有&636个槽&f，可以存储&616384个物品&f。"]
 			dependencies: ["702EE3ADD294A8DB"]
 			id: "6830BE971C082A11"
 			tasks: [{
@@ -119,7 +119,7 @@
 		{
 			x: 2.0d
 			y: -1.5d
-			description: ["This Dank has &645 slots&f and can store &665536 items&f."]
+			description: ["这个黑盒有&645个槽&f，可以存储&665536个物品&f。"]
 			dependencies: ["6830BE971C082A11"]
 			id: "44772DA55FC82442"
 			tasks: [{
@@ -142,7 +142,7 @@
 		{
 			x: 2.0d
 			y: 0.0d
-			description: ["This Dank has &654 slots&f and can store &6262144 items&f."]
+			description: ["这个黑盒有&654个槽&f，可以存储&6262144个物品&f。"]
 			dependencies: ["44772DA55FC82442"]
 			id: "06E64553E0161506"
 			tasks: [{
@@ -165,7 +165,7 @@
 		{
 			x: 3.5d
 			y: 0.0d
-			description: ["This Dank has &681 slots &fand can store almost &6infinite items&f."]
+			description: ["这个黑盒有&681个槽&f，可以存储&6无限个物品&f。"]
 			dependencies: ["06E64553E0161506"]
 			id: "77EF157E09E2BF86"
 			tasks: [{
@@ -218,7 +218,7 @@
 			tasks: [{
 				id: "5F820677B353A6F1"
 				type: "item"
-				title: "Drawers"
+				title: "抽屉"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -268,7 +268,7 @@
 			tasks: [{
 				id: "6E8A554B0A33BB41"
 				type: "item"
-				title: "Drawers 1x2"
+				title: "抽屉1x2"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -318,7 +318,7 @@
 			tasks: [{
 				id: "0D4130D139058EC8"
 				type: "item"
-				title: "Drawers 2x2"
+				title: "抽屉2x2"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -763,7 +763,7 @@
 			tasks: [{
 				id: "75332037CDC77043"
 				type: "item"
-				title: "Wooden Chest"
+				title: "木箱"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1045,7 +1045,7 @@
 			}]
 		}
 		{
-			title: "Filtered Cable"
+			title: "过滤线缆"
 			x: 9.0d
 			y: -3.5d
 			shape: "diamond"

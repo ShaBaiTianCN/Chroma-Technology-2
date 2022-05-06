@@ -14,13 +14,13 @@
 			y: -1.0d
 			shape: "rsquare"
 			description: [
-				"Welcome to &bChroma Technology II !&r"
+				"欢迎来到&bChroma Technology II！&r"
 				""
-				"This modpack is a mixed pack with &a&nExploration&r, &a&nMagic&r and &a&nTech&r."
+				"这是一个混合了&a&n探索&r，&a&n魔法&r和&a&n科技&r的整合包。"
 				""
-				"The main goal of this modpack is to go through all quests."
+				"这个整合包的主要目标就是完成所有任务。"
 				""
-				"Those are made to guide the player all along his survival but aren't mandatory."
+				"这些任务是为了指导玩家越来越好的生存，但不是强制性的。"
 			]
 			size: 2.0d
 			id: "5C0C633D44AEFED9"
@@ -40,13 +40,13 @@
 			y: -3.0d
 			shape: "pentagon"
 			description: [
-				"You can have your Questing Progress sync to other &bplayers &fif you're in a &3party&f."
+				"如果你和其他&b玩家&f在同一个&3队伍&f中，你可以和他们同步任务。"
 				""
-				"To create a &3party &fyou will need to run the following command: &b/ftbteams party create &3<NAME>"
+				"你可以运行以下指令来创建一个&3队伍&f：&b/ftbteams party create &3<NAME>"
 				""
-				"You can then invite a &bplayer &fto your &3party &fwith the following command: &b/ftbteam party invite &3<PLAYER>"
+				"然后你可以运行以下指令邀请一个&3玩家&f加入你的&b队伍&f：\n&b/ftbteam party invite &3<PLAYER>"
 				""
-				"To leave a &cparty &fyou can run the following command: &c/ftbteams party &4leave"
+				"你可以运行以下指令来离开一个&c队伍&f：\n&c/ftbteams party &4leave"
 			]
 			dependencies: ["5C0C633D44AEFED9"]
 			size: 1.5d
@@ -54,7 +54,7 @@
 			tasks: [{
 				id: "05620DE4F82DEB02"
 				type: "checkmark"
-				title: "FTB Quest"
+				title: "FTB任务"
 			}]
 			rewards: [{
 				id: "0E09746D1723E2CA"
@@ -72,13 +72,13 @@
 			y: 0.75d
 			shape: "diamond"
 			description: [
-				"You're able to &bclaim chunks&f to protect your base(s). Just click the map icon that is located in the top left corner in your inventory."
+				"只需要点击背包左上角的地图图标，您可以&b认领区块&f以保护您的基地。"
 				""
-				"This will bring up a fullscreen map, but this isn't the map we're looking for. Click the map again on top left corner."
+				"这会打开一个全屏地图，但是这不是我们要用的地图，再次点击左上角的地图。"
 				""
-				"To claim a chunk, hold down left click and drag with your mouse on the map."
+				"按住左键并在地图上拖动鼠标以认领区块。"
 				""
-				"To &5Chunkload&f a Chunk hold down 'LSHIFT' while dragging over an existing claimed chunk."
+				"在已认领的区块拖动时按住'LSHIFT'，您可以&5保持区块加载&f。"
 			]
 			dependencies: ["5C0C633D44AEFED9"]
 			size: 1.5d
@@ -86,7 +86,7 @@
 			tasks: [{
 				id: "3F6D1AFFE924BB7F"
 				type: "checkmark"
-				title: "Chunk Claiming"
+				title: "认领区块"
 			}]
 			rewards: [{
 				id: "77523A5BA9FF6681"
@@ -99,14 +99,14 @@
 			x: 2.0d
 			y: -1.0d
 			shape: "diamond"
-			description: ["&dChallenge quests&f are, surprisingly, challenges for the more seasoned modded Minecraft players."]
+			description: ["&d挑战任务&f非常惊人，是给那些经验更加丰富的Minecraft模组玩家的。"]
 			dependencies: ["5C0C633D44AEFED9"]
 			size: 1.5d
 			id: "764A82DF234888F5"
 			tasks: [{
 				id: "6B34FB6F530D5BE3"
 				type: "checkmark"
-				title: "Challenges"
+				title: "挑战"
 			}]
 			rewards: [{
 				id: "51DFEA92D1724AC3"
@@ -119,11 +119,11 @@
 			x: -2.0d
 			y: -1.0d
 			shape: "diamond"
-			subtitle: "Here comes the money !"
+			subtitle: "财源滚滚！"
 			description: [
-				"In this pack you should know that they are some beautiful &5Creative&r Recipes "
-				"You can look their recipes but don't say it's difficult because we balanced them ! "
-				"Oh I forgot to mention that certain creative items does have a related quest. So don't skip them to get an awesome reward !"
+				"你应当知道在这个整合包内有一些巧妙的&5创造物品&r配方"
+				"你可以看看这些配方，但是不要说很难，因为我们平衡过了！"
+				"啊我忘了提醒有些创造物品有相关任务，所以不要跳过任务，你会失去一些惊人的奖励！"
 			]
 			dependencies: ["5C0C633D44AEFED9"]
 			size: 1.5d
@@ -131,7 +131,7 @@
 			tasks: [{
 				id: "2BBA6ECCE2107389"
 				type: "checkmark"
-				title: "Creative"
+				title: "创造物品"
 			}]
 			rewards: [{
 				id: "64EFD954FDFB4AC9"
@@ -144,11 +144,11 @@
 			x: 1.5d
 			y: 0.75d
 			shape: "diamond"
-			subtitle: "Spice of Life"
+			subtitle: "生活调味料"
 			description: [
-				"As you saw, when you start &5Chroma Technology II&r there is a little suprise."
-				"Indeed you start with only 5 hearts and not 10. "
-				"But don't worry eating healthy might be a good solution to have more hearts."
+				"就像你看到的那样，你开始&5Chroma_Technology_II&r的时候有一些惊喜。"
+				"实际上你以5颗红心开始而不是10颗。"
+				"但是不要担心，健康饮食是个获得更多生命值的好办法。"
 			]
 			dependencies: ["5C0C633D44AEFED9"]
 			size: 1.5d
@@ -156,7 +156,7 @@
 			tasks: [{
 				id: "2C5AE5326A47EE3C"
 				type: "checkmark"
-				title: "Life"
+				title: "生活"
 			}]
 			rewards: [
 				{
@@ -234,13 +234,13 @@
 			]
 		}
 		{
-			title: "Broken Heart"
+			title: "破碎的红心"
 			icon: "cyclic:heart_empty"
 			x: 0.0d
 			y: 1.5d
 			shape: "heart"
-			subtitle: "Lost my heart.."
-			description: ["If you have lost hearts and have not recovered the souls crystals through the ring of seven curses."]
+			subtitle: "我的心丢了。。"
+			description: ["如果你损失了红心且没有捡起七咒之戒生成的灵魂水晶。"]
 			dependencies: ["5C0C633D44AEFED9"]
 			optional: true
 			id: "40C230D239C6CE9F"

@@ -27,7 +27,7 @@
 			}]
 		}
 		{
-			title: "&8Infusion Pedestal&r"
+			title: "&8灌注基座&r"
 			x: 3.0d
 			y: -4.5d
 			hide_dependency_lines: true
@@ -52,7 +52,7 @@
 			tasks: [{
 				id: "2FECB24EBAB01BC3"
 				type: "item"
-				title: "Pedestals"
+				title: "基座"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -102,7 +102,7 @@
 			}]
 		}
 		{
-			title: "&5Crystalite Boots&r"
+			title: "&5水晶靴子&r"
 			x: 1.0d
 			y: -4.5d
 			dependencies: ["3B716CFC662AC9AE"]
@@ -125,7 +125,7 @@
 			}]
 		}
 		{
-			title: "&5Crystalite Leggings&r"
+			title: "&5水晶护腿&r"
 			x: 1.0d
 			y: -5.5d
 			dependencies: ["3B716CFC662AC9AE"]
@@ -148,7 +148,7 @@
 			}]
 		}
 		{
-			title: "&5Crystalite Chestplate&r"
+			title: "&5水晶胸甲&r"
 			x: 1.0d
 			y: -6.5d
 			dependencies: ["3B716CFC662AC9AE"]
@@ -171,7 +171,7 @@
 			}]
 		}
 		{
-			title: "&5Crystalite Helmet&r"
+			title: "&5水晶头盔&r"
 			x: 1.0d
 			y: -7.5d
 			dependencies: ["3B716CFC662AC9AE"]
@@ -210,7 +210,7 @@
 			}]
 		}
 		{
-			title: "&bThallasium Ingot&r"
+			title: "&b铊锭&r"
 			x: 2.0d
 			y: -11.5d
 			dependencies: ["7A34831817F1EBEE"]
@@ -227,7 +227,7 @@
 			}]
 		}
 		{
-			title: "&bThallasium Boots&r"
+			title: "&b铊靴子&r"
 			x: 3.5d
 			y: -10.0d
 			dependencies: ["6319A9A1E9EAD717"]
@@ -250,7 +250,7 @@
 			}]
 		}
 		{
-			title: "&bThallasium Leggings&r"
+			title: "&b铊护腿&r"
 			x: 3.5d
 			y: -11.0d
 			dependencies: ["6319A9A1E9EAD717"]
@@ -273,7 +273,7 @@
 			}]
 		}
 		{
-			title: "&bThallasium Chestplate&r"
+			title: "&b铊胸甲&r"
 			x: 3.5d
 			y: -12.0d
 			dependencies: ["6319A9A1E9EAD717"]
@@ -296,7 +296,7 @@
 			}]
 		}
 		{
-			title: "&bThallasium Helmet&r"
+			title: "&b铊头盔&r"
 			x: 3.5d
 			y: -13.0d
 			dependencies: ["6319A9A1E9EAD717"]
@@ -319,7 +319,7 @@
 			}]
 		}
 		{
-			title: "&3Terminite Ingot&r"
+			title: "&3终界铁锭&r"
 			x: 0.0d
 			y: -11.5d
 			dependencies: ["7FD5D07CE3851059"]
@@ -336,7 +336,7 @@
 			}]
 		}
 		{
-			title: "&3Terminite Helmet&r"
+			title: "&3终界铁头盔&r"
 			x: -1.0d
 			y: -13.0d
 			dependencies: ["76AAEEE50B92386F"]
@@ -359,7 +359,7 @@
 			}]
 		}
 		{
-			title: "&3Terminite Chestplate&r"
+			title: "&3终界铁胸甲&r"
 			x: -1.0d
 			y: -12.0d
 			dependencies: ["76AAEEE50B92386F"]
@@ -382,7 +382,7 @@
 			}]
 		}
 		{
-			title: "&3Terminite Leggings&r"
+			title: "&3终界铁护腿&r"
 			x: -1.0d
 			y: -11.0d
 			dependencies: ["76AAEEE50B92386F"]
@@ -405,7 +405,7 @@
 			}]
 		}
 		{
-			title: "&3Terminite Boots&r"
+			title: "&3终界铁靴子&r"
 			x: -1.0d
 			y: -10.0d
 			dependencies: ["76AAEEE50B92386F"]
@@ -428,7 +428,7 @@
 			}]
 		}
 		{
-			title: "&9Aeternium Helmet&r"
+			title: "&9太古合金头盔&r"
 			x: -2.5d
 			y: -13.0d
 			dependencies: ["41C83A21FB7F664F"]
@@ -451,7 +451,7 @@
 			}]
 		}
 		{
-			title: "&9Aeternium Chestplate&r"
+			title: "&9太古合金胸甲&r"
 			x: -2.5d
 			y: -12.0d
 			dependencies: ["12C0DEA7DED1B2FF"]
@@ -474,7 +474,7 @@
 			}]
 		}
 		{
-			title: "&9Aeternium Leggings&r"
+			title: "&9太古合金护腿&r"
 			x: -2.5d
 			y: -11.0d
 			dependencies: ["4A5462448DCE743D"]
@@ -497,7 +497,7 @@
 			}]
 		}
 		{
-			title: "&9Aeternium Boots&r"
+			title: "&9太古合金靴子&r"
 			x: -2.5d
 			y: -10.0d
 			dependencies: ["0E697D53ACE517AB"]
@@ -520,7 +520,7 @@
 			}]
 		}
 		{
-			title: "&bThallasium Ore&r"
+			title: "&b铊矿&r"
 			x: 2.0d
 			y: -9.5d
 			hide_dependency_lines: true
@@ -538,7 +538,7 @@
 			}]
 		}
 		{
-			title: "&3Terminite Tools&r"
+			title: "&3终界铁工具&r"
 			x: 0.0d
 			y: -14.0d
 			dependencies: ["76AAEEE50B92386F"]
@@ -618,7 +618,7 @@
 			}]
 		}
 		{
-			title: "&bThallasium Tools&r"
+			title: "&b铊工具&r"
 			x: 2.0d
 			y: -14.0d
 			dependencies: ["6319A9A1E9EAD717"]
@@ -698,7 +698,7 @@
 			}]
 		}
 		{
-			title: "&9Aeternium Ingot&r"
+			title: "&9太古合金锭&r"
 			x: 1.0d
 			y: -15.0d
 			dependencies: ["7FD5D07CE3851059"]
@@ -715,7 +715,7 @@
 			}]
 		}
 		{
-			title: "&9Aeternium Tools&r"
+			title: "&9太古合金工具&r"
 			x: 1.0d
 			y: -16.5d
 			dependencies: ["189993790157348E"]

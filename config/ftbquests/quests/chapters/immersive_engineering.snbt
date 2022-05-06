@@ -70,7 +70,7 @@
 			}]
 		}
 		{
-			title: "&7Coke Oven"
+			title: "&7焦炉"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -82,9 +82,9 @@
 			y: 2.5d
 			shape: "diamond"
 			description: [
-				"The &bCoke Oven &fis the first important machine you will need to create in order to proceed with Immersive Engineering."
+				"在沉浸工程中，&b焦炉&r是你需要建造的第一个重要的结构。"
 				""
-				"Its functionality is simple, it will heat up &6coal &for &6blocks of coal &fwithout supplying it with oxygen, creating &6Coal Coke&f and &6Creosote Oil&f."
+				"它的功能很简单，将&6煤炭&r或者&6煤炭块&r加热形成&6焦煤&r和&6杂酚油&r，而且不需要氧气供应。"
 			]
 			dependencies: ["57CABF1593171BFD"]
 			size: 1.3d
@@ -102,7 +102,7 @@
 			}]
 		}
 		{
-			title: "&6Blast Furnace"
+			title: "&6高炉"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -113,7 +113,7 @@
 			x: 12.5d
 			y: 2.5d
 			shape: "diamond"
-			description: ["The &bCrude Blast Furnace &fis used to increase the carbon content in iron, turning it into &6steel&f."]
+			description: ["&b粗制高炉&r用来增加铁的含碳量，把铁变成&6钢&r。"]
 			hide_dependency_lines: true
 			dependencies: ["23C51BCF5BE87227"]
 			size: 1.3d
@@ -131,7 +131,7 @@
 			}]
 		}
 		{
-			title: "&6Kiln"
+			title: "&6合金窑"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -142,7 +142,7 @@
 			x: 10.5d
 			y: 4.0d
 			shape: "diamond"
-			description: ["The &bAlloy Kiln &fis a simple furnace made out of heat resistant sandstone and bricks. Within it, temperatures are high enough to allow metals to be melted into a fluid state and mixed, creating an &6alloy&f."]
+			description: ["&b合金窑&r是由耐热的砂岩和砖块制成的简易火炉。在窑内，金属因高温而熔化，继而混合成为&6合金&f。"]
 			hide_dependency_lines: true
 			dependencies: ["23C51BCF5BE87227"]
 			size: 1.3d
@@ -213,7 +213,7 @@
 			}]
 		}
 		{
-			title: "&cImproved Blast Furnace"
+			title: "&c强化高炉"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -293,7 +293,7 @@
 			x: 8.5d
 			y: 7.5d
 			shape: "square"
-			description: ["Generate energy with the wind power"]
+			description: ["使用风力发电"]
 			hide_dependency_lines: true
 			dependencies: ["0869322727F62F09"]
 			id: "5733ACC805470A4D"
@@ -331,7 +331,7 @@
 			x: 6.5d
 			y: 5.5d
 			shape: "square"
-			description: ["Generate energy with the power of water."]
+			description: ["使用水力发电。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"5E85DACB6E2D19FE"
@@ -410,7 +410,7 @@
 			}]
 		}
 		{
-			title: "Industrial Hemp"
+			title: "工业大麻"
 			x: 6.0d
 			y: 7.0d
 			shape: "rsquare"
@@ -454,7 +454,7 @@
 			x: 6.0d
 			y: 9.0d
 			shape: "rsquare"
-			description: ["Upgrade your WindMill."]
+			description: ["升级你的风车。"]
 			dependencies: ["04288C5CF1BA4BE3"]
 			id: "45F60D7A1A111B38"
 			tasks: [{
@@ -472,7 +472,7 @@
 			x: 13.5d
 			y: 6.0d
 			shape: "diamond"
-			description: ["The &bEngineer's Workbench &fis a professional worktable for the educated engineer? It is widely used to construct the items described in &6Engineer's Blueprints&f."]
+			description: ["&b工程师装配台&r是为受过教育的工程师准备的专业工作台。它被广泛地用于&6构造蓝图&r中所描述的物品。"]
 			hide_dependency_lines: true
 			dependencies: ["329AEC635A1CAB77"]
 			id: "554053C7E54FA909"
@@ -491,7 +491,7 @@
 			x: 14.0d
 			y: 5.5d
 			shape: "diamond"
-			description: ["The &bGarden Cloche&f, is a device designed to hasten the growth of plants. It allows even the agriculturally challenged engineer to grow plants and harvest their yield."]
+			description: ["&b园艺玻璃罩&f，又称花园钟罩，是—种用来加速植物生长的机械。即使是身为农业苦手的工程师也能用它来种植并收获作物。"]
 			hide_dependency_lines: true
 			dependencies: ["554053C7E54FA909"]
 			id: "45B7FEDF1025D35A"
@@ -517,7 +517,7 @@
 				{
 					id: "4F4E6DFD6DF0D526"
 					type: "item"
-					title: "Metal Press Molds"
+					title: "金属冲压模具"
 					item: {
 						id: "immersiveengineering:blueprint"
 						Count: 1b
@@ -529,7 +529,7 @@
 				{
 					id: "3CD306398E8DE827"
 					type: "item"
-					title: "Common Projectiles"
+					title: "普通子弹"
 					item: {
 						id: "immersiveengineering:blueprint"
 						Count: 1b
@@ -541,7 +541,7 @@
 				{
 					id: "3FA8D8F3BEE6F517"
 					type: "item"
-					title: "Crafting Components"
+					title: "制作组件"
 					item: {
 						id: "immersiveengineering:blueprint"
 						Count: 1b
@@ -558,7 +558,7 @@
 			}]
 		}
 		{
-			title: "&3Metal Press"
+			title: "&3金属冲压机"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -569,7 +569,7 @@
 			x: 16.900000000000002d
 			y: 5.2d
 			shape: "rsquare"
-			description: ["The &bMetal Press &fis an automated way of shaping metal."]
+			description: ["&b金属冲压机&f可用于一些金属的自动化成型。"]
 			hide_dependency_lines: true
 			dependencies: ["0341C2453C2A59D8"]
 			size: 1.3d
@@ -666,7 +666,7 @@
 			x: 8.5d
 			y: 9.0d
 			shape: "square"
-			description: ["&bThermoelectric Generators &fuse the temperature gradients between two sources."]
+			description: ["&b热传导发电机&f通过发电机两侧的温度差进行发电。"]
 			hide_dependency_lines: true
 			dependencies: ["0341C2453C2A59D8"]
 			id: "41E27E9DEC90D20F"
@@ -961,7 +961,7 @@
 			}]
 		}
 		{
-			title: "&3Assembler"
+			title: "&3装配机"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -972,7 +972,7 @@
 			x: 16.900000000000002d
 			y: 6.500000000000001d
 			shape: "rsquare"
-			description: ["The &bAssembler &fis a complex machine capable of crafting items, similar to how a player would."]
+			description: ["&b装配机&r是一个可以像玩家一样制作物品的机器。"]
 			hide_dependency_lines: true
 			dependencies: ["0341C2453C2A59D8"]
 			size: 1.3d

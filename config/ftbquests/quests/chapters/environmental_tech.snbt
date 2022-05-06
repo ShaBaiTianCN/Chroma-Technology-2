@@ -890,11 +890,11 @@
 			}]
 		}
 		{
-			title: "&6Radiant Modifier"
+			title: "&6辐射升级"
 			x: 7.5d
 			y: -3.0d
 			shape: "diamond"
-			subtitle: "Radiant allows lightning rod to generate energy passively in sunny weather"
+			subtitle: "辐射允许你在晴朗的白天缓慢且被动获取能源。"
 			hide_dependency_lines: true
 			dependencies: ["4E6C2194D7123D23"]
 			id: "20DDD71EACA90BA1"
@@ -916,11 +916,11 @@
 			}]
 		}
 		{
-			title: "&6Frequency Modifier"
+			title: "&6频率升级"
 			x: 7.5d
 			y: -5.0d
 			shape: "diamond"
-			subtitle: "Frequency increases speed"
+			subtitle: "频率决定速度"
 			hide_dependency_lines: true
 			dependencies: ["4E6C2194D7123D23"]
 			id: "5DA19029E4B32682"
@@ -942,11 +942,11 @@
 			}]
 		}
 		{
-			title: "&6Bandwidth Modifier"
+			title: "&6频宽升级"
 			x: 7.0d
 			y: -4.5d
 			shape: "diamond"
-			subtitle: "Bandwidth increases amount of drops in miner"
+			subtitle: "频宽升级提高了单次采掘个数"
 			hide_dependency_lines: true
 			dependencies: ["4E6C2194D7123D23"]
 			id: "7FCF5566BFAB31F6"
@@ -968,11 +968,11 @@
 			}]
 		}
 		{
-			title: "&6Amplification Modifier"
+			title: "&6聚焦升级"
 			x: 7.0d
 			y: -3.5d
 			shape: "diamond"
-			subtitle: "Amplification modifier is new Accuracy. Modifier for lenses once they are implemented"
+			subtitle: "聚焦升级提供前所未有的精确度。安装后可以提升透镜精度。"
 			hide_dependency_lines: true
 			dependencies: ["4E6C2194D7123D23"]
 			id: "1DB7720B3433B758"
@@ -994,7 +994,7 @@
 			}]
 		}
 		{
-			title: "&bNull Modifier"
+			title: "&b空白升级"
 			x: 8.0d
 			y: -4.0d
 			shape: "diamond"
@@ -1020,7 +1020,7 @@
 			}]
 		}
 		{
-			title: "&6Item Output"
+			title: "&6物品输出"
 			x: 8.0d
 			y: -1.5d
 			shape: "diamond"
@@ -1043,7 +1043,7 @@
 			}]
 		}
 		{
-			title: "&6FE Output"
+			title: "&6FE输出"
 			x: 8.5d
 			y: -2.0d
 			shape: "diamond"
@@ -1069,7 +1069,7 @@
 			}]
 		}
 		{
-			title: "&6FE Input"
+			title: "&6FE输入"
 			x: 7.5d
 			y: -2.0d
 			shape: "diamond"
@@ -1095,11 +1095,11 @@
 			}]
 		}
 		{
-			title: "&6Dimensional Modifier"
+			title: "&6维度升级"
 			x: 9.0d
 			y: -3.5d
 			shape: "diamond"
-			subtitle: "Dimensional allows all items from all biomes from the dimension that the void miner is in to be mined"
+			subtitle: "维度升级可以让你的采矿机挖掘来自这个维度所有群系的物品。"
 			hide_dependency_lines: true
 			dependencies: ["4E6C2194D7123D23"]
 			id: "2CFD1A01DC5ABB4F"
@@ -1121,11 +1121,11 @@
 			}]
 		}
 		{
-			title: "&6Electrostatic Modifier"
+			title: "&6静电升级"
 			x: 9.0d
 			y: -4.5d
 			shape: "diamond"
-			subtitle: "Electrostatic modifier allows Lightning rods to generate energy passively in rain and thunder"
+			subtitle: "静电升级能让避雷针在雨天和雷雨天被动产生能量。"
 			hide_dependency_lines: true
 			dependencies: ["4E6C2194D7123D23"]
 			id: "1C3803C3C81F5D7B"
@@ -1147,11 +1147,11 @@
 			}]
 		}
 		{
-			title: "&6Interdimensional Modifier"
+			title: "&6多维度升级"
 			x: 8.5d
 			y: -3.0d
 			shape: "diamond"
-			subtitle: "Interdimensional allows you to get all materials in any dimension"
+			subtitle: "多维度升级能让你获取来自任何维度的材料。"
 			hide_dependency_lines: true
 			dependencies: ["4E6C2194D7123D23"]
 			id: "1A41DB4FE3D9FC34"
@@ -1173,11 +1173,11 @@
 			}]
 		}
 		{
-			title: "&6Piezo Modifier"
+			title: "&6压电升级"
 			x: 8.5d
 			y: -5.0d
 			shape: "diamond"
-			subtitle: "Piezo Modifier allows solars to generate energy in rain/thunderstorms from vibrations"
+			subtitle: "压电升级可以让太阳能发电机通过震动在雨天或雷雨天产生能量。"
 			hide_dependency_lines: true
 			dependencies: ["4E6C2194D7123D23"]
 			id: "131B673D0E9CE492"

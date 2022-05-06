@@ -11,13 +11,13 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			subtitle: "Oh mirror ! My beautiful Mirror !"
+			subtitle: "哦！镜子，我美丽的镜子！"
 			description: [
-				"This is the first part to become an ecologist"
+				"这是你成为环保主义者的第一步。"
 				""
-				"And no, you can't see yourself through it"
+				"但是你无法通过它看见自己。"
 				""
-				"Crafting that &4Mirror&r can unlock you more powerful panels !"
+				"通过制造&6镜面&f你可以解锁更强大的太阳能板！"
 			]
 			dependencies: ["199D01B97275C878"]
 			id: "4A40B4CFE96EB147"
@@ -33,14 +33,14 @@
 			}]
 		}
 		{
-			title: "Photovoltaic Ecologist "
+			title: "光伏电池"
 			x: 1.0d
 			y: 0.0d
-			subtitle: "Sunshine is usefull, until night.."
+			subtitle: "在夜晚来临之前，阳光都是有用的..."
 			description: [
-				"You successfully upgraded you &6Mirror&r to a &5Photovoltaic Cell&r"
+				"你成功的将你的&6镜面&f升级成&b光伏电池&f。"
 				""
-				"Now it's the time to inner your overprotective side of ecology"
+				"现在是时候让你的环保理念展现出来了！"
 			]
 			dependencies: ["4A40B4CFE96EB147"]
 			id: "32569395D0B753CB"
@@ -58,11 +58,11 @@
 		{
 			x: 2.0d
 			y: 0.0d
-			subtitle: "Cell V2 "
+			subtitle: "光伏电池V2 "
 			description: [
-				"A better Cell for you Panels !"
+				"一个更好的太阳能电池板的组件。"
 				""
-				"No there are no chains to be scared about !  "
+				"不，没有什么可怕的束缚。"
 			]
 			dependencies: ["32569395D0B753CB"]
 			id: "569FF60F346B0D3A"
@@ -80,13 +80,13 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			subtitle: "Cell The Third"
+			subtitle: "光伏电池V3"
 			description: [
-				"Should I really make a text for all cells?"
+				"我真的该为所有任务写段说明吗？"
 				""
-				"Hell No, you're not some crazy random who doesn't know how that mod work right?"
+				"不，你不是一个不懂模组的小白，对吗？"
 				""
-				"I guess you should do by yourself now."
+				"我想你应该可以自己完成任务了！"
 			]
 			dependencies: ["569FF60F346B0D3A"]
 			id: "11F4AB5D7877B79F"
@@ -155,13 +155,13 @@
 		{
 			x: -1.5d
 			y: -1.0d
-			subtitle: "Solar Impulse"
+			subtitle: "太阳能脉冲"
 			description: [
-				"You first &6Solar Panel&r !"
+				"你的第一个&6太阳能电池板 &f!"
 				""
-				"Lol, seriously you really thought this would generate that much?"
+				"LoL(哈哈), 你真的以为这能产这么多能量吗？"
 				""
-				"Come on that's only the first tier !"
+				"拜托！这只是第一阶段！"
 			]
 			dependencies: ["4A40B4CFE96EB147"]
 			id: "73FBA4D56F01985F"
@@ -179,13 +179,13 @@
 		{
 			x: 0.0d
 			y: -2.0d
-			subtitle: "Act II , scene II"
+			subtitle: "第二幕，第二场"
 			description: [
-				"A better Panel !"
+				"一个更好的太阳能电池板！"
 				""
-				"Yes that does generate a few more... But really ?"
+				"是的，这确实产生了更多的能量。。。但真的吗？"
 				""
-				"You'll stay a polluer to me !"
+				"你将永远是我的污染者!"
 			]
 			dependencies: ["73FBA4D56F01985F"]
 			id: "1E9BC6190A24791B"
@@ -203,13 +203,13 @@
 		{
 			x: 1.0d
 			y: -2.0d
-			subtitle: "Third time's a charm"
+			subtitle: "第三次就好了"
 			description: [
-				"Tier Three !"
+				"等级三！"
 				""
-				"Yep, that does generates more and more RF"
+				"是的，这确实会产生越来越多的RF！"
 				""
-				"Now that you're here why not continue and go even further?"
+				"既然你已经做到这了，为什么不继续往后做呢！"
 			]
 			dependencies: [
 				"32569395D0B753CB"
@@ -249,11 +249,11 @@
 		{
 			x: 2.0d
 			y: -2.0d
-			subtitle: "Two plus Two is..."
+			subtitle: "二加二等于。。。"
 			description: [
-				"Tier four !"
+				"等级四!"
 				""
-				"Alright I guess that makes 4x more RF!"
+				"好吧！我猜这有4倍RF的产能！"
 				""
 				"But I guess you can look FOURther to that tier"
 				"(Sorry for the bad joke)"
@@ -336,7 +336,7 @@
 		{
 			x: 0.0d
 			y: 2.5d
-			subtitle: "The main component for upgrade"
+			subtitle: "升级的主要部件"
 			dependencies: ["4A40B4CFE96EB147"]
 			id: "00B29949E4561592"
 			tasks: [{
@@ -353,7 +353,7 @@
 		{
 			x: -1.0d
 			y: 1.5d
-			subtitle: "More RF production"
+			subtitle: "更多RF生产"
 			dependencies: ["00B29949E4561592"]
 			id: "61DBEC329D1D495D"
 			tasks: [{
@@ -370,7 +370,7 @@
 		{
 			x: 1.0d
 			y: 2.5d
-			subtitle: "Can transfer more FE/t"
+			subtitle: "能够传输更多的FE/t"
 			dependencies: ["00B29949E4561592"]
 			id: "0594BA5B996F8CCC"
 			tasks: [{
@@ -387,7 +387,7 @@
 		{
 			x: -1.0d
 			y: 2.5d
-			subtitle: "More Storage for RF"
+			subtitle: "更多的RF容量"
 			dependencies: ["00B29949E4561592"]
 			id: "2CB7AE3EA53025F4"
 			tasks: [{
@@ -452,7 +452,7 @@
 		{
 			x: 0.0d
 			y: 3.5d
-			subtitle: "Solar Furnace"
+			subtitle: "太阳能熔炉"
 			dependencies: ["00B29949E4561592"]
 			id: "206AC5FB784906D1"
 			tasks: [{

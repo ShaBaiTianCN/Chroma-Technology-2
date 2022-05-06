@@ -12,13 +12,13 @@
 			x: 0.0d
 			y: -0.5d
 			shape: "diamond"
-			subtitle: "The Wrench"
+			subtitle: "扳手"
 			description: [
-				"The &bCrescent Hammer&r"
+				"&b新月锤&r"
 				""
-				"So this is the main wrench to the thermal mod."
+				"这就是热力系列模组主要的扳手。"
 				""
-				"With it you can turn machines or break them instantly."
+				"使用它你可以旋转机器或瞬间破坏机器。"
 			]
 			dependencies: [
 				"199D01B97275C878"
@@ -58,8 +58,8 @@
 			x: -1.0d
 			y: 4.5d
 			shape: "diamond"
-			subtitle: "Not used to cook food"
-			description: ["Smelts metals and things that require high temperatures. Useful for processing ores and creating advanced blocks."]
+			subtitle: "你是有多么想不开，才会把吃的东西往里塞"
+			description: ["熔炼对温度有较高需求的金属等物品。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2F27B41DB7E14E1C"
@@ -81,8 +81,8 @@
 			x: -1.0d
 			y: 3.5d
 			shape: "diamond"
-			subtitle: "Pressing"
-			description: ["Squeezes and deforms items. Can use a manufacturing die to determine the output."]
+			subtitle: "压力"
+			description: ["对物品进行冲压成型处理。可以使用冲压模具来定制部件形状。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2F27B41DB7E14E1C"
@@ -104,8 +104,8 @@
 			x: -0.5d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "Melting "
-			description: ["Turns solid materials into fluids, at high heat. Very useful for creating advanced blocks"]
+			subtitle: "熔化"
+			description: ["用高温将物品熔化为流体。在获取更“高级”的方块时非常有用。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2F27B41DB7E14E1C"
@@ -127,8 +127,8 @@
 			x: 0.5d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "Refreshing"
-			description: ["Fills containers with fluids. This is required to consume certain beverages. "]
+			subtitle: "神清气爽"
+			description: ["将流体灌入容器中。如果你想来点好喝的，那必须备一台这样的机器。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2F27B41DB7E14E1C"
@@ -150,8 +150,8 @@
 			x: 1.0d
 			y: 2.5d
 			shape: "diamond"
-			subtitle: "Watch your hands"
-			description: ["Cuts logs into planks and reprocesses wooden objects. Very useful for making the most out of a tree "]
+			subtitle: "小心手"
+			description: ["将原木切割成木板并额外产出一些副产物。榨干树木的每一分价值。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2F27B41DB7E14E1C"
@@ -173,8 +173,8 @@
 			x: -1.0d
 			y: 2.5d
 			shape: "diamond"
-			subtitle: "Separates thing"
-			description: ["Separates items into their components. Some items will process into a fluid component."]
+			subtitle: "分离物品"
+			description: ["通过高速旋转离心技术将物品分离成其构成材料。一些物品能离心出流体形式的材料。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2F27B41DB7E14E1C"
@@ -196,8 +196,8 @@
 			x: -1.5d
 			y: 4.0d
 			shape: "diamond"
-			subtitle: "Crafting Automation"
-			description: ["Insert items into the grid to set a crafting recipe. Simply press the confirm button and it should craft without you nearby"]
+			subtitle: "自动合成"
+			description: ["摆放物品，编写配方，开始合成。点击确认按钮，然后静待收成。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2F27B41DB7E14E1C"
@@ -219,8 +219,8 @@
 			x: -0.5d
 			y: 5.0d
 			shape: "diamond"
-			subtitle: "Not exactly \"organic\" farming"
-			description: ["Infuses nutrients and light into plants using Forge Energy."]
+			subtitle: "好像算不上是个“有机”农场吧"
+			description: ["使用FE为植物灌注养分与阳光。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2F27B41DB7E14E1C"
@@ -242,8 +242,8 @@
 			x: 1.5d
 			y: 4.0d
 			shape: "diamond"
-			subtitle: "BRRRR !"
-			description: ["Rapidly freezes items and fluids. Can use a forming mold with fluids to determine the output."]
+			subtitle: "嘶——冷……冷死了……"
+			description: ["快速冻结物品与流体。可以利用铸模来定型。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2F27B41DB7E14E1C"
@@ -265,8 +265,8 @@
 			x: -1.0d
 			y: 5.5d
 			shape: "diamond"
-			subtitle: "No Touchy"
-			description: ["Decomposes solids via high temperatures. Very useful in fuel purification."]
+			subtitle: "别动手动脚的"
+			description: ["在高温下分解固态物质。纯化燃料的利器。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2F27B41DB7E14E1C"
@@ -288,8 +288,8 @@
 			x: 1.0d
 			y: 5.5d
 			shape: "diamond"
-			subtitle: "Bottles Not Included"
-			description: ["Brews potions and imbues fluids. You might want a few of these in a row"]
+			subtitle: "可别想当然地把玻璃瓶子往里塞"
+			description: ["酿造药水，灌注流体。你可能会需要摆上那么一整排，毕竟药水酿造都属于流程工艺。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2F27B41DB7E14E1C"
@@ -311,8 +311,8 @@
 			x: 1.0d
 			y: 4.5d
 			shape: "diamond"
-			subtitle: "Mlem mlem"
-			description: ["Smelts things using FE. Uses very little energy to cook food."]
+			subtitle: "窟哧窟哧窟哧……嗝"
+			description: ["电力驱动的熔炉。烹饪食物时耗能更少。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2F27B41DB7E14E1C"
@@ -334,8 +334,8 @@
 			x: 0.5d
 			y: 5.0d
 			shape: "diamond"
-			subtitle: "Ain't Reversible"
-			description: ["Smashes things into more broken things. Useful for processing ores or converting items."]
+			subtitle: "一般情况下，磨出来的粉是不可能复原的了"
+			description: ["将物品进行粉碎处理来获取更多产物。用来处理矿石或转化材料再好不过。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2F27B41DB7E14E1C"
@@ -357,8 +357,8 @@
 			x: 1.0d
 			y: 3.5d
 			shape: "diamond"
-			subtitle: "Not Drinkable"
-			description: ["Refines various fluids into other products. Some fluids will leave behind a solid component."]
+			subtitle: "这么炼出来的东西能喝还是不能喝，你自己得有判断"
+			description: ["将流体精炼为其它材料。有些流体在精炼过程中会凝固出固体产物。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2F27B41DB7E14E1C"
@@ -377,7 +377,7 @@
 			}]
 		}
 		{
-			title: "Diving Suit"
+			title: "潜泳服"
 			x: 4.5d
 			y: 1.0d
 			shape: "diamond"
@@ -437,7 +437,7 @@
 			}]
 		}
 		{
-			title: "Hazmat Suit"
+			title: "防化服"
 			x: 4.0d
 			y: 1.5d
 			shape: "diamond"
@@ -500,11 +500,11 @@
 			x: -1.5d
 			y: -4.0d
 			shape: "diamond"
-			subtitle: "FE with Solid Fuel"
+			subtitle: "燃烧固体燃料，产出FE"
 			description: [
-				"This &7Dynamo&r can generate FE with, like said in the subtitle, solid fuel."
+				"这个&7能源炉&r燃烧固体燃料，产生FE。"
 				""
-				"Solid Fuels are what you can use in a furnace in order to smelt or cook items "
+				"大部分在熔炉里能烧的东西，在这儿也能行。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["5650F5933198B382"]
@@ -524,17 +524,17 @@
 			x: -1.0d
 			y: -4.5d
 			shape: "diamond"
-			subtitle: "Liquifying Fuel"
+			subtitle: "液体燃料"
 			description: [
-				"To generate RF with this &6Dyanmo&r, you will have to use Liquified Fuels."
+				"这个&6能源炉&r消耗易燃液体，产出FE。"
 				""
-				"What are those liquified fuels?"
-				"In the thermal mod there are only three fuels : "
-				"-> Creosote Oil"
-				"-> Refined Fuel"
-				"-> Tree Oil "
+				"那些液体燃料是什么？"
+				"在热力系列模组中只有三种燃料："
+				"->杂酚油"
+				"->精炼油"
+				"->树油"
 				""
-				"Each fuel has a different energy generation. Check JEI for further informations."
+				"每种燃料能产生的能量也不同。查看JEI来获取更多信息。"
 				""
 			]
 			hide_dependency_lines: true
@@ -555,11 +555,11 @@
 			x: 0.0d
 			y: -4.5d
 			shape: "diamond"
-			subtitle: "FE with lava"
+			subtitle: "熔岩产生FE"
 			description: [
-				"In order to make energy with this &4Dynamo&r you have to insert lava in it."
+				"你需要为它添加熔岩来使用这台&4能源炉&r来产生能量。"
 				""
-				"Quite simple isn't it?"
+				"很简单，不是吗？"
 			]
 			hide_dependency_lines: true
 			dependencies: ["5650F5933198B382"]
@@ -579,8 +579,8 @@
 			x: 1.5d
 			y: -4.0d
 			shape: "diamond"
-			subtitle: "Gems for FE"
-			description: ["This &bDynamo&r can generate energy with gems (type forge:gems in JEI to see all gems)"]
+			subtitle: "珠宝产生FE"
+			description: ["这台&b能源炉&r可以使用珠宝来产生能量（在JEI中输入forge:gems来查看所有的珠宝）"]
 			hide_dependency_lines: true
 			dependencies: ["5650F5933198B382"]
 			id: "4F44ED201C1EE83C"
@@ -599,11 +599,11 @@
 			x: 1.0d
 			y: -4.5d
 			shape: "diamond"
-			subtitle: "Coins for FE"
+			subtitle: "硬币产生FE"
 			description: [
-				"This &eDynamo&r will generate FE with Coins."
+				"这台&e能源炉&r可以使用硬币来产生FE。"
 				""
-				"How to make coins? Craft the &7MultiServo Press&r and put the &8Numismatic Press&r in the second Slot (the one on the bottom)"
+				"如何制作硬币？制作一台&7多驱冲压机&r将&8通货冲压模具&r放入第二个格子（下方的格子）"
 			]
 			hide_dependency_lines: true
 			dependencies: ["5650F5933198B382"]
@@ -623,8 +623,8 @@
 			x: -1.0d
 			y: -3.5d
 			shape: "diamond"
-			subtitle: "Stone Generation"
-			description: ["Generates various types of stone. Requires an adjacent lava source and cooling (Water). The block beneath may also affect the product."]
+			subtitle: "石头制造者"
+			description: ["产出各类岩石。需要一个相邻的熔岩源并加以冷却。下方的方块同样可能影响产物。"]
 			hide_dependency_lines: true
 			dependencies: ["3A48D86B55272600"]
 			id: "0D4A3CA6813735E7"
@@ -643,8 +643,8 @@
 			x: -0.5d
 			y: -4.0d
 			shape: "diamond"
-			subtitle: "Vacuum Hopper"
-			description: ["Picks up things from a nearby area"]
+			subtitle: "虚空漏斗"
+			description: ["拾取附近的掉落物"]
 			hide_dependency_lines: true
 			dependencies: ["3A48D86B55272600"]
 			id: "3EE4355AA96645EA"
@@ -663,8 +663,8 @@
 			x: 0.5d
 			y: -4.0d
 			shape: "diamond"
-			subtitle: "Trash Can "
-			description: ["Destroy anything placed to it. Items and fluid inserted with automation are destroyed instantly"]
+			subtitle: "垃圾桶"
+			description: ["销毁任何被放入的东西。自动输入的物品与流体将被立即销毁。"]
 			hide_dependency_lines: true
 			dependencies: ["3A48D86B55272600"]
 			id: "4A95E8280B4776F1"
@@ -683,8 +683,8 @@
 			x: 1.0d
 			y: -3.5d
 			shape: "diamond"
-			subtitle: "Potions Splasher"
-			description: ["Spreads potions within the nearby area. Use reageants to boost effectiveness."]
+			subtitle: "药水喷洒器"
+			description: ["向周围一定区域内布洒药水。使用试剂来提升效率。"]
 			hide_dependency_lines: true
 			dependencies: ["3A48D86B55272600"]
 			id: "6FCCDD2BE3938C02"
@@ -703,8 +703,8 @@
 			x: 0.0d
 			y: -3.5d
 			shape: "diamond"
-			subtitle: "Charging Items"
-			description: ["Charges items with Forge Energy. Items can be inserted and removed with automation"]
+			subtitle: "充电"
+			description: ["使用FE对物品进行充能。可自动化输入与输出。"]
 			hide_dependency_lines: true
 			dependencies: ["5650F5933198B382"]
 			id: "0D5E245D035DADBB"
@@ -1327,9 +1327,9 @@
 			x: -0.5d
 			y: -3.0d
 			shape: "diamond"
-			subtitle: "Manage Forge Energy"
+			subtitle: "管理FE"
 			description: [
-				"Stores and Transfers Forge Energy."
+				"储存和传输FE。"
 				""
 			]
 			hide_dependency_lines: true
@@ -1361,8 +1361,8 @@
 			x: 0.0d
 			y: -2.5d
 			shape: "diamond"
-			subtitle: "Infinite Water"
-			description: ["Provides copius amounts of water. Requires adjacent water sources to function."]
+			subtitle: "无限水"
+			description: ["提供大量水资源。需要相邻的水源以使其正常工作。"]
 			hide_dependency_lines: true
 			dependencies: ["3A48D86B55272600"]
 			id: "54B0B332603B6E8A"
@@ -1381,8 +1381,8 @@
 			x: 0.5d
 			y: -3.0d
 			shape: "diamond"
-			subtitle: "Manage Fluids"
-			description: ["Stores and Transfers Fluids. "]
+			subtitle: "管理流体"
+			description: ["储存与传输流体。"]
 			hide_dependency_lines: true
 			dependencies: ["3A48D86B55272600"]
 			id: "0B9C349B70C12B30"

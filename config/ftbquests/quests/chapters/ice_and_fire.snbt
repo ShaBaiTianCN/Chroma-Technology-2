@@ -69,7 +69,7 @@
 			}]
 		}
 		{
-			title: "&4Red dragon Scale&r"
+			title: "&4火红龙鳞&r"
 			x: 1.5d
 			y: -8.5d
 			hide_dependency_lines: true
@@ -88,7 +88,7 @@
 			}]
 		}
 		{
-			title: "&6Bronze Dragon Scale&r"
+			title: "&6沉金龙鳞&r"
 			x: 0.5d
 			y: -4.0d
 			hide_dependency_lines: true
@@ -107,7 +107,7 @@
 			}]
 		}
 		{
-			title: "&2Emerald Dragon Scale&r"
+			title: "&2翡绿龙鳞&r"
 			x: 0.5d
 			y: -14.5d
 			hide_dependency_lines: true
@@ -126,7 +126,7 @@
 			}]
 		}
 		{
-			title: "&7Gray Dragon Scale&r"
+			title: "&7烬灰龙鳞&r"
 			x: 1.5d
 			y: -14.5d
 			hide_dependency_lines: true
@@ -145,7 +145,7 @@
 			}]
 		}
 		{
-			title: "&9Blue Dragon Scale&r"
+			title: "&9冰蓝龙鳞&r"
 			x: 1.5d
 			y: -11.5d
 			hide_dependency_lines: true
@@ -164,7 +164,7 @@
 			}]
 		}
 		{
-			title: "&fWhite Dragon Scale&r"
+			title: "&f淞白龙鳞&r"
 			x: 1.5d
 			y: -7.0d
 			hide_dependency_lines: true
@@ -183,7 +183,7 @@
 			}]
 		}
 		{
-			title: "&3Sapphire Dragon Scale&r"
+			title: "&3玉靛龙鳞&r"
 			x: 1.5d
 			y: -4.0d
 			hide_dependency_lines: true
@@ -202,7 +202,7 @@
 			}]
 		}
 		{
-			title: "&7Silver Dragon Scale&r"
+			title: "&7黯银龙鳞&r"
 			x: 1.5d
 			y: -10.0d
 			hide_dependency_lines: true
@@ -221,7 +221,7 @@
 			}]
 		}
 		{
-			title: "&1Electric Blue Dragon Scale&r"
+			title: "&1电青龙鳞&r"
 			x: 1.5d
 			y: -5.5d
 			hide_dependency_lines: true
@@ -240,7 +240,7 @@
 			}]
 		}
 		{
-			title: "&dAmethyst Dragon Scale&r"
+			title: "&d晶紫龙鳞&r"
 			x: 1.5d
 			y: -13.0d
 			hide_dependency_lines: true
@@ -259,7 +259,7 @@
 			}]
 		}
 		{
-			title: "&bShi&r&eny Sc&r&cale&r"
+			title: "&b闪&r&e光鳞&r&片&r"
 			x: 9.5d
 			y: -10.0d
 			hide_dependency_lines: true
@@ -278,7 +278,7 @@
 			}]
 		}
 		{
-			title: "&2Sea Serp&r&aent Scale&r"
+			title: "&2海蟒&r&a鳞片&r"
 			x: 7.5d
 			y: -10.0d
 			hide_dependency_lines: true
@@ -297,7 +297,7 @@
 			}]
 		}
 		{
-			title: "&5Sea Serp&r&dent Scale&r"
+			title: "&5海蟒&r&d鳞片&r"
 			x: 7.5d
 			y: -8.5d
 			hide_dependency_lines: true
@@ -316,7 +316,7 @@
 			}]
 		}
 		{
-			title: "&bSea Serp&r&9ent Scale&r"
+			title: "&b海蟒&r&9鳞片&r"
 			x: 7.5d
 			y: -11.5d
 			hide_dependency_lines: true
@@ -335,7 +335,7 @@
 			}]
 		}
 		{
-			title: "&4Sea Serp&r&cent Scale&r"
+			title: "&4海蟒&r&c鳞片&r"
 			x: 7.5d
 			y: -13.0d
 			hide_dependency_lines: true
@@ -354,7 +354,7 @@
 			}]
 		}
 		{
-			title: "&6Sea Serpent Scale&r"
+			title: "&6海蟒鳞片&r"
 			x: 7.5d
 			y: -5.5d
 			hide_dependency_lines: true
@@ -373,7 +373,7 @@
 			}]
 		}
 		{
-			title: "&3Sea Serp&r&bent Scale&r"
+			title: "&3海蟒&r&b鳞片&r"
 			x: 7.5d
 			y: -7.0d
 			hide_dependency_lines: true
@@ -392,7 +392,7 @@
 			}]
 		}
 		{
-			title: "&1Sea serp&r&3ent Scale&r"
+			title: "&1海蟒&r&3鳞片&r"
 			x: 7.5d
 			y: -14.5d
 			hide_dependency_lines: true
@@ -448,7 +448,7 @@
 			x: 6.5d
 			y: 2.0d
 			shape: "diamond"
-			description: ["Dragon horns can be used to store dragons."]
+			description: ["龙吟号角可以储存你驯服的龙"]
 			hide_dependency_lines: true
 			dependencies: ["37498A776C0B5351"]
 			id: "42AD6E8420559764"
@@ -467,7 +467,7 @@
 			x: 9.0d
 			y: 4.5d
 			shape: "diamond"
-			description: ["&6Dragon Command Staff&f is an item, that can be used your dragon to stay, to wander or to escort you.  It can also be used to set the home position of tamed creatures through SHIFT right-click."]
+			description: ["&6驯龙杖&f右键可以让龙坐下，起身或跟随，shift右键龙可以把龙的家设置为当前坐标位置"]
 			hide_dependency_lines: true
 			dependencies: ["37498A776C0B5351"]
 			id: "1FB539BFD1838EA0"
@@ -483,7 +483,7 @@
 			}]
 		}
 		{
-			title: "&6Bronze Dragon Armor&r"
+			title: "&6沉金护甲&r"
 			x: -1.5d
 			y: -4.0d
 			dependencies: ["25C77554A8FBAE46"]
@@ -541,7 +541,7 @@
 			}]
 		}
 		{
-			title: "&4Red dragon armor&r"
+			title: "&4火红护甲&r"
 			x: 4.5d
 			y: -8.5d
 			dependencies: ["35C651C368E8420A"]
@@ -599,7 +599,7 @@
 			}]
 		}
 		{
-			title: "&2Emerald Dragon Armor&r"
+			title: "&2绿宝石龙盔甲&r"
 			x: -1.5d
 			y: -14.5d
 			dependencies: ["5583212ABE4125F0"]
@@ -657,7 +657,7 @@
 			}]
 		}
 		{
-			title: "&7Gray Dragon Armor&r"
+			title: "&7烬灰护甲&r"
 			x: 4.5d
 			y: -14.5d
 			dependencies: ["6E58D6EEFB59B161"]
@@ -715,7 +715,7 @@
 			}]
 		}
 		{
-			title: "&9Blue Dragon Armor&r"
+			title: "&9冰蓝护甲&r"
 			x: 4.5d
 			y: -11.5d
 			dependencies: ["76E85ADEB9E774C7"]
@@ -773,7 +773,7 @@
 			}]
 		}
 		{
-			title: "&7Silver Dragon armor&r"
+			title: "&7黯银护甲&r"
 			x: 4.5d
 			y: -10.0d
 			dependencies: ["2E9AC8A42297EEFE"]
@@ -831,7 +831,7 @@
 			}]
 		}
 		{
-			title: "&1Electric Blue Dragon Armor&r"
+			title: "&1电青护甲&r"
 			x: 4.5d
 			y: -5.5d
 			dependencies: ["38C5619C90BFCA92"]
@@ -889,7 +889,7 @@
 			}]
 		}
 		{
-			title: "&dAmethyst Dragon Armor&r"
+			title: "&d晶紫护甲&r"
 			x: 4.5d
 			y: -13.0d
 			dependencies: ["6ADB4877F454381A"]
@@ -947,7 +947,7 @@
 			}]
 		}
 		{
-			title: "&fWhite Dragon Armor&r"
+			title: "&f凇白护甲&r"
 			x: 4.5d
 			y: -7.0d
 			dependencies: ["0EBFE5E72894049A"]
@@ -1005,7 +1005,7 @@
 			}]
 		}
 		{
-			title: "&3Sapphire Dragon Armor&r"
+			title: "&3玉靛护甲&r"
 			x: 4.5d
 			y: -4.0d
 			dependencies: ["614D32113A63D90F"]
@@ -1063,7 +1063,7 @@
 			}]
 		}
 		{
-			title: "&bTide Guar&r&9dian Armor&r"
+			title: "&b潮卫&r&9护甲&r"
 			x: 6.0d
 			y: -11.5d
 			hide_dependency_lines: true
@@ -1125,7 +1125,7 @@
 			}]
 		}
 		{
-			title: "&1Tide Guar&r&cdian Armor&r"
+			title: "&1潮卫&r&c护甲&r"
 			x: 6.0d
 			y: -13.0d
 			hide_dependency_lines: true
@@ -1187,7 +1187,7 @@
 			}]
 		}
 		{
-			title: "&1Tide Guar&r&3dian Armor&r"
+			title: "&1潮卫&r&3护甲&r"
 			x: 6.0d
 			y: -14.5d
 			hide_dependency_lines: true
@@ -1249,7 +1249,7 @@
 			}]
 		}
 		{
-			title: "&6Tide Guar&r&3dian Armor&r"
+			title: "&6潮卫&r&3护甲&r"
 			x: 6.0d
 			y: -5.5d
 			hide_dependency_lines: true
@@ -1311,7 +1311,7 @@
 			}]
 		}
 		{
-			title: "&2Tide Guar&r&bdian Armor&r"
+			title: "&2潮卫&r&b护甲&r"
 			x: 6.0d
 			y: -10.0d
 			hide_dependency_lines: true
@@ -1373,7 +1373,7 @@
 			}]
 		}
 		{
-			title: "&5Tide Guar&r&9dian Armor&r"
+			title: "&5潮卫&r&9护甲&r"
 			x: 6.0d
 			y: -8.5d
 			hide_dependency_lines: true
@@ -1435,7 +1435,7 @@
 			}]
 		}
 		{
-			title: "&3Tide Guar&r&bdian Armor&r"
+			title: "&3潮卫&r&b护甲&r"
 			x: 6.0d
 			y: -7.0d
 			hide_dependency_lines: true
@@ -1497,13 +1497,13 @@
 			}]
 		}
 		{
-			title: "&5Lightning DragonForge&r"
+			title: "&5龙霆锻炉&r"
 			x: -7.5d
 			y: -6.5d
 			description: [
-				"The Dragonforge is used to make corresponding Dragonsteel ingots of its type using bottles of dragon blood and iron ingots."
+				"龙钢锻炉用于使用龙血和铁锭制造相应类型的龙钢锭。"
 				""
-				"Need a stage 3+ Lightning Dragon "
+				"需要3级以上的电龙 "
 			]
 			dependencies: [
 				"327CB86A809B634A"
@@ -1541,13 +1541,13 @@
 			}]
 		}
 		{
-			title: "&4Fire DragonForge&r"
+			title: "&4龙炎锻炉&r"
 			x: -14.0d
 			y: -11.0d
 			description: [
-				"The Dragonforge is used to make corresponding Dragonsteel ingots of its type using bottles of dragon blood and iron ingots."
+				"龙钢锻炉用于使用龙血和铁锭制造相应类型的龙钢锭。"
 				""
-				"Need a stage 3+ Fire Dragon "
+				"需要3级以上的火龙"
 			]
 			dependencies: [
 				"346FE914E0D04650"
@@ -1585,13 +1585,13 @@
 			}]
 		}
 		{
-			title: "&bIce dragonForge&r"
+			title: "&b龙霜锻炉&r"
 			x: -6.0d
 			y: -17.5d
 			description: [
-				"The Dragonforge is used to make corresponding Dragonsteel ingots of its type using bottles of dragon blood and iron ingots."
+				"龙钢锻炉用于使用龙血和铁锭制造相应类型的龙钢锭。"
 				""
-				"Need a stage 3+ Ice Dragon"
+				"需要3级以上的冰龙"
 			]
 			dependencies: [
 				"29554BD8971DEB5B"
@@ -1629,7 +1629,7 @@
 			}]
 		}
 		{
-			title: "&5Lightning Dragon Blood&r"
+			title: "&5电龙血&r"
 			x: -6.5d
 			y: -7.0d
 			hide_dependency_lines: true
@@ -1647,7 +1647,7 @@
 			}]
 		}
 		{
-			title: "&4Fire Dragon Blood&r"
+			title: "&4火龙血&r"
 			x: -13.0d
 			y: -11.5d
 			hide_dependency_lines: true
@@ -1665,7 +1665,7 @@
 			}]
 		}
 		{
-			title: "&bIce Dragon Blood&r"
+			title: "&b冰龙血&r"
 			x: -5.0d
 			y: -18.0d
 			hide_dependency_lines: true
@@ -1683,7 +1683,7 @@
 			}]
 		}
 		{
-			title: "&bIce Dragonsteel Ingot&r"
+			title: "&龙霜钢锭&r"
 			x: -9.5d
 			y: -17.5d
 			dependencies: ["5046C586A594B8CD"]
@@ -1701,7 +1701,7 @@
 			}]
 		}
 		{
-			title: "&4Fire Dragonsteel Ingot&r"
+			title: "&4龙炎钢锭&r"
 			x: -16.0d
 			y: -11.0d
 			dependencies: ["17F28C648D9D1281"]
@@ -1719,7 +1719,7 @@
 			}]
 		}
 		{
-			title: "&5Lightning Dragonsteel Ingot&r"
+			title: "&5龙霆钢锭&r"
 			x: -9.5d
 			y: -6.5d
 			dependencies: ["6DEC21588AEDD5A5"]
@@ -1737,7 +1737,7 @@
 			}]
 		}
 		{
-			title: "&bIce Dragon Heart&r"
+			title: "&b冰龙心脏&r"
 			x: -5.0d
 			y: -17.0d
 			hide_dependency_lines: true
@@ -1755,7 +1755,7 @@
 			}]
 		}
 		{
-			title: "&5Lightning Dragon Heart&r"
+			title: "&5电龙心脏&r"
 			x: -6.5d
 			y: -6.0d
 			hide_dependency_lines: true
@@ -1773,7 +1773,7 @@
 			}]
 		}
 		{
-			title: "&4Fire Dragon Heart&r"
+			title: "&4火龙心脏&r"
 			x: -13.0d
 			y: -10.5d
 			hide_dependency_lines: true
@@ -1791,7 +1791,7 @@
 			}]
 		}
 		{
-			title: "&4Fire Dragonsteel Sword&r"
+			title: "&4龙炎钢剑&r"
 			x: -19.0d
 			y: -13.0d
 			dependencies: ["70CD8E8A83503562"]
@@ -1814,7 +1814,7 @@
 			}]
 		}
 		{
-			title: "&4Fire Dragonsteel Pickaxe&r"
+			title: "&4龙炎钢镐&r"
 			x: -19.0d
 			y: -12.0d
 			dependencies: ["70CD8E8A83503562"]
@@ -1837,7 +1837,7 @@
 			}]
 		}
 		{
-			title: "&4Fire Dragonsteel Axe&r"
+			title: "&4龙炎钢斧&r"
 			x: -19.0d
 			y: -11.0d
 			dependencies: ["70CD8E8A83503562"]
@@ -1860,7 +1860,7 @@
 			}]
 		}
 		{
-			title: "&4Fire Dragonsteel Shovel&r"
+			title: "&4龙炎钢锹&r"
 			x: -19.0d
 			y: -10.0d
 			dependencies: ["70CD8E8A83503562"]
@@ -1883,7 +1883,7 @@
 			}]
 		}
 		{
-			title: "&4Fire Dragonsteel Hoe&r"
+			title: "&4龙炎钢锄&r"
 			x: -19.0d
 			y: -9.0d
 			dependencies: ["70CD8E8A83503562"]
@@ -1906,7 +1906,7 @@
 			}]
 		}
 		{
-			title: "&bIce Dragonsteel Sword&r"
+			title: "&b龙霜钢剑&r"
 			x: -12.0d
 			y: -19.5d
 			dependencies: ["1A188D73861F936A"]
@@ -1929,7 +1929,7 @@
 			}]
 		}
 		{
-			title: "&bIce Dragonsteel Pickaxe&r"
+			title: "&b龙霜钢镐&r"
 			x: -12.0d
 			y: -18.5d
 			dependencies: ["1A188D73861F936A"]
@@ -1952,7 +1952,7 @@
 			}]
 		}
 		{
-			title: "&bIce Dragonsteel Axe&r"
+			title: "&b龙霜钢斧&r"
 			x: -12.0d
 			y: -17.5d
 			dependencies: ["1A188D73861F936A"]
@@ -1975,7 +1975,7 @@
 			}]
 		}
 		{
-			title: "&bIce Dragonsteel Shovel&r"
+			title: "&b龙霜钢锹&r"
 			x: -12.0d
 			y: -16.5d
 			dependencies: ["1A188D73861F936A"]
@@ -1998,7 +1998,7 @@
 			}]
 		}
 		{
-			title: "&bIce Dragonsteel Hoe&r"
+			title: "&b龙霜钢锄&r"
 			x: -12.0d
 			y: -15.5d
 			dependencies: ["1A188D73861F936A"]
@@ -2021,7 +2021,7 @@
 			}]
 		}
 		{
-			title: "&5Lightning Dragonsteel Sword&r"
+			title: "&5龙霆钢剑&r"
 			x: -12.0d
 			y: -8.5d
 			dependencies: ["156D218E3F702A33"]
@@ -2044,7 +2044,7 @@
 			}]
 		}
 		{
-			title: "&5Lightning Dragonsteel Pickaxe&r"
+			title: "&5龙霆钢镐&r"
 			x: -12.0d
 			y: -7.5d
 			dependencies: ["156D218E3F702A33"]
@@ -2067,7 +2067,7 @@
 			}]
 		}
 		{
-			title: "&5Lightning Dragonsteel Axe&r"
+			title: "&5龙霆钢斧&r"
 			x: -12.0d
 			y: -6.5d
 			dependencies: ["156D218E3F702A33"]
@@ -2090,7 +2090,7 @@
 			}]
 		}
 		{
-			title: "&5Lightning Dragonsteel Shovel&r"
+			title: "&5龙霆钢锹&r"
 			x: -12.0d
 			y: -5.5d
 			dependencies: ["156D218E3F702A33"]
@@ -2113,7 +2113,7 @@
 			}]
 		}
 		{
-			title: "&5Lightning Dragonsteel Hoe&r"
+			title: "&5龙霆钢锄&r"
 			x: -12.0d
 			y: -4.5d
 			dependencies: ["156D218E3F702A33"]
@@ -2136,7 +2136,7 @@
 			}]
 		}
 		{
-			title: "&4Fire Dragonsteel Armor&r"
+			title: "&4龙炎钢护甲&r"
 			x: -16.0d
 			y: -13.0d
 			dependencies: ["70CD8E8A83503562"]
@@ -2194,7 +2194,7 @@
 			}]
 		}
 		{
-			title: "&5Lightning Dragonsteel Armor&r"
+			title: "&5雷霆龙钢盔甲&r"
 			x: -9.5d
 			y: -8.5d
 			dependencies: ["156D218E3F702A33"]
@@ -2252,7 +2252,7 @@
 			}]
 		}
 		{
-			title: "&bIce Dragonsteel Armor&r"
+			title: "&b龙霜钢护甲&r"
 			x: -9.5d
 			y: -19.5d
 			dependencies: ["1A188D73861F936A"]
@@ -2310,7 +2310,7 @@
 			}]
 		}
 		{
-			title: "Iron Dragon Armor"
+			title: "锻铁龙铠"
 			x: 11.5d
 			y: -2.5d
 			shape: "diamond"
@@ -2346,7 +2346,7 @@
 			}]
 		}
 		{
-			title: "&6Copper Dragon Armor&r"
+			title: "&6赤铜龙铠&r"
 			x: 13.0d
 			y: -2.0d
 			shape: "diamond"
@@ -2382,7 +2382,7 @@
 			}]
 		}
 		{
-			title: "&eGold Dragon Armor&r"
+			title: "&e黄金龙铠&r"
 			x: 12.0d
 			y: -3.0d
 			shape: "diamond"
@@ -2418,7 +2418,7 @@
 			}]
 		}
 		{
-			title: "&9Diamond Dragon Armor&r"
+			title: "&9钻石龙铠&r"
 			x: 11.0d
 			y: -2.0d
 			shape: "diamond"
@@ -2454,7 +2454,7 @@
 			}]
 		}
 		{
-			title: "&7Silver Dragon Armor&r"
+			title: "&7白银龙铠&r"
 			x: 12.5d
 			y: -2.5d
 			shape: "diamond"
@@ -2490,7 +2490,7 @@
 			}]
 		}
 		{
-			title: "&4Fire Dragonsteel Dragon Armor&r"
+			title: "&4炎钢龙铠&r"
 			x: 12.0d
 			y: -1.0d
 			shape: "diamond"
@@ -2526,7 +2526,7 @@
 			}]
 		}
 		{
-			title: "&bIce Dragonsteel Dragon Armor&r"
+			title: "&b霜钢龙铠&r"
 			x: 11.5d
 			y: -1.5d
 			shape: "diamond"
@@ -2562,7 +2562,7 @@
 			}]
 		}
 		{
-			title: "&5Lightning Dragonsteel Dragon Armor&r"
+			title: "&5霆钢龙铠&r"
 			x: 12.5d
 			y: -1.5d
 			shape: "diamond"
@@ -2602,9 +2602,9 @@
 			y: -0.5d
 			shape: "diamond"
 			description: [
-				"&6Dragon Meal&f are used to grow and level up your dragons."
+				"&6龙食&f用于使你的龙成长和升级。"
 				""
-				"&6Sickly Dragon Meal&f, on the other hand, stops dragon growth entirely."
+				"&6萎靡龙食&f会使你的龙停止成长。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["5DA348ADC870DDC0"]
@@ -2684,7 +2684,7 @@
 			}]
 		}
 		{
-			title: "Tan Death Worm Chitin Armor"
+			title: "沙褐虫壳护甲"
 			x: -10.5d
 			y: -1.5d
 			dependencies: ["2C268DF1937613D8"]
@@ -2742,7 +2742,7 @@
 			}]
 		}
 		{
-			title: "White Death Worm Chitin Armor"
+			title: "苍白虫壳胸甲"
 			x: -6.0d
 			y: -1.5d
 			dependencies: ["412419A7CBFA83F3"]
@@ -2800,7 +2800,7 @@
 			}]
 		}
 		{
-			title: "Red Death Worm Chitin Armor"
+			title: "红血虫壳护甲"
 			x: -5.0d
 			y: 0.5d
 			dependencies: ["22202C594DEB2738"]
@@ -2858,7 +2858,7 @@
 			}]
 		}
 		{
-			title: "Tan Death Worm Chitin"
+			title: "沙褐死亡蠕虫甲壳"
 			x: -10.5d
 			y: 0.5d
 			hide_dependency_lines: true
@@ -2877,7 +2877,7 @@
 			}]
 		}
 		{
-			title: "White Death Worm Chitin"
+			title: "苍白死亡蠕虫甲壳"
 			x: -8.5d
 			y: -1.5d
 			hide_dependency_lines: true
@@ -2896,7 +2896,7 @@
 			}]
 		}
 		{
-			title: "Red Death Worm Chitin"
+			title: "血红死亡蠕虫甲壳"
 			x: -7.0d
 			y: 0.5d
 			hide_dependency_lines: true
@@ -2915,7 +2915,7 @@
 			}]
 		}
 		{
-			title: "&4Fire Dragon Summoning Crystal&r"
+			title: "&4唤龙火晶石&r"
 			x: -16.0d
 			y: -9.5d
 			dependencies: ["70CD8E8A83503562"]
@@ -2932,7 +2932,7 @@
 			}]
 		}
 		{
-			title: "&bIce Dragon Summoning Crystal&r"
+			title: "&b唤龙冰晶石&r"
 			x: -9.5d
 			y: -16.0d
 			dependencies: ["1A188D73861F936A"]
@@ -2949,7 +2949,7 @@
 			}]
 		}
 		{
-			title: "&5Lightning Dragon Summoning Crystal&r"
+			title: "&5唤龙电晶石&r"
 			x: -9.5d
 			y: -5.0d
 			dependencies: ["156D218E3F702A33"]
@@ -3005,7 +3005,7 @@
 			}]
 		}
 		{
-			title: "Hippogryph Armor"
+			title: "骏鹰铠"
 			x: 12.0d
 			y: -2.0d
 			shape: "diamond"
@@ -3071,7 +3071,7 @@
 			}]
 		}
 		{
-			title: "&4Fire Lily Mixture&r"
+			title: "&4花火汤&r"
 			x: -11.5d
 			y: -11.5d
 			dependencies: ["5660F56038D1BA17"]
@@ -3088,7 +3088,7 @@
 			}]
 		}
 		{
-			title: "&bFrost Lily Mixture&r"
+			title: "&b花霜酱&r"
 			x: -3.5d
 			y: -18.0d
 			dependencies: ["29554BD8971DEB5B"]
@@ -3105,7 +3105,7 @@
 			}]
 		}
 		{
-			title: "&5Lightning Lily Mixture&r"
+			title: "&5花电浆&r"
 			x: -5.0d
 			y: -7.0d
 			dependencies: ["327CB86A809B634A"]
@@ -3157,7 +3157,7 @@
 			}]
 		}
 		{
-			title: "Chain"
+			title: "铁链"
 			x: -8.5d
 			y: 2.5d
 			hide_dependency_lines: true
@@ -3186,13 +3186,13 @@
 			y: 2.0d
 			shape: "diamond"
 			description: [
-				"Dragon Eggs are placeable entities that turn into baby dragons; they are a drop from stage 4-5 female dragons, used to hatch tamed baby dragons."
+				"龙蛋是可放置的实体，会变成小龙； 它们是 4-5 阶段母龙的掉落物，用于孵化驯服的幼龙。"
 				""
-				"&cFire dragon eggs&r (Red, Gray, Emerald and Bronze) must be placed within a fire to start the hatching process. Once the egg starts moving, it will take a few minutes to hatch."
+				"&c火龙蛋&r（火红，烬灰，翡绿，沉金）必须放在火中才能开始孵化。 一旦蛋开始动，孵化需要几分钟的过程。"
 				""
-				"&bIce dragon eggs&r (Blue, Sapphire, White and Silver) must be placed in water that could be surrounded by ice. If the water around the egg freezes, then it will hatch in a few minutes."
+				"&b冰龙蛋&r（冰蓝，玉靛，凇白，黯银）必须放在水中。 如果蛋周围的水结冰，那么它会在几分钟内孵化。"
 				""
-				"&5Lightning dragon eggs&r (Copper, Electric Blue, Amethyst and Black) must be exposed to rain to start the hatching process. Once the egg starts moving, it will take a few minutes to hatch. (If the rain stops the process of hatching will stop as well.). When the Lightning Dragon egg hatches there will be a strike of lighting. Have a bucket ready, you may have to put out the fire before it spreads, and the dragon could be killed by the fire."
+				"&5电龙蛋&r（铜赤，电青，晶紫，夜黑）必须暴露在雨中才能开始孵。 一旦蛋开始动，孵化需要几分钟。（如果雨停了，孵化过程也会停止）。当电龙蛋孵出时，会有一道闪电。 准备一个水桶，你可能必须在火蔓延之前将其扑灭，龙可能会被火杀死。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["37498A776C0B5351"]
@@ -3211,11 +3211,11 @@
 			}]
 		}
 		{
-			title: "Red Dragon Egg"
+			title: "火红龙蛋"
 			x: 9.0d
 			y: 0.5d
 			shape: "diamond"
-			subtitle: "&4Fire Dragon&r"
+			subtitle: "&4火龙&r"
 			dependencies: ["5DA348ADC870DDC0"]
 			id: "2E09A678A212D7DF"
 			tasks: [{
@@ -3230,11 +3230,11 @@
 			}]
 		}
 		{
-			title: "Emerald Dragon Egg"
+			title: "翡绿龙蛋"
 			x: 10.5d
 			y: 2.0d
 			shape: "diamond"
-			subtitle: "&4Fire Dragon&r"
+			subtitle: "&4火龙&r"
 			dependencies: ["5DA348ADC870DDC0"]
 			id: "2FC11063E34DCC9F"
 			tasks: [{
@@ -3249,11 +3249,11 @@
 			}]
 		}
 		{
-			title: "Bronze Dragon Egg"
+			title: "沉金龙蛋"
 			x: 9.5d
 			y: 1.0d
 			shape: "diamond"
-			subtitle: "&4Fire Dragon&r"
+			subtitle: "&4火龙&r"
 			dependencies: ["5DA348ADC870DDC0"]
 			id: "3A1B43D5E55D0BA3"
 			tasks: [{
@@ -3268,11 +3268,11 @@
 			}]
 		}
 		{
-			title: "Gray Dragon Egg"
+			title: "烬灰龙蛋"
 			x: 10.0d
 			y: 1.5d
 			shape: "diamond"
-			subtitle: "&4Fire Dragon&r"
+			subtitle: "&4火龙&r"
 			dependencies: ["5DA348ADC870DDC0"]
 			id: "72CEBD6133B14338"
 			tasks: [{
@@ -3287,11 +3287,11 @@
 			}]
 		}
 		{
-			title: "Blue Dragon Egg"
+			title: "冰蓝龙蛋"
 			x: 10.0d
 			y: 2.5d
 			shape: "diamond"
-			subtitle: "&bIce Dragon&r"
+			subtitle: "&b冰龙&r"
 			dependencies: ["5DA348ADC870DDC0"]
 			id: "22F0E80E7C4BFFC1"
 			tasks: [{
@@ -3306,11 +3306,11 @@
 			}]
 		}
 		{
-			title: "White Dragon Egg"
+			title: "凇白龙蛋"
 			x: 9.5d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "&bIce Dragon&r"
+			subtitle: "&b冰龙&r"
 			dependencies: ["5DA348ADC870DDC0"]
 			id: "3F1FDD31A634D163"
 			tasks: [{
@@ -3325,11 +3325,11 @@
 			}]
 		}
 		{
-			title: "Sapphire Dragon Egg"
+			title: "玉靛龙蛋"
 			x: 9.0d
 			y: 3.5d
 			shape: "diamond"
-			subtitle: "&bIce Dragon&r"
+			subtitle: "&b冰龙&r"
 			dependencies: ["5DA348ADC870DDC0"]
 			id: "04AAB21DA8F6FE6A"
 			tasks: [{
@@ -3344,11 +3344,11 @@
 			}]
 		}
 		{
-			title: "Silver Dragon Egg"
+			title: "黯银龙蛋"
 			x: 8.5d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "&bIce Dragon&r"
+			subtitle: "&b冰龙&r"
 			dependencies: ["5DA348ADC870DDC0"]
 			id: "47560A17CDA090D7"
 			tasks: [{
@@ -3363,11 +3363,11 @@
 			}]
 		}
 		{
-			title: "Electric Dragon Egg"
+			title: "电青龙蛋"
 			x: 8.0d
 			y: 2.5d
 			shape: "diamond"
-			subtitle: "&5Lightning Dragon&r"
+			subtitle: "&5电龙&r"
 			dependencies: ["5DA348ADC870DDC0"]
 			id: "1D974CB182A1D8F2"
 			tasks: [{
@@ -3382,11 +3382,11 @@
 			}]
 		}
 		{
-			title: "Amethyst Dragon Egg"
+			title: "晶紫龙蛋"
 			x: 7.5d
 			y: 2.0d
 			shape: "diamond"
-			subtitle: "&5Lightning Dragon&r"
+			subtitle: "&5电龙&r"
 			dependencies: ["5DA348ADC870DDC0"]
 			id: "03B19298078ECF4A"
 			tasks: [{
@@ -3401,11 +3401,11 @@
 			}]
 		}
 		{
-			title: "Copper Dragon Egg"
+			title: "铜赤龙蛋"
 			x: 8.0d
 			y: 1.5d
 			shape: "diamond"
-			subtitle: "&5Lightning Dragon&r"
+			subtitle: "&5电龙&r"
 			dependencies: ["5DA348ADC870DDC0"]
 			id: "19807AF43065ABDF"
 			tasks: [{
@@ -3420,11 +3420,11 @@
 			}]
 		}
 		{
-			title: "Black Dragon Egg"
+			title: "黑夜龙蛋"
 			x: 8.5d
 			y: 1.0d
 			shape: "diamond"
-			subtitle: "&5Lightning Dragon&r"
+			subtitle: "&5电龙&r"
 			dependencies: ["5DA348ADC870DDC0"]
 			id: "262505EF311F8FAE"
 			tasks: [{
@@ -3439,7 +3439,7 @@
 			}]
 		}
 		{
-			title: "&4Flamed Dragon Bone Sword&r"
+			title: "&4龙炎骨血剑&r"
 			x: -13.0d
 			y: -13.0d
 			dependencies: ["5660F56038D1BA17"]
@@ -3462,7 +3462,7 @@
 			}]
 		}
 		{
-			title: "&bIced Dragon Bone Sword&r"
+			title: "&b龙霜骨血剑&r"
 			x: -5.0d
 			y: -19.5d
 			dependencies: ["29554BD8971DEB5B"]
@@ -3485,7 +3485,7 @@
 			}]
 		}
 		{
-			title: "&5Lightning Dragon Bone Sword&r"
+			title: "&5龙霆骨血剑&r"
 			x: -6.5d
 			y: -8.5d
 			dependencies: ["327CB86A809B634A"]
@@ -3508,7 +3508,7 @@
 			}]
 		}
 		{
-			title: "&8Black Dragon Scale&r"
+			title: "&8夜黑龙鳞&r"
 			x: 0.5d
 			y: -5.5d
 			id: "02E22016345D61BD"
@@ -3525,7 +3525,7 @@
 			}]
 		}
 		{
-			title: "&8Black Dragon Armor&r"
+			title: "&8夜黑龙鳞护甲&r"
 			x: -1.5d
 			y: -5.5d
 			dependencies: ["02E22016345D61BD"]
@@ -3583,7 +3583,7 @@
 			}]
 		}
 		{
-			title: "&6Copper Dragon Scale&r"
+			title: "&6铜赤龙鳞&r"
 			x: 0.5d
 			y: -13.0d
 			id: "6121003B62A77C65"
@@ -3600,7 +3600,7 @@
 			}]
 		}
 		{
-			title: "&6Copper Dragon Armor&r"
+			title: "&6铜赤龙鳞护甲&r"
 			x: -1.5d
 			y: -13.0d
 			dependencies: ["6121003B62A77C65"]
@@ -3842,7 +3842,7 @@
 			}]
 		}
 		{
-			title: "Desert Myrmex Armor"
+			title: "沙漠蚁甲护甲"
 			x: -15.5d
 			y: -3.0d
 			dependencies: ["3FA6515948367AF6"]
@@ -3900,7 +3900,7 @@
 			}]
 		}
 		{
-			title: "Desert Myrmex Chitin"
+			title: "沙漠恐蚁甲壳"
 			x: -17.5d
 			y: -3.0d
 			id: "3FA6515948367AF6"
@@ -3917,7 +3917,7 @@
 			}]
 		}
 		{
-			title: "Jungle Myrmex Shitin"
+			title: "丛林恐蚁甲壳"
 			x: -17.5d
 			y: 3.0d
 			id: "0E910005C91F6786"
@@ -3934,7 +3934,7 @@
 			}]
 		}
 		{
-			title: "Jungle Myrmex Armor"
+			title: "丛林蚁甲护甲"
 			x: -15.5d
 			y: 3.0d
 			dependencies: ["0E910005C91F6786"]

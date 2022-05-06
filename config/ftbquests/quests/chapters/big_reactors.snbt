@@ -3,7 +3,7 @@
 	group: "247A2B0D60E02610"
 	order_index: 9
 	filename: "big_reactors"
-	title: "大型反应堆"
+	title: "极限反应堆"
 	icon: "bigreactors:basic_reactorfuelrod"
 	default_quest_shape: "diamond"
 	default_hide_dependency_lines: false
@@ -45,7 +45,7 @@
 			}]
 		}
 		{
-			title: "Fuel Container"
+			title: "燃料槽"
 			x: 0.5d
 			y: -4.0d
 			shape: "diamond"
@@ -583,13 +583,13 @@
 			}]
 		}
 		{
-			title: "The Reprocessor"
+			title: "再生器"
 			x: 3.0d
 			y: 1.5d
 			description: [
-				"The Reprocessor is a multiblock machine that let you reuse spent fuel by converting waste produced in the reactor into new fuel sources or other resources."
-				"The Reprocessor is a 3 by 3 and 7 blocks high machine build from Casing blocks and one each og the other device parts."
-				"Check the Extreme Book to see how to build the multiblock"
+				"再生机是一个多方块结构。他可以把反应堆产生的废料转换成燃料或者其他有用的东西。"
+				"用再生机外壳和各种其他部件搭建一个3x3x7的再生机。"
+				"翻翻Extreme_Book来详细地了解这东西要怎么搭出来"
 			]
 			id: "70825FA16C44F057"
 			tasks: [

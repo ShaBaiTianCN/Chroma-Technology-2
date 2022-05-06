@@ -13,15 +13,15 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Mystical Petal"
+			title: "神秘花瓣"
 			x: 0.0d
 			y: 0.0d
 			description: [
-				"Around the world, you may stumble upon a large variety of Mystical Flowers. Spotting these flowers doesn't take much work, as they glow faintly and sparkle."
+				"在这世上，你应该可以发现一堆各种各样的神秘花。你并不需要做很多工作就能发现它们，因为它们发着微光，还会一闪一闪。"
 				""
-				"They come in a total of &a16 &fdifferent colors."
+				"它们统共有&a16&f种不同的颜色。"
 				""
-				"These flowers can also be grown with &dFloral Fertilizer&f."
+				"这些花可以被&d花肥&f催熟。"
 			]
 			size: 2.0d
 			id: "2485A86AC39EDA7B"
@@ -108,13 +108,13 @@
 			}]
 		}
 		{
-			title: "Pure Daisy"
+			title: "白雏菊"
 			x: 2.5d
 			y: 0.0d
 			description: [
-				"Far from being just the most basic, the Pure Daisy is the most important flower a botanist can have."
+				"白雏菊不仅仅是最基本的也是植物学家最重要的花。"
 				""
-				"This flower will purify any adjacent &6Wood&f and &6Stone&f blocks into their purified counterparts, &6Livingwood&f and &6Livingrock&f. These resources are important crafting materials throughout a botanist's career."
+				"这种花将净化任何邻近的原木和石头，最终合成活木和活石。在植物学家的整个职业生涯中，这些资源都是重要的制作材料。"
 			]
 			dependencies: ["2485A86AC39EDA7B"]
 			id: "53D9150ED6E0FB27"
@@ -131,7 +131,7 @@
 			}]
 		}
 		{
-			title: "Livingwood"
+			title: "活木"
 			x: 2.5d
 			y: -1.5d
 			dependencies: ["53D9150ED6E0FB27"]
@@ -149,7 +149,7 @@
 			}]
 		}
 		{
-			title: "Livingrock"
+			title: "活石"
 			x: 3.5d
 			y: 1.5d
 			dependencies: ["53D9150ED6E0FB27"]
@@ -170,7 +170,7 @@
 			x: 7.0d
 			y: 2.0d
 			shape: "diamond"
-			description: ["The &bMana Pool&f is, simply put, a storage for Mana."]
+			description: ["简单来说，魔力池就是储存魔力的地方。"]
 			dependencies: ["3347286B1E8B7EB5"]
 			size: 2.0d
 			id: "00769E3D1917DAFB"
@@ -221,7 +221,7 @@
 		{
 			x: 0.0d
 			y: -4.5d
-			description: ["&aPetal Apothecaty&f, when placed in the world and given some water (by right-clicking or throwing in a Water Bucket), will accept any Mystical Petals thrown into it, absorbing their energies."]
+			description: ["将&花药台&f放置在主世界中，并为他提供一桶水（用水桶右键它或直接向他扔水桶）他会接受任何神秘花瓣然后吸收他们的能量"]
 			dependencies: [
 				"2485A86AC39EDA7B"
 				"1021DC75B3F6CBD8"
@@ -777,7 +777,7 @@
 			x: 11.0d
 			y: -9.5d
 			shape: "diamond"
-			description: ["&bRunic&f creation is an complex topic, but an important one for the advancement of any botanist's career. However, this mode of crafting requires a firm grasp on the concepts of Mana Manipulation to use."]
+			description: ["&b符文&f的制作是一个复杂的话题，但对于每一个植物学家的职业生涯来说颇为重要。然而，这种合成方式需要牢牢掌握魔力操控的概念才能使用。"]
 			hide_dependency_lines: true
 			dependencies: ["3347286B1E8B7EB5"]
 			size: 2.5d
@@ -797,9 +797,9 @@
 			x: 3.0d
 			y: -3.0d
 			description: [
-				"The &eMana Spreader&f is the single most important tool a botanist needs to manipulate Mana."
+				"&e魔力发射器&f是对于一个植物学家来说最重要的操控魔力的工具。"
 				""
-				"This block shoots Mana from point A to point B."
+				"这个方块会将魔力从A点发射至B点。."
 			]
 			dependencies: ["7672A3025A0E0A34"]
 			id: "4BFD9B8CBF3DB544"
@@ -833,7 +833,7 @@
 		{
 			x: 3.5d
 			y: -0.5d
-			description: ["The &aMana Tablet&f is a portable item that can carry Mana within itself."]
+			description: ["&a魔力石板&f是一个可随身携带的物品，它可以储存一些魔力。"]
 			dependencies: ["3347286B1E8B7EB5"]
 			id: "0DB9AA863FDC5817"
 			tasks: [{
@@ -938,7 +938,7 @@
 		{
 			x: 11.5d
 			y: -2.0d
-			subtitle: "Store mana"
+			subtitle: "储存魔力"
 			dependencies: [
 				"2B7CAD89301F2C73"
 				"4DD8EB221C96F990"
@@ -958,7 +958,7 @@
 		{
 			x: 1.5d
 			y: -2.5d
-			description: ["A botanist's most important tool for manipulating flowers is the &5Wand of the Forest&f."]
+			description: ["一个植物学家操控花朵所需的最重要的工具是&5森林法杖&f。"]
 			dependencies: [
 				"2485A86AC39EDA7B"
 				"7672A3025A0E0A34"
@@ -1080,7 +1080,7 @@
 			}]
 		}
 		{
-			title: "Gaya !!!"
+			title: "盖亚！！！"
 			x: 13.5d
 			y: 1.5d
 			dependencies: ["61884C38894B5DB5"]
@@ -1108,11 +1108,11 @@
 			x: 4.5d
 			y: -6.0d
 			description: [
-				"The mana infuser is an upgrade version of the &9Terrastrial Agglomeration Plate&r that is also capable of creating other mana-alloys."
+				"注魔板是&9泰拉凝聚板&r的升级形态，它也可以用来制造其它需要使用魔力制作的合金。"
 				""
-				"Like the terrastrial agglomeration plate this requires a platform below."
+				"和泰拉凝聚板一样，注魔板也需要在下方搭建平台才能工作。"
 				""
-				"&4However this requires a dominant spark upgrade to pull mana from sparks&r."
+				"&4不过，你必须在注魔板上放置一个带有聚集升级的火花。&r."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2193,9 +2193,9 @@
 			x: 4.5d
 			y: -9.0d
 			description: [
-				"Alfsteel is created like terrasteel but with ressources from alfheim."
+				"精灵钢锭的制作和泰拉钢锭相似，但使用的是来自精灵王国的材料。"
 				""
-				"It requires much more mana but can be used to create various powerful things."
+				"制作它需要多得多的魔力，但用它可以制造许多强大的东西。"
 			]
 			dependencies: ["58FA261AD725470E"]
 			id: "532C5B41726CDF9F"
@@ -2259,7 +2259,7 @@
 			}]
 		}
 		{
-			title: "Alfheim loot"
+			title: "精灵产物"
 			x: 15.0d
 			y: 1.5d
 			hide_dependency_lines: true
@@ -2471,8 +2471,8 @@
 			y: 9.0d
 			shape: "diamond"
 			description: [
-				"&cExperience Points&r contain a magic of their own."
-				"The &9Rosa Arcana&r can tap into this magic, absorbing the experience of nearby players and turning it into &9Mana&r."
+				"&c经验值&r中有着独特的魔法。"
+				"&9阿卡纳蔷薇&r可以激发这些魔法。它会吸收玩家的经验值并将它们转换为&9魔力&r."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2496,9 +2496,9 @@
 			y: 8.5d
 			shape: "diamond"
 			description: [
-				"The &9Shulk Me Not&r is a generating flower that creates &cMana&r from the power of the shulker's &cLevitation&r."
+				"&9勿落草&r是一种能从潜影贝产生的&c漂浮效果&r中取得&c魔力&r的产能花。"
 				""
-				"If nearby monster is targeted by and hit with a Shulker's projectile, and the &9Shulk Me Not's&r internal buffer is empty,both mob and Shulker will be killed, generating ludicrous amount of &cMana&r from the process."
+				"如果一个附近的生物被潜影贝发射的子弹击中，且&9勿落草&r内部的魔力缓存为空时，那个生物与发射子弹的潜影贝都会死亡，同时产生巨量的&c魔力&r。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2524,11 +2524,11 @@
 			y: 8.5d
 			shape: "diamond"
 			description: [
-				"The &9Ring of Magnetization&r is quite the handy tool for any diggers or collectors."
-				"However, it can also pick up unwanted items, disrupting automation setup in the process."
-				"The &9Solegnolia&r disrupts the ring's field of effect and prevents any items in its range form being pulled towards a ring-bearer."
-				"Its also prevent any ring-bearers in its range from pulling any items."
-				"It does no consume &cMana&r."
+				"&9磁化指环&r是挖矿或采集时十分好用的工具。"
+				"不过，无需被捡起的物品也会被它吸起，这会干扰到自动化装置的运行。"
+				"&9弱磁兰&r可以在其工作范围内扰乱磁化指环的磁场，防止其中的任何掉落物受到戴有指环的玩家的吸引。"
+				"它也会防止范围内戴有指环的玩家吸引任何掉落物。"
+				"它不会消耗任何&c魔力&r。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["2485A86AC39EDA7B"]
@@ -2549,11 +2549,11 @@
 			y: 9.5d
 			shape: "diamond"
 			description: [
-				"This flowers uses mana to transport items everywhere the world."
+				"这种花可以使用魔力传输物品。"
 				""
 				"Note that filled items whith &4Mana&r won't work."
 				""
-				"Use a &9Wand of the forest&r in &4Bind Mode&r to bind the flower to a location within 12 block, to specify the destination warped items."
+				"使用&4绑定模式&r下的&9森林法杖&r可以将凌空蓟与一个12格以内的方块绑定以设置物品传送的目的地。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2578,8 +2578,8 @@
 			y: 8.5d
 			shape: "diamond"
 			description: [
-				"The &9Spectrolus&r is a flower that's particularly fond of the various hues of &9Wool&r."
-				"It'll consume any and all &9Wool&r block dropped nearby, converting them to &cMana&r."
+				"&9斑斓花&r特别喜爱&9羊毛&r缤纷的色彩。"
+				"它会消耗范围内的所有&9羊毛&r方块， 并将它们转化为&c魔力&r."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2604,7 +2604,7 @@
 			x: 6.5d
 			y: 9.5d
 			shape: "diamond"
-			description: ["The &3Tangleberrie&f is a flower that, for a small Mana drain, keeps any nearby animals or monsters within a circular ward, preventing them from getting out."]
+			description: ["&3束缚莓&f可以通过持续消耗少量的魔力将附近的生物困在一个圆形的区域内并防止它们离开。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"15FD83F0B4E8B466"
@@ -2627,8 +2627,8 @@
 			y: 9.0d
 			shape: "diamond"
 			description: [
-				"The &9Thermalily&r is a &9Lava&r flavoured counterpart to the &9Hydroangeas&r."
-				"The flower absorbs &9Lava&r around it to generate &cMana&r."
+				"&9炽玫瑰&r类似于使用&9岩浆&r的&9水绣球&r。"
+				"它会吸收周围的&9岩浆&r来产生&c魔力&r。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2652,7 +2652,7 @@
 			x: 4.5d
 			y: 9.5d
 			shape: "diamond"
-			description: ["The &6Tigerseye&f exploits that fact, emitting a feline aura to petrify any nearby Creepers and preventing them from exploding. As a side-effect, it makes them flee nearby players."]
+			description: ["&6虎之眼&f会释放猫的气味恐吓附近的苦力怕并阻止它们爆炸，也会让它们主动远离附近的玩家。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"6E53214D2F296935"
@@ -2674,7 +2674,7 @@
 			x: 5.5d
 			y: 9.5d
 			shape: "diamond"
-			description: ["Quite a handy flower indeed, the &6Rannuncarpus&f will pick up nearby placeable items and place them within a large radius around itself as blocks, preferably facing them towards itself. However, it will only place blocks on top of a specific block type at a time; to specify this block, place it right below the soil the flower rests on."]
+			description: ["真是朵方便的花！&6手掌花&f能拾起附近掉落物形式的方块并将它们放置在大范围内的其他地方，而且会偏向于将这些方块朝着自身放置。它只会将方块放置在一种指定的方块上。要指定这种方块，只需将它放在这朵花所在的泥土下方就可以。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"15FD83F0B4E8B466"
@@ -2696,7 +2696,7 @@
 			x: 3.5d
 			y: 10.5d
 			shape: "diamond"
-			description: ["The &dJiyuulia&f is a flower that, for a small Mana drain, keeps any nearby animals or monsters at bay, protecting a circular area from entry."]
+			description: ["&d自由之翼&f可以通过持续消耗少量魔力将附近的所有生物阻挡在一个圆形的区域外。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"6A0284037005E40B"
@@ -2718,7 +2718,7 @@
 			x: 4.5d
 			y: 6.5d
 			shape: "diamond"
-			description: ["When fed with &cMana&r from a &9Mana Pool&r, it'll grow new &9Mystical Flowers&r on nearby soil at a rapid pace."]
+			description: ["用&9魔力池&r给它提供&c魔力&r时，它会使周围的土地上快速长出新的&9神秘花&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"69CD7EFD780D5CF6"
@@ -2741,11 +2741,11 @@
 			y: 9.5d
 			shape: "diamond"
 			description: [
-				"&9Hydroangeas&r flowers act as liquid-based passive generators."
+				" &9水绣球&r是种消耗液体的被动产能花。"
 				""
-				"They suck up any &9still water&r in a 3x3 area (at the same altitude) around them, converting the water into &cMana&r."
+				"它们会吸取以它为中心3x3范围内等高的&9水源&r，并将它们转化为&c魔力&r。"
 				""
-				"In addition, they decay after around three days."
+				"另外，它们会在现实世界的一小时过后凋谢。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["2485A86AC39EDA7B"]
@@ -2765,7 +2765,7 @@
 			x: 6.0d
 			y: 10.0d
 			shape: "diamond"
-			description: ["For some reason, poison does not kill. The &5Hyacidus&f conjures it within the bodies of nearby mobs, bringing them to their knees (after a wait) for a one-hit kill."]
+			description: ["不知为何，毒素并不会致死。&5毒风信&f会对周围的生物施加毒素，使它们（在一段时间后）变得极为虚弱，可以一击必杀。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"6A0284037005E40B"
@@ -2783,7 +2783,7 @@
 			x: 5.5d
 			y: 10.5d
 			shape: "diamond"
-			description: ["The &6Medumone &fis a flower with the ability to completely halt a creature's movements."]
+			description: ["&6石化草&f具有使周围生物完全无法移动的能力。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"15FD83F0B4E8B466"
@@ -2806,9 +2806,9 @@
 			y: 8.0d
 			shape: "diamond"
 			description: [
-				"The &dMarimorphosis&f is a flower that induces metamorphic transformations in nearby Stone blocks."
+				"&d异构花&f可以使附近的石头发生变质。"
 				""
-				"These blocks are transmogrified into one of &38&f different types of Metamorphic Stone."
+				"这些石头方块会被转化为&38&f种不同变质岩的其中之一。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2833,9 +2833,9 @@
 			y: 8.5d
 			shape: "diamond"
 			description: [
-				"The &7Hopperhock&f simply picks up items around it and put them in adjacent inventories (like Chests). Mana is optional, but will increase its range if provided."
+				"&7漏斗花&f可以将周围的掉落物拾起并将它们放入与之相邻的储物空间（如箱子）里。魔力的提供并非必需，当给它提供魔力时，它的工作范围将会扩大。"
 				""
-				"Placing Item Frames on adjacent inventories will specify which items can or can't go in them."
+				"在储物空间上放置物品展示框可以指定放入物品的白名单或黑名单。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2858,7 +2858,7 @@
 			x: 6.5d
 			y: 8.5d
 			shape: "diamond"
-			description: ["Piglins and Hoglins that are near a Hellebore will not turn into zombies as long as the flower has enough mana."]
+			description: ["只要保证魔力供给，位于鹿食草附近的猪人和猪灵就不会发生僵尸化。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"4B08DE5FE77A4696"
@@ -2880,7 +2880,7 @@
 			x: 5.0d
 			y: 7.0d
 			shape: "diamond"
-			description: ["The &9Agricarnation&r transforms &cMana&r into a type of natural fertilizer, causing nearby plant-life to grow faster."]
+			description: ["&9田园康乃馨&r是种能将&c魔力&r变成一种自然肥料的花，能让附近的植物快速生长。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"69CD7EFD780D5CF6"
@@ -2902,7 +2902,7 @@
 			x: 10.5d
 			y: 10.0d
 			shape: "diamond"
-			description: ["The &9Endoflame&r is a very rudimentary &cgenerating flower&r; it'll absorb any combustible items or block dropped on the nearby vicinity, one at a time, and burn through them to generate &cMana&r."]
+			description: ["&9火红莲&r是一种非常基础的&c产能花&r。它会每次吸收附近的一个可以作为燃料的方块，并通过燃烧它们来产出&c魔力&r。"]
 			hide_dependency_lines: true
 			dependencies: ["2485A86AC39EDA7B"]
 			id: "31C5BEAD5EDB28DE"
@@ -2921,7 +2921,7 @@
 			x: 3.5d
 			y: 7.5d
 			shape: "diamond"
-			description: ["The &9Dreadthorne&r is a slightly more specialized counterpart to the &9Bellethorne&r: instead of all nearby beings, it only harms &cadult animals&r."]
+			description: ["&9恐惧之刺&r比起&9娇媚之刺&r稍微特殊一些，因为它不会无差别伤害生物，只会伤害&c成年动物&r。"]
 			hide_dependency_lines: true
 			dependencies: ["2485A86AC39EDA7B"]
 			id: "7E3003D07D65543F"
@@ -2941,9 +2941,9 @@
 			y: 10.0d
 			shape: "diamond"
 			description: [
-				"To generate a blast of &4Mana&r, in fact, a blast might be required."
+				"事实上，为了产生一大波&4魔力&r，就需要附近有一次爆炸。 "
 				""
-				"Igniting a block of &9TNT&r on dry land near an &9Entropinnyum&r will have the latter absorb all the entropy generated by the blast, converting it into &4Mana&r abd nullifying any damage in the process."
+				"在&9热爆花&r附近点燃&9TNT&r，花就会吸收爆炸产生的热与冲击力。并产生大量的&4魔力&r。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2967,7 +2967,7 @@
 			x: 4.0d
 			y: 10.0d
 			shape: "diamond"
-			description: ["The Exoblaze uses mana to fill the fuel of nearby brewing stands."]
+			description: ["烈焰花会使用魔力填充附近酿造台的燃料。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"4B08DE5FE77A4696"
@@ -2990,9 +2990,9 @@
 			y: 8.5d
 			shape: "diamond"
 			description: [
-				"Conversely to its Generating counterpart, the &cExoflame&f uses Mana to generate heat."
+				"和使用热量进行产能的火红莲相反，&c冶炼火&f会使用魔力产生热量。"
 				""
-				"Any Furnaces near an active Exoflame are fueled and given a speed boost."
+				"所有处于激活状态的冶炼火附近的熔炉都会自动填充燃料并加快熔炼速度。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3016,7 +3016,7 @@
 			x: 3.0d
 			y: 9.0d
 			shape: "diamond"
-			description: ["The &dFallen Kanade&f is a flower with angelic properties; it creates an aura of healing from Mana to apply a regeneration effect to any players nearby."]
+			description: ["&d天降之奏&f是具有天使属性的花，会使用魔力给附近的玩家提供生命恢复的效果。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2485A86AC39EDA7B"
@@ -3039,9 +3039,9 @@
 			y: 10.0d
 			shape: "diamond"
 			description: [
-				"The &9Gourmaryllis&r is one hungry flower."
+				"&9彼方兰&r是朵饥饿的花。"
 				""
-				"It'll eat any food items it finds in a small area and turn them into &cMana&r."
+				"它会吃掉它附近小范围内的一切食物，并转为&c魔力&r。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3065,7 +3065,7 @@
 			x: 5.0d
 			y: 10.0d
 			shape: "diamond"
-			description: ["The &5Heisei Dream&f uses Mana to fuel artificial emotions of anger and revenge in any nearby mobs, turning them against each other."]
+			description: ["&5平成之梦&f会使用魔力让附近的生物产生愤怒与复仇的情绪，致使它们互相进行攻击。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"108BD010FFBD8E13"
@@ -3087,7 +3087,7 @@
 			x: 3.5d
 			y: 9.5d
 			shape: "diamond"
-			description: ["The aquapanthus uses very small amount of mana to fill nearby cauldrons and petal apothecaries with water."]
+			description: ["只需消耗微量魔力，百水莲便可为3格半径内的炼药锅、花药台、坩埚和桶填充水。"]
 			hide_dependency_lines: true
 			dependencies: ["2485A86AC39EDA7B"]
 			id: "34876A06F0E95690"
@@ -3106,7 +3106,7 @@
 			x: 4.0d
 			y: 9.0d
 			shape: "diamond"
-			description: ["The &cBellethorne &fis a malevelous flower. It twists any Mana provided to slowly inflict harm in any living beings (save for players) around it."]
+			description: ["&c娇媚之刺&f是一种奇妙的花。它会使用魔力对周围的生物（玩家除外）缓慢地造成伤害。"]
 			hide_dependency_lines: true
 			dependencies: ["2485A86AC39EDA7B"]
 			id: "1EAC468400507A52"
@@ -3125,7 +3125,7 @@
 			x: 6.0d
 			y: 9.0d
 			shape: "diamond"
-			description: ["Building underwater is no small feat; clearing air under the sea is incredibly troublesome and time-consuming. Placing a &bBubbell&f underwater and providing it with Mana will have it generate a dome of air (of about 12 blocks in radius)."]
+			description: ["水下建筑可不轻松，要在海底腾出空气既麻烦也耗时。水下种上一株&b气泡铃&f，提供魔力，它就会产生一个球形的空间并排开周围的水。这个球半径约12格。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"6A0284037005E40B"
@@ -3148,7 +3148,7 @@
 			x: 2.0d
 			y: 9.0d
 			shape: "diamond"
-			description: ["The &7Clayconia&f is a simple flower. All it does is moisten nearby Sand, turning it into pellets of Clay. This process uses a decent amount of Mana."]
+			description: ["&7粘土花&f是一种功能十分简单明了的花。它会湿润周围的沙子，使它们变成粘土。这个过程会消耗一定量的魔力。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"15FD83F0B4E8B466"
@@ -3170,7 +3170,7 @@
 			x: 5.5d
 			y: 7.5d
 			shape: "diamond"
-			description: ["The &9Daffomill&r is a fan of sorts: it uses &cMana&r to push any items in front of it forward."]
+			description: ["&9扇水仙&r就像个风扇。它消耗少量&c魔力&r推动前方任何物品。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"31E7C7AA43E802F2"
@@ -3192,7 +3192,7 @@
 			x: 13.0d
 			y: 9.5d
 			shape: "diamond"
-			description: ["This flower's functionis based on a cellular automaton know as &cConway's Game of Life&r."]
+			description: ["这种花的运作原理基于一种名为&c康威生命游戏&r的细胞自动机模型。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"31E7C7AA43E802F2"
@@ -3218,7 +3218,7 @@
 			x: 14.0d
 			y: 9.5d
 			shape: "diamond"
-			description: ["The raindeletia produce mana it's raining and even more mana when it's thundering."]
+			description: ["雨德花在下雨时会产生魔力，在雷暴天气时会产生更多魔力。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"6A0284037005E40B"
@@ -3240,7 +3240,7 @@
 			x: 6.0d
 			y: 8.0d
 			shape: "diamond"
-			description: ["The &9Vinculotus&r use &5Mana&r to hijack the power of any &cEnderman&r within a large radius around it."]
+			description: ["&9诱引莲&r会使用&5魔力&r操纵附近大范围内所有&c末影人&r的瞬移能力。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"5EFD6677D56CF221"
@@ -3264,7 +3264,7 @@
 			x: 11.0d
 			y: 9.5d
 			shape: "diamond"
-			description: ["The wither aconite uses up nether stars droppen on it to create mana from them."]
+			description: ["凋灵菟葵会消耗掉落于其附近下界之星来产生魔力。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"63669895B667F02E"
@@ -3287,8 +3287,8 @@
 			y: 10.0d
 			shape: "diamond"
 			description: [
-				"The &9Rafflowsia&r fonctions similarly to a &9Kekimurus&r, but eats &9man-made flowers&r in the &9Petal Apothecary&r instead."
-				"It'll consume any nearby placed flowers and synthesize &cMana&r from them."
+				"&9噬草花&r的功能类似于&9贪食花&r，但它只会吞噬从&9花药台&r中&9人工制造出的花朵&r。"
+				"它会消耗掉放置在附近的花并从中合成出&c魔力&r。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3313,7 +3313,7 @@
 			x: 7.0d
 			y: 9.0d
 			shape: "diamond"
-			description: ["The &cPollidisiac&f will simply do just that; it uses mana to feed nearby food items on the ground (Wheat, Carrots, etc.) to animals within range, putting them in better moods."]
+			description: ["&c畜牧花&f的作用相当直接：它会使用魔力将丢在附近的食物（如小麦、胡萝卜等）喂食给范围内的动物以改善它们的心情。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"4B08DE5FE77A4696"
@@ -3337,9 +3337,9 @@
 			y: 6.0d
 			shape: "gear"
 			description: [
-				"Create &cNether&r ores in &9Netherrack&r instead."
+				"炎矿兰会在&9地狱岩&r中生成&c下界&r的矿物."
 				""
-				"The flower must be in the &cNether&r dimension to work."
+				"这种花必须位于&c下界&r才能工作。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3364,7 +3364,7 @@
 			x: 3.5d
 			y: 6.0d
 			shape: "gear"
-			description: ["The &9Orechid&r uses &cMana&r to synthesize &cores&r from nearby &9stone&r block"]
+			description: ["&9凝矿兰&r会消耗&c魔力&r将附近的&9石头&r变为&c矿物&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"63669895B667F02E"
@@ -3388,7 +3388,7 @@
 			x: 11.5d
 			y: 10.0d
 			shape: "diamond"
-			description: ["It generates Mana by consuming Slimes naturally spawned in slime chunks."]
+			description: ["粘球草通过吃掉它附近在史莱姆区块中自然生成的史莱姆来产生魔力。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"3C05D8DC18FC6D50"
@@ -3412,9 +3412,9 @@
 			y: 9.0d
 			shape: "diamond"
 			description: [
-				"Generating the from of natural energy that is &cMana&r is best done from other living materials."
+				"通过其他生物材料生产&c魔力&r这种自然能量是极好的。"
 				""
-				"The &9Munchdew&r will eat up any nearby &9Leaves&r and convert them into &cMana&r."
+				"靠近&9咀叶花&r的一切&9树叶&r都会被啃食并转为&c魔力&r。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3438,9 +3438,9 @@
 			y: 10.0d
 			shape: "diamond"
 			description: [
-				"Any adventurer knows that Dungeons can hold valuable goodies. The &6Loonium &fwill, when fed quite a bit of Mana, summon these items for said adventurers to collect."
+				"任何疲于冒险的家伙们都知道地牢会有些好东西，&6聚宝花&f会消耗大量魔力使这些物品实体化，它也因此吸引了无数探险家。"
 				""
-				"These monsters are extra-strong, but will drop their precious &3dungeon loot &fwhen killed."
+				"这些怪物非常强大，但是它们会掉落&3来自地牢的宝藏&f。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3465,7 +3465,7 @@
 			x: 4.0d
 			y: 7.0d
 			shape: "diamond"
-			description: ["For a moderate sun of &cMana&r, the &9Labellia&r picks up &cName Tags&r dropped on top of it, and uses them to name nearby items and mob within a 5x5 radius."]
+			description: ["当&9标签花&r拥有一定的&c魔力&r时，会捡起地上的&c命名牌&r，消耗魔力并命名5x5范围内的生物。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"6E53214D2F296935"
@@ -3487,7 +3487,7 @@
 			x: 11.5d
 			y: 9.0d
 			shape: "diamond"
-			description: ["The &9Kekimurus&r is one of these &9Cake&r aficionados, and will eat any placed in its vicinity, synthesizing the enriching nutrients into sweet, sweet &4Mana&r."]
+			description: ["&9贪食花&r是一个&9蛋糕&r狂热者，它会吃掉附近的蛋糕，用丰富的营养制造&4魔力&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"5707FFA4C44626EE"
@@ -3510,8 +3510,8 @@
 			x: 11.5d
 			y: -6.0d
 			shape: "diamond"
-			subtitle: "Even better dirt"
-			description: ["The &2Rod of the Highlands&r can places dirt blocks in the middle of the air and of course on a basic regular place such as your base"]
+			subtitle: "更棒的粉末"
+			description: ["&2高原法杖&r在保有大地法杖原有功能的同时，它也能在半空中放置泥土。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"31E7C7AA43E802F2"
@@ -3533,8 +3533,8 @@
 			x: 9.5d
 			y: -4.0d
 			shape: "diamond"
-			subtitle: "Elven Knowledge Required"
-			description: ["The &cRod &bof &1the &5Bifrost&r consumes Mana from a player-carried &2Mana Tablet&r to create bridges in the direction the player is looking. "]
+			subtitle: "需要精灵学知识"
+			description: ["&c彩&b虹&1桥&5法杖&r会让持有者通过消耗一些魔力右击，向他所看的方向延伸出一座彩虹桥。"]
 			hide_dependency_lines: true
 			dependencies: ["08C095E10B10E051"]
 			id: "4D5978C64EA59498"
@@ -3553,8 +3553,8 @@
 			x: 9.5d
 			y: -5.0d
 			shape: "diamond"
-			subtitle: "Fire !"
-			description: ["The &2Rod of the Unstable Reservoir&r is a weapon that can kill many foes. It will launch Mana Missiles. "]
+			subtitle: "开炮！"
+			description: ["&2弹幕法杖&r是一种对付大量敌人用的及其强力的武器，它会消耗魔力来产生随机跟踪目标的奥术飞弹。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"77CAA7FF46A56DB7"
@@ -3577,8 +3577,8 @@
 			x: 10.0d
 			y: -5.5d
 			shape: "diamond"
-			subtitle: "Get out of here !"
-			description: ["The &2Rod of the Shaded Mesa&r is a powerful articfact. To use this, aim it at a mob or item and hold right-click to pick it up. Releasing right-click will drop the held entity, while punching with it will toss the entity in a powerful bust."]
+			subtitle: "爬！"
+			description: ["&2黑山法杖&r是个强力的遗物。使用时需要对怪物或是物品右键，松开右键就会扔出选择的实体，左键时则会让它放出强力的爆破。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"08C095E10B10E051"
@@ -3609,11 +3609,11 @@
 			x: 12.5d
 			y: -5.0d
 			shape: "diamond"
-			subtitle: "Swap "
+			subtitle: "替换"
 			description: [
-				"The &9Rod of the Shifting Crust&r is a magical device with the ability ta swap blocks in the world at very high speeds."
+				"&9移壳杆&r是一个能快速更替方块的神奇物品。"
 				""
-				"To set up the rod, sneack-right click a block to select it."
+				"要使用此法杖，你必须先潜行右击一个方块来作为目标。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["37809CC7CA5CDE57"]
@@ -3637,12 +3637,12 @@
 			x: 12.0d
 			y: -5.5d
 			shape: "diamond"
-			subtitle: "Ores"
+			subtitle: "矿物"
 			description: [
-				"The &2Rod of the Plentiful Mantle&r has the power to find ores."
-				"Those ores will emit a brief glow through walls. "
-				"Identical ores will glow identical color."
-				"It can be given to a &bLivingwood Avatar&r, when you do so, it will use Mana slowly and you will be able to see all nearby ores and colors will remain the same as long as the avatar isn't moved."
+				"&2占矿法杖&r有找到矿物的能力。"
+				"那些矿石会透过墙壁发出短暂的光芒。. "
+				"相同的矿石会发出相同的颜色。"
+				"它可以给&b活木化身&r使用，如果这么做，它会显示周边所有的矿物，如同玩家使用它一般，但直到它被移除为止都会一直显示, "
 			]
 			hide_dependency_lines: true
 			dependencies: ["167AC4181B2F5EA0"]
@@ -3662,8 +3662,8 @@
 			x: 10.5d
 			y: -6.0d
 			shape: "diamond"
-			subtitle: "Dirt please"
-			description: ["The &2Rod of the Lands&r places dirt in exchange of mana"]
+			subtitle: "我要泥土！"
+			description: ["&2大地法杖&r能够使用物品栏内的魔力来生产并放置泥土。"]
 			hide_dependency_lines: true
 			dependencies: ["15FD83F0B4E8B466"]
 			id: "455EFD9C89E0086F"
@@ -3682,7 +3682,7 @@
 			x: 12.5d
 			y: -4.0d
 			shape: "diamond"
-			description: ["When used, the &3Rod of the Depths&r will place a Cobblestone block in the targeted area. This consumes 150 &bMana&r from a &2Mana Tablet&r in the player's inventory per block. "]
+			description: ["使用&3深渊法杖&r会在特定区域放置圆石，每个方块会从玩家物品栏内的&2魔力石板&r中消耗150&b魔力&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"4B08DE5FE77A4696"
@@ -3704,7 +3704,7 @@
 			x: 12.0d
 			y: -4.5d
 			shape: "diamond"
-			description: ["By using &bMana&r from a &2Mana Tablet&r in the player's inventory, the Rod of the Hells will cast a circle of red fire clouds around the player, and any entity including the caster will burn inside the circle. "]
+			description: ["&2地狱法杖&r能够使用玩家物品栏内&2魔力石板&r中的&b魔力&r在你周围创造一个火焰圈，圈中的任何实体都会受到火焰伤害。"]
 			hide_dependency_lines: true
 			dependencies: ["4B08DE5FE77A4696"]
 			id: "0D32ED2AD00700C1"
@@ -3723,7 +3723,7 @@
 			x: 11.5d
 			y: -4.0d
 			shape: "diamond"
-			description: ["By consuming &bMana&r from a player-carried &2Mana Tablet&r, the &1Rod of the Seas&r can create a Water source block in a targeted area. It can also be used to refill a Petal Apothecary. Both of these abilities consume 75 &bMana&r per use. "]
+			description: ["&b魔力&r&2魔力石板&r，&1海洋法杖&r可以消耗玩家持有的魔力石板中的&b魔力&r，在特定位置放置一个水方块。它也可以向花药池里加水，每使用一次会消耗75&b魔力&r&b魔力&r。"]
 			hide_dependency_lines: true
 			dependencies: ["6A0284037005E40B"]
 			id: "3022689D6391999A"
@@ -3743,8 +3743,8 @@
 			y: -3.5d
 			shape: "diamond"
 			description: [
-				"By using &bMana&r from a player-carried &2Mana Tablet&r, the &3Rod of the Skies&r propels the player into the air at a very high velocity. "
-				"This item does not have durability, but each time the rod is used, it must recharge and the durability bar shows the current state of recharging. When the durability bar has fully recharged the Rod can be used again and the durability bar will disappear. "
+				"&3天空法杖&r能够使用玩家物品栏内&2魔力石板&r中的&b魔力&r将玩家快速推到天上。"
+				"此物品没有耐久，但每次使用后，它需要少量的时间来充能，耐久栏会显示当前状态。当充能完成后，法杖就可以再次使用，耐用栏将消失。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["31E7C7AA43E802F2"]
@@ -3769,8 +3769,8 @@
 			y: -4.0d
 			shape: "diamond"
 			description: [
-				"By consuming &bMana&r from a player-carried &2Mana Tablet&r it flattens and levels the ground to where the player is standing by either removing blocks or placing Dirt. "
-				"When the use key (right-mouse button by default) is held down, the Rod will attempt to flatten the land in a 33x33x33 area. It will fill the area 17 blocks below the player by placing Dirt on top of any blocks it finds and will remove all natural blocks 16 blocks above the player. When filling, it will try to alter the land as naturally as possible. Blocks that have been removed by the Rod are permanently lost. The cost of removing or creating blocks is 55 Mana per block. "
+				"它从玩家持有的&2魔力石板&r里消耗&b魔力&r并移除方块或放置泥土将玩家所站的地方夷为平地。 "
+				"按下鼠标右键法杖将在一个33x33x33的区域内将平整地面。它将在玩家下方的17个方块上放置泥土，并将移除玩家上方16个方块上的所有天然方块。在填筑时，它会尽量自然地改变土地。被法杖移除的原木将永远丢失。移除或创建方块每个方块将消耗55法力值。 "
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3798,7 +3798,7 @@
 			x: 10.0d
 			y: -4.5d
 			shape: "diamond"
-			description: ["By consuming &bMana&r from a player-carried &2Mana Tablet&r, the Rod of the Molten Core will smelt targeted blocks at a cost of 300 Mana per block smelted. "]
+			description: ["炽心法杖会使用玩家物品栏中&2魔力石板&r内的&b魔力&r来熔炼玩家所指方块，每熔炼一个方块会消耗300魔力。"]
 			hide_dependency_lines: true
 			dependencies: ["4B08DE5FE77A4696"]
 			id: "262A6306EE21315D"
@@ -4591,7 +4591,7 @@
 		{
 			x: 11.0d
 			y: -14.5d
-			description: ["You have to put the runes on the rune holder and throw the items."]
+			description: ["你需要将符文置于符文支架上，然后丢出合成材料以进行符文仪式。"]
 			hide_dependency_lines: true
 			dependencies: ["15B5BC64BC242F57"]
 			id: "245528E23F0D8350"
@@ -4616,7 +4616,7 @@
 		{
 			x: 12.5d
 			y: -14.5d
-			subtitle: "Thor Hammer!!!"
+			subtitle: "雷神之锤！！！"
 			hide_dependency_lines: true
 			dependencies: [
 				"245528E23F0D8350"
@@ -4683,7 +4683,7 @@
 		{
 			x: 13.5d
 			y: -1.5d
-			description: ["&aDice of Fate&f is dropped by the hard mode version of Gaia Guardian."]
+			description: ["&a命运骰子&f是困难模式下的盖亚守护者的掉落物。"]
 			dependencies: ["77CAA7FF46A56DB7"]
 			id: "44AF8A8F691307B7"
 			tasks: [{
@@ -4758,7 +4758,7 @@
 		{
 			x: 9.5d
 			y: -16.0d
-			description: ["After drinking the mead you'll be able to step in the &9Portal to Alfheim&r and travel to Aflheim yourself."]
+			description: ["喝下这种酒，你便可以步入&9精灵传送门&r之内，只身前往精灵世界。"]
 			dependencies: ["1A7DC8C9BB893233"]
 			id: "3CE70B0A6E5C4011"
 			tasks: [{
@@ -4846,7 +4846,7 @@
 		{
 			x: 1.0d
 			y: 3.0d
-			description: ["Any Mana received from Mana Bursts will be split evenly into Mana Pools placed on adjacent sides."]
+			description: ["魔力分配器会将收到的魔力均分给它相邻的魔力池。"]
 			dependencies: ["3347286B1E8B7EB5"]
 			id: "6C7D662F8CDF2A88"
 			tasks: [{
@@ -4882,14 +4882,14 @@
 			}]
 		}
 		{
-			title: "Mana Manipulation"
+			title: "使用魔力"
 			x: 2.0d
 			y: 1.0d
 			description: [
-				"The &cMana Void&f is, in layman's terms, a grave for Mana. Any Mana poured into this block will simply vanish into the void, never to be seen again."
-				"Placing one of these under a Mana Pool will allow the pool to always accept Mana, but void any it can't hold."
+				"简单来说，&c魔力销毁器&f是魔力的垃圾桶。所有进入这个方块 的魔力都会被虚空永远地吞噬 。"
+				"在魔力池下方放一个这个，就 可以让池子满地时候销毁多余 的魔力。"
 				""
-				"The &cMana Detector&f detects when a Mana Burst flows through it (bursts pass through this block like air) and provides a redstone signal for the occasion."
+				"&c魔力检测器&f可以在魔力脉冲穿过它时检测到魔力（脉冲不会因与它的撞击而损耗）并发出一个红石信号。"
 			]
 			dependencies: ["3347286B1E8B7EB5"]
 			id: "75F3357335FF44A8"
@@ -4912,7 +4912,7 @@
 			}]
 		}
 		{
-			title: "Alfheim Ores"
+			title: "精灵矿石"
 			x: 12.0d
 			y: 0.5d
 			dependencies: ["457116B6E1C7236C"]

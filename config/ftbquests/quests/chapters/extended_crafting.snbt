@@ -11,8 +11,8 @@
 		{
 			x: -3.0d
 			y: 0.0d
-			subtitle: "The Blackest Ingot"
-			description: ["Inner your dark side and craft the &7Black Iron Ingot&r"]
+			subtitle: "最黑的金属锭"
+			description: ["在你黑暗之面合成&7黑铁锭&r"]
 			dependencies: ["550BDFBC2857D5FD"]
 			id: "2E10FF3D08F8D918"
 			tasks: [{
@@ -301,7 +301,7 @@
 			x: -4.0d
 			y: -1.0d
 			subtitle: "Q.E.D Well kinda"
-			description: ["Infuse items with the Power of the &5Ender&r"]
+			description: ["给物体注入&5末地&r的能量"]
 			dependencies: ["2E10FF3D08F8D918"]
 			id: "54E41BD848B169C7"
 			tasks: [
@@ -325,11 +325,11 @@
 		{
 			x: 12.5d
 			y: 0.0d
-			subtitle: "Singularities Creator"
+			subtitle: "奇点创造者"
 			description: [
-				"As said in the Sub-title"
+				"如副标题所述"
 				""
-				"This machine will craft the holy &l&4Singularities&r&r"
+				"这台机器会创造出至高无上的奇点"
 			]
 			hide_dependency_lines: true
 			dependencies: ["43661D114CDEBF38"]

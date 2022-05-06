@@ -11,7 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["When you right click on this block, it will be filled of garbage pile."]
+			description: ["右键把垃圾扔进去直到满。"]
 			id: "78EC54D48A31D0FE"
 			tasks: [{
 				id: "773C846D18889928"
@@ -27,7 +27,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			description: ["Rats will easly spawn on this block by putting him in the darkness"]
+			description: ["把它放在黑暗的地方会更容易生成老鼠。"]
 			dependencies: ["78EC54D48A31D0FE"]
 			id: "4B9B33DA29907B43"
 			tasks: [{
@@ -821,7 +821,7 @@
 		{
 			x: 1.5d
 			y: 3.0d
-			description: ["You can command rats with it"]
+			description: ["你可以用这个控制附近的老鼠。"]
 			dependencies: ["2F49C74B56F2368F"]
 			id: "042CB6C4E7C6EEEE"
 			tasks: [{
@@ -844,7 +844,7 @@
 		{
 			x: 4.0d
 			y: 9.0d
-			description: ["You can obtain this ore by mining in ratlantis"]
+			description: ["你可以在鼠西洲挖到这种矿石。"]
 			hide_dependency_lines: true
 			dependencies: ["458224847BCFBC17"]
 			id: "41D38609C5D27876"
@@ -860,11 +860,11 @@
 			}]
 		}
 		{
-			title: "Go through the cheese"
+			title: "前往奶酪世界"
 			icon: "rats:chunky_cheese_token"
 			x: 0.0d
 			y: 6.0d
-			description: ["By right clicking on the floor, it will spawn the portal to ratlantis."]
+			description: ["对地面右键以生成前往鼠西洲的传送门。"]
 			hide_dependency_lines: true
 			dependencies: ["236401FB97B03F20"]
 			id: "458224847BCFBC17"
@@ -877,7 +877,7 @@
 				{
 					id: "2E863DA25B155A8B"
 					type: "dimension"
-					title: "Visit Dimension : &eRatlantis"
+					title: "抵达维度：&e鼠西洲"
 					dimension: "rats:ratlantis"
 				}
 			]
@@ -890,7 +890,7 @@
 		{
 			x: -0.5d
 			y: 13.0d
-			description: ["You need to right click on the raid air siren to spawn him, you can craft the raid air siren with ratbot loot"]
+			description: ["右键防空警报召唤老鼠男爵。你可以用机器鼠的掉落物来制作防空警报。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"458224847BCFBC17"
@@ -913,7 +913,7 @@
 			icon: "rats:marbled_cheese_rat_head"
 			x: -0.5d
 			y: 12.0d
-			description: ["Do like an iron golem, the head on the top, the core on the middle, and the marble cheese all around except on the top"]
+			description: ["像做铁傀儡一样，不过中间放核心，上面放头颅其他地方放奶酪大理石。"]
 			hide_dependency_lines: true
 			dependencies: ["458224847BCFBC17"]
 			id: "7CDF6A52C293BAC7"
@@ -949,7 +949,7 @@
 		{
 			x: -0.5d
 			y: 11.0d
-			description: ["You will have to right click on the flying dutchrat's wheel on his boat to spawn him."]
+			description: ["右键飞翔的荷兰鼠船上的船舵来生成它。"]
 			hide_dependency_lines: true
 			dependencies: ["458224847BCFBC17"]
 			id: "447C5D847F2AB258"
@@ -969,7 +969,7 @@
 			icon: "rats:psionic_rat_brain"
 			x: -0.5d
 			y: 10.0d
-			description: ["Throw the vial of a feral rats to spawn the neo ratlantean."]
+			description: ["对野蛮鼠西族丢知性小瓶来召唤新·鼠西族。"]
 			hide_dependency_lines: true
 			dependencies: ["458224847BCFBC17"]
 			id: "2117C5020A293AF4"

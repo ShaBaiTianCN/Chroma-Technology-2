@@ -3,16 +3,16 @@
 	group: "1D8552F8A45BF753"
 	order_index: 0
 	filename: "elemental_craft"
-	title: "元素魔法"
+	title: "元素工艺"
 	icon: "elementalcraft:focus"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Inert crystal"
+			title: "惰性水晶"
 			x: 0.0d
 			y: 0.0d
-			description: ["The &9Inert Ore &rcan be found in caves. "]
+			description: ["&9惰性水晶矿&r可以在洞穴里被找到。"]
 			id: "6DE51A98F6BE60C6"
 			tasks: [{
 				id: "1AFD8BB3978944B9"
@@ -36,13 +36,13 @@
 			}
 			x: 2.0d
 			y: 0.0d
-			description: ["The &5Elementopia&r will bring you all informations about the &5Elemental Craft&r mod."]
+			description: ["&5元素百科&r将带你探索&5元素工艺&r模组。"]
 			dependencies: ["6DE51A98F6BE60C6"]
 			id: "5B0C726044803D44"
 			tasks: [{
 				id: "28112239F0F4A818"
 				type: "checkmark"
-				title: "Elementopia"
+				title: "元素百科"
 			}]
 			rewards: [
 				{
@@ -66,7 +66,7 @@
 		{
 			x: 3.5d
 			y: -1.0d
-			description: ["Will contain a few amount of one element."]
+			description: ["仅能储存少量的一种元素。"]
 			dependencies: ["5B0C726044803D44"]
 			id: "0B0EB289CB8CEA3C"
 			tasks: [{
@@ -83,7 +83,7 @@
 		{
 			x: 5.0d
 			y: -2.0d
-			description: ["An improved version of the small container"]
+			description: ["进阶版小型元素容器。"]
 			dependencies: ["0B0EB289CB8CEA3C"]
 			id: "551980577C217831"
 			tasks: [{
@@ -100,7 +100,7 @@
 		{
 			x: 3.5d
 			y: 1.0d
-			description: ["When placed below an &5Elemental Orb&r it will extract the affix element."]
+			description: ["放置在&5源点&r下方可以提取里面的元素。"]
 			dependencies: ["5B0C726044803D44"]
 			id: "78BCB3BE7D6BE28F"
 			tasks: [{
@@ -117,7 +117,7 @@
 		{
 			x: 5.0d
 			y: 0.0d
-			description: ["This has to be place on an &5Element Container&r. To trigger the recipe, you'll have to put it on the needed element."]
+			description: ["元素灌注器需要放在&5元素容器&r上。放在装有相应元素的元素容器上可以进行合成。"]
 			dependencies: ["5B0C726044803D44"]
 			id: "0A3948A727717EB4"
 			tasks: [{
@@ -134,7 +134,7 @@
 		{
 			x: 3.5d
 			y: 3.0d
-			description: ["Can crafts new items with element"]
+			description: ["可以用元素制作新物品？！"]
 			dependencies: ["78BCB3BE7D6BE28F"]
 			id: "5963F874AAE3DE3E"
 			tasks: [{
@@ -151,7 +151,7 @@
 		{
 			x: 0.0d
 			y: 3.0d
-			description: ["An improved version of the &5Element Binder&r. It's faster and drains less element."]
+			description: ["进阶版&5元素聚合器&r。它合成更快，消耗元素更少。"]
 			dependencies: ["5963F874AAE3DE3E"]
 			id: "0647945AC4934FB7"
 			tasks: [{
@@ -168,7 +168,7 @@
 		{
 			x: 2.0d
 			y: 1.0d
-			description: ["Can extract faster and better the contained &5element&r"]
+			description: ["更快更好地提取&5元素&r！"]
 			dependencies: ["78BCB3BE7D6BE28F"]
 			id: "0129F85F06EF3846"
 			tasks: [{
@@ -249,7 +249,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			description: ["This item can be used for some &bElemental Craft&r recipes"]
+			description: ["这是&b元素工艺&r的合成材料之一。"]
 			dependencies: ["6DE51A98F6BE60C6"]
 			id: "2669F62A9D905F87"
 			tasks: [{
@@ -267,7 +267,7 @@
 			icon: "elementalcraft:pureinfuser"
 			x: 10.5d
 			y: 0.0d
-			description: ["You can now make new crafts, you just need to input the right element on the good pedestal except the middle one"]
+			description: ["现在可以制作新的工艺了！你只需要给周围的台座提供相应的元素，当然中间的不用。"]
 			dependencies: ["303ABA48F3F9C0A3"]
 			id: "1CE7C3FE672DA886"
 			tasks: [
@@ -306,7 +306,7 @@
 		{
 			x: 12.5d
 			y: 0.0d
-			description: ["This is the result of the four elements combined with one diamond."]
+			description: ["这是4种元素与一颗钻石的结晶。"]
 			dependencies: ["1CE7C3FE672DA886"]
 			id: "045A7AC4769EEF48"
 			tasks: [{
@@ -325,7 +325,7 @@
 			y: 4.5d
 			description: [
 				""
-				"Can contain &4fire element&r for spells"
+				"可以储存和给法术供应&4火元素&r。"
 			]
 			dependencies: ["0647945AC4934FB7"]
 			id: "008049ADCB42157F"
@@ -356,7 +356,7 @@
 		{
 			x: -1.0d
 			y: 3.5d
-			description: ["Can contain &3water element&r for spells"]
+			description: ["可以储存和给法术供应&3水元素&r。"]
 			dependencies: ["0647945AC4934FB7"]
 			id: "476714364042055B"
 			tasks: [{
@@ -386,7 +386,7 @@
 		{
 			x: -1.0d
 			y: 2.5d
-			description: ["Can contain &2earth element&r for spells"]
+			description: ["可以储存和给法术供应&2地元素&r。"]
 			dependencies: ["0647945AC4934FB7"]
 			id: "36A18DF22711B51E"
 			tasks: [{
@@ -416,7 +416,7 @@
 		{
 			x: -0.5d
 			y: 1.5d
-			description: ["Can contain &6air element&r for spells"]
+			description: ["可以储存和给法术供应&6气元素&r。"]
 			dependencies: ["0647945AC4934FB7"]
 			id: "4A8F7E1DEF038947"
 			tasks: [{
@@ -447,7 +447,7 @@
 			x: -3.75d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "Something powerful is inside, perhaps I could do something with other magic materials"
+			subtitle: "里面有强大的东西，也许我可以它做点什么。"
 			dependencies: [
 				"008049ADCB42157F"
 				"476714364042055B"
@@ -470,7 +470,7 @@
 		{
 			x: 3.5d
 			y: 4.5d
-			subtitle: "The starter ingredient for all the shrine......"
+			subtitle: "这只是各种神坛的开胃前菜。。。"
 			dependencies: ["5963F874AAE3DE3E"]
 			id: "746617CE4CE87181"
 			tasks: [{
@@ -487,7 +487,7 @@
 		{
 			x: 1.5d
 			y: 5.5d
-			description: ["Nearby entities are set on fire"]
+			description: ["点燃周围的一切生物"]
 			dependencies: ["746617CE4CE87181"]
 			id: "5D8FFBC33C841F06"
 			tasks: [{
@@ -504,7 +504,7 @@
 		{
 			x: 1.5d
 			y: 7.5d
-			description: ["Will harvest crops"]
+			description: ["自动收割作物"]
 			dependencies: ["2ECD838CFDF78A86"]
 			id: "6E4420669E71BF06"
 			tasks: [{
@@ -521,7 +521,7 @@
 		{
 			x: 2.5d
 			y: 6.5d
-			description: ["Will accelerate the growth of plants"]
+			description: ["加快附近作物的生长速度"]
 			dependencies: ["746617CE4CE87181"]
 			id: "2ECD838CFDF78A86"
 			tasks: [{
@@ -538,7 +538,7 @@
 		{
 			x: 3.5d
 			y: 6.5d
-			description: ["Periodically refill hunger"]
+			description: ["定期回饥饿值"]
 			dependencies: ["746617CE4CE87181"]
 			id: "5B7DBFB78BA64427"
 			tasks: [{
@@ -555,7 +555,7 @@
 		{
 			x: 4.5d
 			y: 6.5d
-			description: ["Will absorb items around it"]
+			description: ["吸收周围的掉落物"]
 			dependencies: ["746617CE4CE87181"]
 			id: "1F031BC9A972EF50"
 			tasks: [{
@@ -572,7 +572,7 @@
 		{
 			x: 5.5d
 			y: 4.5d
-			description: ["By inputing food it will reproduce animals"]
+			description: ["给它对应的食物可以繁殖动物。"]
 			dependencies: ["746617CE4CE87181"]
 			id: "5BD871A97EACEF6A"
 			tasks: [{
@@ -589,7 +589,7 @@
 		{
 			x: 5.5d
 			y: 5.5d
-			description: ["Dig for ores underneath it"]
+			description: ["采掘其下方的矿物"]
 			dependencies: ["746617CE4CE87181"]
 			id: "0A71E1877179ED7A"
 			tasks: [{
@@ -606,7 +606,7 @@
 		{
 			x: 5.5d
 			y: 3.5d
-			description: ["Will create flowers on top of grass"]
+			description: ["在草地上生成鲜花"]
 			dependencies: ["746617CE4CE87181"]
 			id: "167C3F2892707E65"
 			tasks: [{
@@ -623,7 +623,7 @@
 		{
 			x: 1.5d
 			y: 4.5d
-			description: ["When this face another block, it will accelerate the tick of this block."]
+			description: ["加速它面前的方块"]
 			dependencies: ["746617CE4CE87181"]
 			id: "5B1CB4DF7C9C45A9"
 			tasks: [{
@@ -640,7 +640,7 @@
 		{
 			x: 12.5d
 			y: -1.5d
-			description: ["Allow you to transport &5Elemental Nodes&r that can be found in the nature. This has 4 durability"]
+			description: ["可以用来储存你找到的&5源点&r。它有5点耐久。"]
 			dependencies: ["045A7AC4769EEF48"]
 			id: "4DF85537A3A0A2D6"
 			tasks: [{
@@ -663,7 +663,7 @@
 		{
 			x: 12.5d
 			y: -3.0d
-			description: ["This an improved version of the &nReceptacle&r but this one has more durability"]
+			description: ["这是&n源点收纳器&r的进阶版。它更耐用。"]
 			dependencies: ["4DF85537A3A0A2D6"]
 			id: "64DA51EADABA1B8D"
 			tasks: [{
@@ -686,7 +686,7 @@
 		{
 			x: 14.0d
 			y: -1.0d
-			description: ["With the &6Pure Crystal&r, you can craft this new ingot."]
+			description: ["你需要用&6至纯水晶&r来合成"]
 			dependencies: ["045A7AC4769EEF48"]
 			id: "229B9EB4219C784A"
 			tasks: [{
@@ -703,7 +703,7 @@
 		{
 			x: 14.5d
 			y: 0.0d
-			description: ["Can stock a very large amount of &4Fire Element&r"]
+			description: ["可以储存大量的&4火元素&r"]
 			dependencies: ["045A7AC4769EEF48"]
 			id: "569761A7546843B8"
 			tasks: [{
@@ -720,7 +720,7 @@
 		{
 			x: 14.0d
 			y: 1.5d
-			description: ["Can stock a very large amount of &3Water Element&r"]
+			description: ["可以储存大量的&3水元素&r"]
 			dependencies: ["045A7AC4769EEF48"]
 			id: "245B081A199D68DE"
 			tasks: [{
@@ -737,7 +737,7 @@
 		{
 			x: 13.0d
 			y: 2.0d
-			description: ["Can stock a very large amount of &2Earth Element&r"]
+			description: ["可以储存大量的&2地元素&r"]
 			dependencies: ["045A7AC4769EEF48"]
 			id: "45039F83032E5C9A"
 			tasks: [{
@@ -754,7 +754,7 @@
 		{
 			x: 12.0d
 			y: 1.5d
-			description: ["Can stock a very large amount of &6Air Element&r"]
+			description: ["可以储存大量的&6气元素&r"]
 			dependencies: ["045A7AC4769EEF48"]
 			id: "08369CF09580028E"
 			tasks: [{
@@ -772,8 +772,8 @@
 			x: 8.0d
 			y: -3.5d
 			description: [
-				"Allows you to craft spells"
-				"Spells can also be found in the overworld."
+				"用来合成法术卷轴"
+				"你也可以在主世界找到法术卷轴"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0A3948A727717EB4"]
@@ -799,7 +799,7 @@
 		{
 			x: 8.0d
 			y: -5.0d
-			description: ["Like a magic wand with anvil you can add spells to it"]
+			description: ["像一根魔杖。你可以在铁砧中添加法术。"]
 			dependencies: ["6C5A44C3DC9A72EE"]
 			id: "25FA26C314664D0B"
 			tasks: [{
@@ -816,7 +816,7 @@
 		{
 			x: 0.5d
 			y: 6.0d
-			description: ["Melts stone into  lava"]
+			description: ["融化玄武岩变成岩浆"]
 			dependencies: ["5D8FFBC33C841F06"]
 			id: "39F6237930F22195"
 			tasks: [{
@@ -834,7 +834,7 @@
 			x: 10.5d
 			y: 4.5d
 			shape: "gear"
-			description: ["So now that you've managed to get some &6Pure Crystals&r, you will be able to go to the &5Ars Nouveau&r mod"]
+			description: ["既然你已经得到了&6至纯水晶&r，那就可以玩&5新生魔艺&r了。"]
 			dependencies: ["1CE7C3FE672DA886"]
 			size: 3.0d
 			id: "4A44A6FE8FD947B6"
@@ -845,10 +845,10 @@
 			}]
 		}
 		{
-			title: "Impaired element pipe"
+			title: "弱化元素管道"
 			x: 2.5d
 			y: -2.0d
-			description: ["Can transport a few amount of element between two &5Elemental Craft&r blocks"]
+			description: ["可以在&5魔法工艺&r的方块间传输少量元素。"]
 			dependencies: ["0B0EB289CB8CEA3C"]
 			id: "73FE028836791BD0"
 			tasks: [{
@@ -864,10 +864,10 @@
 			}]
 		}
 		{
-			title: "Element Pipe"
+			title: "元素管道"
 			x: 1.5d
 			y: -3.0d
-			description: ["Improved version of the impaired"]
+			description: ["弱化元素导管的进阶版。"]
 			dependencies: ["73FE028836791BD0"]
 			id: "68AA9DBEA11BDEBC"
 			tasks: [{
@@ -883,10 +883,10 @@
 			}]
 		}
 		{
-			title: "Improved Element Pipe"
+			title: "强化元素管道"
 			x: 0.5d
 			y: -4.0d
-			description: ["Improved version of the element pipe"]
+			description: ["元素导管的进阶版。"]
 			dependencies: ["68AA9DBEA11BDEBC"]
 			id: "49189F8854F16C3F"
 			tasks: [{
@@ -904,7 +904,7 @@
 		{
 			x: 9.0d
 			y: 0.0d
-			description: ["Can craft &5Elemental Gems&r"]
+			description: ["用来制作&5元素水晶&r"]
 			dependencies: [
 				"691875E5448101B6"
 				"528A919751F7A145"

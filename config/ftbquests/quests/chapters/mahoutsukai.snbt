@@ -26,9 +26,9 @@
 			shape: "octagon"
 			subtitle: "Welcome"
 			description: [
-				"With &5Mahou Tsukai&r you can create very powerfull spells or weapons."
+				"你可以使用&5魔法使&r模组制作非常强大的魔术和武器。"
 				""
-				"You can see the recipe of the spell on the compendium"
+				"你可以在魔法使知识汇编上看到魔术的配方。"
 			]
 			id: "2C348BA89EAB5690"
 			tasks: [{
@@ -45,13 +45,13 @@
 		{
 			x: -3.0d
 			y: -1.0d
-			subtitle: "Suicidal"
+			subtitle: "自残"
 			description: [
-				"When you  right click with the &5Dagger&r, it will make you bleed."
+				"当你使用&5匕首&r右键时，它会让你流血。"
 				""
-				"But when you press the &8Mahou Drawing&r key it will draw a &8Mahou Circle&r to create spell. "
+				"但是当你按下&8绘制魔法阵&r的按件时，会绘制&8魔法圆阵&r来制作魔术。 "
 				""
-				"For that you will have to craft those &lPowdereds Powders&r"
+				"为了制作这些魔术，你必须制作一些&l粉末&r。"
 			]
 			dependencies: ["2C348BA89EAB5690"]
 			id: "26C2E5ACAAF1E02A"
@@ -69,11 +69,11 @@
 		{
 			x: -3.0d
 			y: 4.5d
-			subtitle: "I'm cold"
+			subtitle: "我很冷！"
 			description: [
-				"Some spell will ask you  to use &8Cloth&r to be created."
+				"一些魔术需要你在&8魔法布料&r上来制作。"
 				""
-				"You can see which spells needs cloths on the &5Mahou Tsukai Compendium&r."
+				"你可以在&5魔法使知识汇编&r上查看哪些魔术需要魔法布料."
 			]
 			dependencies: ["3C9F44D4A5C50520"]
 			id: "743C060DB0179ABD"
@@ -91,8 +91,8 @@
 		{
 			x: -4.0d
 			y: 1.5d
-			subtitle: "What have you done???"
-			description: ["In order to use that &bPowdered Diamond&r you'll have to use the &1Hammer&r of &5Mahou Tsukai&r "]
+			subtitle: "你做了什么???"
+			description: ["为了使用&b钻石粉末&r你需要使用&5魔法使&r的&1锤&r"]
 			dependencies: ["26C2E5ACAAF1E02A"]
 			id: "1B81BC21FA5EF811"
 			tasks: [{
@@ -109,8 +109,8 @@
 		{
 			x: -3.0d
 			y: 1.5d
-			subtitle: "Crushed Gem"
-			description: ["In order to use that &2Powdered Emerald&r you'll have to use the &3Hammer&r of &5Mahou Tsukai&r "]
+			subtitle: "碎的宝石"
+			description: ["为了使用&2绿宝石粉末&r你需要使用&5魔法使&r的&1锤&r"]
 			dependencies: ["26C2E5ACAAF1E02A"]
 			id: "41C836F13361F603"
 			tasks: [{
@@ -127,8 +127,8 @@
 		{
 			x: -2.0d
 			y: 1.5d
-			subtitle: "Endermen's Nightmare"
-			description: ["In order to use that &9Powdered Ender&r you'll have to use the &3Hammer&r of &5Mahou Tsukai&r "]
+			subtitle: "末影人的梦魇"
+			description: ["为了使用&9末影粉末&r你需要使用&5魔法使&r的&1锤&r"]
 			dependencies: ["26C2E5ACAAF1E02A"]
 			id: "5EFBEE10D0006508"
 			tasks: [{
@@ -145,8 +145,8 @@
 		{
 			x: -1.0d
 			y: 1.0d
-			subtitle: "I can't see ! "
-			description: ["In order to use that &cPowdered Eye&r you'll have to use the &3Hammer&r of &5Mahou Tsukai&r "]
+			subtitle: "我看不见! "
+			description: ["为了使用&c魔眼粉末&r你需要使用&5魔法使&r的&1锤&r"]
 			dependencies: ["26C2E5ACAAF1E02A"]
 			id: "3FC45CE7067772CD"
 			tasks: [{
@@ -163,8 +163,8 @@
 		{
 			x: -5.0d
 			y: 1.0d
-			subtitle: "I'm Rich ! "
-			description: ["In order to use that &6Powdered Gold&r you'll have to use the &3Hammer&r of &5Mahou Tsukai&r "]
+			subtitle: "我很富有! "
+			description: ["为了使用&6金粉末&r你需要使用&5魔法使&r的&1锤&r"]
 			dependencies: ["26C2E5ACAAF1E02A"]
 			id: "2A032D8822F6D038"
 			tasks: [{
@@ -181,8 +181,8 @@
 		{
 			x: -6.0d
 			y: 0.0d
-			subtitle: "Crushed Iron"
-			description: ["In order to use that &8Powdered Iron&r you'll have to use the &3Hammer&r of &5Mahou Tsukai&r "]
+			subtitle: "碎的铁"
+			description: ["为了使用&8铁粉末&r你需要使用&5魔法使&r的&1锤&r"]
 			dependencies: ["26C2E5ACAAF1E02A"]
 			id: "6DA7F346F0A55CD3"
 			tasks: [{
@@ -199,8 +199,8 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			subtitle: "Switzerland is proud"
-			description: ["In order to use that &0Powdered Quartz&r you'll have to use the &3Hammer&r of &5Mahou Tsukai&r "]
+			subtitle: "瑞士感到自豪"
+			description: ["为了使用&0石英粉末&r你需要使用&5魔法使&r的&1锤&r"]
 			dependencies: ["26C2E5ACAAF1E02A"]
 			id: "5C7F5A7D339DE985"
 			tasks: [{
@@ -217,11 +217,11 @@
 		{
 			x: -3.0d
 			y: 6.0d
-			subtitle: "First Rule : Don't talk about the Code"
+			subtitle: "第一条规则：不要谈论代码（礼装叫Mystical Code，代码是Code）"
 			description: [
-				"The &4Mystical Code&r allows you to store and use spells. "
+				"&4礼装&r运行你储存和使用魔术"
 				""
-				"You can press the \"Y\" key (by default) to switch between spells."
+				"你可以按“Y”键（默认）在法术之间切换。"
 			]
 			dependencies: ["743C060DB0179ABD"]
 			id: "2A1D2FE8DBC24DDB"
@@ -245,15 +245,15 @@
 		{
 			x: -3.0d
 			y: 7.5d
-			subtitle: "Fae Sight"
+			subtitle: "魔眼"
 			description: [
-				"This Scroll will allow the player to see the &3Fay Line&r."
+				"这个卷轴可以让玩家看到&3境界线&r。"
 				""
-				"If you decide to follow this Line, you will discover the &3Fay Circle&r that make you regenerate your life quickly in exchange of some &5Mahou Power&r. "
+				"当你沿着这条线走你会发现&3境界线中心&r，在这你可以快速的恢复生命，遗迹恢复一些&5Mahou&r. "
 				""
-				"If you are waiting long enough, you will hear the Fay spawns. "
-				"With this spell, you can also get Fay Powder. That spell drains 100 &5Mana&r."
-				"&4&lNB : You'll need cloth to create that spell&r"
+				"如果您等待的时间足够长，您会看到精灵的生成。"
+				"有了这个法术，你还可以获得精灵精华。该法术会消耗100&5Mana&r。"
+				"&4&lNB : 你需要魔法布料来创造那个魔术&r"
 			]
 			dependencies: ["2A1D2FE8DBC24DDB"]
 			id: "67353EE77E1685BD"
@@ -279,11 +279,11 @@
 		{
 			x: -3.005782312925156d
 			y: 9.334353741496578d
-			subtitle: "I TOLD YOU TO NOT SPEAK ABOUT IT"
+			subtitle: "我告诉过你不要谈论它！！！"
 			description: [
-				"This &cMystic Code&r is an advanced version of the previous one."
+				"这个 &c礼装&r 是前一个的高级版本。"
 				""
-				"This one will consume the durability of this Code instead of using the spell."
+				"这将消耗此礼装的耐久度，而不是使用该魔术卷轴。"
 			]
 			dependencies: ["67353EE77E1685BD"]
 			id: "64A2DF892DE9F6BE"
@@ -310,8 +310,8 @@
 		{
 			x: -5.0d
 			y: 8.0d
-			subtitle: "It does need a mint"
-			description: ["Use the &8Strengthening&r on a sword and the right click when you find yourself in some &5Dragon's Breath&r"]
+			subtitle: "它确实需要薄荷糖"
+			description: ["当你处在&5龙息&r中时，用被&8强化卷轴&r强化过的钻石剑右键"]
 			dependencies: ["64A2DF892DE9F6BE"]
 			id: "027C68A9C0CBFC62"
 			tasks: [{
@@ -341,8 +341,8 @@
 		{
 			x: -6.0d
 			y: 8.5d
-			subtitle: "Is that a JoJo reference ?"
-			description: ["You will have to kill a tamed wolf (A dog then) with the &6Cliburn&r to get the &4Morgan&r"]
+			subtitle: "这难道是JOJO梗吗?"
+			description: ["你必须用&6石中剑&r杀死一只驯服的狼（驯服后是狗）才能获得&4摩根&r"]
 			dependencies: ["64A2DF892DE9F6BE"]
 			id: "2E5AA6365EA24880"
 			tasks: [{
@@ -384,13 +384,13 @@
 			}
 			x: 1.5d
 			y: 12.0d
-			subtitle: "It does burn"
+			subtitle: "它确实能燃烧"
 			description: [
-				"Throw an enchanted sword into the &bPower Consolidation Lake&r. Make sure you have a total of 5k of &5Mahou&r and throw it with Q (default key). You will have to get wet to get it."
+				"将一把附魔的剑扔进&b力量固结之湖&r。确保你总共有 5k 的 &5Mahou&r 并用 Q （默认键）扔掉它。 你必须弄湿自己才能得到它。"
 				""
-				"The Damage of the Sword are calculated depending of how you enchanted it. In order to deal more damage you'll have to enchant your sword with the &5Smite&r enchantment. "
+				"剑的伤害是根据你如何附魔来计算的。为了造成更多伤害，你必须用&5亡灵杀手&r附魔来为你的剑附魔。"
 				""
-				"Once you have your &6Caliburn&r, you can augment the damage by doing the same thing for 5k &5Mana&r."
+				"一旦你有你的 &6石中剑&r，你可以通过使用5k&5Mana&r做同样的事情来增加伤害。"
 			]
 			dependencies: ["4103AADA2096F6F6"]
 			id: "1F60DFD692E93221"
@@ -420,13 +420,13 @@
 		{
 			x: -3.0d
 			y: 12.0d
-			subtitle: "THIS IS SPARTA !"
+			subtitle: "因为太怕痛就全点防御力了!"
 			description: [
-				"First you need to get 80 damage absorption with the spell &0&ldamage absorption"
-				"Have 100 death collection soul using &0&lthe death collection spell &rand see mob died and reach 100"
-				"Have 15 armor"
-				"Have the spell &0&limmunity exchange&r active"
-				"And you need to block something with a vanilla shield affected by the &0&lstrenghening spell&r"
+				"首先你需要通过魔术伤害交换获得80点伤害吸收"
+				"使用亡魂之魔眼收集100个灵魂，看到怪物死亡并达到 100"
+				"拥有 15 点护甲"
+				"激活魔术 免疫"
+				"你需要用受强化魔术影响的原版盾挡住一些东西"
 			]
 			dependencies: [
 				"4A2671DC9AEAA866"
@@ -455,7 +455,7 @@
 		{
 			x: -0.5d
 			y: 12.0d
-			subtitle: "Teleportation and Damage !"
+			subtitle: "传送和伤害!"
 			dependencies: ["6B7DACB2A1A73313"]
 			id: "5D90B66ADD81DC4C"
 			tasks: [{
@@ -478,7 +478,7 @@
 		{
 			x: -7.5d
 			y: 12.0d
-			subtitle: "Entity Launcher"
+			subtitle: "实体发射器"
 			dependencies: ["5B567C0822E091ED"]
 			id: "2E13A67DDCE9BA7C"
 			tasks: [{
@@ -501,7 +501,7 @@
 		{
 			x: 0.5d
 			y: 12.0d
-			subtitle: "EXPLOSION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+			subtitle: "bong!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 			dependencies: ["4E0357DCD146F3F1"]
 			id: "3B77282812F2526C"
 			tasks: [{
@@ -524,13 +524,13 @@
 		{
 			x: -2.0d
 			y: 8.0d
-			subtitle: "Worming "
+			subtitle: "蠕虫 "
 			description: [
-				"You can practice some sympathetic magic with it."
+				"你可以用它练习一些交感魔法。"
 				""
-				"You will need to place it on a monster that killed an other monster then you will have to kill it."
+				"你需要把它放在一个杀死另一个怪物的怪物身上，然后你必须杀死它。"
 				""
-				"Place the &aKodoku&r on achest underneath a spell circle."
+				"将蠕虫放在魔法阵下方的魔法布料上。"
 			]
 			dependencies: ["64A2DF892DE9F6BE"]
 			id: "649A89F29765584D"
@@ -572,14 +572,14 @@
 			}
 			x: 0.0d
 			y: 8.5d
-			subtitle: "Where's my shovel?"
+			subtitle: "我的铲子在哪里?"
 			description: [
-				"In order to create that spell, you'll have to place a &9&nSpell Cloth&r on the ground. Once that's done, take the &3Dagger&r and right click with it."
+				"为了制作该魔术，您必须在地面上放置&9&n魔法布料&。制作完成后用&3献祭匕首&右键拿起卷轴"
 				""
-				"Draw a &5Mahoujin Circle&r on the &9Cloth&r and place the 3 needed ingredients listed above."
+				"在&9魔法布料&r上画一个&5魔法阵&r，并放置上面列出的3种所需材料。"
 				""
-				"Drains 1000 &5Mana&r on the creation of the spell. "
-				"Drains 120 &5Mana&r per weapon projected"
+				"在创建魔术时消耗1000&5魔力&r。"
+				"投影每个武器消耗120&5魔力&r"
 			]
 			dependencies: ["64A2DF892DE9F6BE"]
 			id: "679BD9A0CB0B693A"
@@ -646,7 +646,7 @@
 		{
 			x: -5.5d
 			y: 12.0d
-			subtitle: "Grim Reaper"
+			subtitle: "死神"
 			dependencies: ["7A67F23101B1EFA3"]
 			id: "6131C87991220D87"
 			tasks: [{
@@ -669,11 +669,11 @@
 		{
 			x: -3.0d
 			y: 14.0d
-			subtitle: "Stick it to Stick"
+			subtitle: "坚持下去"
 			description: [
-				"Use the &9Strenghtening&r Spell on a stick and hold it in your off-hand. "
+				"在一根木棍上使用 &9强化&r并将它握在你的副手上。"
 				""
-				"Now you will have to wait the thunder to strike you."
+				"现在你需要等雷劈你。"
 			]
 			dependencies: ["4A2671DC9AEAA866"]
 			id: "219D93D90B663BEB"
@@ -691,8 +691,8 @@
 		{
 			x: -4.0d
 			y: 8.0d
-			subtitle: "This is a lie"
-			description: ["Will increase your &5Mahou&r regen but will avoid Fays to spawn."]
+			subtitle: "这是个谎言"
+			description: ["会增加你的&5Mahou&r再生，但会增加精灵生成的时间。"]
 			dependencies: ["64A2DF892DE9F6BE"]
 			id: "0ABF8C7E4A32B1B7"
 			tasks: [{
@@ -709,10 +709,10 @@
 		{
 			x: -6.0d
 			y: -1.5d
-			subtitle: "Shiny storage"
+			subtitle: "闪亮的存储"
 			description: [
-				"This &bAttuned Diamond&r allows you to extra store your &5Mahou&r"
-				"            Stores &610000&r Mana"
+				"这个&b同调钻石&r可以让你额外存储你的&5Mahou&r"
+				"		 储存 &610000&r 魔力"
 			]
 			dependencies: ["2C348BA89EAB5690"]
 			id: "71E38258C00F4A23"
@@ -741,10 +741,10 @@
 		{
 			x: 0.0d
 			y: -1.5d
-			subtitle: "Not for villagers"
+			subtitle: "不是村民的"
 			description: [
-				"The &aAttuned Emerald&r will allow you to store more &5Mahou&r."
-				"             Stores &65000&r Mana"
+				"这个&a同调绿宝石&r可以让你额外存储你的&5Mahou&r"
+				"		 储存 &65000&r 魔力"
 			]
 			dependencies: ["2C348BA89EAB5690"]
 			id: "02FF8E64ED4B5A6D"
@@ -771,7 +771,7 @@
 			}]
 		}
 		{
-			title: "Durability Exchange"
+			title: "耐久交换"
 			icon: {
 				id: "mahoutsukai:scroll_swap_familiar"
 				Count: 1b
@@ -786,13 +786,13 @@
 			}
 			x: -3.0d
 			y: 3.0d
-			subtitle: "Your first spell"
+			subtitle: "你的第一个魔术"
 			description: [
-				"The &cDurability Exchange Spell&r allows you to generate &5Mahou&r by using the durability of a dropped item on the newly created spell."
-				"In order to create that spell, you'll have to take the &3Dagger&r and right click with it. "
-				"Once that's done, draw a &5Mahoujin Circle&r and place these three ingredients (please respect order) : "
-				"- 1 &bpowdered diamonds&r"
-				"- 2 &2powdered emerald&r"
+				"&c耐久交换&r允许您通过在新制作的魔术上通过消耗掉落物的耐久生成 &5Mahou&r。"
+				"为了制作该魔术，您必须使用&3献祭匕首&r右键。 "
+				"完成后，画一个&5魔法阵&r并放置这三种材料（请尊重顺序）: "
+				"- 1 &b钻石粉末&r"
+				"- 2 &2绿宝石粉末&r"
 			]
 			dependencies: [
 				"6DA7F346F0A55CD3"
@@ -826,7 +826,7 @@
 		{
 			x: -1.0d
 			y: 8.0d
-			description: ["Like caliburn just throw a lance in the &0&lpower consolidation lake"]
+			description: ["就像石中剑那样只是在&0&l力量固结之湖中丢入长枪"]
 			dependencies: ["64A2DF892DE9F6BE"]
 			id: "5DA99295F2B4F033"
 			tasks: [{
@@ -853,7 +853,7 @@
 			}]
 		}
 		{
-			title: "Strengthening Spell"
+			title: "强化魔术"
 			icon: {
 				id: "mahoutsukai:scroll_strengthening"
 				Count: 1b
@@ -868,13 +868,13 @@
 			}
 			x: -3.0d
 			y: 13.0d
-			subtitle: "Strong ! "
+			subtitle: "强化! "
 			description: [
-				"In order to create that spell, you'll have to place a &9&nSpell Cloth&r on the ground. Once that's done, take the &3Dagger&r and right click with it."
+				"为了制作该魔术，您必须在地面上放置&9&n魔法布料&。制作完成后用&3献祭匕首&右键拿起卷轴。"
 				""
-				"Draw a &5Mahoujin Circle&r on the &9Cloth&r and place the 3 needed ingredients listed above."
+				"在&9魔法布料&r上画一个&5魔法阵&r，并放置上面列出的3种所需材料。"
 				""
-				"Drains 50 &5Mana&r"
+				"消耗50&5魔力&r"
 			]
 			dependencies: ["64A2DF892DE9F6BE"]
 			id: "4A2671DC9AEAA866"
@@ -911,7 +911,7 @@
 			}]
 		}
 		{
-			title: "Scroll of Weapon Projectiles"
+			title: "武器投影卷轴"
 			icon: {
 				id: "mahoutsukai:scroll_weapon_shooter"
 				Count: 1b
@@ -926,13 +926,13 @@
 			}
 			x: -5.5d
 			y: 10.5d
-			subtitle: "Weapon of Massive Destruction"
+			subtitle: "大规模杀伤性武器"
 			description: [
-				"In order to create that spell, you'll have to place a &9&nSpell Cloth&r on the ground. Once that's done, take the &3Dagger&r and right click with it."
+				"为了制作该魔术，您必须在地面上放置&9&n魔法布料&。制作完成后用&3献祭匕首&右键拿起卷轴。"
 				""
-				"Draw a &5Mahoujin Circle&r on the &9Cloth&r and place the 3 needed ingredients listed above."
+				"在&9魔法布料&r上画一个&5魔法阵&r，并放置上面列出的3种所需材料。"
 				""
-				"Drains 100 &5Mana&r"
+				"消耗100&5魔力&r"
 			]
 			dependencies: ["64A2DF892DE9F6BE"]
 			id: "40794CA7CE57BBF9"
@@ -969,7 +969,7 @@
 			}]
 		}
 		{
-			title: "Scroll of Spacial Disorientation"
+			title: "次元扭曲卷轴"
 			icon: {
 				id: "mahoutsukai:scroll_spatial_disorientation"
 				Count: 1b
@@ -984,13 +984,13 @@
 			}
 			x: -6.5d
 			y: 10.5d
-			subtitle: "Spatial Creation"
+			subtitle: "空间创作"
 			description: [
-				"In order to create that spell, you'll have to place a &9&nSpell Cloth&r on the ground. Once that's done, take the &3Dagger&r and right click with it."
+				"为了制作该魔术，您必须在地面上放置&9&n魔法布料&。制作完成后用&3献祭匕首&右键拿起卷轴。"
 				" "
-				"Draw a &5Mahoujin Circle&r on the &9Cloth&r and place the 3 needed ingredients listed above."
+				"在&9魔法布料&r上画一个&5魔法阵&r，并放置上面列出的3种所需材料。"
 				""
-				"That spell drains 100 &5Mana&r on creation and drains 200 &5Mana&r on use. "
+				"制作这个魔术时消耗100&5魔力&r，在使用时消耗200&5魔力&r。"
 			]
 			dependencies: ["64A2DF892DE9F6BE"]
 			id: "5B567C0822E091ED"
@@ -1042,13 +1042,13 @@
 			}
 			x: -4.5d
 			y: 10.5d
-			subtitle: "Ripping Theory"
+			subtitle: "撕裂理论"
 			description: [
-				"In order to create that spell, you'll have to place a &9&nSpell Cloth&r on the ground. Once that's done, take the &3Dagger&r and right click with it."
+				"为了制作该魔术，您必须在地面上放置&9&n魔法布料&。制作完成后用&3献祭匕首&右键拿起卷轴。"
 				""
-				"Draw a &5Mahoujin Circle&r on the &9Cloth&r and place the 3 needed ingredients listed above."
+				"在&9魔法布料&r上画一个&5魔法阵&r，并放置上面列出的3种所需材料。"
 				""
-				"Drains 800 &5Mana&r."
+				"消耗800&5魔力&r."
 			]
 			dependencies: ["64A2DF892DE9F6BE"]
 			id: "7A67F23101B1EFA3"
@@ -1089,7 +1089,7 @@
 			}]
 		}
 		{
-			title: "Scroll of Proximity Projection"
+			title: "近身投影卷轴"
 			icon: {
 				id: "mahoutsukai:scroll_proximity_projection"
 				Count: 1b
@@ -1106,11 +1106,11 @@
 			y: 10.5d
 			subtitle: "Self Projection"
 			description: [
-				"In order to create that spell, you'll have to place a &9&nSpell Cloth&r on the ground. Once that's done, take the &3Dagger&r and right click with it."
+				"为了制作该魔术，您必须在地面上放置&9&n魔法布料&。制作完成后用&3献祭匕首&右键拿起卷轴。"
 				""
-				"Draw a &5Mahoujin Circle&r on the &9Cloth&r and place the 3 needed ingredients listed above."
+				"在&9魔法布料&r上画一个&5魔法阵&r，并放置上面列出的3种所需材料。"
 				""
-				"Drains 30 &5Mana&r"
+				"消耗30&5魔力&r"
 			]
 			dependencies: ["64A2DF892DE9F6BE"]
 			id: "6B7DACB2A1A73313"
@@ -1147,7 +1147,7 @@
 			}]
 		}
 		{
-			title: "Scroll of Explosive Mana Condensation"
+			title: "法力聚爆卷轴"
 			icon: {
 				id: "mahoutsukai:scroll_mystic_staff"
 				Count: 1b
@@ -1162,11 +1162,11 @@
 			}
 			x: -0.5d
 			y: 10.5d
-			subtitle: "Here comes the boom"
+			subtitle: "爆炸来喽"
 			description: [
-				"In order to create that spell, you'll have to place a &9&nSpell Cloth&r on the ground. Once that's done, take the &3Dagger&r and right click with it."
+				"为了制作该魔术，您必须在地面上放置&9&n魔法布料&。制作完成后用&3献祭匕首&右键拿起卷轴。"
 				""
-				"Draw a &5Mahoujin Circle&r on the &9Cloth&r and place the 3 needed ingredients listed above."
+				"在&9魔法布料&r上画一个&5魔法阵&r，并放置上面列出的3种所需材料。"
 			]
 			dependencies: ["64A2DF892DE9F6BE"]
 			id: "4E0357DCD146F3F1"
@@ -1203,15 +1203,15 @@
 			}]
 		}
 		{
-			title: "Power Consolidation Lake"
+			title: "力量固结之湖"
 			x: 0.5d
 			y: 10.5d
 			subtitle: "The Lake "
 			description: [
-				"Take the &3Dagger&r and right click with it. "
-				"Draw a &5Mahoujin Circle&r and place the 3 needed ingredients listed above."
+				"用&3献祭匕首&r右键。 "
+				"画一个&5魔法阵&r，并放置上面列出的3种所需材料。"
 				""
-				"&4&lBe careful, do that spell outside of your base or you'll get surprises&r"
+				"&4&l小心，记得在你的基地之外使用这个魔术，否则会给你一个以外的惊喜&r"
 			]
 			dependencies: ["64A2DF892DE9F6BE"]
 			id: "4103AADA2096F6F6"
@@ -1235,7 +1235,7 @@
 			}]
 		}
 		{
-			title: "Damage Absorption Spell"
+			title: "伤害交换卷轴"
 			icon: {
 				id: "mahoutsukai:scroll_damage_exchange"
 				Count: 1b
@@ -1250,13 +1250,13 @@
 			}
 			x: -3.0d
 			y: 11.0d
-			subtitle: "That doesn't hurt"
+			subtitle: "这不痛"
 			description: [
-				"In order to create that spell, you'll have to place a &9&nSpell Cloth&r on the ground. Once that's done, take the &3Dagger&r and right click with it."
+				"为了制作该魔术，您必须在地面上放置&9&n魔法布料&。制作完成后用&3献祭匕首&右键拿起卷轴。"
 				""
-				"Draw a &5Mahoujin Circle&r on the &9Cloth&r and place the 3 needed ingredients listed above."
+				"在&9魔法布料&r上画一个&5魔法阵&r，并放置上面列出的3种所需材料。"
 				""
-				"Drains 40 &5Mana&r"
+				"消耗&5魔力&r"
 			]
 			dependencies: ["64A2DF892DE9F6BE"]
 			id: "14A992A8B913434E"
@@ -1293,7 +1293,7 @@
 			}]
 		}
 		{
-			title: "Mystic Eyes of Death Collection Spell"
+			title: "亡魂之魔眼卷轴"
 			icon: {
 				id: "mahoutsukai:scroll_death_collection"
 				Count: 1b
@@ -1308,13 +1308,13 @@
 			}
 			x: -2.0d
 			y: 12.0d
-			subtitle: "Watch them die"
+			subtitle: "见证他们的死亡"
 			description: [
-				"In order to create that spell, you'll have to place a &9&nSpell Cloth&r on the ground. Once that's done, take the &3Dagger&r and right click with it."
+				"为了制作该魔术，您必须在地面上放置&9&n魔法布料&。制作完成后用&3献祭匕首&右键拿起卷轴。"
 				""
-				"Draw a &5Mahoujin Circle&r on the &9Cloth&r and place the 3 needed ingredients listed above."
+				"在&9魔法布料&r上画一个&5魔法阵&r，并放置上面列出的3种所需材料。"
 				""
-				"Drains 400 &5Mana&r"
+				"消耗400&5魔力&r"
 			]
 			dependencies: ["64A2DF892DE9F6BE"]
 			id: "3726E550FCEE90E0"
@@ -1351,7 +1351,7 @@
 			}]
 		}
 		{
-			title: "Immunity Exchange Spell"
+			title: "免疫卷轴"
 			icon: {
 				id: "mahoutsukai:scroll_immunity_exchange"
 				Count: 1b
@@ -1366,13 +1366,13 @@
 			}
 			x: -4.0d
 			y: 12.0d
-			subtitle: "Worth"
+			subtitle: "值得的"
 			description: [
-				"In order to create that spell, you'll have to place a &9&nSpell Cloth&r on the ground. Once that's done, take the &3Dagger&r and right click with it."
+				"为了制作该魔术，您必须在地面上放置&9&n魔法布料&。制作完成后用&3献祭匕首&右键拿起卷轴。"
 				""
-				"Draw a &5Mahoujin Circle&r on the &9Cloth&r and place the 3 needed ingredients listed above."
+				"在&9魔法布料&r上画一个&5魔法阵&r，并放置上面列出的3种所需材料。"
 				""
-				"Drains 400 &5Mana&r"
+				"消耗400&5魔力&r"
 			]
 			dependencies: ["64A2DF892DE9F6BE"]
 			id: "3D880CFD076B96AF"

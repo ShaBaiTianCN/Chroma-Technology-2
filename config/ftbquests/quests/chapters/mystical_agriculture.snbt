@@ -1132,7 +1132,7 @@
 		{
 			x: 7.5d
 			y: -1.0d
-			subtitle: "You need a redstone signal (button)"
+			subtitle: "你需要一个红石信号(按钮)"
 			dependencies: ["2B1E63E2EF6E34BE"]
 			id: "6189F7780B12D620"
 			tasks: [{
@@ -1149,7 +1149,7 @@
 		{
 			x: -5.5d
 			y: -0.5d
-			subtitle: "Seeds T2"
+			subtitle: "播种二阶种子"
 			hide_dependency_lines: true
 			dependencies: [
 				"6D774524A5846A82"
@@ -1171,7 +1171,7 @@
 			x: -5.5d
 			y: -1.5d
 			shape: "circle"
-			subtitle: "Seeds T3"
+			subtitle: "播种三阶种子"
 			hide_dependency_lines: true
 			dependencies: [
 				"4BDFBE9EAA4D3A40"
@@ -1192,7 +1192,7 @@
 		{
 			x: -5.5d
 			y: -2.5d
-			subtitle: "Seeds T4"
+			subtitle: "播种四阶种子"
 			hide_dependency_lines: true
 			dependencies: [
 				"4C9A19575A60F277"
@@ -1213,7 +1213,7 @@
 		{
 			x: -5.5d
 			y: -3.5d
-			subtitle: "Seeds T5"
+			subtitle: "播种五阶种子"
 			hide_dependency_lines: true
 			dependencies: [
 				"4FD63B7B24C10B42"
@@ -1289,7 +1289,7 @@
 			x: -0.5d
 			y: -10.0d
 			shape: "octagon"
-			subtitle: "Upgrade your armor"
+			subtitle: "升级你的盔甲"
 			dependencies: ["2F50F0F80373268F"]
 			size: 1.5d
 			id: "2209832E7076F7C6"
@@ -1341,7 +1341,7 @@
 		{
 			x: -5.5d
 			y: -4.5d
-			subtitle: "Seeds T6"
+			subtitle: "播种六阶种子"
 			hide_dependency_lines: true
 			dependencies: [
 				"4F7981BD12497BFC"
@@ -1481,7 +1481,7 @@
 		{
 			x: 2.0d
 			y: -0.5d
-			description: ["The Master Infusion Crystal is unlimited. "]
+			description: ["终极注魔水晶是无限耐久的。"]
 			dependencies: ["75024987D2672416"]
 			id: "184D6716473EB2F9"
 			tasks: [{
@@ -1498,7 +1498,7 @@
 		{
 			x: -5.5d
 			y: 0.5d
-			subtitle: "Seeds T1"
+			subtitle: "播种三阶种子"
 			hide_dependency_lines: true
 			dependencies: ["308889991F9AFE3A"]
 			id: "1554E293B44167ED"

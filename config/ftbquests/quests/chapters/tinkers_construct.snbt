@@ -25,7 +25,7 @@
 			}]
 		}
 		{
-			title: "Tinkers' Bench"
+			title: "匠魂工作台"
 			x: -2.0d
 			y: 0.0d
 			dependencies: ["31ABCF07DD7C10AB"]
@@ -77,7 +77,7 @@
 			}]
 		}
 		{
-			title: "First Tool"
+			title: "第一个工具"
 			x: -2.0d
 			y: 1.0d
 			dependencies: ["5ACA5C581C19187A"]
@@ -124,7 +124,7 @@
 			}]
 		}
 		{
-			title: "Improved Tool"
+			title: "升级你的工具"
 			x: -2.0d
 			y: 2.0d
 			dependencies: ["3D218B686676900B"]
@@ -147,7 +147,7 @@
 			}]
 		}
 		{
-			title: "Grout"
+			title: "砖泥"
 			x: 2.0d
 			y: -1.0d
 			shape: "octagon"
@@ -248,7 +248,7 @@
 			}]
 		}
 		{
-			title: "Tables and Basins"
+			title: "铸件台与铸造盆"
 			x: 2.5d
 			y: 2.5d
 			shape: "diamond"
@@ -273,7 +273,7 @@
 			}]
 		}
 		{
-			title: "Seared Bricks"
+			title: "焦黑石砖"
 			x: 6.0d
 			y: 0.0d
 			shape: "diamond"
@@ -282,7 +282,7 @@
 			tasks: [{
 				id: "5ECB32862BBA6E08"
 				type: "item"
-				title: "Seared Bricks"
+				title: "焦黑石砖"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -350,7 +350,7 @@
 			}]
 		}
 		{
-			title: "Sand Cast"
+			title: "沙子铸模"
 			x: 6.0d
 			y: 2.0d
 			dependencies: ["3E28F93B89C3EECD"]
@@ -358,7 +358,7 @@
 			tasks: [{
 				id: "3F44BBC59519AB4D"
 				type: "item"
-				title: "Sand Cast"
+				title: "沙子铸模"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -489,7 +489,7 @@
 			}]
 		}
 		{
-			title: "Tables and Basins"
+			title: "铸件台与铸造盆"
 			x: 10.5d
 			y: 2.5d
 			shape: "diamond"

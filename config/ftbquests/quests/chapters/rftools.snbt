@@ -11,8 +11,8 @@
 		{
 			x: 2.0d
 			y: 1.5d
-			subtitle: "The Main Crafting Frame"
-			description: ["This &6Machine Frame&r can permit to craft a lot of &bRFtools&r machines"]
+			subtitle: "主要制作框架"
+			description: ["这个&6机器框架&r可以制作很多的&bRF工具&r的机器。"]
 			dependencies: ["00A9D4B61482CC79"]
 			id: "09623CE2AEBEB79E"
 			tasks: [{
@@ -43,19 +43,19 @@
 			}]
 		}
 		{
-			title: "Crafters"
+			title: "合成机"
 			x: 3.5d
 			y: 1.5d
-			subtitle: "Crafting on a row"
+			subtitle: "自动合成"
 			description: [
-				"Three different tiers of &bCrafters"
+				"三个不同等级的&b合成机&r。"
 				""
-				"Each Crafter has the double of the previous used in the crafting"
+				"每个合成机都有前一等级的双倍的合成表。"
 				""
-				"So you have :"
-				"-> Tier 1 : Two Crafts "
-				"-> Tier 2 : Four Crafts"
-				"-> Tier 3 : Eight Crafts"
+				"所以你将拥有"
+				"-> 一阶 : 两个合成表 "
+				"-> 二阶 : 四个合成表"
+				"-> 三阶 : 八个合成表"
 			]
 			dependencies: ["09623CE2AEBEB79E"]
 			id: "4022D2EDF496F644"
@@ -171,9 +171,9 @@
 		{
 			x: 2.0d
 			y: 4.5d
-			subtitle: "Multiblock"
+			subtitle: "多方块"
 			description: [
-				"The more powercell you put for the multiblock , more energy will be stocked"
+				"在多方块中你放置的能量单元越多，储存的能量就越多。"
 				""
 			]
 			dependencies: ["3DE9F42332C97CE9"]
@@ -190,14 +190,14 @@
 			}]
 		}
 		{
-			title: "Storage"
+			title: "存储"
 			x: 2.0d
 			y: 0.0d
 			description: [
-				"Here is a little storage advancement"
+				"这里有个小小的存储改进。"
 				""
-				"Each &6Storage Card&r has a stock limit. So as you understand that, you will have four differents tiers."
-				"Yes each tier as a better stocking capacity of course"
+				"每一张&6存储模块&r都拥有容量限制。 所以你应该知道，存储模块有4个阶段。"
+				"是的，每提升一阶都会有更大存储容量。"
 			]
 			dependencies: ["09623CE2AEBEB79E"]
 			id: "004534788C10F889"
@@ -244,14 +244,14 @@
 			}]
 		}
 		{
-			title: "Advanced Storage"
+			title: "先进的存储"
 			x: 4.5d
 			y: 0.0d
-			subtitle: "Wireless Storage?"
+			subtitle: "无线存储？"
 			description: [
-				"Now that you have a little more stocking space"
+				"现在你有了更多的储存空间。"
 				""
-				"Maybe it's time to have a little bit of wireless storage before going to Refined Storage (or Applied Energistics)"
+				"也许你在进入精致存储（或者应用能源）之前，是时候需要一点无线存储了。"
 			]
 			dependencies: ["09623CE2AEBEB79E"]
 			id: "6321750171F3BA61"
@@ -300,16 +300,16 @@
 			}]
 		}
 		{
-			title: "Usefull wrench"
+			title: "有用的扳手"
 			x: 0.0d
 			y: 0.0d
-			subtitle: "The Ultimate Wrench"
+			subtitle: "最终的扳手"
 			description: [
-				"This &3Wrench&r can do a lot of stuff with the mod &6RFtools&r "
+				"这个&3智能扳手&r为&6RF工具&r这个模组做很多事。"
 				""
-				"When you right click with it on a &6RFtools&r machine you can setup the &binput&r and obviously the &coutput&r"
+				"当你用扳手在&6RF工具&r的机器上右击时，你可以设置&b输入&r和&c输出&r。"
 				""
-				"But when you &nshift right click&r, you break the machine instantly, so you better use that unless your pickaxe is unbreakable or has a very large durability "
+				"但是当你&nshift右击&r的时候，你可以立即扳下机器，所以如果你没有一个无限耐久的稿子时，我建议你使用这个扳手。"
 				""
 			]
 			size: 2.0d
@@ -328,13 +328,13 @@
 		{
 			x: -1.5d
 			y: -2.0d
-			subtitle: "The Main Ore"
+			subtitle: "主要的矿石"
 			description: [
-				"Mining can be cool sometimes ! "
+				"有些时候采矿很酷！"
 				""
-				"You can find that ore on several dimensions, including overworld. There is not a specific layer to find that ore."
+				"你可以在好几个维度找到维度碎片矿石，包括主世界"
 				""
-				"If you have created an &6RFtools&r dimension, you will have more chances to find it below y=40."
+				"如果你已经创建了&6RF工具：维度&r，你将会有更多的机会在Y=40以下发现它。"
 			]
 			dependencies: ["00A9D4B61482CC79"]
 			id: "67A3A02452377E48"
@@ -350,14 +350,14 @@
 			}]
 		}
 		{
-			title: "Shields"
+			title: "护盾"
 			x: 6.5d
 			y: 3.0d
-			subtitle: "Build a Shield"
+			subtitle: "建造一个护盾"
 			description: [
-				"In order to create a &bShield&r you must use those &5Shield Projectors&r"
+				"为了建造一个&b护盾&r，你必须使用这些&5护盾投射仪&r。"
 				""
-				"Each projector has a better protection depending on the tier you're using."
+				"护盾投射仪的等级越高，保护你的护盾也就越好。"
 			]
 			dependencies: ["09623CE2AEBEB79E"]
 			id: "66BA5850A19CE61A"
@@ -397,9 +397,9 @@
 		{
 			x: -0.5d
 			y: -2.0d
-			subtitle: "The RFtools book"
+			subtitle: "一本RF手册"
 			description: [
-				"Opening this book can bring you some usefull informations about some &bRFtools&r machines or items"
+				"打开这本书，你可以了解到一些&bRF工具&r的机器和物品的有效信息。"
 				""
 				""
 			]
@@ -417,14 +417,14 @@
 			}]
 		}
 		{
-			title: "Shape Cards"
+			title: "塑型卡片"
 			x: 2.0d
 			y: -1.5d
-			subtitle: "For the builder"
+			subtitle: "为了建造机"
 			description: [
-				"This quest will ask you to craft all &2Shape Cards&r for the &6Builder&r"
+				"这个任务将要求你为&6建造机&r制作所有的&2塑型卡片&r。"
 				""
-				"I suggest you check on the &bRFtools&r guide to see what they do.... Unless you wanna have a surprise, it's up to you"
+				"我建议你查看一下&bRF工具指导手册&r，了解他们的功能……除非你想要个惊喜（吓），那就看你了！"
 				""
 			]
 			dependencies: ["00A9D4B61482CC79"]
@@ -496,14 +496,14 @@
 			x: 0.5d
 			y: -2.0d
 			description: [
-				"Here is the &3Builder !&r"
+				"这里就是&3建造机！&r"
 				""
-				"Build some cool stuff with it ? You can!"
-				"Mine an entire chunk? You can!"
+				"用它来做一些很酷的东西？我相信你可以！"
+				"挖掉一整个区块？你可以做到的！"
 				""
-				"Just put the wanted shape card in it. "
+				"只需要把你想要的塑型卡片放进去就行了。"
 				""
-				"How does it work? Shift Right Click with a shape card in the main hand and select two blocks that are opposed to each other, you do not want to select a radius of two blocks... unless that's what you really want of course."
+				"那它是如何工作的呢？用一个塑型卡片在主手上点击并选择两个不同的方块来确定范围。什么？你不想选择两个方块的半径……当然，如果你想要这样做的话也没问题。"
 			]
 			dependencies: ["00A9D4B61482CC79"]
 			id: "770FF84E83C7347C"
@@ -521,11 +521,11 @@
 		{
 			x: -2.5d
 			y: -2.0d
-			subtitle: "Boosting your machines"
+			subtitle: "改进你的机器"
 			description: [
-				"The &3Infuser&r can \"upgrade\" your &bRFtools&r machines"
+				"&3机器注能机&r可以\"升级\"你的&bRF工具&r的机器。"
 				""
-				"They will be faster ! But be aware, it does consume a lot more energy and you have to upgrade with those &1Dimensional Shards&r"
+				"他们会更快！但是要注意，它确实会消耗更多的能量，而且你必须使用&1维度碎片&r来进行升级。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -546,14 +546,14 @@
 			}]
 		}
 		{
-			title: "Infusing"
+			title: "灌输"
 			x: -1.5d
 			y: -3.5d
-			subtitle: "Shiny "
+			subtitle: "闪闪发光"
 			description: [
-				"What happened ?! "
+				"发生了什么？！ "
 				""
-				"Seems like my diamonds and my ender pearls have been transformed... "
+				"看起来我的钻石和末影珍珠都发生了改变…… "
 			]
 			dependencies: ["67A3A02452377E48"]
 			id: "5EC49D33A07CBDDF"
@@ -576,22 +576,22 @@
 			}]
 		}
 		{
-			title: "Dimensional Cells"
+			title: "维度能量单元"
 			x: 3.5d
 			y: 0.0d
-			subtitle: "Wireless Energy"
+			subtitle: "无线能量"
 			description: [
-				"As said in the subtitle"
+				"正如副标题所说"
 				""
-				"&4Powercells&r are used to create a wireless network for your energy"
+				"&4维度能量单元&r是用来为你的能量创建一个无线网络的。"
 				""
-				"Depending on the cell it will be less or more effective."
+				"根据单元的不同，它的效果也会有所不同。"
 				""
-				"How does it work? Take a &cCell Card&r and put it in a &1Powercell&r, put it in the first slot and it will have a number on it. "
-				"That number corresponds to your network. The second slot is to copy your network to another cell, take the new created card and put it in another &1Powercell&r."
+				"那么它是如何工作的呢？拿一张&c维度标记卡&r然后把它放进维度能量单元的第一个槽位上，然后上面就会显示编号。"
+				"这个编号对应着你的网络，第二个插槽是用来将你的网络复制到另一个单元中的，将复制的新的维度标记卡放到另一个&1维度能量单元中&r。"
 				""
-				"Be aware that players can copy your network and put it on their own &1Powercell&r"
-				"So make sure to hide them :)"
+				"请注意，其他玩家可以复制你的网络并将维度标记卡放到自己的&1维度能量单元&r中。"
+				"所以确保你把它们藏好了：）"
 			]
 			dependencies: ["09623CE2AEBEB79E"]
 			id: "4D9AAE2FB270B5FE"
@@ -624,14 +624,14 @@
 			}]
 		}
 		{
-			title: "Rf With EnderPearls"
+			title: "有关末影珍珠的RF"
 			x: 0.5d
 			y: 1.5d
-			subtitle: "Build The Endergenic generator"
+			subtitle: "建造一个末影能发电机"
 			description: [
-				"Generate some RF with that generator"
+				"用那个发电机生产一些RF。"
 				""
-				"It consumes enderpearls so you better build an Endermen farm"
+				"它会消耗末影珍珠，所以你最好做一个末影人农场。"
 				""
 			]
 			dependencies: ["09623CE2AEBEB79E"]
@@ -667,13 +667,13 @@
 		{
 			x: 6.5d
 			y: 0.0d
-			subtitle: "Spawning mobs"
+			subtitle: "怪物生产"
 			description: [
-				"In order to &nspawn&r mobs you will have to craft 3 beams."
+				"为了生产&n怪物&r，你至少需要制造三个物质投影仪。"
 				""
-				"The &cSyringue&r has to be entirely filled with mob essence (Note that Dragons are not spawnable)"
+				"这个&c注射器&r必须充满怪物的精华。（注意，龙是不能被刷怪塔刷出来的。）"
 				""
-				"Each beam has to be filled with one single item."
+				"每一个物质投影仪都需要一个材料。"
 			]
 			dependencies: ["09623CE2AEBEB79E"]
 			id: "285912B875D261BE"
@@ -701,11 +701,11 @@
 			}]
 		}
 		{
-			title: "Dimensions"
+			title: "维度"
 			x: 3.5d
 			y: 3.0d
 			description: [
-				"Making dimensions"
+				"打开一个新维度"
 				""
 			]
 			dependencies: ["09623CE2AEBEB79E"]
@@ -779,7 +779,7 @@
 			}]
 		}
 		{
-			title: "Redstone Stuff"
+			title: "红石物品"
 			x: -3.0d
 			y: 2.5d
 			dependencies: ["7E4D0CBC0129C700"]
@@ -851,7 +851,7 @@
 			}]
 		}
 		{
-			title: "Usefull Modules"
+			title: "有用的模块"
 			x: -4.0d
 			y: -0.5d
 			dependencies: ["5C37540CA2DC11AA"]
@@ -986,11 +986,11 @@
 		{
 			x: 5.0d
 			y: 3.0d
-			subtitle: "Creating blazing rods"
+			subtitle: "制作充能烈焰棒"
 			description: [
-				"With some energy, you will be able to craft some &6Blazing Rods&r"
+				"使用一些能量，你就可以制作一些&6充能烈焰棒&r了。"
 				""
-				"Just put 9 of them and those will be transformed"
+				"你只能同时转换9个。"
 			]
 			dependencies: ["09623CE2AEBEB79E"]
 			id: "5E11075D1320A6B4"
@@ -1008,13 +1008,13 @@
 		{
 			x: 5.0d
 			y: 4.5d
-			subtitle: "Infusing Blazing Rods"
+			subtitle: "注能充能烈焰棒"
 			description: [
-				"Once you have crafted the &6Blazing Rods&r you can infuse them with some &bDimensional Shards&r "
+				"一旦你做好了&6充能烈焰棒&r以后，你就可以用这台机器给他们注入一些&b维度碎片&r。"
 				""
-				"Put one rod and shards and let the recipe do it's job."
+				"放上一个充能烈焰棒和维度碎片，让配方发挥作用。"
 				""
-				"Once that is done this &bInfused&r &6Blazing Rod&r will generates more RF than a singular &6Blazing Rod&r"
+				"一旦你这样做了，这个&b注能&r&6充能烈焰棒&r将会比单独的&6充能烈焰棒&r产生更多的RF。"
 			]
 			dependencies: ["5E11075D1320A6B4"]
 			id: "54750913B1608A4E"
@@ -1032,11 +1032,11 @@
 		{
 			x: 6.5d
 			y: 4.5d
-			subtitle: "Generates RF with &6Blazing Rods&r"
+			subtitle: "利用充&6能烈焰棒&r生产RF"
 			description: [
-				"So as we saw on the last quest,"
+				"正如我们在最后一个任务中看到的，"
 				""
-				"Just put your &bInfused &6Blazing Rods&r&r and generate some RF !"
+				"只需要把你的&b注能&r&6充能烈焰棒&r放进这台机器然后就可以产生RF了。"
 			]
 			dependencies: ["54750913B1608A4E"]
 			id: "368DE1001F1AFFA1"

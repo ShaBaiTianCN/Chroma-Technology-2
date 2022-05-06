@@ -119,7 +119,7 @@
 			x: -6.0d
 			y: -3.0d
 			shape: "square"
-			description: ["Multiplies the number of stacks that can fit in a slot by 2."]
+			description: ["将背包中每个槽的物品堆叠数量乘2。"]
 			hide_dependency_lines: true
 			dependencies: ["0156A254C96278A8"]
 			id: "51C8A561AA40212E"
@@ -138,7 +138,7 @@
 			x: -6.0d
 			y: -4.0d
 			shape: "rsquare"
-			description: ["Multiplies the number of stacks that can fit in a slot by 4."]
+			description: ["将背包中每个槽的物品堆叠数量乘4。"]
 			dependencies: ["51C8A561AA40212E"]
 			id: "65F504F50D00EAA6"
 			tasks: [{
@@ -156,7 +156,7 @@
 			x: -6.0d
 			y: -5.0d
 			shape: "hexagon"
-			description: ["Multiplies the number of stacks that can fit in a slot by 8."]
+			description: ["将背包中每个槽的物品堆叠数量乘8。"]
 			dependencies: ["65F504F50D00EAA6"]
 			id: "6BFE5242F20CE083"
 			tasks: [{
@@ -174,7 +174,7 @@
 			x: -6.0d
 			y: -6.0d
 			shape: "gear"
-			description: ["Multiplies the number of stacks that can fit in a slot by 16."]
+			description: ["将背包中每个槽的物品堆叠数量乘16。"]
 			dependencies: ["6BFE5242F20CE083"]
 			id: "10A3A95A90E0CCB6"
 			tasks: [{
@@ -192,7 +192,7 @@
 			x: -4.0d
 			y: -3.0d
 			shape: "square"
-			description: ["Automatically swaps item in player's hand for the one effective on the block/entity when these are left clicked."]
+			description: ["自动将玩家手持物品替换为对应方块/实体的挖掘或攻击工具。"]
 			hide_dependency_lines: true
 			dependencies: ["0156A254C96278A8"]
 			id: "5FE22F3CBD697C6A"
@@ -212,8 +212,8 @@
 			y: -2.0d
 			shape: "rsquare"
 			description: [
-				"Automatically swaps item in player's hand for the one effective on the block/entity when these are left cliked."
-				"Has filter options and enables swapping wrench like tools for block/entity player is looking at with null."
+				"自动将玩家手持物品替换为对应方块或实体的挖掘或攻击工具。"
+				"具有过滤选项并可按 null 手动替换工具。"
 			]
 			dependencies: ["5FE22F3CBD697C6A"]
 			id: "2C0B689D34E121B0"
@@ -251,8 +251,8 @@
 			y: -4.0d
 			shape: "rsquare"
 			description: [
-				"Restocks backpack from shift right clicked invotory."
-				"Has more filtering options."
+				"手持背包shift右击容器提取物品。"
+				"更多的过滤选项。"
 			]
 			dependencies: ["1768F00001C0B6C9"]
 			id: "57F248E51DEB4C8F"
@@ -271,7 +271,7 @@
 			x: -2.0d
 			y: -3.0d
 			shape: "square"
-			description: ["Restocks backpack from shift right clicked inventory."]
+			description: ["手持背包shift右击容器卸载物品。"]
 			hide_dependency_lines: true
 			dependencies: ["0156A254C96278A8"]
 			id: "0836A6419792B158"
@@ -291,8 +291,8 @@
 			y: -2.0d
 			shape: "rsquare"
 			description: [
-				"Deposits items from backpack into shift right clicked inventory."
-				"Has more filtering options."
+				"手持背包shift右击容器卸载物品。"
+				"更多的过滤选项。"
 			]
 			dependencies: ["0836A6419792B158"]
 			id: "09E5EBC65090E32E"
@@ -311,7 +311,7 @@
 			x: -8.0d
 			y: -3.0d
 			shape: "square"
-			description: ["Voids items selected in filter."]
+			description: ["清空过滤器中选定的物品。"]
 			hide_dependency_lines: true
 			dependencies: ["0156A254C96278A8"]
 			id: "7406A0239A523BBF"
@@ -331,8 +331,8 @@
 			y: -3.0d
 			shape: "square"
 			description: [
-				"Compacts items into their compressed variants."
-				"Only 2x2 recipes."
+				"将物品压缩为对应的压缩变体。"
+				"仅2x2配方。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0156A254C96278A8"]
@@ -352,7 +352,7 @@
 			x: -10.0d
 			y: -3.0d
 			shape: "square"
-			description: ["Smelting in an upgrade tab."]
+			description: ["在升级插槽中熔炼物品。"]
 			hide_dependency_lines: true
 			dependencies: ["0156A254C96278A8"]
 			id: "610D59C0652D7E9A"
@@ -372,8 +372,8 @@
 			y: -4.0d
 			shape: "rsquare"
 			description: [
-				"Smelting in an upgrade tab."
-				"Automatically pulls/pushes items."
+				"在升级插槽中熔炼物品。"
+				"自动输入/输出物品。"
 			]
 			dependencies: ["610D59C0652D7E9A"]
 			id: "0FDF9D092EFB01DE"
@@ -393,8 +393,8 @@
 			y: -2.0d
 			shape: "rsquare"
 			description: [
-				"Compacts items into their compressed variants."
-				"Both 2x2 and 3x3 recipes with more filtering options."
+				"将物品压缩为对应的压缩变体。"
+				"包括2x2,3x3配方以及更多的过滤选项。"
 			]
 			dependencies: ["03E2F89182BB8DBE"]
 			id: "5D6EB87F9BA5E81A"
@@ -414,8 +414,8 @@
 			y: -4.0d
 			shape: "rsquare"
 			description: [
-				"Voids items selected in filter."
-				"Has more filtering options."
+				"清空过滤器中选定的物品。"
+				"更多的过滤选项。"
 			]
 			dependencies: ["7406A0239A523BBF"]
 			id: "3F175A4576FFA311"
@@ -434,7 +434,7 @@
 			x: -11.0d
 			y: -3.0d
 			shape: "square"
-			description: ["Makes backpack pickup items."]
+			description: ["使背包捡起物品。"]
 			hide_dependency_lines: true
 			dependencies: ["0156A254C96278A8"]
 			id: "30EC0AC6D4749193"
@@ -453,7 +453,7 @@
 			x: -12.0d
 			y: -3.0d
 			shape: "square"
-			description: ["Filter items piped in and/or out of Backpack"]
+			description: ["过滤通过漏斗等方式输入/输出背包的物品。"]
 			hide_dependency_lines: true
 			dependencies: ["0156A254C96278A8"]
 			id: "7276660ADDC61169"
@@ -472,7 +472,7 @@
 			x: 0.0d
 			y: -3.0d
 			shape: "square"
-			description: ["Magnets items into backpack at range."]
+			description: ["在一定范围内将物品吸入背包。"]
 			hide_dependency_lines: true
 			dependencies: ["0156A254C96278A8"]
 			id: "3D81DADD7155887B"
@@ -491,7 +491,7 @@
 			x: -1.0d
 			y: -3.0d
 			shape: "square"
-			description: ["Feeds player with food from backpack's inventory."]
+			description: ["将背包内的食物喂给玩家。"]
 			hide_dependency_lines: true
 			dependencies: ["0156A254C96278A8"]
 			id: "262EB5E0A10C136C"
@@ -511,8 +511,8 @@
 			y: -2.0d
 			shape: "rsquare"
 			description: [
-				"Makes backpack pickup items."
-				"Has more filtering options."
+				"使背包捡起物品。"
+				"更多的过滤选项。"
 			]
 			dependencies: ["30EC0AC6D4749193"]
 			id: "0616DC264884B666"
@@ -532,8 +532,8 @@
 			y: -4.0d
 			shape: "rsquare"
 			description: [
-				"Filter items piped in and/or out of Backpack."
-				"Has more filtering option."
+				"过滤通过漏斗等方式输入/输出背包的物品。"
+				"更多的过滤选项。"
 			]
 			dependencies: ["7276660ADDC61169"]
 			id: "0DE38FFE5B7ED6C5"
@@ -553,8 +553,8 @@
 			y: -2.0d
 			shape: "rsquare"
 			description: [
-				"Magnets items into backpack at a greater range."
-				"Has more filtering options."
+				"在更大的范围内将物品吸入背包。"
+				"更多的过滤选项。"
 			]
 			dependencies: ["3D81DADD7155887B"]
 			id: "61E2D85E8BD0DC7B"
@@ -574,8 +574,8 @@
 			y: -4.0d
 			shape: "rsquare"
 			description: [
-				"Feeds player with food from backpack's inventory."
-				"More options for when food gets fed to player."
+				"将背包内的食物喂给玩家。"
+				"为玩家提供更多食物选择。"
 			]
 			dependencies: ["262EB5E0A10C136C"]
 			id: "5775EE7F8C90E795"
@@ -594,7 +594,7 @@
 			x: -10.5d
 			y: 1.5d
 			shape: "diamond"
-			description: ["Keeps refilling stack of selected items in player's inventory."]
+			description: ["不断地补充玩家物品栏中所选物品的数量。"]
 			hide_dependency_lines: true
 			dependencies: ["0156A254C96278A8"]
 			id: "1213BD963ADDF80A"
@@ -613,7 +613,7 @@
 			x: -10.0d
 			y: 1.0d
 			shape: "diamond"
-			description: ["Makes it possible to put backpacks into the backpack."]
+			description: ["使背包套背包成为可能。"]
 			hide_dependency_lines: true
 			dependencies: ["0156A254C96278A8"]
 			id: "5441E960D2295804"
@@ -633,8 +633,8 @@
 			y: 0.5d
 			shape: "diamond"
 			description: [
-				"Backpack becomes indestructible."
-				"Can't despawn or fall into void."
+				"使背包变得坚不可摧。"
+				"不会消失及掉入虚空。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0156A254C96278A8"]
@@ -654,7 +654,7 @@
 			x: -1.0d
 			y: 1.0d
 			shape: "diamond"
-			description: ["Crafting table in an upgrade tab."]
+			description: ["使背包内置一个工作台。"]
 			hide_dependency_lines: true
 			dependencies: ["0156A254C96278A8"]
 			id: "5D0B37F698330160"
@@ -673,7 +673,7 @@
 			x: -11.0d
 			y: 1.0d
 			shape: "diamond"
-			description: ["Stonecutter in an upgrade tab."]
+			description: ["使背包内内置一个切石机"]
 			hide_dependency_lines: true
 			dependencies: ["0156A254C96278A8"]
 			id: "7B1CF3E416291FE6"
@@ -692,7 +692,7 @@
 			x: -10.5d
 			y: 0.5d
 			shape: "diamond"
-			description: ["Portable jukebox."]
+			description: ["便携唱片机。"]
 			hide_dependency_lines: true
 			dependencies: ["0156A254C96278A8"]
 			id: "5A77218C2A8CBA05"
@@ -711,7 +711,7 @@
 			x: -1.5d
 			y: 1.5d
 			shape: "diamond"
-			description: ["Replaces part of backpack's inventory with fluid storage."]
+			description: ["使部分背包空间取代为流体储存空间。"]
 			hide_dependency_lines: true
 			dependencies: ["0156A254C96278A8"]
 			id: "1387FB276DBBBF42"
@@ -730,7 +730,7 @@
 			x: -2.0d
 			y: 1.0d
 			shape: "diamond"
-			description: ["Replaces part of backpack's inventory with energy storage."]
+			description: ["使部分背包空间取代为能量储存空间。"]
 			hide_dependency_lines: true
 			dependencies: ["0156A254C96278A8"]
 			id: "14ED3E64950DA67D"
