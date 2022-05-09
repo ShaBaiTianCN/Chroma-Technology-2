@@ -12,7 +12,7 @@
 			x: -6.0d
 			y: -3.0d
 			shape: "diamond"
-			description: ["Go to the upper tier with dissolution chamber"]
+			description: ["通过化学溶解室升级机器框架"]
 			hide_dependency_lines: true
 			dependencies: [
 				"09734985D1AA3F28"
@@ -79,7 +79,7 @@
 			x: 10.0d
 			y: -3.0d
 			shape: "diamond"
-			description: ["Tier max of the machine frame"]
+			description: ["机器框架的最高级"]
 			hide_dependency_lines: true
 			dependencies: [
 				"330F7694A3CE7357"
@@ -114,7 +114,7 @@
 			tasks: [{
 				id: "07F122A5FC0BC8CB"
 				type: "checkmark"
-				title: "Industrial Foregoing Manual"
+				title: "工业先锋手册"
 			}]
 			rewards: [{
 				id: "6379EB3EDB6F133E"
@@ -132,7 +132,7 @@
 			x: 9.0d
 			y: -2.5d
 			shape: "diamond"
-			description: ["A machine used to spawn withers. When provided with power, &e3 Wither Skulls&r and &e4 soulsand&r, it will completely build the wither spawning structure in the working area."]
+			description: ["一个用来生成凋灵的机器。当你提供了能量，&e3个凋零骷髅头颅&r和&e四个灵魂沙&r，它将会在工作区域生成一个凋灵。"]
 			dependencies: ["2CFB31CFACB54C1E"]
 			id: "32E2F6F68434B61E"
 			tasks: [{
@@ -201,7 +201,7 @@
 			x: 9.5d
 			y: -4.0d
 			shape: "diamond"
-			subtitle: "Can Hold : &32,147,483,647 &ritems"
+			subtitle: "最大储量 ： &32,147,483,647 &r件物品"
 			dependencies: ["2CFB31CFACB54C1E"]
 			id: "0EF1ACEFF122225D"
 			tasks: [{
@@ -219,7 +219,7 @@
 			x: 10.5d
 			y: -4.0d
 			shape: "diamond"
-			subtitle: "Can Hold : &32,147,483,647 &rmb"
+			subtitle: "最大储量 ： &32,147,483,647 &rmB"
 			dependencies: ["2CFB31CFACB54C1E"]
 			id: "0F57C37E86815CEC"
 			tasks: [{
@@ -254,7 +254,7 @@
 			x: 4.5d
 			y: -2.0d
 			shape: "diamond"
-			description: ["Kills all mobs on the block in front of it. Stores their drops in its inventory and converts the experience into liquid Essence"]
+			description: ["它会杀死在它工作范围内的所有怪物，并将他们的掉落物储存到它的库存中，并将经验转换为液体精华。"]
 			dependencies: ["330F7694A3CE7357"]
 			id: "1131683F9811C282"
 			tasks: [{
@@ -272,7 +272,7 @@
 			x: 4.0d
 			y: -2.5d
 			shape: "diamond"
-			description: ["A next-generation &ecobbelstone&r generator."]
+			description: ["新一代造石加工机。"]
 			dependencies: ["330F7694A3CE7357"]
 			id: "6FC97C8A57860696"
 			tasks: [{
@@ -359,7 +359,7 @@
 			x: 4.5d
 			y: -4.0d
 			shape: "diamond"
-			description: ["An automatic vanilla brewer"]
+			description: ["自动香草啤酒机"]
 			dependencies: ["330F7694A3CE7357"]
 			id: "25D1C06635013827"
 			tasks: [{
@@ -377,7 +377,7 @@
 			x: 6.0d
 			y: -2.5d
 			shape: "diamond"
-			description: ["When provided with power this machine will &6freeze &fand &6heal &fany entity that are in its working area."]
+			description: ["给这台机器提供能量,会冻结并治疗工作范围内的任意实体。"]
 			dependencies: ["330F7694A3CE7357"]
 			id: "24E42EC0C5B00885"
 			tasks: [{
@@ -395,7 +395,7 @@
 			x: 5.0d
 			y: -4.5d
 			shape: "diamond"
-			description: ["Using liquid meat and an ore this machine will turn that meat into raw ore meat of that ore."]
+			description: ["一台用来杀死怪物的机器,并且会产生玩家击杀才会掉落的战利品以及精华液。掉落物直接来源于怪物战利品表。"]
 			dependencies: ["330F7694A3CE7357"]
 			id: "01C64E1C07B8237B"
 			tasks: [{
@@ -413,7 +413,7 @@
 			x: 4.5d
 			y: -5.0d
 			shape: "diamond"
-			subtitle: "Can Hold : &367,108,864 &rmb"
+			subtitle: "最大储量 : &367,108,864 &rmB"
 			dependencies: ["330F7694A3CE7357"]
 			id: "2C06BBD227F27724"
 			tasks: [{
@@ -431,7 +431,7 @@
 			x: 5.5d
 			y: -5.0d
 			shape: "diamond"
-			subtitle: "Can Hold : &367,108,864 &ritems"
+			subtitle: "最大储量 : &367,108,864 &r件物品"
 			dependencies: ["330F7694A3CE7357"]
 			id: "4E52879C12B5AAE4"
 			tasks: [{
@@ -449,7 +449,7 @@
 			x: 3.5d
 			y: -4.0d
 			shape: "diamond"
-			description: ["This machine functions the same way as an anvill but instead of experience it uses &1Essence.&r It can grab essence from the tank on top of the cost is too big."]
+			description: ["这台机器像铁砧一样运作,不过它不消耗经验而是消耗精华液。当所需消耗的精华液过多时,可以在上方摆放储液罐,让它从上方获取精华液。"]
 			dependencies: ["330F7694A3CE7357"]
 			id: "487D1E30DF7CC914"
 			tasks: [{
@@ -467,7 +467,7 @@
 			x: 6.0d
 			y: -4.5d
 			shape: "diamond"
-			description: ["This machine can extract enchantments from items when provided with a book."]
+			description: ["提供一本书,这台机器就能提取物品上的附魔。"]
 			dependencies: ["330F7694A3CE7357"]
 			id: "3E7DF156E952E88C"
 			tasks: [{
@@ -485,7 +485,7 @@
 			x: 4.0d
 			y: -4.5d
 			shape: "diamond"
-			description: ["Consumes liquid Essence to add enchantments to items. Can only add level 30 enchantments, with each enchantment costing 3 buckets of liquid Essence. Requires power."]
+			description: ["给这台机器提供大量的精华液以及一个物品，它会对这个物品进行等级为30级的附魔。当然也需要能量。"]
 			dependencies: ["330F7694A3CE7357"]
 			id: "412272889C4120C4"
 			tasks: [{
@@ -503,7 +503,7 @@
 			x: 5.0d
 			y: -1.5d
 			shape: "diamond"
-			description: ["This machine will sort items that are enchanted from the one that aren't."]
+			description: ["这台机器会将附魔物品丛其它没有附魔的物品中分拣出来。"]
 			dependencies: ["330F7694A3CE7357"]
 			id: "70C1A8C1A4193198"
 			tasks: [{
@@ -522,13 +522,13 @@
 			y: -3.5d
 			shape: "diamond"
 			description: [
-				"When fully charged with a &bLaser Drill &fit will drain fluids. To do it will need a specific catalyst that won't be consumed and the machine will need to be placed in a specific biome and drill at a specific depth."
+				"当被镭射钻充分充能后会产出流体。要让它工作需要—个特定的催化剂,榷化剂不会被消耗,并且机器需要放置在特定的生物群系,钻取特定的深度。"
 				""
-				"To make &bEther Gas&f, it has to be over a Wither."
+				"想要获得&b以太气体&r，需要把它放在凋灵上。"
 				""
-				"In order to keep the Wither contained, I suggest you to use &cwither proof blocks&f."
+				"为了控制住凋灵，我建议你使用&c冷凝室&f。"
 				""
-				"Place the &3Stasis Chamber&r underneath the Wither to make sure it can't move anymore."
+				"把&3冷凝室&r放在凋零下面，确保它不再移动。"
 			]
 			dependencies: ["330F7694A3CE7357"]
 			id: "43BA91382EFDF002"
@@ -547,7 +547,7 @@
 			x: 3.5d
 			y: -2.0d
 			shape: "diamond"
-			description: ["Using fermented ore meat and sand this machine will turn that meat into dust from the ore that it was first created."]
+			description: ["提供这台机器发酵矿石肉汤和沙子,它就会把矿石肉汤转化为最初相应矿物的粉末。"]
 			dependencies: ["330F7694A3CE7357"]
 			id: "1C92C039A504D3B9"
 			tasks: [{
@@ -565,7 +565,7 @@
 			x: 4.0d
 			y: -1.5d
 			shape: "diamond"
-			description: ["Charges items that can hold power. It charges &einfinity&r items very fast."]
+			description: ["为带有能量的物品充能。它给&e无限工具&r充能非常迅速。"]
 			dependencies: ["330F7694A3CE7357"]
 			id: "12465B84F7CA88D4"
 			tasks: [{
@@ -686,8 +686,8 @@
 			y: -4.0d
 			shape: "diamond"
 			description: [
-				"A machine used to spawn mobs."
-				"When provided with power, &1Essence&r and any entity in a &1mob Imprisonment Tool&r it will spawn them around it."
+				"一台用于刷怪的机器。"
+				"给它提供能量、&1精华液&r和一个装有任意实体的&1大师球&r,它就会在附近生成相应的怪物。"
 			]
 			dependencies: ["330F7694A3CE7357"]
 			id: "762FDE2FD8D49DEA"
@@ -706,7 +706,7 @@
 			x: -0.5d
 			y: -4.0d
 			shape: "diamond"
-			description: ["Bonemeals crops directly in front of it when supplied with fertilizer (bonemeal)."]
+			description: ["当提供肥料（骨粉）时，它会催熟它前面的作物。"]
 			dependencies: ["2B1E63E2EF6E34BE"]
 			id: "283FB1B9E64ABF66"
 			tasks: [{
@@ -742,9 +742,9 @@
 			y: -4.0d
 			shape: "diamond"
 			description: [
-				"This machine when combined with power and &ewater&r (ore &elava&r for nether crops) it will speed up growth crop a bit."
+				"这台机器在提供能量和水后（对于下界作物来说是熔岩），它就能略微提升作物的生长速度。"
 				""
-				"By providing very small amouts of &1Ether Gas&r crops will grow much faster and they will be replanted automatically."
+				"通过提供非常少量的以太气体,使作物的生长速度大幅提升,并且机器还会自动重新种植。"
 			]
 			dependencies: ["2B1E63E2EF6E34BE"]
 			id: "1501D2169447A969"
@@ -763,7 +763,7 @@
 			x: 1.5d
 			y: -3.0d
 			shape: "diamond"
-			subtitle: "Can Hold : &3524,288 &rmb"
+			subtitle: "最大储量 : &3524,288 &rmB"
 			dependencies: ["2B1E63E2EF6E34BE"]
 			id: "52F3A8CA801AC307"
 			tasks: [{
@@ -781,7 +781,7 @@
 			x: -0.5d
 			y: -2.0d
 			shape: "diamond"
-			description: ["This machine will detect how many entities are in front of it and it will emit a redstone signal in the back with the same strength as the amount of entities detected."]
+			description: ["这台机器会检测前方有多少实体,并且会在机器后面以实体数量发出与之相对于的红石信号强度。"]
 			dependencies: ["2B1E63E2EF6E34BE"]
 			id: "5932F70C7B7174D6"
 			tasks: [{
@@ -833,7 +833,7 @@
 			x: -1.5d
 			y: -3.0d
 			shape: "diamond"
-			subtitle: "Can Hold : &3524,288 &ritems"
+			subtitle: "最大储量 : &3524,288 &r件物品"
 			dependencies: ["2B1E63E2EF6E34BE"]
 			id: "20B8B518AD35A7C4"
 			tasks: [{
@@ -851,7 +851,7 @@
 			x: -1.0d
 			y: -2.5d
 			shape: "diamond"
-			description: ["Using raw ore meat this machine will seal its contents when reached the configured level and it will ferment that meat using the selected production type."]
+			description: ["这台机器以原矿石肉汤为原料,在达到设定的水平时将其内装物密封,并按所选的生产类型对其进行发酵。"]
 			dependencies: ["2B1E63E2EF6E34BE"]
 			id: "23FBB58702F7C693"
 			tasks: [{
@@ -869,7 +869,7 @@
 			x: 1.0d
 			y: -3.5d
 			shape: "diamond"
-			description: ["This machine, when provided with power, charges the first &1Ore Laser Base&r and &1fluid Laser base&r that finds in its working area."]
+			description: ["当给这台机器提供能量时,它会为工作范围内找到的第—个&1镭射钻基座&r或&1流体镭射钻基座&r进行充能。"]
 			dependencies: ["2B1E63E2EF6E34BE"]
 			id: "1A5CD3B8C88C2F76"
 			tasks: [{
@@ -887,7 +887,7 @@
 			x: 0.0d
 			y: -4.5d
 			shape: "diamond"
-			description: ["When placed above a &ewater pool&r of at least &13×3&r and &e1&r block deep, it will start &efishing&r ans put the fish in the internal inventory, at the cost of &e5000&rRF per operation."]
+			description: ["当放置在至少&13x3&r大小&e1&r格深的&1水池&r上方,它就会开始&e钓鱼&r并将鱼(或是别的?)放入内部存储中,每次操作需要消耗&e5000&rRF能量。"]
 			dependencies: ["2B1E63E2EF6E34BE"]
 			id: "442B4A1C5ECC8476"
 			tasks: [{
@@ -922,7 +922,7 @@
 			x: -3.5d
 			y: -3.0d
 			shape: "diamond"
-			description: ["A machine used to collect &1Sewage&r from animals and experience to turn int into essence."]
+			description: ["—台用来收集动物&1污水&r和经验的机器,其中经验会被转化为精华液。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "12BE7267252FCE66"
 			tasks: [{
@@ -941,9 +941,9 @@
 			y: -4.0d
 			shape: "diamond"
 			description: [
-				"A machine that fransforms &esludge&r into something useful."
+				"一台将污泥转化为其它更有用的东西的机器。"
 				""
-				"When supplied with &esludge&r, obtained from the &1Plant Gatherer&r, it will generate &esomething&r"
+				"给它提供&e污泥&r,它就会产出&e其它东西&r,污泥可以通过&e收割机&r获得。"
 			]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "0027267FD98236F4"
@@ -962,7 +962,7 @@
 			x: -4.0d
 			y: -3.5d
 			shape: "diamond"
-			description: ["A machine used to &eplant&r crops and saplings."]
+			description: ["一台用来&e种植&r作物和树苗的机器。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "744804847D5DE61F"
 			tasks: [{
@@ -980,7 +980,7 @@
 			x: -6.0d
 			y: -1.5d
 			shape: "diamond"
-			description: ["A machine used to &echop&r trees and &eharvest&r crops. Each operation creates a little bit of &1Sludge&r"]
+			description: ["一台用来&6砍树&r和&6收获作物&r的机器，每次操作都会产生一些污泥。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "02CC80C4C5E7D553"
 			tasks: [{
@@ -998,7 +998,7 @@
 			x: -6.5d
 			y: -2.0d
 			shape: "diamond"
-			subtitle: "Can Hold : &316,384 &ritems"
+			subtitle: "最大储量 : &316,384 &r件物品"
 			description: [""]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "5D2B140840C2A89D"
@@ -1017,7 +1017,7 @@
 			x: -5.0d
 			y: -2.5d
 			shape: "diamond"
-			subtitle: "Can Hold : &364,000 &rmb"
+			subtitle: "最大储量 : &364,000 &rmB"
 			dependencies: ["63B23FA7CF83536B"]
 			id: "26D5879959DE4A52"
 			tasks: [{
@@ -1035,7 +1035,7 @@
 			x: -6.0d
 			y: -4.5d
 			shape: "diamond"
-			description: ["Turns &9wooden items and blocks&r into power. The rates are identical to those of the Petrified Fuel Generator."]
+			description: ["将&9木制物品和方块&r转换为能量，它的速率和火力发电机一样。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "3EFB4F3BDAFB9CE6"
 			tasks: [{
@@ -1054,9 +1054,9 @@
 			y: -4.5d
 			shape: "diamond"
 			description: [
-				"Duplicates &efungi&r."
+				"繁殖&e孢子&r"
 				""
-				"For nether fungi it needs &elava&r."
+				"下界孢子繁殖需要&e熔岩&r。"
 			]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "4C3328C0818848B0"
@@ -1076,9 +1076,9 @@
 			y: -3.0d
 			shape: "diamond"
 			description: [
-				"A machine that generates &ewater&r from surrounding sourceblocks."
+				"一台利用周围水源方块产出&e水&r的机器。"
 				""
-				"When adjacent to at least &e2 water source blocks&r, it will start working."
+				"当相邻至少&e两格水源方块&r时它才会开始工作。"
 			]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "1F6C68FC5931B312"
@@ -1097,7 +1097,7 @@
 			x: -4.5d
 			y: -3.0d
 			shape: "diamond"
-			description: ["Breeds animals which are on the block in front of it using food given as an input. The input must be the correct food type (pigs eat carrots, cows eat wheat, etc)."]
+			description: ["在物品栏中输入食物，它会饲养它工作范围内的动物，输入的食物必须是正确的食物类型（猪吃胡萝卜，牛吃小麦等）。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "7B430A28ED635F21"
 			tasks: [{
@@ -1115,7 +1115,7 @@
 			x: -7.0d
 			y: -3.5d
 			shape: "diamond"
-			description: ["It places blocks."]
+			description: ["放置方块"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "0330063F67B18137"
 			tasks: [{
@@ -1133,7 +1133,7 @@
 			x: -5.5d
 			y: -2.0d
 			shape: "diamond"
-			subtitle: "Can Hold : &32,048 &ritems"
+			subtitle: "最大储量： &32,048 &r件物品"
 			dependencies: ["63B23FA7CF83536B"]
 			id: "517D10874CCF2C39"
 			tasks: [{
@@ -1151,7 +1151,7 @@
 			x: -7.0d
 			y: -2.5d
 			shape: "diamond"
-			subtitle: "Can Hold : &316,000 &rmb"
+			subtitle: "最大储量 &316,000 &rmB"
 			dependencies: ["63B23FA7CF83536B"]
 			id: "279608DF67349FAC"
 			tasks: [{
@@ -1169,7 +1169,7 @@
 			x: -7.0d
 			y: -4.5d
 			shape: "diamond"
-			description: ["Break any block in front of it and places it in the internal inventory, at the cost of &e1000&rRF per operation."]
+			description: ["破坏它前方的任何方块并收入机器的内部存储,每次操作消耗&e1000&rRF能量。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "1E0E37433EDFD597"
 			tasks: [{
@@ -1187,7 +1187,7 @@
 			x: -8.5d
 			y: -3.0d
 			shape: "diamond"
-			description: ["A machine that when provided with water and some &eseeds&r,&esapplings&r,&edyes&r and &eskulls&r??? it will create &1Biofuel&r"]
+			description: ["一台产出生物燃油的机器,给它提供水、一些&e种子&r、&e树苗&r、&e染料&r以及...（头颅)它就会产出&b生物燃油&r。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "58B3C38BCA49FB74"
 			tasks: [{
@@ -1205,7 +1205,7 @@
 			x: -5.5d
 			y: -5.0d
 			shape: "diamond"
-			description: ["Turns liquid Biofuel into power. Liquid Biofuel can be obtained using a Bioreactor"]
+			description: ["将液体生物燃油转化为动力。液体生物燃油可以通过生物反应器获得。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "0E924CB5C7EF54B2"
 			tasks: [{
@@ -1223,7 +1223,7 @@
 			x: -7.5d
 			y: -4.0d
 			shape: "diamond"
-			description: ["&2Harvests resources&r from animals on the block in front of it. This includes shearing sheep, milking cows, and collecting ink sacs from squid.&3Does not require tools to do these actions&r."]
+			description: ["从工作区域的动物那里&2收获资源&r。这包括剪羊毛、挤牛奶和收集乌贼的墨囊。&3而且不需要工具来完成这些操作&r。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "2DE45C592C57D462"
 			tasks: [{
@@ -1241,7 +1241,7 @@
 			x: -8.0d
 			y: -2.5d
 			shape: "diamond"
-			description: ["A machine used to separate &ebaby&r animals from adult animals. Baby animals will be teleported to the back of the machine. You can change what type of mobs get moved in the GUI."]
+			description: ["一台用来将&e幼年&r动物从成年动物中分离的机器。幼年动物会被传送到机器的后方。你也可以在GUI中改变被分离的生物类型(幼年还是成年）。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "401C5E5E7E9CC7CB"
 			tasks: [{
@@ -1260,9 +1260,9 @@
 			y: -5.0d
 			shape: "diamond"
 			description: [
-				"A powerfull machine used to craft material using up to &e8&r item and/or &e1&r fluid. This machine can produce items and/or fluids."
+				"一个使用多达8种物品和1种流体制造产物的强力机器。它可以生产—些物品和流体。"
 				""
-				"All the recipe are shapeless meaning that the ingredients can be in any slot."
+				"所有的配方都是无序的,就是说材料可以放在任意槽位上。"
 			]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "0990C82D9CE73CAF"
@@ -1281,7 +1281,7 @@
 			x: -5.0d
 			y: -1.5d
 			shape: "diamond"
-			description: ["This machine mixes primal dye colours to create the colours of the raindow."]
+			description: ["一台能够混合原始染料的颜色,最终得到彩虹色的机器。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "209DE424F426C49F"
 			tasks: [{
@@ -1299,7 +1299,7 @@
 			x: -5.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["It drains a fluid source block in front of it."]
+			description: ["抽取前方的流体源方块。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "3F134853F9111E68"
 			tasks: [{
@@ -1317,7 +1317,7 @@
 			x: -6.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["Place down a Tree Fluid Extractor. Place any type of log in front of the face with the animation. The Tree Fluid Extractor will slowly consume the log, turning it into liquid latex."]
+			description: ["在树液提取器前方摆放原木,它会从其中提取出胶。多个提取器可以同时对同一个原木进行抽取。树液提取器会慢慢地消耗原木，把它变成胶乳。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "30C48A7DE3117D33"
 			tasks: [{
@@ -1335,7 +1335,7 @@
 			x: -5.0d
 			y: -3.5d
 			shape: "diamond"
-			description: ["It places fluids."]
+			description: ["放置流体"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "4E0FE273BA918875"
 			tasks: [{
@@ -1387,7 +1387,7 @@
 			x: -4.0d
 			y: -2.5d
 			shape: "diamond"
-			description: ["The Latex Processing Unit needs to be supplied with power, water, and liquid latex. Once it has all of these inputs, it will produce Tiny Dry Rubber. Put 9 Tiny Dry Rubber into a crafting grid to produce Dry Rubber."]
+			description: ["乳胶加工机需要电力、水和液体胶乳。一旦它有了所有这些输入，它将生产小块干橡胶。将9个小块干橡胶放入工作台生成干橡胶。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "48E4B71B64A76DCD"
 			tasks: [{
@@ -1405,7 +1405,7 @@
 			x: -8.0d
 			y: -3.5d
 			shape: "diamond"
-			description: ["Kills all mobs on the block in front of it.&dCreates liquid Meat and Pink Slime&r, but does &1not store or drop experience or mob drops&r. Requires power."]
+			description: ["杀死在它工作区域所有的怪物。生成肉汤和粉红黏液，但被他杀死的怪物不会产生任何掉落物或精华液。需要能量。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "060FE76E8FA55A0D"
 			tasks: [{
@@ -1424,9 +1424,9 @@
 			y: -1.5d
 			shape: "diamond"
 			description: [
-				"3 furnaces in 1."
+				"3炉合一"
 				""
-				"Returns &e2mb&r of essence per item melted."
+				"每个烧炼物品返还2mB精华液。消耗40RF /t."
 			]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "0FE5FF6916A0EAAD"
@@ -1445,7 +1445,7 @@
 			x: -7.5d
 			y: -2.0d
 			shape: "diamond"
-			description: ["When provided with &1Sewage&r this machine will create &1Fertilizer&r from it."]
+			description: ["给机器提供污水,它就能从中产出肥料。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "386EB5512AADF487"
 			tasks: [{
@@ -1752,9 +1752,9 @@
 			x: -4.5d
 			y: -8.0d
 			description: [
-				"The Infinity Hammer is a tool that allows you damage enemies in an area. Increasing the tier will give you access to different level of &eBeheading&r, allowing you to get mob heads easily."
+				"无限电锤是—种能让你范围杀伤敌人的工具。增加充能等级会带来不同等级的斩首,来让你更加容易的获得怪物头颅。"
 				""
-				"When right clicked into the ground it will make a &eshatter&r effect into the ground in a cone shape in front of the user."
+				"当右键地面时会在使用者面前锥形范围内的地面上产生尖牙效果。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0990C82D9CE73CAF"]
@@ -1788,18 +1788,18 @@
 			x: -3.5d
 			y: -8.0d
 			description: [
-				"The Infinity Backpack is a tool that allow you to store big amounts of items in a portable way."
+				"无限背包是一种能让你便携的存储大量物品的工具。"
 				""
-				"It can hold 3 specific fluids:"
-				"&ebiofuel&r to allow automatic operations to fonction,"
-				"&eessence&r from the picked up experience,"
-				"and &eliquid meat&r to feed you automatically."
+				"它可以存储三种特定的液体:"
+				"生物燃油将允许自动化功能"
+				"精华液来自收集的经验(当自动拾取开启时"
+				"而肉汤会自动喂食。"
 				""
-				"When &eMagnet Mode&r is enabled nearby item will be teleported to the player when they can be picked up."
+				"当磁力模式开启时,附近的能够被捡起的物品会被传送到玩家身上。"
 				""
-				"When &eAuto-Pickup Mode&r is enabled item that can go in the backpack picked up by the player it will go into the backpack automatically."
+				"当自动拾取开启时,玩家捡起的物品会自动进入背包。"
 				""
-				"Each slot can be configured to &evoid&r excess or to &erefill&r stacks that aren't full in your inventory."
+				"每个槽位都可以设置清空超出物品和给物品栏中不满一组的物品补充成一组物品。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0990C82D9CE73CAF"]
@@ -1828,8 +1828,8 @@
 			x: -2.5d
 			y: -8.0d
 			description: [
-				"The Infinity Saw is a tool that allows you to chop trees efficiently, the bigger the tier the more blocks you can chop at the same time."
-				"Keep breaking the same block to chop big trees."
+				"无限电锯是一个能让你砍树更加效率的工具,充能等级越高,同一时间砍下的方块就越多。"
+				"一直破坏同一个方块就能砍下整棵树。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0990C82D9CE73CAF"]
@@ -1862,10 +1862,10 @@
 			x: -1.5d
 			y: -8.0d
 			description: [
-				"The Infinity Trident is a tool that allows you to release the true power of a trident."
-				"Increasing the tier will give you access to different levels of &eLoyalty, Riptide&r and &eChanneling&r."
+				"无限三叉戟是一个能让你释放三叉戟真正威力的工具。"
+				"提升充能等级会带来不同等级的忠诚,激流和引雷。"
 				""
-				"Channeling and hit damage will be applied in aoe."
+				"引雷的雷击会造成A0E伤害。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0990C82D9CE73CAF"]
@@ -1900,7 +1900,7 @@
 		{
 			x: -0.5d
 			y: -8.0d
-			description: ["A drill which gets upgraded as energy is put into it. The easiest way to get started charging your drill is with a Wireless Charger from the Chargers mod."]
+			description: ["无限钻头是一个能够挖掘大片区域的工具,充能等级越高，挖掘的范围就越大。"]
 			hide_dependency_lines: true
 			dependencies: ["0990C82D9CE73CAF"]
 			id: "6045E9004C76EBC9"
@@ -1929,10 +1929,10 @@
 			}]
 		}
 		{
-			title: "&4Tiny Dry Rubber&r"
+			title: "&4小块干橡胶&r"
 			x: -3.0d
 			y: -5.0d
-			description: ["create in latex processing unit"]
+			description: ["在胶乳加工机中生产。"]
 			hide_dependency_lines: true
 			dependencies: ["48E4B71B64A76DCD"]
 			id: "23CAAA1E2EF8A7A2"
@@ -1982,7 +1982,7 @@
 		{
 			x: 2.0d
 			y: -6.5d
-			description: ["Right click on any mob with a Mob Imprisonment Tool to capture it, storing it inside the Mob Imprisonment Tool. Right click on a block with the Mob Imprisonment Tool to set the mob which is stored inside it free. This tool is used inside various machines."]
+			description: ["当你手拿大师球右键一个实体时,这个实体就会被存储进大师球中。你也可以对着地面右键把它释放出来。"]
 			hide_dependency_lines: true
 			dependencies: ["57196F75D8B2E56E"]
 			id: "5BD0833480CF502D"
@@ -2034,7 +2034,7 @@
 		{
 			x: 3.0d
 			y: -6.5d
-			description: ["While the Meat Feeder is in the player’s inventory with some liquid Meat in it, it will automatically fill your hunger bar. Fill it with liquid Meat by placing it in one of the fluid slots of a machine that produces liquid Meat."]
+			description: ["将肉汤注射器放在物品栏中,它会消耗内部存储的肉汤恢复饱食度。"]
 			hide_dependency_lines: true
 			dependencies: ["57196F75D8B2E56E"]
 			id: "278275C10ADA0AD3"
@@ -2054,8 +2054,7 @@
 			y: -1.5d
 			shape: "diamond"
 			description: [
-				"Using the &eMycelial Network&r (A subspace domain containing a living vegetable mass of fungus called the mycelium"
-				"This reactor can detect the other &eMycelial generator&r and generate massive amount of FE."
+				"这台反应堆机器通过—种菌丝网络(—种包含大量活体植物真菌的称之为菌丝的子空间域）能够检测到其它菌丝网络发电机的运作,同时产出极其巨量的FE能量。"
 			]
 			dependencies: ["2CFB31CFACB54C1E"]
 			id: "3C0C25F26BED0E21"
@@ -2075,9 +2074,9 @@
 			y: -2.0d
 			shape: "diamond"
 			description: [
-				"Imbued with unknow technology, this block will spawn &emob&r at a fast rate when certain condition are met."
+				"某种未知科技渗透进了这个方块,在满足特定条件后,它会快速的生成怪物。"
 				""
-				"Firstly it requires &e1000RF&r and &e20mb&r of &eLiquid Meat&r per operation, secondly normal mob spawn condition have to be met (this means the light level has to be &e7&r or lower and the block has to be loaded)"
+				"首先，它每次操作需要提供1000RF能量和20mb的肉汤,其次需要满足一般怪物的生成条件（这意味着亮度等级要小于等于&e7&r且区块加载)"
 			]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "3A6F0CC2918F2E22"
@@ -2216,8 +2215,8 @@
 			x: -5.5d
 			y: -8.0d
 			description: [
-				"The Infinity Launcher is a tool that allows you to capture or release entities from &4Mob Imprisonment Tool&r at a range."
-				"When selecting the mode in the GUI and firing the launcher you will be able to release or capture mob using the &eMIT&r in your inventory."
+				"无限发射器是—种能让你远距离使用大师球捕捉或释放实体的工具。"
+				"当在GuI中选择好模式,然后发射,你就可以使用背包中的大师球捕捉或释放生物了。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0990C82D9CE73CAF"]
