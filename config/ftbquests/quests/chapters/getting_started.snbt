@@ -12,13 +12,13 @@
 			x: -2.0d
 			y: -3.5d
 			shape: "octagon"
-			subtitle: "Starting basics"
+			subtitle: "开始生存的基础"
 			dependencies: ["5C0C633D44AEFED9"]
 			id: "785F7763B06CA043"
 			tasks: [{
 				id: "1B5C0EA37FA80623"
 				type: "item"
-				title: "Logs"
+				title: "原木"
 				icon: "minecraft:oak_log"
 				item: {
 					id: "itemfilters:tag"
@@ -29,7 +29,7 @@
 				}
 				count: 32L
 			}]
-			rewards: [{
+			rewards: [{g
 				id: "0A4301D6718B8019"
 				type: "item"
 				item: "minecraft:oak_planks"
@@ -260,13 +260,13 @@
 				{
 					id: "21497095EEFE706E"
 					type: "dimension"
-					title: "Visit Dimension : &dThe End"
+					title: "前往&d末地"
 					dimension: "minecraft:the_end"
 				}
 				{
 					id: "37346A00B242FC12"
 					type: "checkmark"
-					title: "Quest Debug"
+					title: "任务复选"
 				}
 			]
 			rewards: [{
@@ -311,7 +311,7 @@
 			x: -1.5d
 			y: -5.0d
 			shape: "gear"
-			description: ["Creating the teleporter allow you to visit a dimension that only consists of caves !"]
+			description: ["合成一个传送器以保证你能传送到一个由洞穴构成的纬度。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"785F7763B06CA043"
@@ -359,15 +359,15 @@
 			y: -3.5d
 			shape: "gear"
 			description: [
-				"Entangled gives you the materials needed to bind two blocks together, allowing you to interact with either one as if they were the same block !"
+				"Entangled模组为您提供了将两个方块绑定在一起所需的材料，允许您与其中任何一个方块进行交互，就像它们是同一个方块一样！"
 				""
-				"This will allow you to transfer items, energy, fluids or whatever you want instantly, you can have more than six sides to work with or you could just hide your messy cables, the possibilities are endless !"
+				"它允许你转移物品、传输能量、运输液体或任何你想要移动的东西，你将会拥有六个以上用于传输的面，或者你可以隐藏你凌乱的线缆，拥有近乎无穷的可能性！"
 				""
-				"&6&lBinding an Entangled Block :"
-				"&a1.&r Craft an Entangled Block and an Entangled Binder"
-				"&a2.&r Place down your Entangled Block"
-				"&a3.&r Right-Click on the block you want to bind with the Entangled Binder"
-				"&a4.&r Right-Click on your Entangled Block with the Entangled Binder"
+				"&6&l如何绑定纠缠方块："
+				"&a1、&r 合成一个纠缠方块和纠缠绑定器"
+				"&a2、&r 放下你的纠缠方块"
+				"&a3、&r 使用纠缠绑定器右键你想要绑定的纠缠方块"
+				"&a4、&r 使用纠缠绑定器再次右键你想要与前一纠缠方块绑定的纠缠方块"
 			]
 			dependencies: ["679EEA8ED654D878"]
 			id: "6B5C0839F2618B98"
@@ -424,13 +424,13 @@
 				{
 					id: "227C65F74D390FCD"
 					type: "dimension"
-					title: "Visit Dimension : &2Mining Dimension"
+					title: "前往&2挖矿维度"
 					dimension: "mining_dimension:mining"
 				}
 				{
 					id: "63916FBAEDED7322"
 					type: "checkmark"
-					title: "Quest Debug"
+					title: "任务复选"
 				}
 			]
 			rewards: [{
@@ -451,13 +451,13 @@
 				{
 					id: "7AA6307296B89521"
 					type: "dimension"
-					title: "Visit Dimension : &4Nether"
+					title: "前往&4地狱"
 					dimension: "minecraft:the_nether"
 				}
 				{
 					id: "20FAD7F7A307CD71"
 					type: "checkmark"
-					title: "Quest Debug"
+					title: "任务复选"
 				}
 			]
 			rewards: [{
@@ -470,8 +470,8 @@
 			x: 9.5d
 			y: -3.5d
 			description: [
-				"This &aScanner&r will help you to find some ressouces/mobs/entities..."
-				"But you will need &aUpgrades&r to do this"
+				"这个&a扫描器&r会帮你找到一些资源、生物、实体……"
+				"但你需要&a扫描模块&r来做这件事"
 			]
 			hide_dependency_lines: true
 			dependencies: ["47BA5DFD32622803"]
@@ -488,10 +488,10 @@
 			}]
 		}
 		{
-			title: "Scanner Upgrades"
+			title: "扫描器扫描模块"
 			x: 10.5d
 			y: -3.5d
-			description: ["So this are the &aUpgrades&r"]
+			description: ["这些就是&a扫描模块&r"]
 			dependencies: ["2A969C06C468CEAD"]
 			id: "7789E43E121BEE67"
 			tasks: [{
