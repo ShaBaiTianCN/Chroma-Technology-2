@@ -9,11 +9,11 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "&b&lME Controller"
+			title: "&b&lME控制器"
 			x: 12.0d
 			y: -1.0d
 			shape: "octagon"
-			description: ["The &bME Controller &fis the routing hub of a &6ME Network&f. Without it, only up to 8 devices can interact, any more and everything stops working. It is not possible to have 2 ME Controller in one &6ME Network&f."]
+			description: ["&bME控制器&f是一个&6ME网络&f的核心。没有它的话一个ME网络只能拥有8台设备，再添加设备ME网络将会停止工作。同时一个&6ME网络&f中只允许拥有一个ME控制器。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"7027D5234A96CE58"
@@ -43,7 +43,7 @@
 			x: 9.0d
 			y: -7.0d
 			shape: "diamond"
-			description: ["The &bInscriber &fis used to press items using various Inscriber Plates. Each operation requires 1k AE charged up. The Inscriber needs a supply of 10 AE/t and 100 ticks to fully charge up."]
+			description: ["&b压印器&f被用于压制AE中各种电路板。每次操作需要1k AE。压印器需要10 AE/t的能量，经过100ticks来完成合成。"]
 			id: "30F3A924C14D7A97"
 			tasks: [{
 				id: "2A650FA8186CF543"
@@ -60,7 +60,7 @@
 			x: 16.5d
 			y: 1.5d
 			shape: "diamond"
-			description: ["A compass which points to the nearest Sky Stone in the current world, it has a max range of roughly 2,700 blocks."]
+			description: ["一个指向当前维度中距离最近的陨石的指南针，它的最大范围是2700格左右。"]
 			id: "50EA50E9D59312CE"
 			tasks: [{
 				id: "78C0997A50E6D849"
@@ -880,7 +880,7 @@
 			x: 12.0d
 			y: -3.0d
 			shape: "diamond"
-			description: ["A block designed to do one thing, store &6Storage Cells&f. This block holds 10 storage cells so you can tightly pack your storage into a very small space."]
+			description: ["一个被设计出来只专注一件事的机器，储存&6存储元件&f。这个机器可以容纳10个存储元件，这样你就可以将存储元件紧紧塞进一个小空间了。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"0A3A4346A32949C4"
@@ -910,7 +910,7 @@
 			x: 11.5d
 			y: 2.0d
 			shape: "diamond"
-			description: ["A specialized version of the &6ME Crafting Terminal&f designed to encode &6Blank Patterns&f into &6Encoded Pattern&f."]
+			description: ["这是一个&6ME合成终端&f的专门版本，它是用来将&6空白样板&f编辑为&6编码样板&f。"]
 			dependencies: ["24DCFB4FA215F775"]
 			id: "3E0872C55BFD950F"
 			tasks: [{
@@ -928,7 +928,7 @@
 			x: 12.5d
 			y: 2.0d
 			shape: "diamond"
-			description: ["The &bME Crafting Terminal &fis the upgraded version of the ME Terminal which has an integrated crafting grid with access to a ME Network's Networked Storage."]
+			description: ["&bME合成终端&f是ME终端的升级版，它内置了一个合成台能够使你直接访问ME网络中的物品进行直接制作。"]
 			dependencies: ["24DCFB4FA215F775"]
 			id: "59CD962FBEE6553F"
 			tasks: [{
@@ -946,7 +946,7 @@
 			x: 12.0d
 			y: 2.5d
 			shape: "diamond"
-			description: ["The &bME Terminal &fis a HID which gives you access to a ME Network's Networked Storage."]
+			description: ["&bME终端&f是一个用来访问ME网络中存储物品的显示器。"]
 			dependencies: ["24DCFB4FA215F775"]
 			id: "7B4E8939AC013302"
 			tasks: [{
@@ -964,7 +964,7 @@
 			x: 11.0d
 			y: 1.5d
 			shape: "diamond"
-			description: ["Gives remote access to all interface pattern slots on your network separated by which type of machine they are on. It will show the type of machine in the terminal, however you can name the ME Interface in the Inscriber or an Anvil to alter the name displayed in the &6ME Interface Terminal&f."]
+			description: ["可以远程访问ME网络中ME接口，并允许玩家存取其中的样板，每个接口将依据对应的目标容器分隔开。它将在终端中显示对应目标容器的名称，同时你也可以在压印器或铁砧中命名ME接口，来更改&6ME接口终端&f中显示的名称。"]
 			dependencies: ["24DCFB4FA215F775"]
 			id: "2A8DC3810B4959DE"
 			tasks: [{
@@ -1015,7 +1015,7 @@
 			x: 9.5d
 			y: 3.5d
 			shape: "diamond"
-			description: ["Used to accelerate the process of purifying crystals, which allows you to create &6Pure Certus Quartz Crystal&f, &6Pure Nether Quartz Crystal &fand &6Pure Fluix Crystal&f."]
+			description: ["用于加速水晶种子的生长过程，可以使你获得&6高纯赛特斯石英水晶&f，&6高纯下界石英水晶&f和&6高纯福鲁伊克斯水晶&f。"]
 			hide_dependency_lines: true
 			dependencies: ["61B717C5AE7C9455"]
 			id: "736C36EFE909F8CD"
@@ -1275,9 +1275,9 @@
 			y: 3.5d
 			shape: "diamond"
 			description: [
-				"Allows you to configure which users, and what permissions the users have with the ME System. By existing it enforces permissions on the usage of the system."
+				"允许你设置哪些用户可以使用ME网络，以及用户对ME系统有哪些权限，对现有的系统将会强制执行使用系统的权限."
 				""
-				"The security system does not prevent destructive tampering, removing cables / machines or breaking of drives is not directly provided by the security Terminal. If you need to protect your system from physical vandalism you will need another form of physical security. This block provides Network level security."
+				"安全终端不能防止破坏性的篡改，如破坏线缆/机器或破坏ME驱动器。如果你需要保护你的系统不受物理性破坏，那么你需要一种物理上的保护措施，此机器仅保证网络上的安全性。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1300,7 +1300,7 @@
 			x: 15.0d
 			y: 4.0d
 			shape: "diamond"
-			description: ["Encodes a players identity on the card, right click another player, or shift slick to set yourself. If you encode the same player twice, it will clear the card. A Cleared card represents other users as the \"default\"."]
+			description: ["在卡上编辑玩家的身份，右键标记其他玩家，或是SHIFT右键来标记自己，如果你对同一玩家标记两次，则为解除标记，未标记玩家的身份卡为"除自己外其他所有玩家"。"]
 			hide_dependency_lines: true
 			dependencies: ["7027D5234A96CE58"]
 			id: "4F38AC1BA58F648C"
@@ -1323,7 +1323,7 @@
 			x: 14.0d
 			y: 4.0d
 			shape: "diamond"
-			description: ["Allows wireless access via a Wireless Terminal. Range and power usage is determined based on the number of Wireless Booster installed into the &bME Wireless Access Point&f."]
+			description: ["允许通过无线终端来无线访问ME网络，可访问的范围及消耗的能量取决于放入&bME无线访问点&f中无线信号增幅器的多少。"]
 			hide_dependency_lines: true
 			dependencies: ["5AE9994C653AE5D6"]
 			id: "38AE26D06665810A"
@@ -1342,7 +1342,7 @@
 			x: 14.5d
 			y: 4.5d
 			shape: "diamond"
-			description: ["Used to increase the range of the &6ME Wireless Access Point&f."]
+			description: ["用于增加&6ME无线访问点&f的范围。"]
 			hide_dependency_lines: true
 			dependencies: ["736C36EFE909F8CD"]
 			id: "294742A2B801C211"
@@ -1369,7 +1369,7 @@
 			x: 9.5d
 			y: 6.0d
 			shape: "diamond"
-			description: ["Used to craft &6Capacity Card&f, &6Crafting Card &fand &6Redstone Card&f."]
+			description: ["用于制作&6容量卡&f，&6合成卡&f和&6红石卡&f。"]
 			hide_dependency_lines: true
 			dependencies: ["1D1FE9C462047B2B"]
 			id: "6A1B3802D52F4407"
@@ -1388,7 +1388,7 @@
 			x: 9.0d
 			y: 6.5d
 			shape: "diamond"
-			description: ["Can be used with the &6ME Interface &for the &6ME Export Bus &fto request autocrafting from the system."]
+			description: ["可以放置在&6ME接口&f或&6ME输出总线&f中，来向系统请求自动合成。"]
 			dependencies: ["6A1B3802D52F4407"]
 			id: "43830BD81962CBA4"
 			tasks: [{
@@ -1406,7 +1406,7 @@
 			x: 9.5d
 			y: 7.0d
 			shape: "diamond"
-			description: ["Upgrades the number of configuration slots available in &6ME Import Bus&f, &6ME Export Bus&f, &6ME Storage Bus &fand the &6ME Formation Plane&f."]
+			description: ["用来提升&6ME输入总线&f，&6ME输出总线&f，&6ME存储总线&f和&6ME成型面板&f的物品种类配置槽的数量。"]
 			dependencies: ["6A1B3802D52F4407"]
 			id: "2CDBC46F1EF4A093"
 			tasks: [{
@@ -1441,7 +1441,7 @@
 			x: 15.0d
 			y: 6.0d
 			shape: "diamond"
-			description: ["Used to craft &6Fuzzy Card&f, &6Inverter Card &fand &6Acceleration Card&f."]
+			description: ["用于制作&6模糊卡&f，&6反向卡&f和&6加速卡&f。"]
 			hide_dependency_lines: true
 			dependencies: ["5AE9994C653AE5D6"]
 			id: "00760E883E1CF079"
@@ -1460,7 +1460,7 @@
 			x: 14.5d
 			y: 6.5d
 			shape: "diamond"
-			description: ["Can be installed into ME IO Port, ME Import Bus and ME Export Bus to increase the speed of items being transfered, this also increases the idle drain of the machine by 1 ae/t per upgrade."]
+			description: ["可以安装到MEIO端口，ME输入总线和ME输出总线中，以提高传输物品的速度，每一个升级增加1AE/T的能量消耗。"]
 			dependencies: ["00760E883E1CF079"]
 			id: "52A490CB33A26FA6"
 			tasks: [{
@@ -1478,7 +1478,7 @@
 			x: 15.0d
 			y: 7.0d
 			shape: "diamond"
-			description: ["Used to add fuzzy behavior to &6ME Formation Plane&f, &6ME Export Bus&f, &6ME Import Bus&f, &6ME Level Emitter&f, &6ME Storage Bus&f, &6View Cell&f and &61k ME Storage Cell &fas well as other non spatial storage cells."]
+			description: ["可以设定接受不同数据值的同类物品，可以装在&6ME成型面板&f，&6ME输出总线&f，&6ME输入总线&f，&6ME标准发信器&f，&6ME存储总线&f，&6显示元件&f和&61kME存储元件&f以及其他非空间存储元件中。"]
 			dependencies: ["00760E883E1CF079"]
 			id: "650F31121B8299BC"
 			tasks: [{
@@ -1496,7 +1496,7 @@
 			x: 15.5d
 			y: 6.5d
 			shape: "diamond"
-			description: ["In non spatial storage cells such as 1k ME Storage Cell, View Cell, ME Formation Plane and the ME Storage Bus changes the standard accepted item list into a rejection list."]
+			description: ["在非空间存储元件中，如1kME存储元件、显示元件、ME成型面板、ME存储总线将其中标记的白名单改变为黑名单。"]
 			dependencies: ["00760E883E1CF079"]
 			id: "33E4AC2B0F972E06"
 			tasks: [{
@@ -1514,7 +1514,7 @@
 			x: 14.5d
 			y: -7.5d
 			shape: "diamond"
-			description: ["The &bFluix Aggregator&f performs the operation of fluix crystal production, which is normally an inconvenient in-world operation. It is also used to craft other LazierAE2 crafting components -- in particular, it significantly increases the efficiency of producing fluix steel. Because of this, it is recommended that players first obtain a Fluix Aggregator before continuing with other parts of LazierAE2."]
+			description: ["&b福鲁伊克斯聚合器&f可以直接生产在世界中不方便制作的福鲁伊克斯水晶，它还可以制作懒人AE2中所使用的的其他材料，尤其是大幅提升福鲁伊克斯钢锭的生产速度，因此建议玩家优先制作福鲁伊克斯聚合器，再进行懒人AE2的其他部分。"]
 			dependencies: [
 				"4BA3F17750607AE8"
 				"104D5FA82D5F2D4A"
@@ -1535,7 +1535,7 @@
 			x: 15.0d
 			y: -8.0d
 			shape: "diamond"
-			description: ["The &bPulse Centrifuge&f performs the operation of crystal purification, which supersedes the tedious seed-growing process. It can also be used to powderize certain materials that would normally require the quartz grindstone."]
+			description: ["&b脉冲离心机&f可以直接进行水晶的纯化工作，免去了繁琐的水晶种子生长过程，它还可以制作一些需要石英磨具磨粉制作的物品。"]
 			dependencies: [
 				"4BA3F17750607AE8"
 				"104D5FA82D5F2D4A"
@@ -1556,7 +1556,7 @@
 			x: 15.0d
 			y: -7.0d
 			shape: "diamond"
-			description: ["The &bCrystal Energizer &fperforms the operation of crystal charging, which is normally done by the AE2 Charger. The amount of time required to charge a crystal using the AE2 Charger is random and can take, in the worst case, upwards of 30 seconds. The Crystal Energizer, on the other hand, takes a deterministic amount of time to charge a crystal and can be upgraded to increase the processing rate."]
+			description: ["&b晶体充能器&f可以给赛特斯石英水晶充能，这一般是由AE2中的充能器来完成的，但AE2的充能器给水晶充能所需时间是随机的，在最坏的情况下需要30多秒。晶体充能器需要一定的时间来给晶体充能，可以添加速度升级来提升充能速度。"]
 			dependencies: [
 				"4BA3F17750607AE8"
 				"104D5FA82D5F2D4A"
@@ -1578,9 +1578,9 @@
 			y: -7.5d
 			shape: "diamond"
 			description: [
-				"The &bCircuit Etcher &fis basically an advanced Inscriber but with the huge benefit of being able to process raw materials."
+				"&b电路板蚀刻器&f是一个先进的压印器，它可以直接将原材料压制成处理器."
 				""
-				"This means that no other Inscribers are needed to process Silicon for example."
+				"这就意味着...例如你不需要将硅处理成硅板了."
 			]
 			dependencies: [
 				"4BA3F17750607AE8"
@@ -1698,7 +1698,7 @@
 			x: 12.5d
 			y: 3.5d
 			shape: "diamond"
-			description: ["The &bassembler &fis a powered machine which crafts items, it can be upgraded by inserting Acceleration Cards into it; once upgraded it is very fast."]
+			description: ["&b分子装配室&f是一种能够使用能量来自动合成物品的机器，可以通过插入加速卡来升级，升级后速度炒鸡快。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D1FE9C462047B2B"
@@ -1721,7 +1721,7 @@
 			x: 12.0d
 			y: 4.0d
 			shape: "diamond"
-			description: ["Is a component of the Crafting CPU. This particular block provides the CPU with no additional features, but can be used as a \"filler\" block and as a crafting ingredient for the following,"]
+			description: ["它是制作CPU的一个组成部分，但是这个特殊的方块并不能为CPU提供什么功能，只能作为一个“填充”的方块来使用，它也可以制作以下内容，"]
 			hide_dependency_lines: true
 			dependencies: [
 				"61B717C5AE7C9455"
@@ -1744,7 +1744,7 @@
 			x: 11.5d
 			y: 4.5d
 			shape: "diamond"
-			description: ["Component of the &bCrafting CPU &fwhich provides additional item delivery from the CPU to the ME Interface for crafting."]
+			description: ["&b合成CPU&f的组成部分，被用于增加从CPU发配材料至ME接口的性能，使物品制作速度加快。"]
 			dependencies: ["3592AE725E407803"]
 			id: "5DABD41D49A59C1B"
 			tasks: [{
@@ -1762,7 +1762,7 @@
 			tasks: [{
 				id: "50F3DF539ADB8F8B"
 				type: "item"
-				title: "Crafting Storage"
+				title: "合成存储器"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -1814,7 +1814,7 @@
 			x: 12.0d
 			y: 5.0d
 			shape: "diamond"
-			description: ["Component of the &6Crafting CPU &fwhich displays the top level job and its current progress so you can monitor at a glance how your crafting jobs are progressing."]
+			description: ["&6合成CPU&f的组成部分，它会显示当前的最高级合成任务，以便你能够对合成进度一目了然。"]
 			dependencies: ["3592AE725E407803"]
 			id: "266C78E0F2F4CF30"
 			tasks: [{
@@ -1834,7 +1834,7 @@
 			shape: "diamond"
 			description: [
 				""
-				"The &bME Interface &fis the only component which can be used as a part, or as a Block. Crafting an ME interface in either form by itself produces the other form. The thin form is useful if you want to provide several different interfaces in a single block of physical space, but each will need its own channel. The block form lets multiple other blocks connect to a single ME interface, using only one channel for the interface."
+				"&bME接口&f是唯一一个有面板形式和方块形式的部件，任何形式的ME接口都可以在合成栏合成另一种方式的ME接口，如果你想在一格里面中放置多个ME接口，那么面板形式的将更为有用，但每个接口都需要频道。方块形式的ME接口可以连接多个其他方块且仅消耗一个频道。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1893,7 +1893,7 @@
 			x: 11.5d
 			y: 8.0d
 			shape: "diamond"
-			description: ["Is used to craft &6Quantum Entangled Singularity&f and is produced inside a &6Matter Condenser&f."]
+			description: ["用于制作&6量子缠绕态奇点&f，它从&6物质聚合器&f中产出。"]
 			dependencies: ["75B51A2AEE99B05B"]
 			id: "1CF41105BD685060"
 			tasks: [{
@@ -1911,7 +1911,7 @@
 			x: 11.0d
 			y: 8.5d
 			shape: "diamond"
-			description: ["Required to create a connection between to &6Quantum Network Bridges&f, they are always produced in matching pairs, to create a connection place 1 of the pair of&b Quantum Entangled Singularity&f into the of the bridge on each side."]
+			description: ["在&6量子网桥&f之间建立连接，他们总是成对产生，在一个桥的两边都放置一个&b量子缠绕态奇点&f以创建一个链接。"]
 			dependencies: ["1CF41105BD685060"]
 			id: "265571ED01E8FAD9"
 			tasks: [{
@@ -1929,7 +1929,7 @@
 			x: 12.0d
 			y: 7.5d
 			shape: "diamond"
-			description: ["Has two key functions, ellimination of excess materials in a cheap manor, and the production of &6Singularity &fand &6Matter Balls&f."]
+			description: ["它有两个关键功能，以廉价的方式销毁多余的材料、以及生产&6奇点&f和&6物质球&f。"]
 			hide_dependency_lines: true
 			dependencies: ["736C36EFE909F8CD"]
 			id: "75B51A2AEE99B05B"
@@ -1990,7 +1990,7 @@
 			x: 12.0d
 			y: -7.0d
 			shape: "diamond"
-			description: ["The &bCharger &fprovides a way to charge supported tools through the ME Network or can be hand cranked using a Wooden Crank which while ineffective can be useful if you have no other means for power generation."]
+			description: ["&b充能器&f提供了一种通过ME网络为支持的工具充电的方法，如果你没有其他的发电方法，可以试着用木制曲柄手动转动充能，虽然看起来没什么用，但实际有大用处。"]
 			id: "56F93274C075EC56"
 			tasks: [{
 				id: "5F5E02D927FD05BA"
@@ -2004,14 +2004,14 @@
 			}]
 		}
 		{
-			title: "ME Bridge"
+			title: "ME量子网桥"
 			x: 12.0d
 			y: 9.0d
 			shape: "diamond"
 			description: [
 				"One of these blocks surrounded by a &6ME Quantum Rings &fwill create a Quantum Network Bridge. This block dosn't connect to any cables and only registers as part of the network with the full bridge is made."
 				""
-				"Eight of these blocks placed around a &6ME Quantum Link Chamber &fwill create a &6Quantum Network Bridge&f. Only the 4 ME Quantum Ring blocks adjcent to the ME Quantum Link Chamber will accept network connections, the 4 corner blocks cannot connect to cables."
+				"用8个量子环环绕&6ME量子链接仓&f一圈就可以制作出一个&6量子网桥&f。量子网桥链接后，只有直接与ME量子链接仓直接相连的四个量子环可以传递频道，角上的4个量子环不可以。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2053,7 +2053,7 @@
 			]
 		}
 		{
-			title: "ME Smart Cable"
+			title: "ME智能线缆"
 			x: 6.5d
 			y: 1.5d
 			shape: "diamond"
@@ -2062,7 +2062,7 @@
 			tasks: [{
 				id: "73AE6A46DD3BF31A"
 				type: "item"
-				title: "ME Smart Cable"
+				title: "ME智能线缆"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -2078,7 +2078,7 @@
 			}]
 		}
 		{
-			title: "ME Covered Cable"
+			title: "ME包层线缆"
 			x: 7.0d
 			y: 2.0d
 			shape: "diamond"
@@ -2087,7 +2087,7 @@
 			tasks: [{
 				id: "6A46F4F8A94B648E"
 				type: "item"
-				title: "ME Covered Cable"
+				title: "ME包层线缆"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -2103,7 +2103,7 @@
 			}]
 		}
 		{
-			title: "ME Glass Cable"
+			title: "ME玻璃线缆"
 			x: 7.5d
 			y: 2.5d
 			shape: "diamond"
@@ -2112,7 +2112,7 @@
 			tasks: [{
 				id: "00374906E91B0B21"
 				type: "item"
-				title: "ME Glass Cable"
+				title: "ME玻璃线缆"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -2128,7 +2128,7 @@
 			}]
 		}
 		{
-			title: "ME Dense Fluix Cable"
+			title: "ME致密Fluix线缆"
 			x: 8.5d
 			y: 1.5d
 			shape: "diamond"
@@ -2137,7 +2137,7 @@
 			tasks: [{
 				id: "6A96F2E991C5A29C"
 				type: "item"
-				title: "ME Dense Fluix Cable"
+				title: "ME致密Fluix线缆"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -2153,7 +2153,7 @@
 			}]
 		}
 		{
-			title: "ME Dense Covered Cable"
+			title: "ME致密包层线缆"
 			x: 8.0d
 			y: 2.0d
 			shape: "diamond"
@@ -2162,7 +2162,7 @@
 			tasks: [{
 				id: "3826D1929F750DFA"
 				type: "item"
-				title: "ME Dense Covered Cable"
+				title: "ME致密包层"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -2197,7 +2197,7 @@
 			x: 12.0d
 			y: -5.5d
 			shape: "diamond"
-			description: ["The &bME Export Bus &fextracts items from the ME Network's Networked Storage and places them into the inventory it faces. You must configure which items it will insert, leaving the configuration blank will result in nothing. The ME Export Bus will try to export any of the items on its list skipping over those it cannot fit into the destination. The ME Export Bus requires a channel to function."]
+			description: ["&bME输出总线&f可以将网络中存储的物品输出到它朝向的容器内。你必须配置什么会被输出，不然它什么都不会做。ME输出总线总会尝试输出所有配置列表上的所有物品，除非这个东西不能输出到那个容器。ME输出总线工作需要占用一个频道。"]
 			hide_dependency_lines: true
 			dependencies: ["11823692E7014281"]
 			id: "401B93F461C55D20"
@@ -2216,7 +2216,7 @@
 			x: 11.5d
 			y: -5.0d
 			shape: "diamond"
-			description: ["Pulls items from the inventory it is pointed at and places them into the ME Network's Networked Storage. You can specify which items it will pull out via the UI, else it tries to pull out any item in the adjacent inventory. The &bME Import Bus &fwill attempt to import any possible options, even if 1 or more of the configured items cannot be stored. The ME Import Bus requires a channel to function."]
+			description: ["从它指向的容器内抽取物品并存放进网络内。你可以在UI内配置什么会被提取进网络，不然输入总线会尝试把容器内的所有物品抽取到网络内。&bME输入总线&f将尝试导入任何可能的选项，即使无法存储1个或多个已配置的物品。ME输入总线工作需要占用一个频道"]
 			hide_dependency_lines: true
 			dependencies: ["25D54F1E8D739561"]
 			id: "472BC7AAE09B069F"
@@ -2235,7 +2235,7 @@
 			x: 12.5d
 			y: -5.0d
 			shape: "diamond"
-			description: ["The &bME Storage Bus&f, when attached to another inventory block in the world lets you access that inventory via networked functions. This allows you to use chests, barrels, or other types of item storage in your networks."]
+			description: ["当&bME存储总线&f连接到其他的储物方块之后，你就可以通过网络访问它们并对它们使用一些网络特性。这允许你在网络中使用箱子，木桶，或是其他储物方块。"]
 			hide_dependency_lines: true
 			dependencies: ["305465326799C215"]
 			id: "20463BACD7A461CC"
@@ -2254,7 +2254,7 @@
 			x: 11.5d
 			y: -7.5d
 			shape: "diamond"
-			description: ["The &bEnergy Acceptor &fconverts energy from external systems into AE and stores it into the &6ME Network&f."]
+			description: ["&b能源接收器&f可以把外部系统输入的能量转换成AE并存储进&6ME网络&f。"]
 			id: "665B739CEEE3797E"
 			tasks: [{
 				id: "0B288CF46CA3B43B"
@@ -2271,7 +2271,7 @@
 			x: 12.5d
 			y: -7.5d
 			shape: "diamond"
-			description: ["&bEnergy Cells &fstore up to 200,000 AE. They do not accept power directly but are used to add additional power storage to an already existing &6ME Network&f."]
+			description: ["&b能量元件&f可以存储高达200,000AE。尽管它们并不会直接接受能量，但是可以给一个已经存在的&6ME网络&f提供额外的能量储备。"]
 			dependencies: [
 				"604B00E2A032DB53"
 				"76B3F0738BEBD4E9"
@@ -2339,7 +2339,7 @@
 			x: 12.0d
 			y: 6.5d
 			shape: "diamond"
-			description: ["After you linked up the Wireless Terminal in the &6ME Security Terminal&f, it grants a portable access to the ME Network. Put it into a Charger to recharge it."]
+			description: ["在把你的无线终端链接到&6ME安全终端&f之后，你便可以无线访问你的ME网络。把它放进充能器来给它充电。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"7B4E8939AC013302"
