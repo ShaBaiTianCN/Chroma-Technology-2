@@ -201,7 +201,7 @@
 			x: 9.5d
 			y: -4.0d
 			shape: "diamond"
-			subtitle: "最大储量 ： &32,147,483,647 &r件物品"
+			subtitle: "最大储量：&32，147，483，647&r件物品"
 			dependencies: ["2CFB31CFACB54C1E"]
 			id: "0EF1ACEFF122225D"
 			tasks: [{
@@ -219,7 +219,7 @@
 			x: 10.5d
 			y: -4.0d
 			shape: "diamond"
-			subtitle: "最大储量 ： &32,147,483,647 &rmB"
+			subtitle: "最大储量：&32，147，483，647&rmB"
 			dependencies: ["2CFB31CFACB54C1E"]
 			id: "0F57C37E86815CEC"
 			tasks: [{
@@ -377,7 +377,7 @@
 			x: 6.0d
 			y: -2.5d
 			shape: "diamond"
-			description: ["给这台机器提供能量,会冻结并治疗工作范围内的任意实体。"]
+			description: ["给这台机器提供能量，会冻结并治疗工作范围内的任意实体。"]
 			dependencies: ["330F7694A3CE7357"]
 			id: "24E42EC0C5B00885"
 			tasks: [{
@@ -395,7 +395,7 @@
 			x: 5.0d
 			y: -4.5d
 			shape: "diamond"
-			description: ["一台用来杀死怪物的机器,并且会产生玩家击杀才会掉落的战利品以及精华液。掉落物直接来源于怪物战利品表。"]
+			description: ["一台用来杀死怪物的机器，并且会产生玩家击杀才会掉落的战利品以及精华液。掉落物直接来源于怪物战利品表。"]
 			dependencies: ["330F7694A3CE7357"]
 			id: "01C64E1C07B8237B"
 			tasks: [{
@@ -413,7 +413,7 @@
 			x: 4.5d
 			y: -5.0d
 			shape: "diamond"
-			subtitle: "最大储量 : &367,108,864 &rmB"
+			subtitle: "最大储量：&367，108，864&rmB"
 			dependencies: ["330F7694A3CE7357"]
 			id: "2C06BBD227F27724"
 			tasks: [{
@@ -431,7 +431,7 @@
 			x: 5.5d
 			y: -5.0d
 			shape: "diamond"
-			subtitle: "最大储量 : &367,108,864 &r件物品"
+			subtitle: "最大储量：&367，108，864&r件物品"
 			dependencies: ["330F7694A3CE7357"]
 			id: "4E52879C12B5AAE4"
 			tasks: [{
@@ -449,7 +449,7 @@
 			x: 3.5d
 			y: -4.0d
 			shape: "diamond"
-			description: ["这台机器像铁砧一样运作,不过它不消耗经验而是消耗精华液。当所需消耗的精华液过多时,可以在上方摆放储液罐,让它从上方获取精华液。"]
+			description: ["这台机器像铁砧一样运作，不过它不消耗经验而是消耗精华液。当所需消耗的精华液过多时，可以在上方摆放储液罐，让它从上方获取精华液。"]
 			dependencies: ["330F7694A3CE7357"]
 			id: "487D1E30DF7CC914"
 			tasks: [{
@@ -467,7 +467,7 @@
 			x: 6.0d
 			y: -4.5d
 			shape: "diamond"
-			description: ["提供一本书,这台机器就能提取物品上的附魔。"]
+			description: ["提供一本书，这台机器就能提取物品上的附魔。"]
 			dependencies: ["330F7694A3CE7357"]
 			id: "3E7DF156E952E88C"
 			tasks: [{
@@ -547,7 +547,7 @@
 			x: 3.5d
 			y: -2.0d
 			shape: "diamond"
-			description: ["提供这台机器发酵矿石肉汤和沙子,它就会把矿石肉汤转化为最初相应矿物的粉末。"]
+			description: ["提供这台机器发酵矿石肉汤和沙子，它就会把矿石肉汤转化为最初相应矿物的粉末。"]
 			dependencies: ["330F7694A3CE7357"]
 			id: "1C92C039A504D3B9"
 			tasks: [{
@@ -565,7 +565,7 @@
 			x: 4.0d
 			y: -1.5d
 			shape: "diamond"
-			description: ["为带有能量的物品充能。它给&e无限工具&r充能非常迅速。"]
+			description: ["为带有能量的物品充能，它给&e无限工具&r充能非常迅速。"]
 			dependencies: ["330F7694A3CE7357"]
 			id: "12465B84F7CA88D4"
 			tasks: [{
@@ -763,7 +763,7 @@
 			x: 1.5d
 			y: -3.0d
 			shape: "diamond"
-			subtitle: "最大储量 : &3524,288 &rmB"
+			subtitle: "最大储量：&3524，288&rmB"
 			dependencies: ["2B1E63E2EF6E34BE"]
 			id: "52F3A8CA801AC307"
 			tasks: [{
@@ -781,7 +781,7 @@
 			x: -0.5d
 			y: -2.0d
 			shape: "diamond"
-			description: ["这台机器会检测前方有多少实体,并且会在机器后面以实体数量发出与之相对于的红石信号强度。"]
+			description: ["这台机器会检测前方有多少实体，并且会在机器后面以实体数量发出与之相对于的红石信号强度。"]
 			dependencies: ["2B1E63E2EF6E34BE"]
 			id: "5932F70C7B7174D6"
 			tasks: [{
@@ -833,7 +833,7 @@
 			x: -1.5d
 			y: -3.0d
 			shape: "diamond"
-			subtitle: "最大储量 : &3524,288 &r件物品"
+			subtitle: "最大储量：&3524，288&r件物品"
 			dependencies: ["2B1E63E2EF6E34BE"]
 			id: "20B8B518AD35A7C4"
 			tasks: [{
@@ -851,7 +851,7 @@
 			x: -1.0d
 			y: -2.5d
 			shape: "diamond"
-			description: ["这台机器以原矿石肉汤为原料,在达到设定的水平时将其内装物密封,并按所选的生产类型对其进行发酵。"]
+			description: ["这台机器以原矿石肉汤为原料，在达到设定的水平时将其内装物密封，并按所选的生产类型对其进行发酵。"]
 			dependencies: ["2B1E63E2EF6E34BE"]
 			id: "23FBB58702F7C693"
 			tasks: [{
@@ -869,7 +869,7 @@
 			x: 1.0d
 			y: -3.5d
 			shape: "diamond"
-			description: ["当给这台机器提供能量时,它会为工作范围内找到的第—个&1镭射钻基座&r或&1流体镭射钻基座&r进行充能。"]
+			description: ["当给这台机器提供能量时，它会为工作范围内找到的第—个&1镭射钻基座&r或&1流体镭射钻基座&r进行充能。"]
 			dependencies: ["2B1E63E2EF6E34BE"]
 			id: "1A5CD3B8C88C2F76"
 			tasks: [{
@@ -887,7 +887,7 @@
 			x: 0.0d
 			y: -4.5d
 			shape: "diamond"
-			description: ["当放置在至少&13x3&r大小&e1&r格深的&1水池&r上方,它就会开始&e钓鱼&r并将鱼(或是别的?)放入内部存储中,每次操作需要消耗&e5000&rRF能量。"]
+			description: ["当放置在至少&13x3&r大小&e1&r格深的&1水池&r上方，它就会开始&e钓鱼&r并将鱼（或是别的？）放入内部存储中，每次操作需要消耗&e5000&rRF能量。"]
 			dependencies: ["2B1E63E2EF6E34BE"]
 			id: "442B4A1C5ECC8476"
 			tasks: [{
@@ -922,7 +922,7 @@
 			x: -3.5d
 			y: -3.0d
 			shape: "diamond"
-			description: ["—台用来收集动物&1污水&r和经验的机器,其中经验会被转化为精华液。"]
+			description: ["一台用来收集动物&1污水&r和经验的机器，其中经验会被转化为精华液。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "12BE7267252FCE66"
 			tasks: [{
@@ -998,7 +998,7 @@
 			x: -6.5d
 			y: -2.0d
 			shape: "diamond"
-			subtitle: "最大储量 : &316,384 &r件物品"
+			subtitle: "最大储量：&316，384&r件物品"
 			description: [""]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "5D2B140840C2A89D"
@@ -1017,7 +1017,7 @@
 			x: -5.0d
 			y: -2.5d
 			shape: "diamond"
-			subtitle: "最大储量 : &364,000 &rmB"
+			subtitle: "最大储量：&364，000&rmB"
 			dependencies: ["63B23FA7CF83536B"]
 			id: "26D5879959DE4A52"
 			tasks: [{
@@ -1133,7 +1133,7 @@
 			x: -5.5d
 			y: -2.0d
 			shape: "diamond"
-			subtitle: "最大储量： &32,048 &r件物品"
+			subtitle: "最大储量：&32，048&r件物品"
 			dependencies: ["63B23FA7CF83536B"]
 			id: "517D10874CCF2C39"
 			tasks: [{
@@ -1151,7 +1151,7 @@
 			x: -7.0d
 			y: -2.5d
 			shape: "diamond"
-			subtitle: "最大储量 &316,000 &rmB"
+			subtitle: "最大储量&316，000&rmB"
 			dependencies: ["63B23FA7CF83536B"]
 			id: "279608DF67349FAC"
 			tasks: [{
@@ -1169,7 +1169,7 @@
 			x: -7.0d
 			y: -4.5d
 			shape: "diamond"
-			description: ["破坏它前方的任何方块并收入机器的内部存储,每次操作消耗&e1000&rRF能量。"]
+			description: ["破坏它前方的任何方块并收入机器的内部存储，每次操作消耗&e1000&rRF能量。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "1E0E37433EDFD597"
 			tasks: [{
@@ -1187,7 +1187,7 @@
 			x: -8.5d
 			y: -3.0d
 			shape: "diamond"
-			description: ["一台产出生物燃油的机器,给它提供水、一些&e种子&r、&e树苗&r、&e染料&r以及...（头颅)它就会产出&b生物燃油&r。"]
+			description: ["一台产出生物燃油的机器，给它提供水、一些&e种子&r、&e树苗&r、&e染料&r以及。。。（头颅）它就会产出&b生物燃油&r。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "58B3C38BCA49FB74"
 			tasks: [{
@@ -1241,7 +1241,7 @@
 			x: -8.0d
 			y: -2.5d
 			shape: "diamond"
-			description: ["一台用来将&e幼年&r动物从成年动物中分离的机器。幼年动物会被传送到机器的后方。你也可以在GUI中改变被分离的生物类型(幼年还是成年）。"]
+			description: ["一台用来将&e幼年&r动物从成年动物中分离的机器，幼年动物会被传送到机器的后方，你也可以在GUI中改变被分离的生物类型（幼年还是成年）。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "401C5E5E7E9CC7CB"
 			tasks: [{
@@ -1281,7 +1281,7 @@
 			x: -5.0d
 			y: -1.5d
 			shape: "diamond"
-			description: ["一台能够混合原始染料的颜色,最终得到彩虹色的机器。"]
+			description: ["一台能够混合原始染料的颜色，最终得到彩虹色的机器。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "209DE424F426C49F"
 			tasks: [{
@@ -1317,7 +1317,7 @@
 			x: -6.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["在树液提取器前方摆放原木,它会从其中提取出胶。多个提取器可以同时对同一个原木进行抽取。树液提取器会慢慢地消耗原木，把它变成胶乳。"]
+			description: ["在树液提取器前方摆放原木，它会从其中提取出胶。多个提取器可以同时对同一个原木进行抽取。树液提取器会慢慢地消耗原木，把它变成胶乳。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "30C48A7DE3117D33"
 			tasks: [{
@@ -1445,7 +1445,7 @@
 			x: -7.5d
 			y: -2.0d
 			shape: "diamond"
-			description: ["给机器提供污水,它就能从中产出肥料。"]
+			description: ["给机器提供污水，它就能从中产出肥料。"]
 			dependencies: ["63B23FA7CF83536B"]
 			id: "386EB5512AADF487"
 			tasks: [{
@@ -1900,7 +1900,7 @@
 		{
 			x: -0.5d
 			y: -8.0d
-			description: ["无限钻头是一个能够挖掘大片区域的工具,充能等级越高，挖掘的范围就越大。"]
+			description: ["无限钻头是一个能够挖掘大片区域的工具，充能等级越高，挖掘的范围就越大。"]
 			hide_dependency_lines: true
 			dependencies: ["0990C82D9CE73CAF"]
 			id: "6045E9004C76EBC9"
@@ -1982,7 +1982,7 @@
 		{
 			x: 2.0d
 			y: -6.5d
-			description: ["当你手拿大师球右键一个实体时,这个实体就会被存储进大师球中。你也可以对着地面右键把它释放出来。"]
+			description: ["当你手拿大师球右键一个实体时，这个实体就会被存储进大师球中。你也可以对着地面右键把它释放出来。"]
 			hide_dependency_lines: true
 			dependencies: ["57196F75D8B2E56E"]
 			id: "5BD0833480CF502D"
@@ -2034,7 +2034,7 @@
 		{
 			x: 3.0d
 			y: -6.5d
-			description: ["将肉汤注射器放在物品栏中,它会消耗内部存储的肉汤恢复饱食度。"]
+			description: ["将肉汤注射器放在物品栏中，它会消耗内部存储的肉汤恢复饱食度。"]
 			hide_dependency_lines: true
 			dependencies: ["57196F75D8B2E56E"]
 			id: "278275C10ADA0AD3"
@@ -2054,7 +2054,7 @@
 			y: -1.5d
 			shape: "diamond"
 			description: [
-				"这台反应堆机器通过—种菌丝网络(—种包含大量活体植物真菌的称之为菌丝的子空间域）能够检测到其它菌丝网络发电机的运作,同时产出极其巨量的FE能量。"
+				"这台反应堆机器通过一种菌丝网络(一种包含大量活体植物真菌的称之为菌丝的子空间域）能够检测到其它菌丝网络发电机的运作,同时产出极其巨量的FE能量。"
 			]
 			dependencies: ["2CFB31CFACB54C1E"]
 			id: "3C0C25F26BED0E21"
