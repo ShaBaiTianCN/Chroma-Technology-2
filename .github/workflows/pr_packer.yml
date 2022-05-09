@@ -1,0 +1,44 @@
+name: PR Packer
+on: pull_request
+
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+    name: Pack
+
+    steps:
+      - name: Check Out
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Pack
+        id: pack
+        env:
+          version: "#${{ github.event.number }}"
+        run: python Packer.py
+      
+      - name: Unzip Files
+        run:  |
+          unzip "temp/${{ steps.pack.outputs.release_name }}.zip" -d ${{ github.event.number }}
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ steps.pack.outputs.release_name }}
+          path: ${{ github.event.number }}/*
+
+      - name: Comment
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          issue-number: ${{ github.event.number }}
+          body: |
+            在 [这里](../actions/runs/${{ github.run_id }}) 下载此 PR 的最新打包。
