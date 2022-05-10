@@ -1141,7 +1141,7 @@
 		{
 			x: 7.0d
 			y: 6.0d
-			description: ["使你能够\"\"飞行\"\""]
+			description: ["使你能够“飞行”"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
 			hide: false
