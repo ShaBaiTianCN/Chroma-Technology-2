@@ -1021,7 +1021,7 @@
 		{
 			x: 4.5d
 			y: 7.5d
-			description: ["使你的箭矢/法术可以穿透方块或实体"]
+			description: ["使你的箭矢或法术可以穿透方块或实体"]
 			dependencies: ["3C23C2213A2F06F3"]
 			id: "46385C679D037777"
 			tasks: [{
