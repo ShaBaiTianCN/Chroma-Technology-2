@@ -208,7 +208,7 @@
 			x: -5.0d
 			y: -6.0d
 			shape: "square"
-			description: ["用蜂蜜发电！"]
+			description: ["用蜂蜜发电。"]
 			dependencies: ["71E4BB753498AB6B"]
 			id: "3B7B49EE2D61F05A"
 			tasks: [{
