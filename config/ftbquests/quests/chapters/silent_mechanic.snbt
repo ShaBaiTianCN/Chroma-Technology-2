@@ -45,7 +45,7 @@
 		{
 			x: 2.0d
 			y: -2.0d
-			description: ["The &6alloy smelter&f combines multiple items into one. It has four input slots and one output slot. Additional recipes can be added with data packs. The alloy smelter requires Forge Energy to work. Energy is used at a fixed rate while the machine is working, and no energy while it is not."]
+			description: ["&6合金炉&f可以把多种物质合而为一。它有4个输入槽和一个输出槽。可以使用数据包添加其他配方。合金炉会消耗FE能量。它在工作的时候会以一个固定的速率消耗能源，没有能源它就不会工作。"]
 			dependencies: ["40A3B077E3309DCB"]
 			id: "576CB9E119CC74C7"
 			tasks: [{
@@ -62,7 +62,7 @@
 		{
 			x: -2.0d
 			y: 4.5d
-			description: ["The &6alloy smelter&f combines multiple items into one. It has four input slots and one output slot. Additional recipes can be added with data packs. The alloy smelter requires Forge Energy to work. Energy is used at a fixed rate while the machine is working, and no energy while it is not."]
+			description: ["&6合金炉&f可以把多种物质合而为一。它有4个输入槽和一个输出槽。可以使用数据包添加其他配方。合金炉需要消耗FE能量。它在工作的时候会以一个固定的速率消耗能源，待机时不消耗能源。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"623565CF3B7D1495"
@@ -83,7 +83,7 @@
 		{
 			x: 1.0d
 			y: -2.0d
-			description: ["The &6crusher&f is a block which can crush/grind items into other items. Additional recipes can be added with data packs. The crusher requires Forge Energy to work. Energy is used at a fixed rate while the machine is working, and no energy while it is not."]
+			description: ["&6粉碎机&f可以粉碎/研磨特定物品。可以使用数据包添加其他配方。粉碎机需要消耗FE能量。它在工作的时候会以一个固定的速率消耗能源，待机时不消耗能源。"]
 			dependencies: ["40A3B077E3309DCB"]
 			id: "32A3E38906E0DD46"
 			tasks: [{
@@ -117,7 +117,7 @@
 		{
 			x: 0.0d
 			y: 2.5d
-			description: ["The &6electric furnace &fis a furnace which use Forge Energy. It uses both blasting and smelting recipes. Energy is used at a fixed rate while the machine is working, and no energy while it is not."]
+			description: ["&电炉&f是一个使用FE能源的炉子。它可以用来烧结/熔炼某些矿物。它在工作的时候会以一个固定的速率消耗能源，待机时不消耗能源。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"623565CF3B7D1495"
@@ -140,9 +140,9 @@
 			x: 5.0d
 			y: 2.5d
 			description: [
-				"The &6refinery&f is a machine which take in one fluid and outputs up to four fluids. Additional recipes can be added with data packs. The refinery requires Forge Energy to work. Energy is used at a fixed rate while the machine is working, and no energy while it is not."
+				"&6炼油厂&f是一种输入一种流体，输出四种流体的机器。可以使用数据包添加其他配方。炼油厂工作时需要消耗FE能量。它在工作的时候会以一个固定的速率消耗能源，待机时不消耗能源。"
 				""
-				"Refinery recipes process a full bucket (1000 mB) of feedstock (input fluid) at once. This means there needs to be at least 1000 mb of fluid in the input tank before the refinery will start working."
+				"炼油厂一次性处理一整桶流体（1000mb）。这意味着只有输入槽有1000mb的流体时它才会工作。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -165,7 +165,7 @@
 		{
 			x: -1.0d
 			y: 4.5d
-			description: ["The &6solidifier&f is a machine which take in a fluid and items. Additional recipes can be added with data packs. The solidifier requires Forge Energy to work. Energy is used at a fixed rate while the machine is working, and no energy while it is not."]
+			description: ["&6凝固机&f可以把流体转换成固体。可以使用数据包添加其他配方。凝固机工作时需要消耗FE能量。它在工作的时候会以一个固定的速率消耗能源，待机时不消耗能源。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"623565CF3B7D1495"
@@ -186,7 +186,7 @@
 		{
 			x: 5.0d
 			y: 3.5d
-			description: ["The &6mixer&f is a machine which take in up to four fluids and outputs one fluid. Additional recipes can be added with data packs. The mixer requires Forge Energy to work. Energy is used at a fixed rate while the machine is working, and no energy while it is not."]
+			description: ["&6混合搅拌机&f是个有四个输入槽和一个输出槽的机器。可以使用数据包添加其他配方。混合搅拌机需要消耗FE能量，它在工作的时候会以一个固定的速率消耗能源，待机时不消耗能源。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"623565CF3B7D1495"
@@ -249,9 +249,9 @@
 			x: 0.0d
 			y: -2.0d
 			description: [
-				"The &7coal generator&f creates Forge Energy (FE) from coal, charcoal, or coal blocks."
+				"&7燃煤发电机&f通过燃烧煤炭，木炭，煤炭块来产生FE"
 				""
-				"Generates &a60 FE/t&f."
+				"产能速率是&a60FE/t&f。"
 			]
 			dependencies: ["40A3B077E3309DCB"]
 			id: "35D0C3B6526014DF"
@@ -270,9 +270,9 @@
 			x: 3.5d
 			y: 1.5d
 			description: [
-				"The &clava generator&f creates Forge Energy (FE) from lava."
+				"&c熔岩发电机&f通过消耗熔岩来产生FE"
 				""
-				"Generates &a100 FE/t&f, &a500K FE&f per bucket"
+				"产能速率是&a100FE/t&f，一桶岩浆可以产生&a500K FE&f"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -295,9 +295,9 @@
 			x: 4.5d
 			y: 1.5d
 			description: [
-				"The &ediesel generator&f creates Forge Energy (FE) from diesel."
+				"&柴油发电机&f通过消耗柴油来产生FE"
 				""
-				"Generates &a120 FE/t&f, &a1.2M FE&f per bucket"
+				"产能速率是&a120FE/t&f，一桶柴油可以产生&a1.2M FE&f"
 			]
 			hide_dependency_lines: true
 			dependencies: ["623565CF3B7D1495"]
@@ -316,7 +316,7 @@
 		{
 			x: 0.0d
 			y: 4.5d
-			description: ["The &6crusher&f is a block which can crush/grind items into other items. Additional recipes can be added with data packs. The crusher requires Forge Energy to work. Energy is used at a fixed rate while the machine is working, and no energy while it is not."]
+			description: ["&6粉碎机&f可以研磨/破碎物品。可以使用数据包添加其他配方。粉碎机需要消耗FE能量。它在工作的时候会以一个固定的速率消耗能源，待机时不消耗能源。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"623565CF3B7D1495"
@@ -617,7 +617,7 @@
 		{
 			x: 1.0d
 			y: 4.5d
-			description: ["The &6compressor&f is a block which squeezes items into other items. It has one input slot and one output slot. Additional recipes can be added with data packs. The compressor requires Forge Energy to work. Energy is used at a fixed rate while the machine is working, and no energy while it is not."]
+			description: ["&6压缩机&f是一个压缩物品的机器。他有一个输入槽和一个输出槽。可以使用数据包添加其他配方。压缩机工作需要消耗FE能量。它在工作的时候会以一个固定的速率消耗能源，待机时不消耗能源。"]
 			hide_dependency_lines: true
 			dependencies: ["623565CF3B7D1495"]
 			id: "4767BDAA57A83FE8"
