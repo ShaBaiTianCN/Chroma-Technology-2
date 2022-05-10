@@ -27,18 +27,18 @@ jobs:
         run: python Packer.py
       
       - name: Unzip Files
-        run:  |
+        run: |
           unzip "temp/${{ steps.pack.outputs.release_name }}.zip" -d ${{ github.event.number }}
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
         with:
           name: ${{ steps.pack.outputs.release_name }}
-          path: ${{ github.event.number }}/*
+          path: ${{ github.event.number }}/
 
       - name: Find Comment
-        uses: peter-evans/find-comment@v2
         id: find_comment
+        uses: peter-evans/find-comment@v2
         with:
           issue-number: ${{ github.event.number }}
           comment-author: github-actions[bot]

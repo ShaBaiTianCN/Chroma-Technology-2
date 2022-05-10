@@ -30,7 +30,7 @@
 		{
 			x: 2.0d
 			y: -6.0d
-			description: ["Increases the production output rate for the bees in the hive by 80%. Multiple upgrades can be stacked for a greater increase in yield."]
+			description: ["可以提升80%的蜜蜂产量。添加多个升级能更大程度地提高产量。"]
 			dependencies: ["7C7C531322E1044F"]
 			id: "3781035BDAE4FE9D"
 			tasks: [{
@@ -47,7 +47,7 @@
 		{
 			x: 4.0d
 			y: -5.0d
-			description: ["When installed in a hive, the speed upgrade will decrease the time a bee sprend inside the hive."]
+			description: ["装在蜂箱里可以缩短蜜蜂在蜂箱中的停留时间。"]
 			dependencies: ["7C7C531322E1044F"]
 			id: "05DD45307B35E0B3"
 			tasks: [{
@@ -64,7 +64,7 @@
 		{
 			x: 2.0d
 			y: -7.0d
-			description: ["When installed in a hive, the BaBee upgrade will give a small chance for the bees living inside the hive to breed ans produce new offspring without you involvement."]
+			description: ["装在蜂箱里可以让住在该蜂箱的蜜蜂有几率生出小蜜蜂。"]
 			dependencies: ["7C7C531322E1044F"]
 			id: "758D8E5EEC49BCCD"
 			tasks: [{
@@ -81,7 +81,7 @@
 		{
 			x: 2.0d
 			y: -5.0d
-			description: ["When Installed in a hive, the bees will produce comb blocks instead of honeycombs."]
+			description: ["装在蜂箱里可以让蜜蜂直接产出蜜脾块而不是蜜脾。"]
 			dependencies: ["7C7C531322E1044F"]
 			id: "1173CE0CF2187BEE"
 			tasks: [{
@@ -98,7 +98,7 @@
 		{
 			x: 4.0d
 			y: -7.0d
-			description: ["When installed in a hive, bees that can will no longer teleport when living in the hive with the upgrade."]
+			description: ["装在蜂箱里可以防止蜜蜂传送。"]
 			dependencies: ["7C7C531322E1044F"]
 			id: "1E0647A16389642E"
 			tasks: [{
@@ -148,7 +148,7 @@
 			x: -7.0d
 			y: -6.0d
 			shape: "square"
-			description: ["Used to fill up bottles with honey. Honey can be piped into the side and bottles put in bottler to be filled with honey."]
+			description: ["用来生产蜂蜜瓶。在装瓶机中放入空瓶，用管道从侧面导入蜂蜜，这样你就有蜂蜜瓶了。"]
 			hide_dependency_lines: true
 			dependencies: ["4A5A2B7DE466A2F8"]
 			id: "36200D2BFF41E7AF"
@@ -168,8 +168,8 @@
 			y: -6.0d
 			shape: "square"
 			description: [
-				"Processes resource combs into resources and honey."
-				"Holds 10 buckets of liquid which can be pumped out or extracted by putting bottles or buckets in the output slot."
+				"可以把各种蜜脾分离成资源和蜂蜜。"
+				"能缓存10桶蜂蜜，用玻璃瓶和桶舀出后，分别变为蜂蜜瓶和蜂蜜桶。"
 			]
 			dependencies: ["0341C2453C2A59D8"]
 			id: "19A12D56B8A3E653"
@@ -208,7 +208,7 @@
 			x: -5.0d
 			y: -6.0d
 			shape: "square"
-			description: ["Create energy with honey."]
+			description: ["用蜂蜜发电！"]
 			dependencies: ["71E4BB753498AB6B"]
 			id: "3B7B49EE2D61F05A"
 			tasks: [{
@@ -226,7 +226,7 @@
 			x: -4.0d
 			y: -6.0d
 			shape: "square"
-			description: ["Load it up with cages and it will catch any bee flying over it."]
+			description: ["装蜜蜂笼进去，它会抓住飞过它上面的蜜蜂。"]
 			hide_dependency_lines: true
 			dependencies: ["4A5A2B7DE466A2F8"]
 			id: "0314708B58534AF4"
@@ -279,7 +279,7 @@
 			x: -2.0d
 			y: -8.0d
 			shape: "octagon"
-			description: ["&6Advanced Beehives &fallowing you to put your bees to work creating resources fully automated !"]
+			description: ["&6高级蜂箱&f能让你的蜜蜂自己工作，实现资源生产自动化！"]
 			hide_dependency_lines: true
 			dependencies: [
 				"4A5A2B7DE466A2F8"
@@ -301,7 +301,7 @@
 			x: -3.0d
 			y: -9.0d
 			shape: "octagon"
-			description: ["&6Expension Boxes&f can be attached to &eAdvanced Beehives &fto increase the bee &6capacity&r of the hive from &63 to 5&r."]
+			description: ["放在&e高级蜂箱&f附近的&6扩容盒&f能将蜂箱的&6容量&r从&63&r加到&65&r。"]
 			hide_dependency_lines: true
 			dependencies: ["4A5A2B7DE466A2F8"]
 			id: "7A03A41A96507748"
@@ -2105,7 +2105,7 @@
 		{
 			x: 3.0d
 			y: -5.0d
-			description: ["Slowly Extracts genes from visiting bees totally not hurting them in the process."]
+			description: ["慢慢从蜜蜂中提取基因，过程中没有一只蜜蜂受伤！"]
 			dependencies: ["7C7C531322E1044F"]
 			id: "742DB77CD22E7CC7"
 			tasks: [{
@@ -2123,7 +2123,7 @@
 			x: -5.0d
 			y: -5.0d
 			shape: "square"
-			description: ["This block can store &4bee's Genetics&r."]
+			description: ["它可以储存&4蜜蜂的基因&r。"]
 			dependencies: ["71E4BB753498AB6B"]
 			id: "0AA2338CC48C990F"
 			tasks: [{
