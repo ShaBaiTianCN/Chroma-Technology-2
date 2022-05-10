@@ -29,7 +29,7 @@
 				}
 				count: 32L
 			}]
-			rewards: [{g
+			rewards: [{
 				id: "0A4301D6718B8019"
 				type: "item"
 				item: "minecraft:oak_planks"
@@ -260,7 +260,7 @@
 				{
 					id: "21497095EEFE706E"
 					type: "dimension"
-					title: "前往&d末地"
+					title: "访问维度：&d末地"
 					dimension: "minecraft:the_end"
 				}
 				{
@@ -364,10 +364,10 @@
 				"它允许你转移物品、传输能量、运输液体或任何你想要移动的东西，你将会拥有六个以上用于传输的面，或者你可以隐藏你凌乱的线缆，拥有近乎无穷的可能性！"
 				""
 				"&6&l如何绑定纠缠方块："
-				"&a1、&r 合成一个纠缠方块和纠缠绑定器"
-				"&a2、&r 放下你的纠缠方块"
-				"&a3、&r 使用纠缠绑定器右键你想要绑定的纠缠方块"
-				"&a4、&r 使用纠缠绑定器再次右键你想要与前一纠缠方块绑定的纠缠方块"
+				"&a1、&r合成一个纠缠方块和纠缠绑定器"
+				"&a2、&r放下你的纠缠方块"
+				"&a3、&r使用纠缠绑定器右键你想要绑定的纠缠方块"
+				"&a4、&r使用纠缠绑定器再次右键你想要与前一纠缠方块绑定的纠缠方块"
 			]
 			dependencies: ["679EEA8ED654D878"]
 			id: "6B5C0839F2618B98"
@@ -424,7 +424,7 @@
 				{
 					id: "227C65F74D390FCD"
 					type: "dimension"
-					title: "前往&2挖矿维度"
+					title: "访问维度：&2挖矿维度"
 					dimension: "mining_dimension:mining"
 				}
 				{
@@ -451,7 +451,7 @@
 				{
 					id: "7AA6307296B89521"
 					type: "dimension"
-					title: "前往&4地狱"
+					title: "访问维度：&4地狱"
 					dimension: "minecraft:the_nether"
 				}
 				{

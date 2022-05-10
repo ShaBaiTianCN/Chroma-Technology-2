@@ -109,7 +109,7 @@
 			y: -9.5d
 			shape: "diamond"
 			description: [
-				"生物工厂中最主要的资源就是&5地狱铁粉&r."
+				"生物工厂中最主要的资源就是&5地狱铁粉&r。"
 				"你将需要使用它来制作机器、工具和工厂组件。"
 			]
 			hide_dependency_lines: true
@@ -452,7 +452,7 @@
 			x: 3.5d
 			y: -3.0d
 			shape: "diamond"
-			description: ["该以诺之钥能让生物工厂以&d20 ticks&r的生成时间恒定运行。"]
+			description: ["该以诺之钥能让生物工厂以&d20 ticks&r的生成周期恒定运行。"]
 			hide_dependency_lines: true
 			dependencies: ["4009E91C9A0B5AF7"]
 			id: "1DF7A9FCDD8CB724"
@@ -518,7 +518,7 @@
 			y: -2.5d
 			shape: "diamond"
 			description: [
-				"&5附魔液化机&r接受附魔物品（比如书，剑），提取出附魔并制造出液态魔咒。高等级附魔将产生更多液态魔咒。"
+				"&5附魔液化机&r接受附魔物品（比如书、剑……），提取出附魔并制造出液态魔咒。高等级附魔将产生更多液态魔咒。"
 				""
 				"物品可以从任意面输入，液态魔咒可以从任意面输出&5附魔液化机&r会自动输出到可接受的储罐中。"
 			]

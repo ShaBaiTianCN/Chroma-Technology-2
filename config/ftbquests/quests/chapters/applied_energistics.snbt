@@ -2128,7 +2128,7 @@
 			}]
 		}
 		{
-			title: "ME致密Fluix线缆"
+			title: "ME致密线缆"
 			x: 8.5d
 			y: 1.5d
 			shape: "diamond"
@@ -2137,7 +2137,7 @@
 			tasks: [{
 				id: "6A96F2E991C5A29C"
 				type: "item"
-				title: "ME致密Fluix线缆"
+				title: "ME致密线缆"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -2162,7 +2162,7 @@
 			tasks: [{
 				id: "3826D1929F750DFA"
 				type: "item"
-				title: "ME致密包层"
+				title: "ME致密包层线缆"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
