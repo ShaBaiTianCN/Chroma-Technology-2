@@ -17,7 +17,7 @@
 		{
 			x: 1.5d
 			y: -3.5d
-			description: ["A handgun that can be loaded with lots of different bullets."]
+			description: ["可以装填大量不同子弹的手枪。"]
 			id: "2C6D93A0E4905ECF"
 			tasks: [{
 				id: "671347A21A38CD7C"
@@ -33,7 +33,7 @@
 		{
 			x: 1.0d
 			y: 0.0d
-			description: ["&bSojourner's Staff &fholds many torches that you can place by right clicking with it. It can also place torchers at distance for a higher torch cost."]
+			description: ["&b旅居者手杖&f拥有许多火把，右键可以放置它。它也可以远距离放置火把，但是有额外消耗。"]
 			id: "51D860BC3E10865F"
 			tasks: [{
 				id: "0DA1B32AAAAD760A"
@@ -49,7 +49,7 @@
 		{
 			x: 2.5d
 			y: -3.5d
-			description: ["&bRending Gale&f in flight mode allows player to fly by pointing and right clicking. It can also push or pull mobs and if it rains there's a Bolt mode available that allows spawning lightnings."]
+			description: ["&b裂风者&f允许玩家在飞行模式下通过鼠标指向和点击右键进行飞行。它也可以推拉怪物，并且在雨天使用Bolt模式可以召唤闪电。"]
 			id: "7C69EE7F7AF67BF4"
 			tasks: [{
 				id: "24863384B4259B5A"
@@ -79,7 +79,7 @@
 		{
 			x: 2.0d
 			y: -3.0d
-			description: ["&bTouchstone of Midas &fuses its glowstone charge to repair any gold based items in player's inventory. That includes Reliquary items like Cross of Mercy and Magic Bane."]
+			description: ["&b迈达斯的点金石&f可以使用萤石粉来修复玩家物品栏中的任何黄金制品。当然也包括圣遗物中的物品，例如怜悯之十字架和魔法祸源。"]
 			id: "365695B84A96A705"
 			tasks: [{
 				id: "328EC65919CC3F85"
@@ -96,9 +96,9 @@
 			x: 2.5d
 			y: -1.5d
 			description: [
-				"It can hoe the land, keep seeds/plantables in its inventory and plant these and keep bonemeal in its inventory and bonemeal with it."
+				"它可以锄地，可以将种子或可种植植物存储在玩家的背包中并且种植这些种子和可种植的植物，也可以将骨粉储存在背包中并且使用它。"
 				""
-				"All of these can either be done on a block player is pointing at by simple right click or in an area of effect by holding right click. It also breaks all crops in its range when player breaks one so it helps with speeding up harvesting as well."
+				"所有上述的功能都可以在玩家通过简单地右击指向的方块上完成，也可以通过按住右键单击在效果区域中完成。当玩家破坏一个作物时，它也会破坏其范围内的所有作物，因此它也有助于加快收获速度。"
 			]
 			id: "41101A6FB3D26E13"
 			tasks: [{
@@ -129,7 +129,7 @@
 		{
 			x: 2.5d
 			y: -4.5d
-			description: ["&bLantern of Paranoia&f when on searches for dark spots around the player and places torches in those either from player's inventory or from Sojourner's Staff."]
+			description: ["&b诞妄提灯&f当玩家处于黑暗的环境中，它可以自动放置玩家物品栏中的火把或者旅居者手杖中的火把。"]
 			id: "6053394F00CFBAD8"
 			tasks: [{
 				id: "1AB0F2EB5A78C258"
@@ -145,7 +145,7 @@
 		{
 			x: 2.0d
 			y: -4.0d
-			description: ["&bCross of Mercy&f is a weapon that deals extra damage to undead mobs."]
+			description: ["&b怜悯十字架&f是一种对亡灵生物造成额外伤害的武器。"]
 			id: "3B230587A724E474"
 			tasks: [{
 				id: "1A86C45AF9B4401A"
@@ -167,7 +167,7 @@
 		{
 			x: 4.0d
 			y: -2.0d
-			description: ["Death protection vial - shatters when the player would die, restores a bit of health and buffs the player with some helpful effects."]
+			description: ["天使心瓶——可以让你复活一次，在使用后会破碎，恢复一定的生命值并且给予你一些增益Buff。"]
 			id: "3F68326EEBD016D5"
 			tasks: [{
 				id: "02FFDE1379D101BF"
@@ -184,11 +184,11 @@
 			x: 3.5d
 			y: -2.5d
 			description: [
-				"&bPyromancer's Staff&f has mutliple modes all related to fire."
+				"&b烈焰术士之杖&f具有多种与火焰有关的模式。"
 				""
-				"In Blaze powder and Fire charge mode it shoots blaze and ghast sized fireballs. In Erupt it burns anything in range in front of the player."
+				"在烈焰粉和火焰弹模式中，它可以发射火焰和可怕的火焰弹。在火球移动的过程中，对被砸中的生物产生5至6点的伤害并燃烧约6秒。同时它发射出来的火球也可以用于点燃方块。"
 				""
-				"And Flint and Steel mode works exactly as the vanilla flint and steel. It also destroys any fireballs shot at the player and puts out fires when turned off."
+				"打火石模式的工作原理与原版打火石完全相同。它还可以摧毁任何射向玩家的火球，并在关闭时扑灭火焰。"
 			]
 			id: "43803BE759C669BC"
 			tasks: [{
@@ -205,7 +205,7 @@
 		{
 			x: 1.0d
 			y: -2.0d
-			description: ["If in player's inventory it prevents them from getting withered."]
+			description: ["如果玩家将它放在背包中，可以无视凋零效果。"]
 			id: "35533BC6E53735CC"
 			tasks: [{
 				id: "5597980717DF7247"
@@ -221,7 +221,7 @@
 		{
 			x: 1.5d
 			y: -2.5d
-			description: ["&bAngelic Feather &fprotects against falling damage. On a fall that would hurt the player it instead drains players hunger."]
+			description: ["&b天使之羽&f可以保护玩家免受摔落伤害。在免受摔落伤害的同时消耗玩家的饱食度。"]
 			id: "3FDDA4E8E1E534FC"
 			tasks: [{
 				id: "079BF5BDA60CA5DB"
@@ -237,7 +237,7 @@
 		{
 			x: 2.0d
 			y: -2.0d
-			description: ["Prevents player from being hurt in fire in exchange for hunger."]
+			description: ["以消耗玩家的饱腹度为代价，来吸收玩家受到的火焰伤害。"]
 			id: "7B24CFB4F81B3ACE"
 			tasks: [{
 				id: "0D589F24ABDCF93A"
@@ -254,9 +254,9 @@
 			x: 2.5d
 			y: -2.5d
 			description: [
-				"&bLilypad of Fertility &fspeeds up growth of crops around it."
+				"&b富饶莲叶&f可以促进它周围作物的生长速度。"
 				""
-				"You can also place multiples of these next to each other to get even faster speed."
+				"你还可以将许多富饶莲叶彼此相邻放置，以获得更快的生长速度。"
 			]
 			id: "0D6AF150FDF7230A"
 			tasks: [{
@@ -288,7 +288,7 @@
 		{
 			x: 3.0d
 			y: -3.0d
-			description: ["&bInfernal Chalice&f holds lava and based on mode it is in you can use it to place or remove lava in the world."]
+			description: ["&b炼狱圣杯&f可以存放岩浆，你可以调整它的模式来装或者放置岩浆。"]
 			id: "18E70A98CC770DF4"
 			tasks: [{
 				id: "736CC152C1CAAA00"
@@ -304,7 +304,7 @@
 		{
 			x: 3.0d
 			y: -2.0d
-			description: ["Powerful thrown explosive that can kill most of the mobs in one hit."]
+			description: ["一种强大的手雷，可以一击必杀许多生物。"]
 			id: "11446138B6B0CC66"
 			tasks: [{
 				id: "64DAEEB30105723E"
@@ -320,7 +320,7 @@
 		{
 			x: 3.5d
 			y: -0.5d
-			description: ["Makes mobs ignore player during night even if they are hit by the player."]
+			description: ["让你在夜间隐身，即使你攻击了其他玩家。"]
 			id: "386C767E3079BAA3"
 			tasks: [{
 				id: "0219CF5BA62735EB"
@@ -337,11 +337,11 @@
 			x: 4.0d
 			y: -3.0d
 			description: [
-				"&bGlacial Staff&f is a ranged weapon that shoots snowballs out of its charge."
+				"&b冰河之杖&f是一种远程武器，它可以发射雪球。"
 				""
-				"When turned on it drains these from player's inventory and it also freezes lava (into obsidian) and water (into packed ice) within player's reach so it allows walking on lava and water."
+				"当使用它时，它会从玩家的物品栏中吸收雪球，并且还会将熔岩（变成黑曜石）和水（变成浮冰）冻结在玩家的触手可及范围内，所以它可以在熔岩和水上行走。"
 				""
-				"These frozen blocks will quickly melt back once outside of the range."
+				"这些被冷冻的方块一旦超出范围就会迅速融化回来。"
 			]
 			id: "6EE0F8CC8711BDEF"
 			tasks: [{
@@ -359,11 +359,11 @@
 			x: 3.5d
 			y: -3.5d
 			description: [
-				"&bEnder Staff&f is a teleportation tool. In ender pearl mode it allows throwing ender pearls in the similar way that you would do with just ender pearls in hand."
+				"&b末影手杖&f是一种传送工具。在末影珍珠模式下，它可以跟玩家投掷末影珍珠类似的方式投掷末影珍珠。"
 				""
-				"In ender eye mode the ender pearls thrown would go further and faster. In both modes when the ender pearl hits it teleports player in much safer way than vanilla ender pearl."
+				"在末影之眼模式下，投掷的末影珍珠会走得更远、更快。在这两种模式下，当末影珍珠落地时，它以比原版使用末影珍珠更安全的方式传送玩家。"
 				""
-				"In wraith node mode ender staff teleports player to the wraith node that it is set to (by right clicking with the ender staff on the wraith node)."
+				"在节点绑定与传送模式中，末影手杖将玩家传送到它所设置的传送节点（通过右键单击传送节点上的末影手杖）。"
 			]
 			id: "14FCE32BE2E09855"
 			tasks: [{
@@ -394,7 +394,7 @@
 		{
 			x: 1.5d
 			y: -0.5d
-			description: ["Shoots slime balls at enemies."]
+			description: ["向敌人发射粘液球。"]
 			id: "1DEA97CA99113620"
 			tasks: [{
 				id: "386E46145620A538"
@@ -416,7 +416,7 @@
 		{
 			x: 1.5d
 			y: -1.5d
-			description: ["&bCoin of Fortune &fwhen turned on teleports items and experience within range to player. If right click is held with the coin in hand the range in which items and experience are teleported is higher"]
+			description: ["当使用&b幸运硬币&f时，它可以将范围内的物品和经验吸取给玩家。如果手持硬币按住鼠标右键，则物品和经验的吸取范围更广。"]
 			id: "450112E263586CF7"
 			tasks: [{
 				id: "0CAB03838CD01E73"
@@ -432,7 +432,7 @@
 		{
 			x: 3.0d
 			y: -1.0d
-			description: ["&bMagic Bane &fis a special sword that can randomly buff mobs hit with negative buffs. Its damage will also improve with the number of enchantments applied to it."]
+			description: ["&b魔骨&f是一把特殊的剑，在击中生物时，可以随机给予生物一种Buff与众多Debuff。它的伤害也会随着附魔等级的提高而增加。"]
 			id: "366628FAA81159BD"
 			tasks: [{
 				id: "3E17BCBA07E6AEB8"
@@ -454,7 +454,7 @@
 		{
 			x: 2.0d
 			y: -1.0d
-			description: ["One of the best food item in the game. Fills hunger and saturation fully."]
+			description: ["游戏里最好的食物之一。可以完全填满饥饿感和饱和度。"]
 			id: "1E6840C95E3D9BBA"
 			tasks: [{
 				id: "645488DAB1C46FE9"
@@ -470,7 +470,7 @@
 		{
 			x: 1.0d
 			y: -3.0d
-			description: ["When held it puts out fires around the player, it can also reflect ghast fireballs shot at the player."]
+			description: ["当使用时，它可以扑灭玩家周围的火焰，它也可以反弹向玩家射出的火球和驱散烈焰人的火球。"]
 			id: "195301F14116E246"
 			tasks: [{
 				id: "766EEDA6CBF9B6B9"
@@ -486,7 +486,7 @@
 		{
 			x: 3.5d
 			y: -1.5d
-			description: ["Creates a wall of force that prevents entities from getting near."]
+			description: ["创建一堵力墙（范围为9x9x9），防止实体靠近（并不是所有敌对生物都会遭到排斥）。"]
 			id: "2B44D5C61ACC500B"
 			tasks: [{
 				id: "34B7BE6CC8F51499"
@@ -502,7 +502,7 @@
 		{
 			x: 4.0d
 			y: 0.0d
-			description: ["&bHero's Medallion&f stores experience. When turned on it drains it from player. When turned off player can take one level out of it per right click."]
+			description: ["&b英雄之章&f可以储存经验。处于附魔状态时，它会从玩家身上吸取经验。关闭后，玩家每次右键单击可以直接提升自身等级1。"]
 			id: "56C964291C4B3390"
 			tasks: [{
 				id: "494A12AC520D1868"
