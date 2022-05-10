@@ -9,15 +9,15 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Blood Altar Tier One"
+			title: "血之祭坛的第一阶"
 			x: 0.0d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "The Beginning"
+			subtitle: "原点"
 			description: [
-				"So this is the first &4Blood Altar&r tier"
+				"所有这是等级一的&4血之祭坛&r"
 				""
-				"With that tier you're able to craft some items that will surely lead you to build the tier two"
+				"有了等级一的祭坛，你就能制作一些物品去搭建等级二的祭坛"
 				""
 			]
 			dependencies: [
@@ -41,16 +41,16 @@
 		{
 			x: -1.5d
 			y: -1.5d
-			subtitle: "Alchemical Crafting"
+			subtitle: "炼金术的制作"
 			description: [
-				"The &4&lAlchemy Table&r can provide the player nice and cool stuff."
+				"&4&l炼金术桌&r能提供给玩家一些很棒的东西"
 				""
-				"You can check the recipes on JEI ! "
+				"你可以在JEI查看配方！"
 				""
-				"Even better it can be automated ! "
-				"Simply put the input thanks to the directions on the GUI and extract underneath the table."
+				"更好的是，它能够自动化！"
+				"只需根据GUI上的配置输入输出，然后在桌子下方提取。"
 				""
-				"Be sure to have to correct &aPhilosopher Stone&r or you'll get surprises"
+				"确保使用正确的宝珠，否则你会有以外的惊喜"
 				""
 			]
 			dependencies: ["0DB48A26E11F0114"]
@@ -69,8 +69,8 @@
 		{
 			x: -2.5d
 			y: -1.5d
-			subtitle: "Magical Ashes"
-			description: ["Those &8Arcane Ashes&r can do a kind of exchange. Put the ashes on the ground and then the two needed items (please respect the order as shown on JEI) "]
+			subtitle: "魔法灰烬"
+			description: ["这些&8奥术粉尘&r可以进行一种交换。把粉尘放在地上，然后再把需要的两件物品放在地上（请按照JEI的配方）"]
 			dependencies: ["0DB48A26E11F0114"]
 			id: "7234EDC19FB08166"
 			tasks: [{
@@ -93,7 +93,7 @@
 		{
 			x: 1.5d
 			y: -1.5d
-			subtitle: "Blood for the blood god"
+			subtitle: "将血献给血神"
 			dependencies: ["0DB48A26E11F0114"]
 			id: "07B16F39EF24C5E8"
 			tasks: [{
@@ -112,11 +112,11 @@
 			y: -1.5d
 			subtitle: "Using souls, digging holes"
 			description: [
-				"This is the forge when you can use &bDemon Wills&r or &8Tartaric Gems&r "
+				"你可在这个这个锻炉使用&b恶魔意志&r或者&8地狱魂石&r"
 				""
-				"As said in the &7Demonic Will&r quest, this needs a specific quality for each craft. "
+				"正如&7恶魔意志&r任务中所说，每种合成需要的特定的品质。"
 				""
-				"You better check &cJEI&r to find out what quality are needed."
+				"你最好检查&cJEI&r以了解所需的品质。"
 			]
 			dependencies: ["0DB48A26E11F0114"]
 			id: "1C885DCACA1EC327"
@@ -134,7 +134,7 @@
 		{
 			x: 2.5d
 			y: -3.0d
-			subtitle: "The First Orb"
+			subtitle: "第一个宝珠"
 			dependencies: ["0DB48A26E11F0114"]
 			id: "7408F8F1AD902D52"
 			tasks: [{
@@ -151,11 +151,11 @@
 		{
 			x: -0.5d
 			y: -1.5d
-			subtitle: "Dark Souls"
+			subtitle: "黑暗的灵魂"
 			description: [
-				"Once you have that &8Snare&r you will have to throw it to an agressive mob such as zombies or skeletons or whatever you like."
+				"一旦你有了&8灵魂投网&r，你需要把它扔给一个有攻击性的怪物，比如僵尸或骷髅或任何你喜欢的怪物。"
 				""
-				"Once that is done, if you're lucky enough, a little white potion effect will appear on the mob, you will have to kill it to have the &4Demonic Will&r."
+				"完成后，如果你足够幸运，小怪身上会出现一些白色药水效果，你必须杀死它才能获得&4恶魔意志&r。"
 			]
 			dependencies: ["0DB48A26E11F0114"]
 			id: "46C51346F06DCE1E"
@@ -187,15 +187,15 @@
 			}]
 		}
 		{
-			title: "Blood Altar Tier Two"
+			title: "血之祭坛第二层"
 			x: 4.0d
 			y: 0.0d
 			shape: "rsquare"
-			subtitle: "Tier Two"
+			subtitle: "第二阶"
 			description: [
-				"So you've managed to build the tier II?"
+				"所以你已经成功建造了第二层？"
 				""
-				"Now, you can craft the listed items below and go even further by maybe going directly yo the third tier?"
+				"现在，你可以制作下面列出的物品，甚至可以通过直接建造第三层来走得更远？"
 				""
 			]
 			dependencies: ["0DB48A26E11F0114"]
@@ -216,8 +216,8 @@
 		{
 			x: 3.5d
 			y: 1.5d
-			subtitle: "Used for the Ritual Of Sacrifice"
-			description: ["In order to have a better source of Blood, make the Ritual Of Sacrifice"]
+			subtitle: "用于祭祀仪式"
+			description: ["为了更好的获得生命原质，制作祭祀仪式"]
 			dependencies: ["4E2EBC93FBE004C0"]
 			id: "0CA75CA8046315B6"
 			tasks: [{
@@ -250,7 +250,7 @@
 		{
 			x: 2.5d
 			y: 1.5d
-			subtitle: "Blood Orb Tier II"
+			subtitle: "等级二的气血宝珠"
 			dependencies: ["4E2EBC93FBE004C0"]
 			id: "42BD78F424A0A430"
 			tasks: [{
@@ -265,11 +265,11 @@
 			}]
 		}
 		{
-			title: "Blood Altar Tier Three"
+			title: "血之祭坛第三阶"
 			x: 8.5d
 			y: 0.0d
 			shape: "rsquare"
-			subtitle: "Tier Three Altar"
+			subtitle: "祭坛第三层"
 			dependencies: ["4E2EBC93FBE004C0"]
 			size: 1.5d
 			id: "643221D07E10181E"
@@ -385,7 +385,7 @@
 			}]
 		}
 		{
-			title: "Blood Altar Tier Four"
+			title: "血之祭坛第四阶"
 			x: 8.5d
 			y: 4.5d
 			shape: "rsquare"
@@ -452,7 +452,7 @@
 			}]
 		}
 		{
-			title: "Blood Altar Tier Five"
+			title: "血之祭坛第五阶"
 			x: 8.496768707483d
 			y: 6.727891156462597d
 			shape: "rsquare"
@@ -498,13 +498,13 @@
 		{
 			x: -0.5d
 			y: -3.0d
-			subtitle: "Mob souls are mine !"
+			subtitle: "怪物的灵魂是我的！"
 			description: [
-				"Each &bDemon Will&r has it's own quality. "
+				"每个&b地狱魂石&r都有自己的品质。"
 				""
-				"The quality represents the durability of the will. "
+				"品质代表着意志的耐久度。"
 				""
-				"Each craft with the Forge needs a specific quality and a specific &8Tartaric Gem&r"
+				"使用狱火锻炉制作的每个配方都需要特定的品质和特定的&8地狱魂石&r"
 			]
 			dependencies: ["46C51346F06DCE1E"]
 			id: "4ED39B97513B3D90"
@@ -600,11 +600,11 @@
 			}]
 		}
 		{
-			title: "Sentient Stuff"
+			title: "有感觉的东西"
 			x: 1.0d
 			y: -4.5d
-			subtitle: "It's not unbreakable"
-			description: ["Just to be clear, the &3Sentient Sword&r can replace the using of snares in order to get &7Demonic Wills&r. Just make sure you have the &5Tartaric Gem&r somewhere in your inventory"]
+			subtitle: "它不是坚不可摧的"
+			description: ["需要说明的是，&3感知之剑&r可以代替使用灵魂投网来获得&7恶魔意志&r。只要确保你的背包中某处有&5地狱魂石&r"]
 			dependencies: ["5D25F533B794CC1E"]
 			id: "48FE3E73DDB45DAE"
 			tasks: [
@@ -690,7 +690,7 @@
 			}]
 		}
 		{
-			title: "Living Armor"
+			title: "活体护甲"
 			x: -1.5d
 			y: -3.0d
 			dependencies: ["7F47CF0B2B6119BC"]
@@ -752,10 +752,10 @@
 			}]
 		}
 		{
-			title: "Sigils"
+			title: "印记"
 			x: -2.5d
 			y: -3.0d
-			subtitle: "All explanations are on the Scientiem"
+			subtitle: "所有解释都在血染之书上"
 			dependencies: ["7234EDC19FB08166"]
 			id: "236485AA636650AD"
 			tasks: [
@@ -819,13 +819,13 @@
 		{
 			x: -4.0d
 			y: 0.0d
-			subtitle: "Hurt yourself but not others"
+			subtitle: "伤害自己而不伤害他人"
 			description: [
-				"The goal of Blood magic is to have a nice survival using as you understood well, Blood !"
+				"血魔法的目标是用你所理解的血来生存！"
 				""
-				"For a long period of time, you will be using your own blood to start and pursue the mod."
+				"在很长一段时间内，你将使用自己的血液来启动和探索这个mod。"
 				""
-				"This &4Sacrificial Knife&r will help you get blood. Don't hurt yourself too much, or your soul will directly belong to the Devil."
+				"这把&牺牲匕首&r将帮助你获得血液。不要过度伤害自己，否则你的灵魂将直接属于魔鬼。"
 				""
 			]
 			dependencies: ["0F612F5A82310C1F"]
@@ -850,7 +850,7 @@
 		{
 			x: 2.5d
 			y: -1.5d
-			subtitle: "Takes more blood"
+			subtitle: "需要更多的血"
 			dependencies: ["0DB48A26E11F0114"]
 			id: "3E5C9FF001D2E7F8"
 			tasks: [
@@ -873,7 +873,7 @@
 			}]
 		}
 		{
-			title: "Demonic Machinery"
+			title: "恶魔的装置"
 			x: 0.5d
 			y: -3.0d
 			dependencies: ["1C885DCACA1EC327"]
@@ -897,7 +897,7 @@
 			}]
 		}
 		{
-			title: "All the Runes"
+			title: "所有的符文"
 			x: 5.5d
 			y: 1.5d
 			dependencies: ["4E2EBC93FBE004C0"]
@@ -978,17 +978,17 @@
 			}
 			x: -4.0d
 			y: -1.5d
-			subtitle: "Blood Magic"
+			subtitle: "血魔法"
 			description: [
-				"The Sanguine Scientiem will help you to go through the Blood Magic mod."
-				"This book will explain how to setup the best Blood Altar and how to use it correctly."
-				"That's why we're giving it :slight_smile: (And also because we're kind, but don't tell anyone !)."
+				"血染知书将帮助你完成血魔法。"
+				"这本书将解释如何搭建最好的血祭坛以及如何正确使用它。"
+				"这就是我们把它给你的原因：微微一笑：（也因为我们很友善，但不要告诉任何人！）。"
 			]
 			id: "0F612F5A82310C1F"
 			tasks: [{
 				id: "1AAA08CAC7F7BA21"
 				type: "checkmark"
-				title: "Start Blood Magic"
+				title: "开启血魔法"
 			}]
 			rewards: [{
 				id: "1423713B08F184C0"
@@ -1005,17 +1005,17 @@
 		{
 			x: 10.0d
 			y: 0.5d
-			subtitle: "Rituals !"
+			subtitle: "仪式！"
 			description: [
-				"In order to make some rituals, you will have to craft the &bRitual Diviner&r (and so have the Tier IV)"
+				"为了制作一些仪式，你必须制作&b仪式推测杖&r（IV级也是如此）"
 				""
-				"Once that is done, shift right click in the air with your &bDiviner&r and select your ritual."
+				"制作完成后，用你的&b仪式推测杖&r在空中右击并选择你的仪式。"
 				""
-				"Once you have chosen your ritual, you have to right click on the &8Master Ritual Stone&r and Ritual Stones are getting placed."
+				"一旦你选择了你的仪式，你必须右键点击&8主仪式石&r，仪式石将自动放置到对应位置。"
 				""
-				"Each color means an element, craft the needed &7Inscription Tools&r. "
+				"每种颜色代表一个元素，制作所需的&7铭文工具&r。"
 				""
-				"Once that is done you just have to craft the &cWeak Activation Crystal&r and then the ritual should start if you right click with it !"
+				"制作完成后，你只需制作&c激活水晶&r，然后如果你右键单击主仪式石，仪式就会开始！"
 				""
 			]
 			dependencies: ["643221D07E10181E"]
@@ -1049,16 +1049,16 @@
 			}]
 		}
 		{
-			title: "Call Of The Zephyr"
+			title: "和风之唤"
 			x: 15.0d
 			y: -0.5d
-			subtitle: "A Vaccum chest "
+			subtitle: "一个真空箱"
 			description: [
-				"Picks up items within its range and places them into the linked chest"
+				"拾取其范围内的掉落物，并放入所连接的箱子中。"
 				""
-				"It needs the &bWeak Activation Crystal&r and costs &41000 LP&r"
+				"它需要&b虚弱激活水晶&r和&41000LP&r"
 				""
-				"You will need 12 &6Air Ritual Stones&r to create the ritual"
+				"你需要12个&6风之仪式石&r来完成仪式"
 			]
 			dependencies: ["5E87C2601FE97FF1"]
 			id: "7A2221A9A8FBEE44"
@@ -1075,22 +1075,22 @@
 			}]
 		}
 		{
-			title: "Crack of the Fractured Crystal"
+			title: "碎晶裂纹"
 			x: 16.0d
 			y: 1.5d
-			subtitle: "Breaking Demons"
+			subtitle: "破坏恶魔"
 			description: [
-				"Breaks &cDemon Will Crystal Clusters&r of all &caspects&r within its range, dropping the results on the top of the crystals"
+				"破坏其范围内所有&c方向&r的&c意志晶簇&r，将结果掉落在水晶顶部"
 				""
-				"In order to do this ritual, you'll need the &bWeak Activation Crystal&r and the &cRitual Diviner [Dusk]&r."
+				"为了进行这个仪式，你需要&b虚弱激活水晶&r和&c仪式推测杖[薄暮]&r。"
 				""
-				"In order to create the ritual, you'll have to get : "
+				"为了完成仪式，你需要："
 				""
-				"- 8 &2Earth Ritual Stones&r"
-				"- 20 &4Fire Ritual Stones&r"
-				"- 4 &6Ritual Air Stones&r"
-				"- 12 &3Dusk Ritual Stones&r"
-				"- &040000 LP&r"
+				"-8个&2土之仪式石&r"
+				"-20个&4火之仪式石&r"
+				"-4个&6风之仪式石&r"
+				"-12个&3薄暮之仪式石&r"
+				"-&040000 LP&r"
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "009DD7F63AD952B7"
@@ -1107,22 +1107,22 @@
 			}]
 		}
 		{
-			title: "Focus of the Ellipsoid"
+			title: "椭圆仪式"
 			x: 18.0d
 			y: 1.5d
-			subtitle: "Sphere creation"
+			subtitle: "创造球体"
 			description: [
-				"Creates a hollow spheroid around the ritual using the blocks in the attached chest."
+				"在仪式周围使用附加的箱子完成一个中空的球体。"
 				""
-				"In order to do this ritual, you'll need the &bWeak Activation Crystal&r and the &cRitual Diviner [Dusk]&r."
+				"为了进行这个仪式，你需要&b虚弱激活水晶&r和&c仪式推测杖[薄暮]&r。"
 				""
-				"This ritual consumes &420000 LP&r for the activation"
+				"这个仪式激活需要消耗&420000LP&r"
 				""
-				"In order to create the ritual, you'll have to get : "
-				"- 8 &bWater Ritual Stones&r"
-				"- 8 &4Fire Ritual Stones&r"
-				"- 8 &6Air Ritual Stones&r"
-				"- 4 &3Dusk Ritual Stones&r"
+				"为了完成仪式，你需要："
+				"-8个&b水之仪式石&r"
+				"-8个&4火之仪式石&r"
+				"-8个&6风之仪式石&r"
+				"-4个&3薄暮之仪式石&r"
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "69CEEB4B7AD134CA"
@@ -1139,21 +1139,21 @@
 			}]
 		}
 		{
-			title: "Reap of the Harvest Moon"
+			title: "丰收之月"
 			x: 13.5d
 			y: 2.5d
-			subtitle: "A nice little farm"
+			subtitle: "一个不错的小农场"
 			description: [
-				"Harvests plants within its range, dropping the results on the ground."
+				"收割范围内的植物，并将其产物掉落在地上。"
 				""
-				"In order to do this ritual, you'll need the &bWeak Activation Crystal&r and the &cRitual Diviner [Dusk]&r."
+				"为了进行这个仪式，你需要&b虚弱激活水晶&r和&c仪式推测杖[薄暮]&r。"
 				""
-				"This ritual consume &420 000 LP&r on activation."
+				"这个仪式激活需要消耗&420000LP&r"
 				""
-				"In order to create the ritual, you'll have to get : "
-				"- 8 &bWater Ritual Stones&r"
-				"- 12 &2Earth Ritual Stones&r"
-				"- 4 &3Dusk Ritual Stones&r"
+				"为了完成仪式，你需要："
+				"-8个&b水之仪式石&r"
+				"-12个&2土之仪式石&r"
+				"-4个&3薄暮之仪式石&r"
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "4B740F8597D6916C"
@@ -1171,22 +1171,22 @@
 			}]
 		}
 		{
-			title: "Resonance of the Faceted Crystal"
+			title: "结晶共鸣"
 			x: 15.0d
 			y: 1.5d
-			subtitle: "Separating Crystals"
+			subtitle: "分离晶体"
 			description: [
-				"Splits apart a well-grown &9Raw crystal cluster&r into sperately &8aspected crystal clusters."
+				"将生长良好的&9原始晶体群&r分裂为&8独立的预期晶体群。"
 				""
-				"This ritual needs : "
-				"- The &cRitual Diviner [Dusk]."
-				"- A &bWeak Activation Crystal."
-				"- &020000 LP to activate the ritual"
-				"- 1 &1Water Ritual Stone&r"
-				"- 1 &4Fire Ritual Stone&r"
-				"- 1 &2Earth Ritual Stone&r"
-				"- 1 &6Air Ritual Stone&r"
-				"- 12 &3Dusk Ritual Stones&r"
+				"这个仪式需要："
+				"-仪式推测杖[薄暮]"
+				"-虚弱激活水晶"
+				"-&020000LP用来激活仪式"
+				"-1个&1水之仪式石&r"
+				"-1个&4火之仪式石&r"
+				"-1个&2土之仪式石&r"
+				"-1个&6风之仪式石&r"
+				"-12个&3薄暮之仪式石&r"
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "4A4974AB0C32B67D"
@@ -1211,20 +1211,20 @@
 			}]
 		}
 		{
-			title: "Ritual of Living Evolution"
+			title: "束灵进化"
 			x: 14.0d
 			y: 1.5d
-			subtitle: "A better Living Armor"
+			subtitle: "更好的活体盔甲"
 			description: [
-				"Increases the amount of maximum Upgrade Points on your &nLiving Armor&r to 300."
+				"用于将玩家的&n束灵套装&r升级点数提升到300点"
 				""
-				"In order to create the ritual you'll need :"
-				"- The &cRitual Diviner [Dusk]&r"
-				"- A &bWeak Activation Crystal&r"
-				"- A total of &050000 LP&r to activate it."
-				"- 12 &4Fire Ritual Stones&r"
-				"- 24 &2Earth Ritual Stones&r"
-				"- 12 &3Dusk Ritual Stones&r"
+				"为了完成仪式，你需要："
+				"-&c仪式推测杖[薄暮]&r"
+				"-&b虚弱激活水晶&r"
+				"-激活仪式需要消耗&050000 LP&r"
+				"-12个&4火之仪式石&r"
+				"-24个&2土之仪式石&r"
+				"-12个&3薄暮之仪式石&r"
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "49E215BC72FD13CB"
@@ -1241,20 +1241,20 @@
 			}]
 		}
 		{
-			title: "Ritual of Magnetism"
+			title: "磁矿仪式"
 			x: 15.5d
 			y: -1.5d
-			subtitle: "Ore digger"
+			subtitle: "挖矿机"
 			description: [
-				"Pulls up ores from the ground and puts them into its placement range."
+				"将地底的矿石传送至其放置区域。"
 				""
-				"To create this ritual you'll need :"
-				"- The &bRitual Diviner&r"
-				"- A &cWeak Activation Crystal&r"
-				"- A total of &45000 LP&r to activate it."
-				"- 4 &4Fire Ritual Stones&r"
-				"- 8 &2Earth Ritual Stones&r"
-				"- 4 &6Air Ritual Stones&r"
+				"为了完成仪式，你需要："
+				"-&b仪式推测杖&r"
+				"-&c虚弱激活水晶&r"
+				"-需要&45000LP&r来激活仪式。"
+				"-4个&4火之仪式石&r"
+				"-8个&2土之仪式石&r"
+				"-4个&6风之仪式石&r"
 			]
 			dependencies: ["5E87C2601FE97FF1"]
 			id: "425E4EB468AFEA1E"
@@ -1271,22 +1271,22 @@
 			}]
 		}
 		{
-			title: "Ritual of Regeneration"
+			title: "重生仪式"
 			x: 17.0d
 			y: 1.5d
-			subtitle: "Heals everyone or everything"
+			subtitle: "治愈一切"
 			description: [
-				"Casts regeneration on entities within its range if they are missing health."
+				"给予范围内失去生命值的尸体生命恢复的效果"
 				""
-				"To do this ritual you'll need : "
-				"- The &bDusk Ritual Diviner"
-				"- A &cWeak Crystal&r"
-				"- &025000 LP&r"
-				"- 8 &1Water Ritual Stones&r"
-				"- 6 &4Fire Ritual Stones&r"
-				"- 20 &2Earth Ritual Stones&r"
-				"- 6 &6Air Ritual Stones&r"
-				"- 4 &3Dusk Ritual Stones&r"
+				"为了完成仪式，你需要："
+				"-&c仪式推测杖[薄暮]&r"
+				"-&c虚弱激活水晶&r"
+				"-&025000 LP&r"
+				"-8个&1水之仪式石&r"
+				"-6个&4火之仪式石0&r"
+				"-20个&2土之仪式石&r"
+				"-6个&6风之仪式石&r"
+				"-4个&3薄暮之仪式石&r"
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "138B4AF29E48424C"
@@ -1303,21 +1303,21 @@
 			}]
 		}
 		{
-			title: "Ritual of the Crusher"
+			title: "挖掘仪式"
 			x: 15.5d
 			y: 2.5d
-			subtitle: "Auto Breaker"
+			subtitle: "自动挖掘"
 			description: [
-				"Breaks blocks within its crushing range and places the items into the linked chest."
+				"破坏其范围内的方块，并将掉落物放入所连接的箱子中。"
 				""
-				"In order to do this ritual you'll need :"
-				"- The &bDusk Ritual Diviner&r"
-				"- A &cWeak Activation Crystal&r"
-				"- &05000 LP&r"
-				"- 4 &4Fire Ritual Stones&r"
-				"- 4 &2Earth Ritual Stones&r"
-				"- 4 &6Air Ritual Stones&r"
-				"- 4 &3Dusk Ritual Stones&r"
+				"为了完成仪式，你需要："
+				"-&c仪式推测杖[薄暮]&r"
+				"-&c虚弱激活水晶&r"
+				"-&05000 LP&r"
+				"-4个&4火之仪式石&r"
+				"-4个&2土之仪式石&r"
+				"-4个&6风之仪式石&r"
+				"-4个&3薄暮之仪式石&r"
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "5167B34BB813D921"
@@ -1334,22 +1334,22 @@
 			}]
 		}
 		{
-			title: "Ritual of the Feathered Knife"
+			title: "羽刀仪式"
 			x: 17.5d
 			y: 2.5d
-			subtitle: "Wireless Sacrificial Knife"
+			subtitle: "无线献祭刀"
 			description: [
-				"Drains health from players in its area and puts the &4LP&r into a nearby &6Blood Altar&r. &4LP&r Gains are affected by &cRunes of Self Sacrifice&r"
+				"扣除范围内玩家的生命值，并以&4LP&r的形式存入到邻近的&6血之祭坛&r。产出的LP受&c熏香祭坛&r的影响。"
 				""
-				"In order to activate the ritual you'll need : "
-				"- The &bDusk Ritual Diviner&r"
-				"- A &cWeak Activation Crystal&r"
-				"- &025000 LP&r"
-				"- 4 &1Water Ritual Stones&r"
-				"- 8 &4Fire Ritual Stones&r"
-				"- 16 &2Earth Ritual Stones&r"
-				"- 8 &6Air Ritual Stones&r"
-				"- 4 &3Dusk Ritual Stones&r"
+				"为了完成仪式，你需要："
+				"-&c仪式推测杖[薄暮]&r"
+				"-&c虚弱激活水晶&r"
+				"-&025000 LP&r"
+				"-4个&1水之仪式石&r"
+				"-8个&4火之仪式石&r"
+				"-16个&2土之仪式石&r"
+				"-8个&6风之仪式石&r"
+				"-4个&3薄暮之仪式石&r"
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "3A7B56D36E832388"
@@ -1366,18 +1366,18 @@
 			}]
 		}
 		{
-			title: "Ritual of the Full Spring"
+			title: "涌泉仪式"
 			x: 14.0d
 			y: -0.5d
-			subtitle: "Water !"
+			subtitle: "水！"
 			description: [
-				"Generates a source of water from the &2Master Ritual Stone&r"
+				"激活后在&2主仪式石&r上面生成一格水。"
 				""
-				"To create this ritual you'll need : "
-				"- A basic &bRitual Diviner&r"
-				"- A &cWeak Activation Crystal&r"
-				"- &4500 LP&r"
-				"- 4 &1Water Ritual Stones&r"
+				"为了完成仪式，你需要："
+				"-一个&b仪式推测杖&r"
+				"-一个&c虚弱激活水晶&r"
+				"-&4500 LP&r"
+				"-4个&1水之仪式石&r"
 			]
 			dependencies: ["5E87C2601FE97FF1"]
 			id: "311236BDFB9D3A47"
@@ -1394,19 +1394,19 @@
 			}]
 		}
 		{
-			title: "Ritual of the Green Grove"
+			title: "绿丛仪式"
 			x: 13.5d
 			y: -1.5d
-			subtitle: "Harvest time"
+			subtitle: "收获季节"
 			description: [
-				"Grows crops within its area"
+				"激活后在其范围内种植作物。"
 				""
-				"To create this ritual you'll need : "
-				"- A basic &bRitual Diviner&r"
-				"- A &cWeak Activation Crystal&r"
-				"- &45000 LP&r"
-				"- 4 &bWater Ritual Stones&r"
-				"- 4 &2Earth Ritual Stones&r"
+				"为了完成仪式，你需要："
+				"-一个&b仪式推测杖&r"
+				"-一个&c虚弱激活水晶&r"
+				"-&45000 LP&r"
+				"-4个&b水之仪式石&r"
+				"-4个&2土之仪式石&r"
 			]
 			dependencies: ["5E87C2601FE97FF1"]
 			id: "48DDDF9EA9D5F046"
@@ -1423,21 +1423,21 @@
 			}]
 		}
 		{
-			title: "Ritual of the Shepherd"
+			title: "牧养仪式"
 			x: 16.5d
 			y: 2.5d
-			subtitle: "They grow up so fast !"
+			subtitle: "它们成长地好快！"
 			description: [
-				"Increases the maturity rate of baby animals within its range."
+				"加快范围内幼年动物的生长速度。"
 				""
-				"In order to do this ritual you'll need :"
-				"- The &cRitual Diviner [Dusk]."
-				"- A &bWeak Activation Crystal."
-				"- &410000 LP&r"
-				"- 4 &1Water Ritual Stones&r"
-				"- 4 &2Earth Ritual Stones&r"
-				"- 4 &6Air Ritual Stones&r"
-				"- 4 &3Dusk Ritual Stones&r"
+				"为了完成仪式，你需要："
+				"-&c仪式推测杖[薄暮]&r"
+				"-&c虚弱激活水晶&r"
+				"-&410000 LP&r"
+				"-4个&1水之仪式石&r"
+				"-4个&2土之仪式石&r"
+				"-4个&6风之仪式石&r"
+				"-4个&3薄暮之仪式石&r"
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "0C67F3F6BEB619C3"
@@ -1454,18 +1454,18 @@
 			}]
 		}
 		{
-			title: "Serenade of the Nether"
+			title: "下界夜曲"
 			x: 14.5d
 			y: -1.5d
-			subtitle: "Lava everywhere !"
+			subtitle: "到处都是熔岩！"
 			description: [
-				"Generates a source of lava from the &5Master Ritual Stone&r"
+				"激活后在&5主仪式石&r上面生成一格熔岩。"
 				""
-				"To create this ritual you'll need : "
-				"- A basic &bRitual Diviner&r"
-				"- A &cWeak Activation Crystal&r"
-				"- &010000 LP&r to activate it"
-				"- 4 &4Fire Ritual Stones&r"
+				"为了完成仪式，你需要："
+				"-一个&b仪式推测杖&r"
+				"-一个&c虚弱激活水晶&r"
+				"-&010000 LP&r来激活仪式"
+				"-4个&4火之仪式石&r"
 			]
 			dependencies: ["5E87C2601FE97FF1"]
 			id: "00935023E0E209D5"
@@ -1482,22 +1482,22 @@
 			}]
 		}
 		{
-			title: "Sound of the Cleansing Soul"
+			title: "净灵之音"
 			x: 18.5d
 			y: 2.5d
-			subtitle: "I don't like those upgrades..."
+			subtitle: "我不喜欢那些升级……"
 			description: [
-				"Removes all upgrades from your &bLiving Armor&r and gives you the corresponding &bUpgrade Tomes&r. These tomes can be used to re-apply them to your &bLiving Armor&r"
+				"移除束灵套装上所有的升级和降级，并退还给玩家对应的升级或降级手册。这些手册还能再次用于玩家的束灵套装。"
 				""
-				"In order to do this ritual you'll need :"
-				"- The &2Dusk Ritual Diviner"
-				"- A &cWeak Activation Crystal&r"
-				"- &025000 LP&r to activate it"
-				"- 8 &1Water Ritual Stones&r"
-				"- 12 &4Fire Ritual Stones&r"
-				"- 20 &2Earth Ritual Stones&r"
-				"- 4 &6Air Ritual Stones&r"
-				"- 4 &3Dusk Ritual Stones&r"
+				"为了完成仪式，你需要："
+				"-&2仪式推测杖[薄暮]&r"
+				"-一个&c虚弱激活水晶&r"
+				"-&025000 LP&r激活仪式"
+				"-8个&1水之仪式石&r"
+				"-12个&4火之仪式石&r"
+				"-20个&2土之仪式石&r"
+				"-4个&6风之仪式石&r"
+				"-4个&3薄暮之仪式石&r"
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "4CC9F130D1EFE108"
@@ -1514,22 +1514,22 @@
 			}]
 		}
 		{
-			title: "Well of Suffering"
+			title: "苦难之井"
 			x: 14.5d
 			y: 2.5d
-			subtitle: "More blood !"
+			subtitle: "更多的血！"
 			description: [
-				"Attacks mobs within its damage zone and puts the &4LP&r into a nearby &bBlood Altar&r"
+				"攻击其伤害范围内的生物，并将所获LP存入到血之祭坛中。"
 				""
-				"In order to do this ritual you'll need :"
-				"- The &5Dusk Ritual Diviner&r"
-				"- A &cWeak Activation Crystal&r"
-				"- &040000 LP&r to activate it"
-				"- 16 &1Water Ritual Stones&r"
-				"- 8 &4Fire Ritual Stones&r"
-				"- 4 &2Earth Ritual Stones&r"
-				"- 4 &6Air Ritual Stones&r"
-				"- 4 &3Dusk Ritual Stones&r"
+				"为了完成仪式，你需要："
+				"-&5仪式推测杖[薄暮]&r"
+				"-一个&c虚弱激活水晶&r"
+				"-&040000 LP&r激活仪式"
+				"-16个&1水之仪式石&r"
+				"-8个&4火之仪式石&r"
+				"-4个&2土之仪式石&r"
+				"-4个&6风之仪式石&r"
+				"-4个&3薄暮之仪式石&r"
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "03E87D29319C3B30"
@@ -1548,7 +1548,7 @@
 		{
 			x: 12.0d
 			y: -0.5d
-			subtitle: "Avatar"
+			subtitle: "阿凡达"
 			dependencies: ["452D06A5F2021FE0"]
 			id: "72112206FF4353B7"
 			tasks: [{
@@ -1571,7 +1571,7 @@
 		{
 			x: 12.0d
 			y: 0.5d
-			subtitle: "Fire ! "
+			subtitle: "火！"
 			dependencies: ["452D06A5F2021FE0"]
 			id: "73E2EB707D5D66AB"
 			tasks: [{
@@ -1594,7 +1594,7 @@
 		{
 			x: 12.0d
 			y: 1.5d
-			subtitle: "AquaMan"
+			subtitle: "海王"
 			dependencies: ["452D06A5F2021FE0"]
 			id: "67F7FAD67A9B654B"
 			tasks: [{
@@ -1640,7 +1640,7 @@
 		{
 			x: 12.0d
 			y: 2.5d
-			subtitle: "Darkness calls"
+			subtitle: "黑暗召唤"
 			dependencies: ["452D06A5F2021FE0"]
 			id: "1F025F3352C90FF8"
 			tasks: [{
@@ -1661,19 +1661,19 @@
 			}]
 		}
 		{
-			title: "Edge of the Hidden Realm"
+			title: "隐域之愿仪式"
 			x: 16.0d
 			y: -0.5d
-			subtitle: "Demons Calling"
+			subtitle: "恶魔召唤"
 			description: [
-				"In order to build this ritual you'll need : "
-				"- A basic &bRitual Diviner&r"
-				"- 6 &1Water Ritual Stones&r"
-				"- 10 &4Fire Ritual Stones&r"
-				"- 16 &2Earth Ritual Stones&r"
-				"- 4 &6Air Ritual Stones&r"
-				"- A &cWeak Activation Crystal&r"
-				"- &080000 LP&r to activate the ritual"
+				"为了完成仪式，你需要："
+				"-&b仪式推测杖&r"
+				"-6个&1水之仪式石&r"
+				"-10个&4火之仪式石&r"
+				"-16个&2土之仪式石&r"
+				"-4个&6风之仪式石&r"
+				"-1个&c虚弱激活水晶&r"
+				"-&080000 LP&r用来激活仪式"
 			]
 			dependencies: ["5E87C2601FE97FF1"]
 			id: "7C6A74A42FFF3CB3"
@@ -1692,8 +1692,8 @@
 		{
 			x: 20.5d
 			y: -2.0d
-			subtitle: "A key, A door that simple"
-			description: ["Simple Keys are the primary way of navigating through &2Dungeons&r. They can be found inside dungeon chests within the Demon Realm. In case you were wondering, they can be crafted."]
+			subtitle: "一把钥匙，一扇门，如此简单。"
+			description: ["铁钥匙是在&2恶魔领域&r中导航的主要方式。它们可以在恶魔领域的地牢宝箱中找到。如果您想知道，它们是可以制作。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"49FA91CAAB120631"
@@ -1715,15 +1715,15 @@
 		{
 			x: 20.97295918367348d
 			y: -0.508843537414954d
-			subtitle: "Demonic Traps and Threats"
+			subtitle: "恶魔陷阱与威胁"
 			description: [
-				"Upon performing the &2Edge of the Hidden Realm&r ritual you will find yourself looking at an &2Inversion Pillar&r."
-				"You'll need to right click this pillar to be transported to the &lAntechamber&r, into the &3Demon Realm&r."
+				"执行&2隐域之愿仪式&r仪式后，你会发现自己正在看着&2反转柱&r。"
+				"您需要右键单击此柱子才能进入&3恶魔领域&r，并且传送到&l前厅&r。"
 				""
-				"There are a few things of note in this first room: "
-				"- A single treasure chest containing some basic loot and, if you're lucky, a few &2Simple Keys&r."
-				"- A number of &1Doorways&r, each locked with a &3Dungeon Seal&r. Use a &5Key&r on these seals to unlock the next room."
-				"- An &5Inversion Pillar&r, a mirror of the one you summoned previously, right clicking this and you'll return to the overworld."
+				"第一个房间有几点值得注意："
+				"-一个宝箱，里面有一些基本的战利品，如果幸运的话，还有几个&2铁钥匙&r。"
+				"-多个&1房间&r，每个都用&3恶魔之眼&r锁定。在这需要使用&5铁钥匙&r解锁才能进入下一个房间。"
+				"-&5反转柱&r，一个你之前召唤的镜子，右键点击它，你会回到主世界。"
 			]
 			dependencies: ["7C6A74A42FFF3CB3"]
 			size: 2.0d
@@ -1733,14 +1733,14 @@
 				{
 					id: "33C83972A57426F9"
 					type: "dimension"
-					title: "A new Realm"
+					title: "一个新领域"
 					icon: "iceandfire:dread_portal"
 					dimension: "bloodmagic:dungeon"
 				}
 				{
 					id: "156E8C836D02FF42"
 					type: "checkmark"
-					title: "Visit the &3Demon Realm&r."
+					title: "前往&3恶魔领域&r。"
 				}
 			]
 			rewards: [{
@@ -1752,14 +1752,14 @@
 		{
 			x: 21.5d
 			y: -2.0d
-			subtitle: "Demon Fruit"
+			subtitle: "恶魔果实"
 			description: [
-				"This fruit can be found in the Demon Realm's dungeons. "
-				"It's lifecycle is unfortunately more complex than a potato."
+				"这种果实可以在恶魔领域中找到。"
+				"不幸的是，它的生长周期比马铃薯还长。"
 				""
-				"This fruit will mature into one of two varieties depending on how it was raised. It will, by default, grow the &5Tau Fruit&r, which can be converted into &5Tau Oil&r."
-				"Currently this Oil has 2 uses. It can extend the duration of any &2anointement&r by a factor of four, or it can be used to craft &5Intermediate Cutting Fluid,&r which functions similarly to &2Basic Cutting Fluid&r, but lasts eight times longer and provides a 25% speed boost."
-				"The &5Tau Fruit&r can however matures a different plant. To do so, the plant has to grow while a mob (cow for example) is standing nearby. This will produce &6Saturated Tau&r."
+				"这种水果将成熟为两个品种之一，具体取决于它的种植方式。默认情况下，它会种植出&5血命果&r，它可以转化为&5血命油&r。"
+				"目前，这种油有2种用途。它可以将任何&2小瓶&r的持续时间延长四倍，或者它可以用于制作&5中级切削液&r，其功能类似于&2基础切削液&r，但持续时间延长八倍，并提供25%的速度提升。"
+				"然而，&5血命果&r可以形成不同的植物。为此，植物必须在附近站着生物（例如牛）时才会生长。这将产生&6饱满血命果&r。"
 			]
 			dependencies: ["195589B926F6EC61"]
 			min_width: 300
