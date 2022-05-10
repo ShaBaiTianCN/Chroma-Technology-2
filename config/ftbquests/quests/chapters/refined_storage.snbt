@@ -1204,12 +1204,12 @@
 			}]
 		}
 		{
-			title: "输入总线/输出总线"
+			title: "输入总线和输出总线"
 			x: 5.5d
 			y: 13.0d
 			shape: "diamond"
 			description: [
-				"&b输入总线&f自总线面向的容器中提取物品或液体，并将其存入存储至网络中(当然，存储网络要有空间)。"
+				"&b输入总线&f从总线面向的容器中提取物品或液体，并将其存入存储至网络中（当然，存储网络要有空间）。"
 				""
 				"&b输出总线&f从存储网络中提取物品或液体，并将其存入总线面向的容器中。"
 			]
@@ -1331,11 +1331,11 @@
 			}]
 		}
 		{
-			title: "样板终端"
+			title: "建立自动化合成"
 			x: 6.0d
 			y: 11.0d
 			shape: "diamond"
-			description: ["用于设置样板合成表。"]
+			description: ["用于设置自动化合成。"]
 			hide_dependency_lines: true
 			dependencies: ["31F12B7E194CB6E5"]
 			id: "5D0EB3B91ADBAACE"

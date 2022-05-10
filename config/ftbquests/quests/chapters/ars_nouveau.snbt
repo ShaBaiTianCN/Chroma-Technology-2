@@ -32,7 +32,7 @@
 		{
 			x: -5.5d
 			y: -4.0d
-			description: ["走进新魔艺"]
+			description: ["走进新生魔艺"]
 			dependencies: ["4A44A6FE8FD947B6"]
 			id: "2C3143BACB0592E9"
 			tasks: [{
