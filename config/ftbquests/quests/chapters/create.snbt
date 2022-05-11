@@ -373,7 +373,7 @@
 			x: -4.0d
 			y: -10.5d
 			shape: "hexagon"
-			subtitle: "玻璃眼镜 "
+			subtitle: "玻璃眼镜"
 			description: ["用它可以看到机械的应力值或&n速度表&r或&n应力表&r的数据。"]
 			hide_dependency_lines: true
 			dependencies: ["089B371ADFA9EB1D"]
@@ -929,7 +929,7 @@
 			x: -3.0d
 			y: -9.5d
 			shape: "hexagon"
-			subtitle: "Fwoomp !"
+			subtitle: "Fwoomp！"
 			description: ["把你精心培育的蔬菜当作子弹打在敌人脸上吧！能量来自&d铜制背罐&f里的压缩空气。"]
 			hide_dependency_lines: true
 			dependencies: ["3062EC7F5DD6F6C5"]
