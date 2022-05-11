@@ -36,7 +36,7 @@
 			title: "光伏电池"
 			x: 1.0d
 			y: 0.0d
-			subtitle: "在夜晚来临之前，阳光都是有用的..."
+			subtitle: "在夜晚来临之前，阳光都是有用的……"
 			description: [
 				"你成功的将你的&6镜面&f升级成&b光伏电池&f。"
 				""
@@ -58,7 +58,7 @@
 		{
 			x: 2.0d
 			y: 0.0d
-			subtitle: "光伏电池V2 "
+			subtitle: "光伏电池V2"
 			description: [
 				"一个更好的太阳能电池板的组件。"
 				""

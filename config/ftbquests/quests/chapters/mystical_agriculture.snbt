@@ -1132,7 +1132,7 @@
 		{
 			x: 7.5d
 			y: -1.0d
-			subtitle: "你需要一个红石信号(按钮)"
+			subtitle: "你需要一个红石信号（按钮）"
 			dependencies: ["2B1E63E2EF6E34BE"]
 			id: "6189F7780B12D620"
 			tasks: [{
