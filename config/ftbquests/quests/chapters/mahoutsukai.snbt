@@ -145,7 +145,7 @@
 		{
 			x: -1.0d
 			y: 1.0d
-			subtitle: "我看不见! "
+			subtitle: "我看不见！"
 			description: ["为了使用&c魔眼粉末&r你需要使用&5魔法使&r的&1锤&r"]
 			dependencies: ["26C2E5ACAAF1E02A"]
 			id: "3FC45CE7067772CD"
@@ -163,7 +163,7 @@
 		{
 			x: -5.0d
 			y: 1.0d
-			subtitle: "我很富有! "
+			subtitle: "我很富有！"
 			description: ["为了使用&6金粉末&r你需要使用&5魔法使&r的&1锤&r"]
 			dependencies: ["26C2E5ACAAF1E02A"]
 			id: "2A032D8822F6D038"
@@ -420,7 +420,7 @@
 		{
 			x: -3.0d
 			y: 12.0d
-			subtitle: "因为太怕痛就全点防御力了!"
+			subtitle: "因为太怕痛就全点防御力了！"
 			description: [
 				"首先你需要通过魔术伤害交换获得80点伤害吸收"
 				"使用亡魂之魔眼收集100个灵魂，看到怪物死亡并达到 100"
@@ -455,7 +455,7 @@
 		{
 			x: -0.5d
 			y: 12.0d
-			subtitle: "传送和伤害!"
+			subtitle: "传送和伤害！"
 			dependencies: ["6B7DACB2A1A73313"]
 			id: "5D90B66ADD81DC4C"
 			tasks: [{
@@ -524,7 +524,7 @@
 		{
 			x: -2.0d
 			y: 8.0d
-			subtitle: "蠕虫 "
+			subtitle: "蠕虫"
 			description: [
 				"你可以用它练习一些交感魔法。"
 				""
@@ -868,7 +868,7 @@
 			}
 			x: -3.0d
 			y: 13.0d
-			subtitle: "强化! "
+			subtitle: "强化！"
 			description: [
 				"为了制作该魔术，您必须在地面上放置&9&n魔法布料&r。制作完成后用&3献祭匕首&r右键拿起卷轴。"
 				""

@@ -110,7 +110,7 @@
 		{
 			x: 0.5d
 			y: -1.5d
-			subtitle: "用灵魂挖洞（Using souls, digging holes）"
+			subtitle: "用灵魂挖洞"
 			description: [
 				"你可在这个这个锻炉使用&b恶魔意志&r或者&8地狱魂石&r"
 				""
