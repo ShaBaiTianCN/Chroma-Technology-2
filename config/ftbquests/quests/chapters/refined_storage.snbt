@@ -1517,7 +1517,7 @@
 			x: 4.5d
 			y: 7.0d
 			shape: "diamond"
-			description: ["&b范围升级&扩大&6无线访问点&f的范围（无线终端）。"]
+			description: ["&b范围升级&f扩大&6无线访问点&f的范围（无线终端）。"]
 			dependencies: ["37872846DC1B7D76"]
 			id: "1B2FC78CB76EC757"
 			tasks: [{

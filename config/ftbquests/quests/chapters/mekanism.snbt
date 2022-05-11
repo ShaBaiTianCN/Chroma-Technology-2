@@ -211,7 +211,7 @@
 			x: 4.5d
 			y: 1.0d
 			shape: "diamond"
-			description: ["&b融合机&f能让玩家使用&28个矿物粉&f制作&一个原矿&f。"]
+			description: ["&b融合机&f能让玩家使用&28个矿物粉&f制作&a一个原矿&f。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"6F2326323EF33A63"
@@ -302,7 +302,7 @@
 			x: 7.5d
 			y: 1.0d
 			shape: "diamond"
-			description: ["&精密锯木机&f用于从木质物品中回收木材，以及将原木变成木板，在这一过程中增产50%（6个木板而不是4个）。"]
+			description: ["&b精密锯木机&f用于从木质物品中回收木材，以及将原木变成木板，在这一过程中增产50%（6个木板而不是4个）。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"6F2326323EF33A63"
