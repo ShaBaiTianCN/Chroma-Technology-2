@@ -9,14 +9,14 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "The Ring Of Doom"
+			title: "末日之戒"
 			icon: "enigmaticlegacy:cursed_ring"
 			x: -1.0d
 			y: 0.0d
 			description: [
-				"As you can see, you spawned with two items of &5Enigmatic Legacy&r this items are here to make the game harder, but with time you can craft items that can help you to deal with those negatives effects. And for some items, you'll need to have the Ring of the Seven Curses activated to drop or craft the items/loots"
+				"如你所见，您生成了两个&5神秘遗物&r的物品，这些物品是为了让游戏变得更难，但随着时间的推移，你可以制作可以帮助您处理这些负面影响的物品。对于某些物品，你需要激活七咒之戒才能掉落或制作物品/战利品"
 				""
-				"If you don't have the &4ring of seven curses&f click on the &6emergency item&f."
+				"如果你没有七个诅咒的&4戒指&f，请点击&6应急物品&f。"
 			]
 			id: "3F852341507A5C4B"
 			tasks: [{
@@ -50,8 +50,8 @@
 			x: -1.0d
 			y: -4.0d
 			description: [
-				"This item will counter the &5Ring of The Seven Curses&r"
-				"This item will only spawn in overworld loot chest"
+				"此物品将对抗 &5七咒之戒&r"
+				"该物品只会在主世界战利品箱中生成"
 			]
 			dependencies: ["5A70DA1E5A7C5CFE"]
 			id: "2CC186541A99A05A"
@@ -84,7 +84,7 @@
 		{
 			x: -1.0d
 			y: -6.0d
-			description: ["To craft this item you need to wear the &5Ring of The Seven Curses&r"]
+			description: ["要制作此物品，你需要佩戴&5七咒之戒&r"]
 			dependencies: ["2CC186541A99A05A"]
 			id: "40764DF70E5C29A1"
 			tasks: [{
@@ -117,7 +117,7 @@
 		{
 			x: -3.0d
 			y: -6.0d
-			description: ["To get this item you need to wear the Ring of The Seven Curses"]
+			description: ["要获得此物品，你需要佩戴七咒之戒"]
 			dependencies: ["40764DF70E5C29A1"]
 			id: "2AFE2036C8FA5038"
 			tasks: [{
@@ -134,7 +134,7 @@
 		{
 			x: -3.5d
 			y: -7.5d
-			description: ["To get this item you need to wear the Ring of The Seven Curses"]
+			description: ["要获得此物品，您需要佩戴七个诅咒之戒"]
 			dependencies: ["40764DF70E5C29A1"]
 			id: "636BC5D6D42DEF8C"
 			tasks: [{
@@ -151,7 +151,7 @@
 		{
 			x: -1.0d
 			y: -14.0d
-			subtitle: "Permit you to destroy the ring"
+			subtitle: "允许你摧毁戒指"
 			dependencies: ["3F852341507A5C4B"]
 			id: "0EA51D772D2E792D"
 			tasks: [{
@@ -168,7 +168,7 @@
 		{
 			x: -3.5d
 			y: -9.0d
-			description: ["To get this item you need to wear the Ring of The Seven Curses"]
+			description: ["要获得此物品，你需要佩戴七咒之戒"]
 			dependencies: ["40764DF70E5C29A1"]
 			id: "4E3FCD75E9BE926A"
 			tasks: [{
@@ -185,7 +185,7 @@
 		{
 			x: -1.0d
 			y: -11.0d
-			description: ["To get this item you need to wear the Ring of The Seven Curses"]
+			description: ["要获得此物品，你需要佩戴七咒之戒"]
 			dependencies: ["5A70DA1E5A7C5CFE"]
 			id: "3597780E26222D3B"
 			tasks: [{
@@ -202,7 +202,7 @@
 		{
 			x: 1.0d
 			y: -6.0d
-			description: ["To get this item you need to wear the Ring of The Seven Curses"]
+			description: ["要获得此物品，你需要佩戴七咒之戒"]
 			dependencies: ["40764DF70E5C29A1"]
 			id: "12AC311A46464E4D"
 			tasks: [{
@@ -219,7 +219,7 @@
 		{
 			x: 1.5d
 			y: -7.5d
-			description: ["To get this item you need to wear the Ring of The Seven Curses"]
+			description: ["要获得此物品，你需要佩戴七咒之戒"]
 			dependencies: ["40764DF70E5C29A1"]
 			id: "1215F544CD839053"
 			tasks: [{
@@ -236,7 +236,7 @@
 		{
 			x: 1.5d
 			y: -9.0d
-			description: ["To get this item you need to wear the Ring of The Seven Curses"]
+			description: ["要获得此物品，你需要佩戴七咒之戒"]
 			dependencies: ["40764DF70E5C29A1"]
 			id: "61A52AB175DA9F8D"
 			tasks: [{
@@ -253,7 +253,7 @@
 		{
 			x: 1.0d
 			y: -10.0d
-			description: ["To get this item you need to wear the Ring of The Seven Curses"]
+			description: ["要获得此物品，你需要佩戴七咒之戒"]
 			dependencies: ["40764DF70E5C29A1"]
 			id: "4EAD9B67065A81C9"
 			tasks: [{
@@ -270,7 +270,7 @@
 		{
 			x: -3.0d
 			y: -10.0d
-			description: ["To get this item you need to wear the Ring of The Seven Curses"]
+			description: ["要获得此物品，你需要佩戴七咒之戒"]
 			dependencies: ["40764DF70E5C29A1"]
 			id: "132E9ACB7DF7937E"
 			tasks: [{
