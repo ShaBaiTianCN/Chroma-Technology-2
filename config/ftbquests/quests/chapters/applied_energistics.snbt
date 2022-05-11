@@ -2297,7 +2297,7 @@
 			x: 16.0d
 			y: -8.0d
 			shape: "diamond"
-			description: ["The &bQuartz Grindstone &fprovides a low tech solution for getting more out of your mining trips. It is much cheaper than its more high-tech counter parts of other mods, but it is slow and a considerable time sink, but what else do you have to do while smelting those dusts? Why not grind up some other ores into dusts?"]
+			description: ["&b石英模具&f提供了一个比较原始的方法，让您从采矿之旅中获得更多。它比其他模组的高科技便宜得多，但它是缓慢的花费相当长的时间，但是在熔炼这些粉时你还有什么要做的呢？为什么不把其他矿石磨成粉呢？"]
 			id: "5E4C35A57D261A6A"
 			tasks: [
 				{

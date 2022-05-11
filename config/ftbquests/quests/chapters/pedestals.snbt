@@ -136,7 +136,7 @@
 			}]
 		}
 		{
-			title: "Pedestal Filters"
+			title: "基座过滤器"
 			x: -5.5d
 			y: -3.0d
 			description: [
@@ -447,7 +447,7 @@
 			}]
 		}
 		{
-			title: "Fluid Transfer"
+			title: "流体传输"
 			x: 0.0d
 			y: -8.0d
 			shape: "diamond"
@@ -480,7 +480,7 @@
 			}]
 		}
 		{
-			title: "XP Input"
+			title: "经验输入"
 			x: 4.0d
 			y: -8.0d
 			shape: "diamond"
@@ -614,7 +614,7 @@
 			tasks: [{
 				id: "6F7511B86CC72D50"
 				type: "item"
-				title: "Fluid to XP Conversion"
+				title: "流体到经验的转换"
 				item: "pedestals:coin/fluidxpconverter"
 			}]
 			rewards: [{
@@ -1018,7 +1018,7 @@
 			tasks: [{
 				id: "6314A1F5BF66E355"
 				type: "item"
-				title: "FE Generators"
+				title: "FE发电机"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b

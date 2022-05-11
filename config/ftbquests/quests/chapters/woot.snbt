@@ -201,7 +201,7 @@
 			tasks: [{
 				id: "0BBB675975BA587F"
 				type: "checkmark"
-				title: "Woot Guide"
+				title: "生物工厂指南"
 			}]
 			rewards: [
 				{
@@ -223,11 +223,11 @@
 			]
 		}
 		{
-			title: "Tier 1 Factory"
+			title: "一级生物工厂"
 			x: 3.0d
 			y: -1.0d
 			shape: "octagon"
-			subtitle: "My First Factory"
+			subtitle: "我的第一个工厂"
 			description: [
 				"将箱子放置在&5掉落物输出口&r旁边，以收集怪物的掉落物。"
 				"有些怪物需要原料来产出掉落物，这些原料需要放置在&5原料输入口&r旁边的箱子或储罐中。"
@@ -251,7 +251,7 @@
 				{
 					id: "4353EFB6CBFCF860"
 					type: "item"
-					title: "Conatus Cell"
+					title: "原液单元"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
