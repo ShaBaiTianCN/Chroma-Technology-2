@@ -12,7 +12,7 @@
 			x: 0.5d
 			y: 0.0d
 			shape: "diamond"
-			description: ["Generates &lSU&r with &bWater&r"]
+			description: ["用&b水&r产生&l应力&r"]
 			hide_dependency_lines: true
 			dependencies: ["68C911E941D1D7AF"]
 			id: "073E679B16F65ABE"
@@ -31,7 +31,7 @@
 			x: 1.5d
 			y: -2.5d
 			shape: "diamond"
-			description: ["Generates &bSU&r with the power of your hand"]
+			description: ["用你强壮的手臂产生&b应力&r"]
 			hide_dependency_lines: true
 			dependencies: ["68C911E941D1D7AF"]
 			id: "6C864C7B3A8483E2"
@@ -51,9 +51,9 @@
 			y: 0.0d
 			shape: "diamond"
 			description: [
-				"Generates speed with heat."
-				"Place a heat source on a block below and add a lever on it."
-				"Activate the lever and that will generate speed"
+				"用热发“电”。"
+				"在其风口下方放置热源，然后放根拉杆。"
+				"打开拉杆后它将产生应力。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -78,8 +78,8 @@
 			y: -1.0d
 			shape: "diamond"
 			description: [
-				"Connect two items to a blast furnace."
-				"Make the blast furnace work and then will generate speed."
+				"将这两个物品和熔炉连接在一起。"
+				"熔炉开始工作后可产生应力。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["68C911E941D1D7AF"]
@@ -108,11 +108,11 @@
 			y: -1.0d
 			shape: "diamond"
 			description: [
-				"The windmill bearing Generate Su but he need wind power"
-				"Place a radial chassis on the sticky part"
-				"To connect sail or wool you need to put slime on the face of the radial chassis"
-				"Now connect the sail or the wool to the radial you need 8 at minimal"
-				"Sail are more efficient than wool"
+				"风车轴承可以产生应力，但它需要风能。"
+				"在粘性部位放置一个旋转底盘。"
+				"你需要在旋转底盘的侧面使用粘液球右键才能连接风帆或羊毛。"
+				"连接最少8个风帆或羊毛。"
+				"风帆比羊毛效率更高。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["68C911E941D1D7AF"]
@@ -153,9 +153,9 @@
 			y: 1.0d
 			shape: "diamond"
 			description: [
-				"This item will allow you to make &eplate&r."
-				"The item can be placed on the &aflour&r to craft &eplates&r or on a support like a &8belt&r or a &8depot&r."
-				"&5If you want more information about this you can can hold your assigned keyboard key to know how to use it&r."
+				"它可以用来压制&e板&r."
+				"可以加工在&a地上&r或者&8传送带&r、&8置物台&r的物品。"
+				"&5按住你设置的按键来获取更多信息&r（思索）"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -187,9 +187,9 @@
 			y: -10.5d
 			shape: "diamond"
 			description: [
-				"With this item will allow you to make some new &6larger craft&r."
-				"But it also allows you to &4auto craft&r."
-				"The &6crafter slot cover&r will allow you to use the &4mechanical crafter&r without using all the slot, you will just need to apply it on the &8non used slot&r."
+				"使用这个物品你可以完成一些新的&6大规模合成&r."
+				"同时它可以让你进行&4自动合成&r."
+				"&6合成器盖板&r可以让你不同时使用&4动力合成&r所有的格子，你只需要将它们放置于&8无用的格子&r上"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -244,10 +244,10 @@
 			y: 2.0d
 			shape: "diamond"
 			description: [
-				"Allows you to transport items."
-				"To use it you will need to right click on one &8shaft&r and right click on the second &8shaft&r. "
-				"&aThe flow direction&r is decided by the rotation of the connected &8shaft&r."
-				"&5If you want more information about this you can can hold your assigned keyboard key to know how to use it&r."
+				"传输物品"
+				"你需要先右键一个&8传动杆&r再右键另一个&8传动杆&r来使用传送带。. "
+				"&a传输方向&r由连接的&8传动杆&r的转动方向决定。"
+				"&5按住你设置的按键来获取更多信息&r（思索）"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -272,9 +272,9 @@
 			y: 2.0d
 			shape: "diamond"
 			description: [
-				"This item will allow you to make some &anew craft&r but, it will allow you to make &anon shaped craft&r like : a &6colored bed&r."
-				"But you will need a second thing to craft the &8bassin&r, it's just here to &acraft&r by &aputting item&r on the &8basin&r."
-				"&5If you want more information about this you can can hold your assigned keyboard key to know how to use it&r."
+				"你可以用它进行&a新的合成&r，同时也适配原版&a无序合成&r例：&6彩色的床&r."
+				"但你还需要&8工作盆&r来&a放置物品&r进行&a制作&r"
+				"&5按住你设置的按键来获取更多信息&r（思索）"
 			]
 			hide_dependency_lines: true
 			dependencies: ["089B371ADFA9EB1D"]
@@ -302,9 +302,9 @@
 			y: 0.0d
 			shape: "diamond"
 			description: [
-				"This item will allow you to make some &anew recipe&r, but she also allow you to &8mill&r some item."
-				"The &aitem&r are insert by the &atop&r."
-				"&5If you want more information about this you can can hold your assigned keyboard key to know how to use it&r."
+				"这个东西能让你完成一些&a新的配方&r，她可以&8研磨&r一些物品。"
+				"&a物品&r从&a上方&r输入。."
+				"&5按住你设置的按键来获取更多信息&r（思索）"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -329,13 +329,13 @@
 			shape: "rsquare"
 			subtitle: "Paaanik"
 			description: [
-				"Every machine (except this one) generates speed."
+				"所有机器（除了这台）都会影响应力。"
 				""
-				"In the &l&2Create&r Mod it's called &nSU&r. "
-				"This &nSU&r is like the energy. Each machine have a value of &nSU&r that they can handle."
-				"If this &nSU&r is reached, your system will be blocked."
+				"在&l&2机械动力&r模组中这被称作&nSU&r. "
+				"这个&nSU&r就像能量。每台机器都有一个它们需要的&n应力&r极值。"
+				"如果&n应力&r值超过最大值，你的系统就过载。"
 				""
-				"You can calculate the &nSU&r by multipling the speed by the base &nSU&r of your machine or just using a &n&lStressometer&r"
+				"你可以通过转速乘以机器的&n基础应力&r来计算&n应力&r，或者使用&n&l应力表&r"
 			]
 			dependencies: ["6CA3F56533959758"]
 			id: "7E9C03EF7D2FDD13"
@@ -354,8 +354,8 @@
 			x: -4.0d
 			y: -8.5d
 			shape: "rsquare"
-			subtitle: "Sonic"
-			description: ["With the goggles you can see how fast is your system."]
+			subtitle: "转速"
+			description: ["搭配工程师护目镜可以测量并展示机械网络的旋转速度。"]
 			dependencies: ["116A67096288B9C4"]
 			id: "6CA3F56533959758"
 			tasks: [{
@@ -373,8 +373,8 @@
 			x: -4.0d
 			y: -10.5d
 			shape: "hexagon"
-			subtitle: "Goggles Glass "
-			description: ["You can now see the SU of your items in your inventory or to see stats about whether the &nspeedometer&r or the &nstressomotor&r  "]
+			subtitle: "玻璃眼镜"
+			description: ["用它可以看到机械的应力值或&n速度表&r或&n应力表&r的数据。"]
 			hide_dependency_lines: true
 			dependencies: ["089B371ADFA9EB1D"]
 			id: "116A67096288B9C4"
@@ -393,8 +393,8 @@
 			x: -5.0d
 			y: -11.5d
 			shape: "hexagon"
-			subtitle: "*Krr Krr Krr*"
-			description: ["This item will allow you to control some machines properties"]
+			subtitle: "*卡，卡，卡*"
+			description: ["用它来调整机械！"]
 			hide_dependency_lines: true
 			dependencies: ["089B371ADFA9EB1D"]
 			id: "729E0EDD8C18A9FB"
@@ -430,9 +430,9 @@
 			y: -12.5d
 			shape: "hexagon"
 			description: [
-				"The most important item from &1&l&nCreate&r mod."
+				"&1&l&n机械动力&r模组中最重要的物品。"
 				""
-				"This item will allow you to use the kinetic power and to transport items."
+				"通过它你能使用并传输动力。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["486A5DD23496E2F4"]
@@ -452,8 +452,8 @@
 			x: 0.0d
 			y: -14.0d
 			shape: "diamond"
-			subtitle: "Wheels for fun"
-			description: ["Like the shaft, this small gear will grant you Kinetic Power and of course you're able to use it."]
+			subtitle: "好玩的轮子"
+			description: ["就像传动杆一样，你通过齿轮使用或传输动力。"]
 			dependencies: ["68C911E941D1D7AF"]
 			id: "4C8625AEEC329BAA"
 			tasks: [{
@@ -471,11 +471,11 @@
 			x: 3.0d
 			y: -14.0d
 			shape: "diamond"
-			subtitle: "Larger but better"
+			subtitle: "更大更好"
 			description: [
-				"Like the &8CogWheel&r but better. "
+				"和&8齿轮&r一样，但是更好。"
 				""
-				"If you can't connect to a &nLarge&r Cogwheel use a &nSimple&r Cogwheel."
+				"如果你无法连接到&n大&r齿轮，请使用&n小&r齿轮。"
 			]
 			dependencies: ["4C8625AEEC329BAA"]
 			id: "21A09830915B9206"
@@ -494,8 +494,8 @@
 			x: 3.0d
 			y: -12.5d
 			shape: "hexagon"
-			subtitle: "Splitter"
-			description: ["This item will allow you to split the shaft and reduce how big is your system."]
+			subtitle: "十字齿轮箱"
+			description: ["能将动力分配到多个方向，以缩小装置占用的空间。"]
 			dependencies: ["21A09830915B9206"]
 			id: "70108F5B41B0BB63"
 			tasks: [{
@@ -513,7 +513,7 @@
 			x: 7.0d
 			y: -9.5d
 			shape: "diamond"
-			description: ["You can now choose how fast goes your system."]
+			description: ["现在你可以随意调整转速了。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2CCC9D567D823DD4"
@@ -535,8 +535,8 @@
 			x: 1.5d
 			y: -9.0d
 			shape: "hexagon"
-			subtitle: "Reigning Red"
-			description: ["Place a &lSandpaper&r in your off-hand and then take a &cRose Quartz&r in your main hand and press right click."]
+			subtitle: "卫冕的红色"
+			description: ["把&l砂纸&r放在副手，拿&c玫瑰石英&r在主手，然后开始啃吧（右键）。"]
 			dependencies: [
 				"61CC654782143EAB"
 				"506C7BFA07D9FB25"
@@ -613,9 +613,9 @@
 			y: 1.0d
 			shape: "diamond"
 			description: [
-				"This item will &4crush&r other item, if something didn't have a recipe, he will be &4destroyed&r."
-				"You need to have the two of theme on a &adiferent rotation&r."
-				"&5If you want more information about this you can can hold your assigned keyboard key to know how to use it&r."
+				"可以用它们&粉碎&r物品，但没有配方的物品会被直接&4销毁&r。"
+				"你得让它两朝&a不同方向&r转。"
+				"&5按住你设置的按键来获取更多信息&r（思索）"
 			]
 			hide_dependency_lines: true
 			dependencies: ["3062EC7F5DD6F6C5"]
@@ -636,8 +636,8 @@
 			x: 1.5d
 			y: -15.5d
 			shape: "heart"
-			subtitle: "CUCKOO"
-			description: ["CUCKOO CUCKOO CUCKOO"]
+			subtitle: "布谷"
+			description: ["布谷 布谷 布谷"]
 			hide_dependency_lines: true
 			dependencies: ["4C8625AEEC329BAA"]
 			size: 2.0d
@@ -657,8 +657,8 @@
 			x: 1.5d
 			y: -1.5d
 			shape: "diamond"
-			subtitle: "Manual Wheel"
-			description: ["Generates &nSU&r by right clicking on it"]
+			subtitle: "手动轮"
+			description: ["右键产生&n应力&r"]
 			hide_dependency_lines: true
 			dependencies: ["68C911E941D1D7AF"]
 			id: "77F1D1988FE5B0B5"
@@ -677,7 +677,7 @@
 			x: 0.0d
 			y: 0.5d
 			shape: "diamond"
-			description: ["Will generate speed with FE"]
+			description: ["用FE产生应力"]
 			hide_dependency_lines: true
 			dependencies: [
 				"68C911E941D1D7AF"
@@ -699,7 +699,7 @@
 			x: 3.0d
 			y: 0.5d
 			shape: "diamond"
-			description: ["Will generate FE with speed"]
+			description: ["用应力产生FE"]
 			hide_dependency_lines: true
 			dependencies: [
 				"68C911E941D1D7AF"
@@ -722,9 +722,9 @@
 			y: 2.0d
 			shape: "diamond"
 			description: [
-				"This item will allow you to make &6rods&r but also to make &6wires&r."
-				"you can insert the item just by &aright clicking&r or &aimport&r item with an &8mechanical belt&r."
-				"&5If you want more information about this you can can hold your assigned keyboard key to know how to use it&r."
+				"你可以用它制作&6杆&r和&6线&r."
+				"&a右键&r或使用&a传送带&r来输入物品。"
+				"&5按住你设置的按键来获取更多信息&r（思索）"
 			]
 			hide_dependency_lines: true
 			dependencies: ["089B371ADFA9EB1D"]
@@ -744,7 +744,7 @@
 			x: -3.0d
 			y: -11.5d
 			shape: "hexagon"
-			description: ["Allows you to reach a better distance and make a good knockback punch."]
+			description: ["大幅增加你的主手触碰距离和击退距离。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"3062EC7F5DD6F6C5"
@@ -772,10 +772,10 @@
 			x: -5.0d
 			y: -9.5d
 			shape: "hexagon"
-			subtitle: "I like symmetry"
+			subtitle: "我喜欢对称"
 			description: [
-				"This item will help you to construct by setting up a zone."
-				"It will replicate the other side with the block you placed"
+				"用于对称建造。"
+				"它将复制你放置的方块到另一面。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["7051D702D862480C"]
@@ -812,9 +812,9 @@
 			y: 2.5d
 			shape: "diamond"
 			description: [
-				"This item will permit you to &aextrat&r or &ainsert&r item from a chest or something else with an &2inventory&r."
-				"But this one will only &aextract&r or &ainsert&r one item  by one item."
-				"&5If you want more information about this you can can hold your assigned keyboard key to know how to use it&r."
+				"它可以用来&a输入&或&a输出&r物品"
+				"但它一次只能&a输入&或&a输出&r一个物品。"
+				"&5按住你设置的按键来获取更多信息&r（思索）"
 			]
 			dependencies: ["7076C4339709478F"]
 			id: "46894D5DEEE24DC2"
@@ -834,9 +834,9 @@
 			y: 1.5d
 			shape: "diamond"
 			description: [
-				"This item is the improved version of the &8Andesite Funel&r."
-				"This one will &aextract&r or &ainsert&r item per stack but also will allow you tu used &6filter&r."
-				"&5If you want more information about this you can can hold your assigned keyboard key to know how to use it&r."
+				"它是&8安山岩漏斗&r的升级版。"
+				"它可以一次&a输入&或&a输出&r一组物品，同时也兼容&6过滤器&r。"
+				"&5按住你设置的按键来获取更多信息&r（思索）"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -859,8 +859,8 @@
 			x: 1.5d
 			y: -12.5d
 			shape: "diamond"
-			subtitle: "Smeltery "
-			description: ["This item can be turned in two different items by using different methods."]
+			subtitle: "转化"
+			description: ["可以通过特定手段转化成光辉石和暗影钢。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"3F0EFCC65E319E48"
@@ -886,8 +886,8 @@
 			x: 0.0d
 			y: -11.0d
 			shape: "octagon"
-			subtitle: "Void Recipe"
-			description: ["Throw the &5Chromatic Compound&r into the void"]
+			subtitle: "利用虚空！"
+			description: ["把&5异彩化合物&扔进虚空。"]
 			dependencies: ["2A1C5492170436E8"]
 			id: "72DAAAC24AA2FCFF"
 			tasks: [{
@@ -905,12 +905,12 @@
 			x: 3.0d
 			y: -11.0d
 			shape: "octagon"
-			subtitle: "Lightning Recipe"
+			subtitle: "利用光！"
 			description: [
-				"Place a &6Glowstone Block&r near the &5Chromatic Compound&r."
+				"把&5异彩化合物&r扔在&6光源&r附近。"
 				""
-				"This ingot will absorb the light and be filled with it. "
-				"Wait patiently in order to get your magnificent ingot."
+				"它会吸收光线直到装满。"
+				"耐心等待，你将收获神奇的石头。"
 			]
 			dependencies: ["2A1C5492170436E8"]
 			id: "7051D702D862480C"
@@ -929,8 +929,8 @@
 			x: -3.0d
 			y: -9.5d
 			shape: "hexagon"
-			subtitle: "Fwoomp !"
-			description: ["Lauch your home-grown vegetables at your Enemies. Can be powered with Air Pressure from a &dCopper Backtank&f."]
+			subtitle: "Fwoomp！"
+			description: ["把你精心培育的蔬菜当作子弹打在敌人脸上吧！能量来自&d铜制背罐&f里的压缩空气。"]
 			hide_dependency_lines: true
 			dependencies: ["3062EC7F5DD6F6C5"]
 			id: "17008C89C8402ABB"
@@ -956,8 +956,8 @@
 			y: 1.5d
 			shape: "diamond"
 			description: [
-				"To capture the Blaze you need to &aright click&r with an&8 empty blaze burner&r on a &eblaze&r."
-				"To make the &eburner&r work, you need to &arefill&r him with &2combustible&r."
+				"拿&8空的烈焰人燃烧室&r&a右键&r&e烈焰人&r以获得。"
+				"需要为&e燃烧室&r提供&2可燃物&r才能使其工作。。"
 			]
 			dependencies: ["3F0EFCC65E319E48"]
 			id: "6BADF77B8D43F95F"
@@ -973,16 +973,16 @@
 			}]
 		}
 		{
-			title: "Super Heated"
+			title: "超级燃烧"
 			x: 0.0d
 			y: 2.5d
 			shape: "diamond"
 			description: [
-				"You will need to apply &6lava&r on a &4blaze cake base&r on a &1depot&r."
+				"将&6岩浆&r注入&4烈焰蛋糕胚&r。"
 				""
-				"For this you will need a &4spout&r connect with &4fluid pipe&r, for moving the fluid in the &4pipe&r you will need a &4mechanical pump&r connect to a tank."
+				"为此，你需要一个与&4流体管道&r相连的&4注液器&r。如果你想让&4管道&r里的液态动起来，那还得连个&4动力泵&r。"
 				""
-				"You cannot input lava manually so you will need to extract lava with a &4hose pulley&r."
+				"你不能总手动捞岩浆，这太麻烦了！&4软管滑轮&r不香吗？"
 			]
 			dependencies: ["6BADF77B8D43F95F"]
 			id: "356BA5B9FDB12DE1"
@@ -1002,8 +1002,8 @@
 			y: 3.0d
 			shape: "diamond"
 			description: [
-				"This item will allow you to &4harvest&r harvestable item."
-				"&5You can hold your assigned keyboard key to know how to use it&r."
+				"它可以&4收割&r农作物。"
+				"&5按住你设置的按键来获取更多信息&r（思索）"
 			]
 			hide_dependency_lines: true
 			dependencies: ["7728E7D79AB10B5D"]
@@ -1024,8 +1024,8 @@
 			y: 4.0d
 			shape: "diamond"
 			description: [
-				"This item can &4break breakable item&r or &4turning dirt in to farmland&r."
-				"&5You can hold your assigned keyboard key to know how to use it&r."
+				"你可以用它&4破坏无碰撞体积的方块&r或者&4耕地&r。"
+				"&5按住你设置的按键来获取更多信息&r（思索）"
 			]
 			hide_dependency_lines: true
 			dependencies: ["7728E7D79AB10B5D"]
@@ -1042,13 +1042,13 @@
 			}]
 		}
 		{
-			title: "Portable Storage Interface"
+			title: "移动式存储接口"
 			x: 2.5d
 			y: 4.5d
 			shape: "diamond"
 			description: [
-				"This item will allow you to &4transfer item from 2 create auto structure&r."
-				"&5You can hold your assigned keyboard key to know how to use it&r."
+				"其可以让&4动态结构上的容器与外界交互&r。"
+				"&5按住你设置的按键来获取更多信息&r（思索）"
 			]
 			hide_dependency_lines: true
 			dependencies: ["7728E7D79AB10B5D"]
@@ -1070,8 +1070,8 @@
 			y: -10.5d
 			shape: "diamond"
 			description: [
-				"This item will &4transport&r item from 2 points."
-				"&5You can hold your assigned keyboard key to know how to use it&r."
+				"它可以&4移动&r2点之间的物品。"
+				"&5按住你设置的按键来获取更多信息&r（思索）"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1095,8 +1095,8 @@
 			y: 4.5d
 			shape: "diamond"
 			description: [
-				"This item will &4cut wood&r or hurt mob or player."
-				"&5You can hold your assigned keyboard key to know how to use it&r."
+				"你可以用它&4砍树&r或者杀人和动物。"
+				"&5按住你设置的按键来获取更多信息&r（思索）"
 			]
 			hide_dependency_lines: true
 			dependencies: ["7728E7D79AB10B5D"]
@@ -1117,8 +1117,8 @@
 			y: 3.0d
 			shape: "diamond"
 			description: [
-				"This item will &4break&r blocks."
-				"&5You can hold your assigned keyboard key to know how to use it.&r"
+				"这个东西可以&4破坏&r方块。"
+				"&5按住你设置的按键来获取更多信息&r（思索）"
 			]
 			hide_dependency_lines: true
 			id: "6C20519FDDDA2073"
@@ -1134,14 +1134,14 @@
 			}]
 		}
 		{
-			title: "Chassis"
+			title: "底盘"
 			icon: "create:mechanical_bearing"
 			x: 1.5d
 			y: 5.0d
 			shape: "diamond"
 			description: [
-				"This block allows you to make some create structure, you will also need &4chassis&r to create good auto system."
-				"&5You can hold your assigned keyboard key to know how to use it&r."
+				"你可以用动力轴承做一些结构，我相信你还需要用到&4底盘&r。"
+				"&5按住你设置的按键来获取更多信息&r（思索）"
 			]
 			id: "7728E7D79AB10B5D"
 			tasks: [
@@ -1189,13 +1189,13 @@
 			y: -9.5d
 			shape: "diamond"
 			description: [
-				"You will need &63 deployers&r to make this &acraft&r."
-				"Each one has to be equipped with one of all the &a3 ressources&r :"
-				"&7Cogwheel x5&r"
-				"&7Large cogwheel x5&r"
-				"&7Iron nuggets x5&r"
-				"This &a3 ressources&r had to be applied on an &egold plate&r, you have to apply this one by on and retry &athe process fith time&r, and you will have &a80%&r chance to have the &6precision mechanism&r."
-				"&5If you want more information about this you can check the Jei recipe&r."
+				"&a合成&r需要&63个机械手&r。"
+				"对应填充&a3种材料&r："
+				"&7小齿轮x5&r"
+				"&7大齿轮x5&r"
+				"&7铁粒x5&r"
+				"把这&a3种材料&r按顺序安装在&e金板&r上并&a重复5次&r，然后你就有&a80%&r的几率获得&6精密构件&r。"
+				"&5更多信息请查看JEI&r。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["2CCC9D567D823DD4"]
@@ -1216,9 +1216,9 @@
 			y: -10.0d
 			shape: "diamond"
 			description: [
-				"The &6deployer&r is like an &aautomatic user&r, you can give a tool to it to make it &ado your work&r. "
-				"It will also be required for the craft of the &6precision mechanism&r."
-				"&5If you want more information about this you can can hold your assigned keyboard key to know how to use it&r."
+				"&6机械手&r类似&a自动化的玩家&r，你可以把工具给它让它&a替你干活&r。"
+				"生产&6精密构件&r也得要它。"
+				"&5按住你设置的按键来获取更多信息&r（思索）"
 			]
 			id: "243744CD1A864E59"
 			tasks: [{
@@ -1236,7 +1236,7 @@
 			x: 6.5d
 			y: -11.0d
 			shape: "diamond"
-			description: ["This ingot will unlock for you the second part of &6create&r, to craft it, simply put a &7zinc ingot&r and &4copper&r in a &esuper heated mixer&r."]
+			description: ["黄铜锭将为你解锁&6机械动力&r的第2部分。混合搅拌&7锌锭&r和&4铜锭&r来生产它。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"21A09830915B9206"
