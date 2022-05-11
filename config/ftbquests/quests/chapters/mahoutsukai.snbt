@@ -623,7 +623,7 @@
 		{
 			x: -6.5d
 			y: 12.0d
-			subtitle: "Archers ! "
+			subtitle: "Archers！"
 			dependencies: ["40794CA7CE57BBF9"]
 			id: "321035D54F8B4D03"
 			tasks: [{
@@ -1206,7 +1206,7 @@
 			title: "力量固结之湖"
 			x: 0.5d
 			y: 10.5d
-			subtitle: "The Lake "
+			subtitle: "湖"
 			description: [
 				"用&3献祭匕首&r右键。 "
 				"画一个&5魔法阵&r，并放置上面列出的3种所需材料。"
