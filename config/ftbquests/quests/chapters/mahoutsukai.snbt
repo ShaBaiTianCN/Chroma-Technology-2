@@ -217,7 +217,7 @@
 		{
 			x: -3.0d
 			y: 6.0d
-			subtitle: "第一条规则：不要谈论代码（礼装叫Mystical Code，代码是Code）"
+			subtitle: "第一条规则：不要谈论代码"
 			description: [
 				"&4礼装&r运行你储存和使用魔术"
 				""
