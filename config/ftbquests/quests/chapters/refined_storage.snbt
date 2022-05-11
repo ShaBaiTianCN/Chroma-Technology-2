@@ -959,7 +959,7 @@
 			x: 5.0d
 			y: 12.0d
 			shape: "diamond"
-			description: ["&bQuartz Enriched Iron &fis used in almost all the recipes in Refined Storage."]
+			description: ["&b富石英铁&f几乎被用于所有精致储存的配方。"]
 			dependencies: ["550BDFBC2857D5FD"]
 			id: "70D0CA6E1AE372BE"
 			tasks: [{
@@ -977,7 +977,7 @@
 			x: 5.0d
 			y: 3.5d
 			shape: "diamond"
-			description: ["&bProcessor Binding &fis used to create different kinds of Processors."]
+			description: ["&b处理器粘合物&f用于制造不同的原始处理器。"]
 			id: "3385ACA0E059CA3B"
 			tasks: [{
 				id: "59016A34F5FAEAC5"
@@ -1151,7 +1151,7 @@
 			x: 5.0d
 			y: 10.0d
 			shape: "diamond"
-			description: ["&bThe Machine Casing &fcan be used to create various Devices."]
+			description: ["&b机器外壳&f用于合成功能性机器。"]
 			hide_dependency_lines: true
 			dependencies: ["70D0CA6E1AE372BE"]
 			id: "31F12B7E194CB6E5"
@@ -1170,7 +1170,7 @@
 			x: 4.5d
 			y: 10.5d
 			shape: "diamond"
-			description: ["&bThe Disk Drive &fis used to store your crafted Storage Disks. A total of 8 disks can be stored in each Disk Drive block."]
+			description: ["&b磁盘驱动器&f用于存储你制作的存储磁盘，每个磁盘驱动器可以存放8个磁盘。"]
 			hide_dependency_lines: true
 			dependencies: ["31F12B7E194CB6E5"]
 			id: "0A3A4346A32949C4"
@@ -1204,14 +1204,14 @@
 			}]
 		}
 		{
-			title: "Importer / Exporter"
+			title: "输入总线和输出总线"
 			x: 5.5d
 			y: 13.0d
 			shape: "diamond"
 			description: [
-				"&bThe Importer&f imports items or fluids from an inventory in front of the block and inserts it in the storage network (if there is space)."
+				"&b输入总线&f从总线面向的容器中提取物品或液体，并将其存入存储至网络中（当然，存储网络要有空间）。"
 				""
-				"&bThe Exporter &fextracts items or fluids from the storage network and inserts it in the inventory or tank in front of it."
+				"&b输出总线&f从存储网络中提取物品或液体，并将其存入总线面向的容器中。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["70D0CA6E1AE372BE"]
@@ -1253,14 +1253,14 @@
 			}]
 		}
 		{
-			title: "Network"
+			title: "网络"
 			x: 3.5d
 			y: 10.5d
 			shape: "diamond"
 			description: [
-				"&bA Network Transmitter &fsends a network signal to a Network Receiver that is specified in the given &6Network Card."
+				"&b网络发送器&f发出信号给绑定了&6网络卡&f的网络接收器。"
 				""
-				"&bThe Network Receiver &fis the block that receives a signal from the &6Network Transmitter&f."
+				"&b网络接收器&f接收从&6网络变送器&f发出的网络信号."
 			]
 			hide_dependency_lines: true
 			dependencies: ["31F12B7E194CB6E5"]
@@ -1287,14 +1287,14 @@
 			x: 4.0d
 			y: 11.0d
 			shape: "diamond"
-			description: ["&bThe Crafter &fis a block that crafts items with &6patterns&f. It can take speed upgrades to increase the crafting speed."]
+			description: ["&b合成仓&f是一个用&6样板&f来自动合成物品的机器。它可以通过添加速度升级来提高合成速度。"]
 			hide_dependency_lines: true
 			dependencies: ["31F12B7E194CB6E5"]
 			id: "748CE951AFF3FC3E"
 			tasks: [{
 				id: "66C54E93061738D6"
 				type: "item"
-				title: "Crafter"
+				title: "合成仓"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -1331,11 +1331,11 @@
 			}]
 		}
 		{
-			title: "Create Autocrafting"
+			title: "建立自动化合成"
 			x: 6.0d
 			y: 11.0d
 			shape: "diamond"
-			description: ["Used to set up autocrafting."]
+			description: ["用于设置自动化合成。"]
 			hide_dependency_lines: true
 			dependencies: ["31F12B7E194CB6E5"]
 			id: "5D0EB3B91ADBAACE"
@@ -1362,8 +1362,8 @@
 			y: 8.0d
 			shape: "diamond"
 			description: [
-				"&bThe Controller &fis the core of the Refined Storage network. "
-				"You need to connect all the Refined Storage devices to this block. (You can connect devices by placing them right next to the Controller or with cables.)"
+				"&b控制器&f是精致存储中存储网络的核心。"
+				"你需要将所有的精致存储的设备连接到控制器（您可以将设备放在控制器边上或者通过线缆连接）。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1384,11 +1384,11 @@
 			}]
 		}
 		{
-			title: "Wireless Grid"
+			title: "无线终端"
 			x: 6.5d
 			y: 10.5d
 			shape: "diamond"
-			description: ["&bWireless Grid &fallows you to have access to your storage system anywhere."]
+			description: ["&b无线终端&f允许你在无线访问点的范围内，在任何地方访问存储系统）。"]
 			hide_dependency_lines: true
 			dependencies: ["31F12B7E194CB6E5"]
 			id: "2880D5E0F97F71E2"
@@ -1425,9 +1425,9 @@
 			y: 10.5d
 			shape: "diamond"
 			description: [
-				"&bThe Grid &fis a block that allows access to the items and fluids in the storage network."
+				"&b终端&f是一个可以对存储网络中的液体、物品进行访问的机械。"
 				""
-				"&bThe Crafting Grid &fis the same as a regular Grid, but has a crafting inventory. Allowing you to craft items with ease within the Table."
+				"&b合成终端&f和普通的终端相仿，但它有一个合成台，可以在终端中轻易的制造物品。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["31F12B7E194CB6E5"]
@@ -1459,7 +1459,7 @@
 			x: 5.0d
 			y: 6.5d
 			shape: "diamond"
-			description: ["&bThe Upgrade&f is the base item used for every type of upgrade."]
+			description: ["&b空白升级&f用来制作各种升级插件。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"130CAED3DCAD2B52"
@@ -1481,7 +1481,7 @@
 			x: 4.5d
 			y: 6.0d
 			shape: "diamond"
-			description: ["&bThe Speed Upgrade&f will increase the speed of the device that it is being inserted to."]
+			description: ["&b速度升级&f插入后提高设备的工作速度。"]
 			dependencies: ["37872846DC1B7D76"]
 			id: "6F91363BEA930A28"
 			tasks: [{
@@ -1499,7 +1499,7 @@
 			x: 5.5d
 			y: 6.0d
 			shape: "diamond"
-			description: ["&bThe Stack upgrade&r will improve item or fluid transfer speeds by using a whole stack (64 items) instead of 1 item at a time. It can be combined with &nspeed upgrades&r to let the device go to the next slot quicker. By using this upgrade, the amount of FE/t that this device draws will increase."]
+			description: ["&b堆叠升级&r通过一次使用1组物品（64个）而非1个物品来提高物品或流体的传输速度，它可以与&n速度升级&r同时使用，来使传输速度更。使用此升级后每Tick消耗的能量FE将会增加。"]
 			dependencies: ["37872846DC1B7D76"]
 			id: "28189A53589C72B5"
 			tasks: [{
@@ -1517,7 +1517,7 @@
 			x: 4.5d
 			y: 7.0d
 			shape: "diamond"
-			description: ["&bThe Range Upgrade &fincreases the range of the &6Wireless Transmitter&f."]
+			description: ["&b范围升级&扩大&6无线访问点&f的范围（无线终端）。"]
 			dependencies: ["37872846DC1B7D76"]
 			id: "1B2FC78CB76EC757"
 			tasks: [{
@@ -1535,7 +1535,7 @@
 			x: 5.5d
 			y: 7.0d
 			shape: "diamond"
-			description: ["&bThe Crafting Upgrade &fwill schedule a crafting task when the item being used in a device is needed but not available."]
+			description: ["&b合成升级&f可以放置在输出总线上，放置后可以调用已有模板进行合成，即输出总线需要输出的物品存储网络中没有时，自动合成输出。"]
 			dependencies: ["37872846DC1B7D76"]
 			id: "46F884E95A611496"
 			tasks: [{

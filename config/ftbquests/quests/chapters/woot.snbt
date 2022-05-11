@@ -19,10 +19,10 @@
 			y: -7.0d
 			shape: "square"
 			description: [
-				"&5Layout Guide &rshow you the factory layout and can switch through each y-level."
+				"&5结构指导器&r能够展示生物工厂的摆放方式，并能在各个等级中进行切换。"
 				""
-				"- Right clicking will switch through the different tiers."
-				"- Sneak right click will switch through the y-levels of the current tier."
+				"-右键切换不同的工厂等级。"
+				"-潜行右键以切换不同y轴层级显示。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4009E91C9A0B5AF7"]
@@ -42,7 +42,7 @@
 			x: 3.0d
 			y: -10.0d
 			shape: "diamond"
-			description: ["The &5YA Hammer &rhas two main usages. The first one is used for recipes in the anvil. The second is used for vanilla crafting. The &5YA Hammer&r is never consumed when used in recipes."]
+			description: ["&5YA锤子&r有2个主要用途。首先是在地狱铁砧上制作物品。其次是用于原版合成。在合成配方中，&5YA锤子&r永远不会被消耗掉。"]
 			hide_dependency_lines: true
 			dependencies: ["514642F7571E7FDA"]
 			id: "3DFDCC41337EFD39"
@@ -62,9 +62,9 @@
 			y: -7.0d
 			shape: "square"
 			description: [
-				"&5The Intern &rallows you to automatically build your factory."
+				"&5工厂搭建器&r可以帮助你自动搭建工厂。"
 				""
-				"The Intern can also validate your factory structure."
+				"工厂搭建器还能够检验你搭建的结构是否正确。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["514642F7571E7FDA"]
@@ -109,8 +109,8 @@
 			y: -9.5d
 			shape: "diamond"
 			description: [
-				"The main resource in Woot is &5Stygian Iron&r."
-				"You will need this to create the machines, tools and factory components."
+				"生物工厂中最主要的资源就是&5地狱铁粉&r。"
+				"你将需要使用它来制作机器、工具和工厂组件。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4009E91C9A0B5AF7"]
@@ -148,7 +148,7 @@
 			x: 1.5d
 			y: -6.5d
 			shape: "diamond"
-			description: ["The Woot factory runs on Conatus Fluid, which is primarily generated with the &5Fluid Vat&r. The machine takes a fluid and a catalyst, then converts itself into Conatus Fluid. Different fluid/catalyst combinations give differing amounts on Conatus Fluid."]
+			description: ["生物工厂需要萌生原液运行，主要由&5流体反应桶&r生产。该机器消耗流体和触媒并将它们转化成萌生原液。不同的流体/触媒组合会产出不同数量的萌生原液。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"3DFDCC41337EFD39"
@@ -170,7 +170,7 @@
 			x: 1.0d
 			y: -6.0d
 			shape: "diamond"
-			description: ["The factory is fueled by &aConatus Fluid &rwhich is stored in the &5Conatus Cell &rat the base of the factory. This can be created in the &bFluid Vat&r from a variety of different sources."]
+			description: ["工厂需要&a萌生原液&r作为燃料，它存储在工厂的地基方块-&5原液单元&中。萌生原液可以在&b流体反应桶&r中由几种不同的原料制造。"]
 			dependencies: ["5162EF6BCD20B41C"]
 			id: "487103E984EF2011"
 			tasks: [{
@@ -201,7 +201,7 @@
 			tasks: [{
 				id: "0BBB675975BA587F"
 				type: "checkmark"
-				title: "Woot Guide"
+				title: "生物工厂指南"
 			}]
 			rewards: [
 				{
@@ -223,15 +223,15 @@
 			]
 		}
 		{
-			title: "Tier 1 Factory"
+			title: "一级生物工厂"
 			x: 3.0d
 			y: -1.0d
 			shape: "octagon"
-			subtitle: "My First Factory"
+			subtitle: "我的第一个工厂"
 			description: [
-				"Place chests beside the &5Loot Exporter &rto get mobs loots."
-				"Some mobs require ingredients to drop their loot and these must be provided in chests/tanks beside the &5Ingredient Importer&r."
-				"You can find the items needed for each tier in the Woot Guide."
+				"将箱子放置在&5掉落物输出口&r旁边，以收集怪物的掉落物。"
+				"有些怪物需要原料来产出掉落物，这些原料需要放置在&5原料输入口&r旁边的箱子或储罐中。"
+				"你能够在生物工厂手册中看到每个等级所需的材料。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["09567F3122310276"]
@@ -251,7 +251,7 @@
 				{
 					id: "4353EFB6CBFCF860"
 					type: "item"
-					title: "Conatus Cell"
+					title: "原液单元"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -299,10 +299,10 @@
 			y: -2.0d
 			shape: "diamond"
 			description: [
-				"A &5Mob Shard&r is used to capture a mob to use in the factory."
-				"First you must create the &5Mob Shard &rthen attack a mob to program that shard."
-				"With the shard in your inventory you must kill a certain number of that mob."
-				"When the kill count is reached the shard will be converted into a &5Mob Controller&r."
+				"&5生物碎片&r生物碎片用于捕捉在生物工厂中使用的生物。"
+				"首先，你必须制造出&5生物碎片&r，然后使用它攻击生物以写入生物数据。"
+				"你必须把碎片放在快捷栏中并杀死一定数量的这种生物。"
+				"当达到击杀数时，碎片将编写完成，随后便可将其转换成&5生物控制器&r."
 			]
 			hide_dependency_lines: true
 			dependencies: ["09567F3122310276"]
@@ -327,11 +327,11 @@
 			y: -6.0d
 			shape: "square"
 			description: [
-				"The &5Mob Controller &rtells the factory which mob you would like to spawn."
-				"However not all factories are created equally"
-				"Each &5Mob Controller &rrequires a minimum tier of factory to use."
-				"The tier can be seen by right clicking on a &5Mob Controller&r."
-				"The &5Mob Controller &ris created on the &aStygian Anvil&r by combining a fully programmed &6Mob Shard&r with a &bPrism &rand &cStygian Iron Plate&r."
+				"&5生物控制器&r告诉工厂你想生成什么生物。"
+				"但是，并非所有工厂都是相等的。"
+				"每种&5生物控制器&r都有一个最小工厂等级需求。"
+				"可以通过右击&5生物控制器&r来查看需求等级。"
+				"&5生物控制器&r是使用&a地狱铁砧&r组合一个完全编写的&6生物碎片&r与&b棱镜&r和&c地狱铁板&r制造的。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["09567F3122310276"]
@@ -352,11 +352,11 @@
 			y: -2.5d
 			shape: "diamond"
 			description: [
-				"Perks are applied to the &5Perk Slot&r."
-				"A &5Perk Slot &rcan accept a single type of perk."
-				"An empty &5Perk Slot&r can take any level I perk. All previous levels of perk must be applied before the next level is accepted."
-				"Different tiers of factory have a maximum level of perk that they will work with."
-				"Higher tier perks can be applied to lower tier factories, however the factory will ignore any perk benefits over its level capacity."
+				"升级插件是安装在&5升级插件插槽&r上的。"
+				"一个&5升级插件插槽&r只能接受一种升级插件。"
+				"一个空的&5升级插件插槽&r能够安装任意一种等级1升级插件。安装高等级的升级插件之前必须安装所有同种的低等级升级插件。"
+				"不同等级的工厂拥有不同的升级播件可接受最大等级。"
+				"高等级的升级插件可以安装在低等级的工厂上，但是工厂会忽略任何高于可接受级别的升级插件增益。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["382EAC32691AC539"]
@@ -376,7 +376,7 @@
 			x: 5.0d
 			y: -6.0d
 			shape: "diamond"
-			description: ["A valid &5Mob Controller&r must be placed on &6Primary Base&r for the factory to form."]
+			description: ["一个有效的&5生物控制器&r必须放置在&6主基座&r上方，以使工厂成型。"]
 			hide_dependency_lines: true
 			dependencies: ["382EAC32691AC539"]
 			id: "6582FFC1B45EF9E0"
@@ -395,7 +395,7 @@
 			x: 2.5d
 			y: -4.0d
 			shape: "diamond"
-			description: ["This exotic reduces the amount of item recipe ingredients required by &d85.0%&r."]
+			description: ["该以诺之钥能减少&d85.0%&r的物品原材料消耗。"]
 			hide_dependency_lines: true
 			dependencies: ["4009E91C9A0B5AF7"]
 			id: "1FF2719D6763FCC0"
@@ -414,7 +414,7 @@
 			x: 3.5d
 			y: -4.0d
 			shape: "diamond"
-			description: ["This exotic spawns &d10 mobs&r for each controller."]
+			description: ["该以诺之钥使得每个生物控制器生成&d10只生物&r。"]
 			hide_dependency_lines: true
 			dependencies: ["4009E91C9A0B5AF7"]
 			id: "64DD4018FA36F7AB"
@@ -433,7 +433,7 @@
 			x: 2.5d
 			y: -3.0d
 			shape: "diamond"
-			description: ["This exotic reduces the amount of fluid recipe ingredients required by &d85.0%&r."]
+			description: ["该以诺之钥能减少&d85.0%&r的流体原料需求。"]
 			hide_dependency_lines: true
 			dependencies: ["4009E91C9A0B5AF7"]
 			id: "20CBAF9499839B2E"
@@ -452,7 +452,7 @@
 			x: 3.5d
 			y: -3.0d
 			shape: "diamond"
-			description: ["This exotic runs the factory at a fixed spawn time of &d20 ticks&r."]
+			description: ["该以诺之钥能让生物工厂以&d20 ticks&r的生成周期恒定运行。"]
 			hide_dependency_lines: true
 			dependencies: ["4009E91C9A0B5AF7"]
 			id: "1DF7A9FCDD8CB724"
@@ -471,7 +471,7 @@
 			x: 3.0d
 			y: -3.5d
 			shape: "diamond"
-			description: ["This exotic reduces the amount of Conatus fluid required bu &d85.0%&r."]
+			description: ["该以诺之钥能减少&d85.0%&r的萌生原液需求。"]
 			hide_dependency_lines: true
 			dependencies: ["4009E91C9A0B5AF7"]
 			id: "2726974364A62A39"
@@ -491,10 +491,10 @@
 			y: -2.0d
 			shape: "diamond"
 			description: [
-				"The &5Dye Liquifier &rtakes dyed items, or items that can creates dyes and converts them into red, yellow, blue and white fluids."
-				"These are then combined into Pure Dye which can be used to create dye casings or any color in the &5Injection Press&r."
+				"&5染料液化机&r需求染料，或者将其转化成红，黄，蓝，白可以制做成染料的物品然后染料流体。"
+				"它们可以合并成纯净染料精华，纯净染料精华可以在&5注塑机&r中消耗染料框架制造出任何染料板。"
 				""
-				"Items can be inserted from any side. Pure Dye can be extracted from any side. The &5Dye Liquifier&r will automatically output to an adjacent fluid handler."
+				"物品可以从任意面输入。纯净染料精华可以从任意面输出。&5染料液化机&r会自动输出到可接受的储罐中。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -518,9 +518,9 @@
 			y: -2.5d
 			shape: "diamond"
 			description: [
-				"The &5Enchant Liquifier &rtakes enchanted items (books, swords, etc), extracts the enchantments from them and creates Liquid Enchant fluid. Higher level enchants create more fluid."
+				"&5附魔液化机&r接受附魔物品（比如书、剑……），提取出附魔并制造出液态魔咒。高等级附魔将产生更多液态魔咒。"
 				""
-				"Items can be inserted from any side. Liquid Enchant can be extracted from any side. The &5Enchant Liquifier &rwill automatically output to an adjacent fluid handler."
+				"物品可以从任意面输入，液态魔咒可以从任意面输出&5附魔液化机&r会自动输出到可接受的储罐中。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -543,7 +543,7 @@
 			x: 3.0d
 			y: -5.0d
 			shape: "square"
-			description: ["&5Dee's Oracle &rallows you to view any simulated mob, the associated drops and drop chance at each looting level."]
+			description: ["&5迪的神谕&r可以让你查看在不同的抢夺等级的情况下所有已模拟生物的掉落物以及掉落几率。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"3DFDCC41337EFD39"
@@ -565,7 +565,7 @@
 			x: 4.5d
 			y: -6.5d
 			shape: "diamond"
-			description: ["The &5Injection Press&r injects fluids into items. It can be used with Pure Dye to create Dye Plates. It can be uses with Liquid Enchant to create factory upgrade plates and enchanted books."]
+			description: ["&5注塑机&r能够将流体注入物品。它可以使用纯净染料精华来制造染料板。它也可以使用液态魔咒来制造工厂升级板和附魔书。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"3DFDCC41337EFD39"

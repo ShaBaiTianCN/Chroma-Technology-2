@@ -9,10 +9,10 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Mana gem"
+			title: "魔源宝石"
 			x: 0.0d
 			y: 0.0d
-			description: ["The primary ore for this mod"]
+			description: ["此模组最基础的矿物"]
 			hide_dependency_lines: true
 			dependencies: ["2C3143BACB0592E9"]
 			hide: false
@@ -32,7 +32,7 @@
 		{
 			x: -5.5d
 			y: -4.0d
-			description: ["Enter the new ars"]
+			description: ["走进新生魔艺"]
 			dependencies: ["4A44A6FE8FD947B6"]
 			id: "2C3143BACB0592E9"
 			tasks: [{
@@ -49,7 +49,7 @@
 		{
 			x: -5.5d
 			y: -2.0d
-			description: ["A new seed"]
+			description: ["新的种子"]
 			id: "36FAF61E7E63E06D"
 			tasks: [{
 				id: "5BB590AB5D6774AA"
@@ -65,7 +65,7 @@
 		{
 			x: -5.5d
 			y: 0.0d
-			description: ["Will regen faster your mana"]
+			description: ["更快地回复法力"]
 			dependencies: ["36FAF61E7E63E06D"]
 			id: "2378F549BF86C8F1"
 			tasks: [{
@@ -88,7 +88,7 @@
 		{
 			x: -7.0d
 			y: 1.5d
-			description: ["Can contain a lot of potion"]
+			description: ["可以容纳大量药水"]
 			hide_dependency_lines: true
 			dependencies: ["5776690626AB11D3"]
 			hide: false
@@ -107,7 +107,7 @@
 		{
 			x: -7.0d
 			y: 3.0d
-			description: ["An automated version of the brewing stand"]
+			description: ["自动版酿造台"]
 			hide_dependency_lines: true
 			dependencies: [
 				"4F5EB894CB99F3B7"
@@ -129,7 +129,7 @@
 		{
 			x: -7.0d
 			y: 4.5d
-			description: ["Will contain a larger amount of potion"]
+			description: ["可以容纳更多药水"]
 			dependencies: ["058DCC593426560A"]
 			id: "2EE0A9D23E19779F"
 			tasks: [{
@@ -146,7 +146,7 @@
 		{
 			x: -8.0d
 			y: 6.0d
-			description: ["This flask augment the effect of potions"]
+			description: ["这个烧瓶会延长药水的时效"]
 			dependencies: ["2EE0A9D23E19779F"]
 			id: "09193B0C52F35E54"
 			tasks: [{
@@ -163,7 +163,7 @@
 		{
 			x: -6.0d
 			y: 6.0d
-			description: ["This flask augment the effect of potions"]
+			description: ["这个烧瓶会增强药水的效果"]
 			dependencies: ["2EE0A9D23E19779F"]
 			id: "77661DB31FF0F00A"
 			tasks: [{
@@ -180,7 +180,7 @@
 		{
 			x: -3.5d
 			y: 4.0d
-			description: ["This wand allows you to link jars betweens them by using mana relays"]
+			description: ["这个法杖可以让你通过魔源中继器来连接魔源罐。"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
 			hide: false
@@ -199,7 +199,7 @@
 		{
 			x: -3.5d
 			y: 5.5d
-			description: ["Can transport mana"]
+			description: ["可以传输魔源"]
 			dependencies: ["22235B6788A41E43"]
 			id: "6EE8986D6BF0CB22"
 			tasks: [{
@@ -216,7 +216,7 @@
 		{
 			x: -3.5d
 			y: 7.0d
-			description: ["Can split mana in multiple way"]
+			description: ["可以向多个目标分配魔源"]
 			dependencies: ["6EE8986D6BF0CB22"]
 			id: "2F05E7BF1220AC45"
 			tasks: [{
@@ -233,7 +233,7 @@
 		{
 			x: -1.0d
 			y: 1.0d
-			description: ["Can contain mana"]
+			description: ["可以储存魔源"]
 			dependencies: ["5776690626AB11D3"]
 			id: "17AEDD9B9E249661"
 			tasks: [{
@@ -251,8 +251,8 @@
 			x: -3.0d
 			y: 1.5d
 			description: [
-				"&eThe mana condenser&r will &dcreate mana&r from &agrowing things like crops or trees&r."
-				"&4Warning you can not put 2 in the same range (9x9)&r."
+				"&e魔力凝聚器&r可以在&a作物或树木等生长时&r&d创造魔源&r。"
+				"&4需要小心的是，你不能在9x9的范围内放置两个及以上的凝聚器。&r"
 			]
 			dependencies: ["17AEDD9B9E249661"]
 			id: "2C674E27EA9091AC"
@@ -270,7 +270,7 @@
 		{
 			x: -1.5d
 			y: 3.0d
-			description: ["&eThe volcanic sourcelink&r will &dgenerate mana&r like an &6endoflame&r, you will need to throw &4burning things&r nearby &ethe volcanic sourcelink&r &4(archwood has bonus mana)&r."]
+			description: ["&e火山蓄魔器&r会像&6火红莲&r一样&d产生魔源&r。你需要在&e火山蓄魔器&r附近丢下&4燃料&r才能使它运作。&4（至高树木可以产出更多魔源）&r"]
 			dependencies: ["17AEDD9B9E249661"]
 			id: "40FF29FF508397B4"
 			tasks: [{
@@ -285,10 +285,10 @@
 			}]
 		}
 		{
-			title: "Warding stone"
+			title: "守护之石"
 			x: 1.0d
 			y: 1.0d
-			description: ["Mobs can not go over this stone"]
+			description: ["怪物无法走过此方块"]
 			dependencies: ["5776690626AB11D3"]
 			id: "607EC6EB1D915590"
 			tasks: [{
@@ -354,7 +354,7 @@
 		{
 			x: 5.0d
 			y: 0.0d
-			description: ["This machine will create glyph or item"]
+			description: ["这个机器可以制造各种魔符"]
 			dependencies: [
 				"301FDAEE26B0B310"
 				"35686F55ECCEDEB5"
@@ -375,7 +375,7 @@
 		{
 			x: 1.0d
 			y: -1.0d
-			description: ["Will create gem from mana"]
+			description: ["可以生产魔源宝石"]
 			dependencies: ["5776690626AB11D3"]
 			id: "0FBA19A80AB3B5C4"
 			tasks: [{
@@ -392,7 +392,7 @@
 		{
 			x: -1.0d
 			y: -1.0d
-			description: ["The core for the enchantig aparathus"]
+			description: ["附魔装置的核心"]
 			dependencies: ["5776690626AB11D3"]
 			id: "7CA16C5B91E06D7B"
 			tasks: [{
@@ -411,8 +411,8 @@
 			x: -2.0d
 			y: -2.0d
 			description: [
-				"Place the enchanting apparatus on the core and the pedestal around."
-				"&lObviously needs mana"
+				"将附魔装置放在奥术核心上，然后在周围放上奥术基座即可。"
+				"&l显然需要魔源才能运作"
 			]
 			dependencies: ["7CA16C5B91E06D7B"]
 			id: "13ECF17994290FF8"
@@ -436,11 +436,11 @@
 			}]
 		}
 		{
-			title: "Bloom"
+			title: "花苞"
 			x: -2.0d
 			y: -4.0d
-			subtitle: "You mean Boom ??"
-			description: ["A new seed for new craft"]
+			subtitle: "你是说花“爆”？？"
+			description: ["新创造之种"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
 			id: "18D711B3F17EE1B5"
@@ -466,7 +466,7 @@
 			title: "Fiber"
 			x: 0.0d
 			y: -4.0d
-			description: ["Each material can craft a new and better armor than te previous one"]
+			description: ["三种纤维可以分别用来制造更好的盔甲。"]
 			dependencies: ["18D711B3F17EE1B5"]
 			id: "0859D403F9FDBE8A"
 			tasks: [
@@ -495,7 +495,7 @@
 		{
 			x: 4.0d
 			y: -4.0d
-			description: ["This pet will transport item "]
+			description: ["这种生物可以运送物品。"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
 			hide: false
@@ -515,7 +515,7 @@
 			icon: "ars_nouveau:whelp_charm"
 			x: 4.0d
 			y: -2.0d
-			description: ["will grab item like vacum hopper"]
+			description: ["可以像虚空漏斗一样拾取物品"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
 			hide: false
@@ -542,7 +542,7 @@
 			x: 5.0d
 			y: -3.0d
 			shape: "diamond"
-			subtitle: "The shard of the fallen pet is an old artifact created by mad mages who tried to create the most powerful pet but their creation was too powerful to be contained in an artifact. Their pet was too corrupted and started to ravage the world. In a last burst of hope a young mage called &d&kAzerty&r trapped him in a newly discovered dimension. Ever since that day, if someone tries to recreate this item, the item's will be corrupted because it can only have one &0ender dragon&r."
+			subtitle: "宠物碎片是一件被女巫制造出的古物。那些疯狂的女巫试图创造世界上最强大的宠物，但她们的造物太过强大，无法被容纳在这样一件小小的物品里。这只宠物腐化极为严重，开始为世界带来灾祸。在人们进行最后一搏时，一位年轻的名为&d&kAzerty&r的年轻法师将它困在了一个新发现的次元中。在那以后，所有尝试再现这件物品的人最终都失败了，因为这个世界上只能存在一条&0末影龙&r。"
 			dependencies: [
 				"6784B1D14C0297D1"
 				"71D77C0887FD4495"
@@ -566,7 +566,7 @@
 		{
 			x: 6.0d
 			y: -4.0d
-			description: ["This pet will generate wood with ambient trees. If there are many diversified more the pixie work fast"]
+			description: ["这种生物可以生产附近树木的木头。如果附近的植物多样性增加，它的产出速度也会随之变快。"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
 			hide: false
@@ -586,7 +586,7 @@
 			icon: "ars_nouveau:wixie_charm"
 			x: 6.0d
 			y: -2.0d
-			description: ["will autocraft item and potion"]
+			description: ["会自动合成物品与药水"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
 			hide: false
@@ -612,7 +612,7 @@
 		{
 			x: 0.0d
 			y: 4.5d
-			description: ["Needed to assign spell to an item or to a parchment"]
+			description: ["可以用来给物品或法术羊皮纸写入法术"]
 			hide_dependency_lines: true
 			dependencies: ["521852C9625B5CB2"]
 			hide: false
@@ -631,7 +631,7 @@
 		{
 			x: 0.0d
 			y: 6.0d
-			description: ["Need to craft every aspect of parchment"]
+			description: ["可以用来制作各种卷轴"]
 			dependencies: ["7C89CC353B9E99D6"]
 			id: "1E6E3EDE5806502E"
 			tasks: [{
@@ -649,8 +649,8 @@
 			x: -1.5d
 			y: 6.0d
 			description: [
-				"Shift + right click will save your location"
-				"Right click will teleport to the set destination but consumes your scroll."
+				"按住Shift+右键可以记录当前位置"
+				"单击右键可以将你传送到之前记录的位置，但是会消耗这个卷轴。"
 			]
 			dependencies: ["1E6E3EDE5806502E"]
 			id: "001E32C15F3054F8"
@@ -668,7 +668,7 @@
 		{
 			x: -1.5d
 			y: 4.5d
-			description: ["Throw the warp scroll in a portal made of this stone. It will create a portal to the set destination"]
+			description: ["将折跃卷轴丢到使用这种方块搭成的传送门中，可以在之前记录的位置生成一个传送门。"]
 			dependencies: ["001E32C15F3054F8"]
 			id: "54A6DD4596C441EA"
 			tasks: [{
@@ -685,7 +685,7 @@
 		{
 			x: 0.0d
 			y: 7.5d
-			description: ["Whitelist or blacklist for pet"]
+			description: ["给宠物的白名单或黑名单"]
 			dependencies: ["1E6E3EDE5806502E"]
 			id: "6C4AD852649DE5E7"
 			tasks: [
@@ -709,7 +709,7 @@
 		{
 			x: 1.5d
 			y: 6.0d
-			description: ["By putting it on the Scribe's table, you can apply a spell from your spell book to the parchment. "]
+			description: ["将它放在抄写台上之后，你可以将法术书上的法术抄写到羊皮纸上。"]
 			dependencies: ["1E6E3EDE5806502E"]
 			id: "6E549B8DC5D8122D"
 			tasks: [{
@@ -726,7 +726,7 @@
 		{
 			x: 2.5d
 			y: 7.0d
-			description: ["With a spell parchment you can apply spell to it, you can now automatise some spell or mining"]
+			description: ["拥有了可以抄写法术的法术羊皮纸，你现在可以将一些法术或挖矿进行自动化了。"]
 			dependencies: ["6E549B8DC5D8122D"]
 			id: "07F710A00F0739F0"
 			tasks: [{
@@ -743,7 +743,7 @@
 		{
 			x: 2.5d
 			y: 5.0d
-			description: ["By right clicking with a spell parchment to draw a runic chalk will apply the spell wrote on it"]
+			description: ["用法术羊皮纸右击符文并使用符文粉笔可以将其附上法术。"]
 			dependencies: ["6E549B8DC5D8122D"]
 			id: "28261B9D0AF1F24C"
 			tasks: [{
@@ -766,7 +766,7 @@
 		{
 			x: 4.0d
 			y: 1.5d
-			description: ["Allows you to use magic"]
+			description: ["允许你使用法术"]
 			hide_dependency_lines: true
 			dependencies: ["5776690626AB11D3"]
 			hide: false
@@ -785,7 +785,7 @@
 		{
 			x: 5.0d
 			y: 1.5d
-			description: ["Improved version of the novice"]
+			description: ["新手法术书进阶版"]
 			dependencies: ["521852C9625B5CB2"]
 			id: "748432B999DA2E80"
 			tasks: [{
@@ -802,7 +802,7 @@
 		{
 			x: 6.0d
 			y: 1.5d
-			description: ["Improved version of the mage"]
+			description: ["法师法术书进阶版"]
 			dependencies: ["748432B999DA2E80"]
 			id: "005BF8C83C4A98A2"
 			tasks: [{
@@ -819,7 +819,7 @@
 		{
 			x: 4.0d
 			y: 2.5d
-			description: ["Will reduce mana cost"]
+			description: ["可以降低消耗的魔源"]
 			hide_dependency_lines: true
 			dependencies: ["0859D403F9FDBE8A"]
 			hide: false
@@ -879,7 +879,7 @@
 		{
 			x: 5.0d
 			y: 2.5d
-			description: ["Improved version of the novice"]
+			description: ["初学者装备进阶版"]
 			hide_dependency_lines: true
 			dependencies: ["0859D403F9FDBE8A"]
 			hide: false
@@ -939,7 +939,7 @@
 		{
 			x: 6.0d
 			y: 2.5d
-			description: ["Improved version of the mage"]
+			description: ["学徒装备进阶版"]
 			hide_dependency_lines: true
 			dependencies: ["0859D403F9FDBE8A"]
 			hide: false
@@ -999,7 +999,7 @@
 		{
 			x: 5.5d
 			y: 6.5d
-			description: ["You can apply spell on the bow"]
+			description: ["你可以在弓上抄入法术"]
 			hide_dependency_lines: true
 			dependencies: [
 				"13ECF17994290FF8"
@@ -1021,7 +1021,7 @@
 		{
 			x: 4.5d
 			y: 7.5d
-			description: ["Your arrow/spell bounce or pierce block/entities"]
+			description: ["使你的箭矢或法术可以穿透方块或实体"]
 			dependencies: ["3C23C2213A2F06F3"]
 			id: "46385C679D037777"
 			tasks: [{
@@ -1038,7 +1038,7 @@
 		{
 			x: 5.5d
 			y: 8.5d
-			description: ["2 arrow not once"]
+			description: ["一次两箭"]
 			dependencies: ["3C23C2213A2F06F3"]
 			id: "74CF2C8FD7AC0EA6"
 			tasks: [{
@@ -1055,7 +1055,7 @@
 		{
 			x: 6.5d
 			y: 7.5d
-			description: ["Will do more effects depending obviously on the effect "]
+			description: ["可以根据法术效果对其进行显著增强"]
 			dependencies: ["3C23C2213A2F06F3"]
 			id: "7CC2BFF996A9BDF8"
 			tasks: [{
@@ -1072,7 +1072,7 @@
 		{
 			x: 5.5d
 			y: 4.5d
-			description: ["On this sword you can apply spell with the reactive enchant"]
+			description: ["你可以在这把剑上抄入法术并加上能与法术形成配合的附魔。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"13ECF17994290FF8"
@@ -1100,7 +1100,7 @@
 		{
 			x: 5.5d
 			y: 5.5d
-			description: ["You can cast spell by apply spell this spell cost less mana but just one can be used"]
+			description: ["你可以通过在此法杖上抄入法术以进行施法。施法将会消耗更少的魔源，但你只能在法杖上抄入一种法术。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"13ECF17994290FF8"
@@ -1122,7 +1122,7 @@
 		{
 			x: 7.0d
 			y: 5.0d
-			description: ["Will give you random benefic effect"]
+			description: ["可以给予你随机的正面效果"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
 			hide: false
@@ -1141,7 +1141,7 @@
 		{
 			x: 7.0d
 			y: 6.0d
-			description: ["You can \"\"Fly\"\""]
+			description: ["使你能够“飞行”"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
 			hide: false
@@ -1160,7 +1160,7 @@
 		{
 			x: 8.0d
 			y: 5.0d
-			description: ["Reduce cost of mana"]
+			description: ["减少法力使用量"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
 			hide: false
@@ -1179,7 +1179,7 @@
 		{
 			x: 8.0d
 			y: 6.0d
-			description: ["Improved version"]
+			description: ["节魔之戒进阶版"]
 			dependencies: ["40457D0814AA136E"]
 			id: "5830062BD868D4DB"
 			tasks: [{
@@ -1196,7 +1196,7 @@
 		{
 			x: 9.0d
 			y: 5.0d
-			description: ["Boost the number of mana"]
+			description: ["增加法力值"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
 			hide: false
@@ -1215,7 +1215,7 @@
 		{
 			x: 9.0d
 			y: 6.0d
-			description: ["Regen your mana"]
+			description: ["回复法力"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
 			hide: false
@@ -1234,7 +1234,7 @@
 		{
 			x: 10.0d
 			y: 5.0d
-			description: ["Place light in the world"]
+			description: ["可放置的光芒"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
 			hide: false
@@ -1257,7 +1257,7 @@
 		{
 			x: 10.0d
 			y: 6.0d
-			description: ["A portable trash"]
+			description: ["便携式垃圾桶"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
 			hide: false
@@ -1281,7 +1281,7 @@
 			x: 10.0d
 			y: 1.5d
 			shape: "gear"
-			description: ["Will unlock botania"]
+			description: ["可以解锁植物魔法模组"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
 			hide: false
@@ -1296,7 +1296,7 @@
 		{
 			x: 6.5d
 			y: 0.0d
-			description: ["The glyph will earn new magic aspect"]
+			description: ["魔符可以使你获得新法术"]
 			dependencies: ["2805409DFA1A3522"]
 			id: "7A51D504429FB28C"
 			tasks: [{
@@ -1321,8 +1321,8 @@
 			x: -3.0d
 			y: 0.0d
 			description: [
-				"This item will &dgenerate mana&r when  nearby &aanimal  are bred&r or when &0nearby mobs died&r."
-				"It also generates &dpassive mana&r from nearby &ababy animal&r."
+				"这个物品会在附近&a有动物出生&r或&0有生物死亡&r时&d产出魔源&r。"
+				"它还会根据附近的&a幼年动物&r来&d被动地产出魔源&r。"
 			]
 			dependencies: ["17AEDD9B9E249661"]
 			id: "4AE130BFB7428AC2"
@@ -1341,8 +1341,8 @@
 			x: 0.0d
 			y: 2.5d
 			description: [
-				"This item will &dgenerate mana&r from &2nearby food&r, &dmana food&r are &emore efficient than other normal food&r."
-				"It will also &aconvert dirt&r to &dmycellium&r."
+				"这个物品会通过消耗&2附近的食物&r来&d产出魔源&r。&d具有魔力的食物&r会&e比普通的食物产出更多魔源&r。"
+				"它还会将&a泥土&r转化为&d菌丝&r。"
 			]
 			dependencies: ["17AEDD9B9E249661"]
 			id: "6B7C53F53B9A00B9"
@@ -1361,8 +1361,8 @@
 			x: -2.5d
 			y: 2.5d
 			description: [
-				"This item will &dgenerate mana&r by &5consuming potion from nearby potion jar&r."
-				"&eMore the potion is efficient and more mana is generated&r."
+				"这个物品会通过&5消耗附近药水罐中的药水&r来&d产出魔源&r。"
+				"&e药水的效果越强，产出的魔源越多&r。"
 			]
 			dependencies: ["17AEDD9B9E249661"]
 			id: "6BB2E4D78A9DF938"
@@ -1382,12 +1382,12 @@
 			x: 2.0d
 			y: -4.0d
 			description: [
-				"If you want to summon &6the wilden chimeras&r for the &5wilden tribute&r, you will need to craft the &5wilden ritual&r, this ritual can spawn &5wilden mob&r for a limited duration of time but also can spawn &6the wilden chimeras&r for this you will need to craft the ritual with the &53 wilden item&r :"
-				"&6Wilden Horn&r"
-				"&6Wilden Spike&r"
-				"&6Wilden Wing&r"
-				"&4Watchout the boss will break block at spawn ONLY.&r"
-				"&2Have a nice fight.&r"
+				"如果你想召唤&6荒野奇美拉&r以获得&5荒野供物&r，你就需要进行&5荒野供物仪式&r。这个仪式会在短时间内召唤随机一个&5荒野生物&r，但如果要召唤&6荒野奇美拉&r，你就需要同时准备以下的&53个荒野物品&r："
+				"&6荒野之角&r"
+				"&6荒野尖刺&r"
+				"&6荒野膜翼&r"
+				"&4要注意boss被召唤时会破坏火盆附近的方块。&r"
+				"&2战斗愉快。&r"
 			]
 			hide_dependency_lines: true
 			dependencies: ["074D7E30C16E104E"]
@@ -1413,7 +1413,7 @@
 		{
 			x: -3.0d
 			y: -2.5d
-			description: ["After right clicking with a ritual tablet, the brazier will ignit, just simply right click with the required item"]
+			description: ["在使用仪式石板右击后，仪式火盆将会点燃，在准备好仪式物品后再次右击即可开始仪式。"]
 			dependencies: ["13ECF17994290FF8"]
 			id: "074D7E30C16E104E"
 			tasks: [{
