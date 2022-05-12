@@ -3,7 +3,7 @@
 	group: "1D8552F8A45BF753"
 	order_index: 6
 	filename: "apotheosis"
-	title: "神话"
+	title: "神化"
 	icon: "apotheosis:boss_summoner"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -352,8 +352,8 @@
 			x: 7.0d
 			y: -9.0d
 			shape: "hexagon"
-			subtitle: "The Hundred"
-			description: ["Enchant an item at level &6100&r"]
+			subtitle: "一百"
+			description: ["用&6100&r级附魔一个物品"]
 			id: "1B19FC5486EF328D"
 			tasks: [{
 				id: "4EF23C6A381CAA05"
@@ -371,7 +371,7 @@
 			x: 6.5d
 			y: -7.5d
 			shape: "diamond"
-			subtitle: "Enchant an item at level 30 "
+			subtitle: "在30级时附魔一个物品"
 			id: "0417E4581A60500D"
 			tasks: [{
 				id: "75B7A2BAB48212F3"
@@ -389,7 +389,7 @@
 			x: 7.0d
 			y: -8.0d
 			shape: "diamond"
-			subtitle: "Enchant an item at level 45"
+			subtitle: "在45级时附魔一个物品"
 			id: "10022A74BA0D5A87"
 			tasks: [{
 				id: "6368369424A00EF4"
@@ -407,7 +407,7 @@
 			x: 7.5d
 			y: -7.5d
 			shape: "diamond"
-			subtitle: "Level 60 enchanted item"
+			subtitle: "在60级时附魔一个物品"
 			id: "668B57AF84BCE7CF"
 			tasks: [{
 				id: "5BC5F2012C824721"
@@ -425,7 +425,7 @@
 			x: 7.0d
 			y: -7.0d
 			shape: "diamond"
-			subtitle: "Requires an enchanted item to level 80"
+			subtitle: "在80级时附魔一个物品"
 			id: "78617DA3257939F0"
 			tasks: [{
 				id: "162F7EEB25BC1CB4"
@@ -443,7 +443,7 @@
 			x: 2.5d
 			y: 2.0d
 			shape: "square"
-			subtitle: "Craft an enchanting table"
+			subtitle: "制作一个附魔台"
 			id: "570F1830778C613D"
 			tasks: [{
 				id: "79229DD3FD49C7F5"
@@ -460,7 +460,7 @@
 			x: 3.5d
 			y: 2.5d
 			shape: "square"
-			subtitle: "Enchant an item with at least 10% of each stat"
+			subtitle: "在三种属性都不低于10%的附魔台上附魔一个物品"
 			id: "60D045F08C8930E8"
 			tasks: [{
 				id: "2A33DCB9A5EDB463"
@@ -478,7 +478,7 @@
 			x: 4.5d
 			y: 2.5d
 			shape: "square"
-			subtitle: "Enchant an item with 0% Quanta"
+			subtitle: "在量子化0%的附魔台上附魔一个物品"
 			id: "57AA95C30FD33307"
 			tasks: [{
 				id: "42C457F50858E7BD"
@@ -496,7 +496,7 @@
 			x: 5.5d
 			y: 2.5d
 			shape: "rsquare"
-			subtitle: "Enchanting an item with max Arcana and Eterna but no Quanta"
+			subtitle: "在同时拥有满位阶和阿卡那属性，但量子化为0%的附魔台上附魔一个物品"
 			id: "29A3336C53AE96AD"
 			tasks: [{
 				id: "6A32E8F245C74F8F"
@@ -513,7 +513,7 @@
 		{
 			x: 3.5d
 			y: 1.5d
-			subtitle: "Enchant an item at 50% Quanta"
+			subtitle: "在量子化50%的附魔台上附魔一个物品"
 			id: "576917F56F977102"
 			tasks: [{
 				id: "40795DC0B0C52DF4"
@@ -530,7 +530,7 @@
 		{
 			x: 4.5d
 			y: 1.5d
-			subtitle: "Enchant an item at 100% Quanta"
+			subtitle: "在量子化100%的附魔台上附魔一个物品"
 			id: "540B31EB7E3C9A64"
 			tasks: [{
 				id: "056F3FC09B5F73C6"
@@ -547,7 +547,7 @@
 		{
 			x: 5.5d
 			y: 1.5d
-			subtitle: "Enchant an item with all maximum stats"
+			subtitle: "在同时拥有三种满属性的附魔台上附魔一个物品"
 			id: "3C7047B869B19658"
 			tasks: [{
 				id: "33D286F58F31F206"
@@ -565,7 +565,7 @@
 			x: 5.0d
 			y: 0.5d
 			shape: "heart"
-			subtitle: "Enchant an item with 50% Arcana"
+			subtitle: "在阿卡那50%的附魔台上附魔一个物品"
 			id: "51EB12E55D91BDA9"
 			tasks: [{
 				id: "65E4615568E61FB5"
@@ -583,7 +583,7 @@
 			x: 4.0d
 			y: 0.5d
 			shape: "heart"
-			subtitle: "Enchant an item with 100% Arcana"
+			subtitle: "在量子化100%的附魔台上附魔一个物品"
 			id: "29AB4087761B6B9F"
 			tasks: [{
 				id: "3553065047074192"
@@ -601,7 +601,7 @@
 			x: 10.0d
 			y: -8.0d
 			shape: "pentagon"
-			subtitle: "Find an item with an apothetic affix"
+			subtitle: "找到一个带有神化词缀的物品"
 			id: "4AE7772E72D82D24"
 			tasks: [{
 				id: "341FCBDD590C2A80"
@@ -618,7 +618,7 @@
 		{
 			x: 11.0d
 			y: -8.0d
-			subtitle: "Common loot boss"
+			subtitle: "Boss的普通战利品"
 			id: "6C1F1E5B165796A0"
 			tasks: [{
 				id: "2E34BA70744E9856"
@@ -635,7 +635,7 @@
 		{
 			x: 11.0d
 			y: -7.0d
-			subtitle: "Find an uncommon loot on a boss"
+			subtitle: "在Boss身上找到少见的战利品"
 			id: "51D95F6AD16BBAFB"
 			tasks: [{
 				id: "7A8E32B79C76BCA2"
@@ -652,7 +652,7 @@
 		{
 			x: 12.0d
 			y: -7.0d
-			subtitle: "Rare loot on bosses"
+			subtitle: "Boss的稀有战利品"
 			id: "3FF49A2BEABD600C"
 			tasks: [{
 				id: "61DEE689E8E5F7F0"
@@ -669,7 +669,7 @@
 		{
 			x: 13.0d
 			y: -7.0d
-			subtitle: "Epic loot on boss"
+			subtitle: "Boss的史诗战利品"
 			id: "32E0D78B650A549E"
 			tasks: [{
 				id: "47D423CE7C4235AB"
@@ -686,7 +686,7 @@
 		{
 			x: 13.0d
 			y: -8.0d
-			subtitle: "Mythic loot on bosses !"
+			subtitle: "Boss的神话战利品！"
 			id: "2A8D561E69A78A42"
 			tasks: [{
 				id: "3012B362FF0D760A"
@@ -704,7 +704,7 @@
 			x: 14.0d
 			y: -8.0d
 			shape: "gear"
-			subtitle: "Ancient loot on boss (very rare)"
+			subtitle: "Boss身上的远古战利品（非常罕见）"
 			description: [""]
 			optional: true
 			id: "1E27C18649081792"
@@ -723,7 +723,7 @@
 		{
 			x: 12.0d
 			y: -6.0d
-			subtitle: "Buy a loot with a Wandering Trader"
+			subtitle: "通过流浪商人购买战利品"
 			id: "10093091B3DCE39B"
 			tasks: [{
 				id: "4C890C6648D78076"
@@ -740,7 +740,7 @@
 		{
 			x: 13.0d
 			y: -6.0d
-			subtitle: "Random loot on mobs"
+			subtitle: "小怪上的随机战利品"
 			id: "41D6BA342B009751"
 			tasks: [{
 				id: "5DB0A7A93D372957"
@@ -757,7 +757,7 @@
 		{
 			x: 14.0d
 			y: -6.0d
-			subtitle: "Slay an apothetic boss and obtain their specific loot"
+			subtitle: "杀死一个神化的Boss并获得他们的特定战利品"
 			id: "47561939672C723C"
 			tasks: [{
 				id: "19407DDBF8E395B0"
@@ -774,7 +774,7 @@
 		{
 			x: 10.5d
 			y: -2.5d
-			subtitle: "Enable redstone for spawners"
+			subtitle: "对刷怪笼启用红石控制"
 			id: "4CC4E113E03E115A"
 			tasks: [{
 				id: "1F9B6E5506A1E398"
@@ -791,7 +791,7 @@
 		{
 			x: 10.5d
 			y: -3.5d
-			subtitle: "Requires the minimum speed delay of a spawner to 5"
+			subtitle: "要求刷怪笼的最小速度延迟为5"
 			id: "6357EC468FC9BF64"
 			tasks: [{
 				id: "34DCBA1FC050090E"
@@ -808,7 +808,7 @@
 		{
 			x: 10.5d
 			y: -4.5d
-			subtitle: "Decrease relay from a spawner to 10"
+			subtitle: "将刷怪笼最大延迟减少到10"
 			id: "235BB3A0A3F9BB4C"
 			tasks: [{
 				id: "08C80FFFEAF23DAB"
@@ -825,7 +825,7 @@
 		{
 			x: 11.5d
 			y: -4.5d
-			subtitle: "Raise the player activation range to 50"
+			subtitle: "将玩家激活范围提高到50"
 			id: "77E33F8A4C5A37C6"
 			tasks: [{
 				id: "4A201EA655419A18"
@@ -842,7 +842,7 @@
 		{
 			x: 11.5d
 			y: -2.5d
-			subtitle: "Raise the max nearby entities to 40"
+			subtitle: "将附近实体的最大数量提高到40"
 			id: "17C29CECB1D3C135"
 			tasks: [{
 				id: "6E5169259B87E51F"
@@ -859,7 +859,7 @@
 		{
 			x: 8.5d
 			y: -2.5d
-			subtitle: "Change stats of a spawner"
+			subtitle: "更改刷怪笼的统计信息"
 			id: "43D1D228FF1989D6"
 			tasks: [{
 				id: "476E3A193E6A3AA3"
@@ -876,7 +876,7 @@
 		{
 			x: 7.5d
 			y: -2.5d
-			subtitle: "Break a spawner"
+			subtitle: "破坏刷怪笼"
 			id: "67F3BE544F5F1F4A"
 			tasks: [{
 				id: "6A8E31D0BBABF45B"
@@ -893,7 +893,7 @@
 		{
 			x: 7.5d
 			y: -3.5d
-			subtitle: "Get a spawn egg with the Capturing Enchantment"
+			subtitle: "使用捕捉附魔获得刷怪蛋"
 			id: "6182C7445AECAF40"
 			tasks: [{
 				id: "1718B2D2F2D153A1"
@@ -915,16 +915,16 @@
 			}
 			x: 0.5d
 			y: -9.0d
-			subtitle: "What are they used for?"
+			subtitle: "它们是用来做什么的？"
 			description: [
-				"They are special versions of Books. They are similar to Books while enchanting but have a more limited enchantment pool. Tomes allow players to refine the enchantments in them. "
-				"Tomes can allow players to limit the echanted item to it's very usefq"
+				"它们是书的特殊版本。它们与附魔时的书相像，但是附魔的类型会受到限制，宝典允许玩家改善它们物品的附魔。"
+				"宝典可以让玩家将附魔物品限制在它的范围内，非常有用。"
 			]
 			id: "0149EB0B8E8400FC"
 			tasks: [{
 				id: "7CC4C83F5F67F61A"
 				type: "checkmark"
-				title: "Informations about Tomes"
+				title: "关于宝典的信息"
 			}]
 		}
 		{
