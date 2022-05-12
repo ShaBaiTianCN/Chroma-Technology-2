@@ -371,7 +371,7 @@
 			x: 6.5d
 			y: -7.5d
 			shape: "diamond"
-			subtitle: "在三十级时附魔一个物品"
+			subtitle: "在30级时附魔一个物品"
 			id: "0417E4581A60500D"
 			tasks: [{
 				id: "75B7A2BAB48212F3"
@@ -443,7 +443,7 @@
 			x: 2.5d
 			y: 2.0d
 			shape: "square"
-			subtitle: "制作一张迷人的桌子"
+			subtitle: "制作一个附魔台"
 			id: "570F1830778C613D"
 			tasks: [{
 				id: "79229DD3FD49C7F5"
@@ -618,7 +618,7 @@
 		{
 			x: 11.0d
 			y: -8.0d
-			subtitle: "boss的普通战利品"
+			subtitle: "Boss的普通战利品"
 			id: "6C1F1E5B165796A0"
 			tasks: [{
 				id: "2E34BA70744E9856"
@@ -635,7 +635,7 @@
 		{
 			x: 11.0d
 			y: -7.0d
-			subtitle: "在boss身上找到少见的战利品"
+			subtitle: "在Boss身上找到少见的战利品"
 			id: "51D95F6AD16BBAFB"
 			tasks: [{
 				id: "7A8E32B79C76BCA2"
@@ -652,7 +652,7 @@
 		{
 			x: 12.0d
 			y: -7.0d
-			subtitle: "boss的稀有战利品"
+			subtitle: "Boss的稀有战利品"
 			id: "3FF49A2BEABD600C"
 			tasks: [{
 				id: "61DEE689E8E5F7F0"
@@ -669,7 +669,7 @@
 		{
 			x: 13.0d
 			y: -7.0d
-			subtitle: "boss的史诗战利品"
+			subtitle: "Boss的史诗战利品"
 			id: "32E0D78B650A549E"
 			tasks: [{
 				id: "47D423CE7C4235AB"
@@ -686,7 +686,7 @@
 		{
 			x: 13.0d
 			y: -8.0d
-			subtitle: "boss的神话战利品！"
+			subtitle: "Boss的神话战利品！"
 			id: "2A8D561E69A78A42"
 			tasks: [{
 				id: "3012B362FF0D760A"
@@ -704,7 +704,7 @@
 			x: 14.0d
 			y: -8.0d
 			shape: "gear"
-			subtitle: "boss身上的远古战利品（非常罕见）"
+			subtitle: "Boss身上的远古战利品（非常罕见）"
 			description: [""]
 			optional: true
 			id: "1E27C18649081792"
@@ -757,7 +757,7 @@
 		{
 			x: 14.0d
 			y: -6.0d
-			subtitle: "杀死一个神化的boss并获得他们的特定战利品"
+			subtitle: "杀死一个神化的Boss并获得他们的特定战利品"
 			id: "47561939672C723C"
 			tasks: [{
 				id: "19407DDBF8E395B0"
@@ -774,7 +774,7 @@
 		{
 			x: 10.5d
 			y: -2.5d
-			subtitle: "为刷怪笼启用红石"
+			subtitle: "对刷怪笼启用红石控制"
 			id: "4CC4E113E03E115A"
 			tasks: [{
 				id: "1F9B6E5506A1E398"
@@ -917,7 +917,7 @@
 			y: -9.0d
 			subtitle: "它们是用来做什么的？"
 			description: [
-				"它们是书的特殊版本。它们与附魔时的书相像，但是附魔的类型会收到限制，宝典允许玩家改善它们的附魔。"
+				"它们是书的特殊版本。它们与附魔时的书相像，但是附魔的类型会受到限制，宝典允许玩家改善它们物品的附魔。"
 				"宝典可以让玩家将附魔物品限制在它的范围内，非常有用。"
 			]
 			id: "0149EB0B8E8400FC"
