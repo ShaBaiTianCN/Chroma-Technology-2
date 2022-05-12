@@ -1135,7 +1135,7 @@
 			description: [
 				"&b火焰喷射器&f是一个以氢气为燃料的大范围武器。"
 				""
-				"&4FIRE !!!!!"
+				"&4开火！！！！！"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2976,7 +2976,7 @@
 			y: -5.5d
 			shape: "diamond"
 			description: [
-				"&b回旋式气液转换机&f用于以1:1的比例进行气体和液体的相互转换。 "
+				"&b回旋式气液转换机&f用于以1：1的比例进行气体和液体的相互转换。"
 				""
 				"它有两个模式："
 				""

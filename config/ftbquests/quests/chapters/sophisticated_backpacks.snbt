@@ -394,7 +394,7 @@
 			shape: "rsquare"
 			description: [
 				"将物品压缩为对应的压缩变体。"
-				"包括2x2,3x3配方以及更多的过滤选项。"
+				"包括2x2、3x3配方以及更多的过滤选项。"
 			]
 			dependencies: ["03E2F89182BB8DBE"]
 			id: "5D6EB87F9BA5E81A"
