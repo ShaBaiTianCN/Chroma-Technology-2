@@ -34,7 +34,7 @@
 					id: "45B85B240DA29056"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @a [{\"text\":\"The Miracle is here ! @p you have beaten Death itself ! You will now be known as The Immortal One !\",\"color\":\"dark_gray\"}]"
+					command: "/tellraw @a [{\"text\":\"奇迹发生了！@p你击败了死亡！现在你将流芳百世！\",\"color\":\"dark_gray\"}]"
 					player_command: false
 				}
 				{
