@@ -460,7 +460,7 @@
 			x: 3.5d
 			y: 2.5d
 			shape: "square"
-			subtitle: "用至少各项属性为10%附魔一件物品"
+			subtitle: "在三种属性都不低于10%的附魔台上附魔一个物品"
 			id: "60D045F08C8930E8"
 			tasks: [{
 				id: "2A33DCB9A5EDB463"
@@ -478,7 +478,7 @@
 			x: 4.5d
 			y: 2.5d
 			shape: "square"
-			subtitle: "附魔一个量子化0%的物品"
+			subtitle: "在量子化0%的附魔台上附魔一个物品"
 			id: "57AA95C30FD33307"
 			tasks: [{
 				id: "42C457F50858E7BD"
@@ -496,7 +496,7 @@
 			x: 5.5d
 			y: 2.5d
 			shape: "rsquare"
-			subtitle: "附魔一个满阿卡那属性，但没有量子化0的物品"
+			subtitle: "在同时拥有满位阶和阿卡那属性，但量子化为0%的附魔台上附魔一个物品"
 			id: "29A3336C53AE96AD"
 			tasks: [{
 				id: "6A32E8F245C74F8F"
@@ -513,7 +513,7 @@
 		{
 			x: 3.5d
 			y: 1.5d
-			subtitle: "附魔一个量子化50%的物品"
+			subtitle: "在量子化50%的附魔台上附魔一个物品"
 			id: "576917F56F977102"
 			tasks: [{
 				id: "40795DC0B0C52DF4"
@@ -530,7 +530,7 @@
 		{
 			x: 4.5d
 			y: 1.5d
-			subtitle: "附魔一个量子化100%的物品"
+			subtitle: "在量子化100%的附魔台上附魔一个物品"
 			id: "540B31EB7E3C9A64"
 			tasks: [{
 				id: "056F3FC09B5F73C6"
@@ -547,7 +547,7 @@
 		{
 			x: 5.5d
 			y: 1.5d
-			subtitle: "附魔一个全满属性的物品"
+			subtitle: "在同时拥有三种满属性的附魔台上附魔一个物品"
 			id: "3C7047B869B19658"
 			tasks: [{
 				id: "33D286F58F31F206"
@@ -565,7 +565,7 @@
 			x: 5.0d
 			y: 0.5d
 			shape: "heart"
-			subtitle: "附魔一个阿卡那50%的物品"
+			subtitle: "在阿卡那50%的附魔台上附魔一个物品"
 			id: "51EB12E55D91BDA9"
 			tasks: [{
 				id: "65E4615568E61FB5"
@@ -583,7 +583,7 @@
 			x: 4.0d
 			y: 0.5d
 			shape: "heart"
-			subtitle: "附魔一个阿卡那100%的物品"
+			subtitle: "在量子化100%的附魔台上附魔一个物品"
 			id: "29AB4087761B6B9F"
 			tasks: [{
 				id: "3553065047074192"
