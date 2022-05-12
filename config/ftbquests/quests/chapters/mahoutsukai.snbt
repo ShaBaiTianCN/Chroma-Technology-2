@@ -623,7 +623,7 @@
 		{
 			x: -6.5d
 			y: 12.0d
-			subtitle: "弓箭手！"
+			subtitle: "Archers！"
 			dependencies: ["40794CA7CE57BBF9"]
 			id: "321035D54F8B4D03"
 			tasks: [{
