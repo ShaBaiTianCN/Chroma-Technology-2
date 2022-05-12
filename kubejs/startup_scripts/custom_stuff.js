@@ -25,5 +25,5 @@ onEvent('item.registry', event => {
   event.create('pure_evil').displayName('恶魔意志')
   event.create('condensed_mana').displayName('高浓度魔力')
 
-  event.create('vous_verrez_en_temps_voulu').displayName('Vous Verrez En Temps Voulu')
+  event.create('vous_verrez_en_temps_voulu').displayName('你会在适当的时候看到')
 })

@@ -1260,7 +1260,7 @@
 			description: [
 				"&b网络发送器&f发出信号给绑定了&6网络卡&f的网络接收器。"
 				""
-				"&b网络接收器&f接收从&6网络变送器&f发出的网络信号."
+				"&b网络接收器&f接收从&6网络变送器&f发出的网络信号。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["31F12B7E194CB6E5"]

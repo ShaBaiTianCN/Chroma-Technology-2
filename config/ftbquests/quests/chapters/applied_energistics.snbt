@@ -1275,7 +1275,7 @@
 			y: 3.5d
 			shape: "diamond"
 			description: [
-				"允许你设置哪些用户可以使用ME网络，以及用户对ME系统有哪些权限，对现有的系统将会强制执行使用系统的权限."
+				"允许你设置哪些用户可以使用ME网络，以及用户对ME系统有哪些权限，对现有的系统将会强制执行使用系统的权限。"
 				""
 				"安全终端不能防止破坏性的篡改，如破坏线缆/机器或破坏ME驱动器。如果你需要保护你的系统不受物理性破坏，那么你需要一种物理上的保护措施，此机器仅保证网络上的安全性。"
 			]
@@ -1578,9 +1578,9 @@
 			y: -7.5d
 			shape: "diamond"
 			description: [
-				"&b电路板蚀刻器&f是一个先进的压印器，它可以直接将原材料压制成处理器."
+				"&b电路板蚀刻器&f是一个先进的压印器，它可以直接将原材料压制成处理器。"
 				""
-				"这就意味着...例如你不需要将硅处理成硅板了."
+				"这就意味着……例如你不需要将硅处理成硅板了。"
 			]
 			dependencies: [
 				"4BA3F17750607AE8"
@@ -2009,7 +2009,7 @@
 			y: 9.0d
 			shape: "diamond"
 			description: [
-				"One of these blocks surrounded by a &6ME Quantum Rings &fwill create a Quantum Network Bridge. This block dosn't connect to any cables and only registers as part of the network with the full bridge is made."
+				"被&6ME量子环&f包围的这些方块将创建一个量子网桥。这个结构不连接任何线缆，只是为量子网桥的一部分。"
 				""
 				"用8个量子环环绕&6ME量子链接仓&f一圈就可以制作出一个&6量子网桥&f。量子网桥链接后，只有直接与ME量子链接仓直接相连的四个量子环可以传递频道，角上的4个量子环不可以。"
 			]

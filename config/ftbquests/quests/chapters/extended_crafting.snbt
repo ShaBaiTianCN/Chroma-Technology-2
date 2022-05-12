@@ -300,7 +300,7 @@
 		{
 			x: -4.0d
 			y: -1.0d
-			subtitle: "Q.E.D Well kinda"
+			subtitle: "好吧，Q.E.D"
 			description: ["给物体注入&5末地&r的能量"]
 			dependencies: ["2E10FF3D08F8D918"]
 			id: "54E41BD848B169C7"

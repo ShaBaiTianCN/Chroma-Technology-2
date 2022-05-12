@@ -34,7 +34,7 @@
 					id: "45B85B240DA29056"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @a [{\"text\":\"The Miracle is here ! @p you have beaten Death itself ! You will now be known as The Immortal One !\",\"color\":\"dark_gray\"}]"
+					command: "/tellraw @a [{\"text\":\"奇迹发生了！@p你击败了死亡！现在你将流芳百世！\",\"color\":\"dark_gray\"}]"
 					player_command: false
 				}
 				{
@@ -50,7 +50,7 @@
 				{
 					id: "01498F6CD510CF6C"
 					type: "item"
-					title: "&kVous verrez en temps voulu !"
+					title: "&k你会在适当的时候看到！"
 					auto: "invisible"
 					item: "kubejs:vous_verrez_en_temps_voulu"
 				}
@@ -532,7 +532,7 @@
 			shape: "diamond"
 			subtitle: "澳大利亚最好保守秘密"
 			description: [
-				"跳跃&350,000次&f ！"
+				"跳跃&350,000次&f！"
 				""
 				"不要弄坏你的空格键！"
 			]
