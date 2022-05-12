@@ -2009,7 +2009,7 @@
 			y: 9.0d
 			shape: "diamond"
 			description: [
-				"One of these blocks surrounded by a &6ME Quantum Rings &fwill create a Quantum Network Bridge. This block dosn't connect to any cables and only registers as part of the network with the full bridge is made."
+				"被&6ME量子环&f包围的这些方块将创建一个量子网桥。这个结构不连接任何线缆，只是为量子网桥的一部分。"
 				""
 				"用8个量子环环绕&6ME量子链接仓&f一圈就可以制作出一个&6量子网桥&f。量子网桥链接后，只有直接与ME量子链接仓直接相连的四个量子环可以传递频道，角上的4个量子环不可以。"
 			]
