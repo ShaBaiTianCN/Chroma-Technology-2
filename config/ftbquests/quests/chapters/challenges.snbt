@@ -50,7 +50,7 @@
 				{
 					id: "01498F6CD510CF6C"
 					type: "item"
-					title: "&kVous verrez en temps voulu !"
+					title: "&k你会在适当的时候看到！"
 					auto: "invisible"
 					item: "kubejs:vous_verrez_en_temps_voulu"
 				}
