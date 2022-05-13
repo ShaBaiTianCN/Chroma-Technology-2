@@ -1498,7 +1498,7 @@
 		{
 			x: -5.5d
 			y: 0.5d
-			subtitle: "播种三阶种子"
+			subtitle: "播种一阶种子"
 			hide_dependency_lines: true
 			dependencies: ["308889991F9AFE3A"]
 			id: "1554E293B44167ED"
